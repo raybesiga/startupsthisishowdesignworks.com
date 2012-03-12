@@ -155,8 +155,15 @@ b{color:#444;}
 	position: fixed;
 	
 	}
-	#tableOfContents dl{	
+	#tableOfContents dl{
+		margin:0;
+		overflow: hidden;
+		position:absolute;
+		top:0;
+		background:#000;
+		visibility: hidden;
 		}
+		#tableOfContents dl.closed{}
 	#tableOfContents a{
 		color:#fff;
 		text-decoration:none;
@@ -168,12 +175,14 @@ b{color:#444;}
 			}
 		#tableOfContents dd{
 			padding:5px 20px;
-			color:#999;	
-			display:none;
+			color:#999;
 			}
 			#tableOfContents dd a{
 				color:#ddd;
 				}
+		.subsectionContent{
+			display: none;
+			}
 		#tableOfContents dd:hover, #tableOfContents dt:hover{
 			background:#666;
 			}

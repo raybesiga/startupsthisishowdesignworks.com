@@ -28,22 +28,29 @@
 
 <div class="globalWrapper">
 	<div id="tableOfContents">
-		<h2><a href="#">The Table of Contents</a></h2>
-		<dl class="sections">
-			<dt><a href="#">Definitons</a></dt>
+		<h2><a id="toc" href="#">The Table of Contents</a></h2>
+		<dl class="sections closed">
+			<dt><a class="subsection" href="#">Definitons</a></dt>
+				<span class="subsectionContent">
 				<dd><a href="#">What is Design?</a></dd>
 				<dd><a href="#">What is Good Design?</a></dd>
 				<dd><a href="#">Ten Principles of Good Design</a></dd>
 				<dd><a href="#">For Example</a></dd>
 				<dd><a href="#">Video: Rams' 606 Shelving System</a></dd>
 				<dd><a href="#">Is Your Product Well-Designed?</a></dd>
-			<dt><a href="#">Different Kinds of Designers</a></dt>
+				</span>
+			<dt><a class="subsection" href="#">Different Kinds of Designers</a></dt>
+				<span class="subsectionContent">
 				<dd><a href="#">Graphic Design</a></dd>
 				<dd><a href="#">Interaction Design</a></dd>
 				<dd><a href="#">Industrial Design</a></dd>
-			<dt><a href="#">Data</a></dt>
+				</span>
+			<dt><a class="subsection" href="#">Data</a></dt>
+				<span class="subsectionContent">
 				<dd><a href="#">What qualities of design do startups consider most important?</a></dd>
-			<dt><a href="#">All Together Now</dt>
+				</span>
+			<dt><a class="subsection" href="#">All Together Now</a></dt>
+				<span class="subsectionContent">
 				<dd><a href="#">The Missing Link</a></dd>
 				<dd><a href="#">Dave Morin, Path</a></dd>
 				<dd><a href="#">Joe Gebbia, Airbnb</a></dd>
@@ -51,16 +58,21 @@
 				<dd><a href="#">Mike Matas, Push Pop Press</a></dd>
 				<dd><a href="#">Jeffrey Veen, Typekit</a></dd>
 				<dd><a href="#">Changing the world</a></dd>
-			<dt><a href="#">Finding Great Talent</a></dt>
+				</span>
+			<dt><a class="subsection" href="#">Finding Great Talent</a></dt>
+				<span class="subsectionContent">
 				<dd><a href="#">Qualities to look for</a></dd>
 				<dd><a href="#">Go Where the designers are</a></dd>
 				<dd><a href="#">- Meetups</a></dd>
 				<dd><a href="#">- Zerply</a></dd>
 				<dd><a href="#">- Dribbble</a></dd>
-			<dt><a href="#">Appendix: So much more to learn!</a></dt>
+				</span>
+			<dt><a class="subsection" href="#">Appendix: So much more to learn!</a></dt>
+				<span class="subsectionContent">
 				<dd><a href="#">Resources</a></dd>
 				<dd><a href="#">About me</a></dd>
 				<dd><a href="#">Acknowledgements</a></dd>
+				</span>
 		</dl><!-- / sections -->
 	</div><!-- / tableOfContents -->
 	
@@ -761,7 +773,6 @@
 <script src="js/libs/modernizr-2.5.3.min.js"></script>
 <script src="./js/highcharts.js"></script>
 <script src="./js/jquery.qtip.js"></script>
-<script src="./js/froogaloop.min.js"></script>
 <script src="./js/jquery.cycle.lite.js"></script>
 <script src="js/script.js"></script>
 <script>
