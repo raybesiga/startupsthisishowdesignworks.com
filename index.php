@@ -262,8 +262,8 @@
 			<div class="section">2.2</div>
 				<h3>Interaction Design</h3>
 				<br class="clear" />
-				<p class="text">In design, human–computer interaction, and software development, interaction design, often abbreviated IxD, is the practice of designing interactive digital products, environments, systems, and services. Like many other design fields, interaction design also has an interest in form but its main focus is on behavior. What clearly marks interaction design as a design field as opposed to a science or engineering field is that it is <em>synthesis and imagining things as they might be</em>, more so than focusing on how things are.</p>
-				<p class="text"><em>Interaction design is heavily focused on satisfying the needs and desires of the people who will use the product.</em><sup><a href="#cite-5">5</a></sup></p>
+				<p class="text">Interaction designers, on the other hand, focus on digital products and interactive software design. Some examples include web apps like Facebook and Pinterest, mobile apps like Tweetbot, and Operating Systems like OS X. While graphic design is meant to be observed, interaction design helps humans experience or manipulate software or interface with screen-based hardware in order to <em>achieve specific goals</em> – checking email, withdrawing money from an ATM, or "Liking" a webpage (such as this one!)</p>
+				<p class="text">As Wikipedia puts it, <em>Interaction design is heavily focused on satisfying the needs and desires of the people who will use the product.</em> <sup><a href="#cite-5">5</a></sup></p>
 		</div><!-- / Interaction Design -->
 		<div class="col3 colR">
 			<img class="ixdGraphic" style="margin-bottom:80px;" src="./img/ux-verplank.png" />
@@ -276,14 +276,25 @@
 		</div>
 		<div class="col2">
 			<h4>User Interface Design</h4>
+			<p class="subText"></p>
+			<p class="subText">Interface design is involved in a wide range of projects from <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip dark">computer systems, to cars, to commercial planes</a>; all of these projects involve much of the same basic human interactions yet also require some unique skills and knowledge. As a result, designers tend to specialize in certain types of projects and have skills centered around their expertise, such as software design, user research, web design, or industrial design. <sup><a href="#cite-7">7</a></sup></p>
+			
+			
+			
+			
+			
+			
+			
+			
 			<p class="subText">User Interface Design (UI) he design of software applications and websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing user goals</em> — what is often called user-centered design. Good user interface design facilitates finishing the task at hand without drawing unnecessary attention to itself. Graphic design may be utilized to support its usability. The design process must balance technical functionality and visual elements to create a system that is not only operational but also <em>usable and adaptable to changing user needs</em>.</p>
-			<p class="subText">Interface design is involved in a wide range of projects from <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip dark">computer systems, to cars, to commercial planes</a>; all of these projects involve much of the same basic human interactions yet also require some unique skills and knowledge. As a result, designers tend to specialize in certain types of projects and have skills centered around their expertise, such as software design, user research, web design, or industrial design.<sup><a href="#cite-7">7</a></sup></p>
+			<p class="subText">Interface design is involved in a wide range of projects from <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip dark">computer systems, to cars, to commercial planes</a>; all of these projects involve much of the same basic human interactions yet also require some unique skills and knowledge. As a result, designers tend to specialize in certain types of projects and have skills centered around their expertise, such as software design, user research, web design, or industrial design. <sup><a href="#cite-7">7</a></sup></p>
+
 		</div><!-- / Interface Design -->
 		
 		<div class="col2 colR">	
 			<h4>User Experience Design</h4>
 			<p class="subText">User Experience (UX) Design is a highly multi-disciplinary field, incorporating aspects of <em>psychology, anthropology, sociology, computer science, graphic design, industrial design and cognitive science</em>. Depending on the purpose of the product, UX may also involve content design disciplines such as communication design, instructional design, or game design.</p>
-			<p class="subText">User experience design incorporates most or all of the above disciplines to positively impact the overall experience a person has with a particular interactive system, and its provider. User experience design most frequently defines a sequence of interactions between a user and a system, virtual or physical, <em>designed to meet or support user needs and goals</em>, primarily, while also satisfying systems requirements and organizational objectives.<sup><a href="#cite-8">8</a></sup></p>
+			<p class="subText">User experience design incorporates most or all of the above disciplines to positively impact the overall experience a person has with a particular interactive system, and its provider. User experience design most frequently defines a sequence of interactions between a user and a system, virtual or physical, <em>designed to meet or support user needs and goals</em>, primarily, while also satisfying systems requirements and organizational objectives. <sup><a href="#cite-8">8</a></sup></p>
 		</div><!-- / User Experience Design -->
 			
 		<br class="clear" />
@@ -698,7 +709,6 @@
 			<li><a href="http://squaredeye.com">Matthew Smith</a></li>
 			<li><a href="http://dribbble.com/shots/183766-Pattern-Kit-One-Ribbon-Dancer-">Seth Nickerson</a></li>
 			<li><a href="http://www.apple.com/stevejobs/"> Steve Jobs</a></li>
-
 		</ul>
 		</div>
 		
