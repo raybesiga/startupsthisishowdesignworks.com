@@ -28,7 +28,7 @@
 
 <div class="globalWrapper">
 	<div id="tableOfContents">
-		<h2><a href="#">Table of Contents</a></h2>
+		<h2><a href="#">The Table of Contents</a></h2>
 		<dl class="sections">
 			<dt><a href="#">Definitons</a></dt>
 				<dd><a href="#">What is Design?</a></dd>
