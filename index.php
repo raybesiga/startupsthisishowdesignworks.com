@@ -761,6 +761,7 @@
 <script src="js/libs/modernizr-2.5.3.min.js"></script>
 <script src="./js/highcharts.js"></script>
 <script src="./js/jquery.qtip.js"></script>
+<script src="./js/froogaloop.min.js"></script>
 <script src="./js/jquery.cycle.lite.js"></script>
 <script src="js/script.js"></script>
 <script>
