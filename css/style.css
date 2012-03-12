@@ -151,65 +151,67 @@ b{color:#444;}
 	width:300px;
 	color:#fff;
 	float:left;
-	margin-left:40px;
 	position: fixed;
-	
+	z-index:9998;
+	font-size:13px;
+	font-weight:normal;
 	}
-	#tableOfContents dl{
+	
+	#tableOfContents h2{
+		padding:0;
+		font-size:13px;
+		font-weight:normal;
 		margin:0;
+		z-index:9999;
+		}
+		#tableOfContents h2 a{
+			background:url('../img/tocArrow.jpg') no-repeat top left;
+			padding:8px 0 8px 50px;
+			width:250px;
+			display:block;
+			}
+			#tableOfContents h2 a:hover{
+				background:url('../img/tocArrow.jpg') no-repeat top left #333;
+				background-position:0 -36px;
+				}
+	
+	#tableOfContents a{
+		color:#fff;
+		text-decoration:none;
+		width:260px;
+		padding:6px 10px;
+		margin:0;
+		display:block;
+		}
+		#tableOfContents a:hover{
+			background:#333;
+			}
+					
+	#tableOfContents dl{
+		margin:0 0 0 40px;
 		overflow: hidden;
 		position:absolute;
 		top:0;
 		background:#000;
 		visibility: hidden;
+		width:260px;
+		z-index:9998;
 		}
 		#tableOfContents dl.closed{}
-	#tableOfContents a{
-		color:#fff;
-		text-decoration:none;
-		}
-		#tableOfContents dt{
-			margin-top:15px;
-			padding:7px 20px 7px;
-			font-weight:bold;
-			}
-		#tableOfContents dd{
-			padding:5px 20px;
-			color:#999;
-			}
-			#tableOfContents dd a{
-				color:#ddd;
-				}
-		.subsectionContent{
-			display: none;
-			}
-		#tableOfContents dd:hover, #tableOfContents dt:hover{
-			background:#666;
-			}
-	#tableOfContents h2{
+		
+	#tableOfContents dt{
 		padding:0;
-		font-size:13px;
-		font-weight:normal;
+		font-weight:bold;
 		}
-dl.sections{
-	counter-reset:section;
-	font-size:13px;
-	font-weight:normal;
-	}
-
-.sections dt{
-	counter-reset:subsection;
-	}
-
-.sections dt:before{
-	content:counter(section) ".0 ";
-	counter-increment:section;
-	}
-
-.sections dd:before {
-	counter-increment:subsection;
-	content:counter(section) "." counter(subsection) " ";
-	}
+	
+	.subsectionContent{
+		display: none;
+		}
+		
+	.subsectionContent dd a{
+		color:#ddd !important;
+		padding-left:25px !important;
+		}
 
 .socialSharing{ float:right;list-style-type: none;}
 

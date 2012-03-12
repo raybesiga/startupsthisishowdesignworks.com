@@ -10,6 +10,8 @@ $(document).ready(function() {
     var newHeight = $div.height() + (72-remainder);
     $div.css('height', newHeight);
     
+    
+    
     // Table of Contents
     var sectionsHeight = $('.sections').height();
     $('.sections').css({ top: '-' + sectionsHeight + 'px', visibility: 'visible' });
@@ -17,26 +19,27 @@ $(document).ready(function() {
     $('#toc').click(function(){
     	if($('.sections').hasClass('closed')){
     		$('.sections').removeClass('closed');
-    		$('.sections').animate({ top: '30px' }, 300);
+    		$('.sections').animate({ top: '34px' }, 200);
     	}else{
     		$('.sections').addClass('closed');
-    		$('.sections').animate({ top: '-' + sectionsHeight + 'px' }, 300);
+    		$('.sections').animate({ top: '-' + sectionsHeight + 'px' }, 100);
     	}
     	return false;
     });
     
     $('.subsection').click(function(){
-    	$('.subsectionContent').hide(300);
-    	$(this).parent().next('.subsectionContent').show(300);
+    	$('.subsectionContent').hide(100);
+    	$(this).parent().next('.subsectionContent').show(200);
     	return false;
     });
     
     $('#tableOfContents').mouseleave(function(){
-    	$('.subsectionContent').hide(300,function(){
+    	$('.subsectionContent').hide(100,function(){
     		$('.sections').addClass('closed');
-    		$('.sections').animate({ top: '-' + sectionsHeight + 'px' }, 300);
+    		$('.sections').animate({ top: '-' + sectionsHeight + 'px' }, 200);
     	});
     });
+    
     
     
     /*! Copyright © 2010 Burin Asavesna (http://helloburin.com)

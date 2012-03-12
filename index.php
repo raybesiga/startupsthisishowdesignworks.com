@@ -28,50 +28,47 @@
 
 <div class="globalWrapper">
 	<div id="tableOfContents">
-		<h2><a id="toc" href="#">The Table of Contents</a></h2>
+		<h2><a id="toc" href="#">Table of Contents</a></h2>
 		<dl class="sections closed">
-			<dt><a class="subsection" href="#">Definitons</a></dt>
+			<dt><a class="subsection" href="#">1. Definitions</a></dt>
 				<span class="subsectionContent">
-				<dd><a href="#">What is Design?</a></dd>
-				<dd><a href="#">What is Good Design?</a></dd>
-				<dd><a href="#">Ten Principles of Good Design</a></dd>
-				<dd><a href="#">For Example</a></dd>
-				<dd><a href="#">Video: Rams' 606 Shelving System</a></dd>
-				<dd><a href="#">Is Your Product Well-Designed?</a></dd>
+					<dd><a href="#sec11">1.1. What is design?</a></dd>
+					<dd><a href="#sec12">1.2. What is good design?</a></dd>
+					<dd><a href="#sec13">1.3. Ten principles of good design</a></dd>
+					<dd><a href="#sec14">1.4. An example</a></dd>
+					<dd><a href="#sec15">1.5. Video: Interview with Dieter Rams</a></dd>
+					<dd><a href="#sec16">1.6. Is your product well-designed?</a></dd>
 				</span>
-			<dt><a class="subsection" href="#">Different Kinds of Designers</a></dt>
+			<dt><a class="subsection" href="#">2. Different kinds of design</a></dt>
 				<span class="subsectionContent">
-				<dd><a href="#">Graphic Design</a></dd>
-				<dd><a href="#">Interaction Design</a></dd>
-				<dd><a href="#">Industrial Design</a></dd>
+					<dd><a href="#sec21">2.1. Graphic Design</a></dd>
+					<dd><a href="#sec22">2.2. Interaction Design</a></dd>
+					<dd><a href="#sec23">2.3. Industrial Design</a></dd>
 				</span>
-			<dt><a class="subsection" href="#">Data</a></dt>
+			<dt><a class="subsection" href="#">3. Data</a></dt>
 				<span class="subsectionContent">
-				<dd><a href="#">What qualities of design do startups consider most important?</a></dd>
+					<dd><a href="#sec31">What qualities of design do startups <br />consider most important?</a></dd>
 				</span>
-			<dt><a class="subsection" href="#">All Together Now</a></dt>
+			<dt><a class="subsection" href="#">4. All Together Now</a></dt>
 				<span class="subsectionContent">
-				<dd><a href="#">The Missing Link</a></dd>
-				<dd><a href="#">Dave Morin, Path</a></dd>
-				<dd><a href="#">Joe Gebbia, Airbnb</a></dd>
-				<dd><a href="#">Jessica Hische</a></dd>
-				<dd><a href="#">Mike Matas, Push Pop Press</a></dd>
-				<dd><a href="#">Jeffrey Veen, Typekit</a></dd>
-				<dd><a href="#">Changing the world</a></dd>
+					<dd><a href="#sec41">4.1. The missing link</a></dd>
+					<dd><a href="#sec42">4.2. Dave Morin, Path</a></dd>
+					<dd><a href="#sec43">4.3. Joe Gebbia, Airbnb</a></dd>
+					<dd><a href="#sec44">4.4. Jessica Hische, Side Projects</a></dd>
+					<dd><a href="#sec45">4.5. Mike Matas, Push Pop Press</a></dd>
+					<dd><a href="#sec46">4.6. Jeffrey Veen, Typekit</a></dd>
+					<dd><a href="#sec47">4.7. Changing the world</a></dd>
 				</span>
-			<dt><a class="subsection" href="#">Finding Great Talent</a></dt>
+			<dt><a class="subsection" href="#">5. Finding great talent</a></dt>
 				<span class="subsectionContent">
-				<dd><a href="#">Qualities to look for</a></dd>
-				<dd><a href="#">Go Where the designers are</a></dd>
-				<dd><a href="#">- Meetups</a></dd>
-				<dd><a href="#">- Zerply</a></dd>
-				<dd><a href="#">- Dribbble</a></dd>
+					<dd><a href="#sec51">5.1. Qualities to look for</a></dd>
+					<dd><a href="#sec52">5.2. Go Where the designers are</a></dd>
+					<dd><a href="#sec53">5.3. Resources</a></dd>
 				</span>
-			<dt><a class="subsection" href="#">Appendix: So much more to learn!</a></dt>
+			<dt><a class="subsection" href="#">About me & Acknowledgements</a></dt>
 				<span class="subsectionContent">
-				<dd><a href="#">Resources</a></dd>
-				<dd><a href="#">About me</a></dd>
-				<dd><a href="#">Acknowledgements</a></dd>
+					<dd><a href="#section6">6.&nbsp;&nbsp;&nbsp;About me</a></dd>
+					<dd><a href="#section7">7.&nbsp;&nbsp;&nbsp;Acknowledgements</a></dd>
 				</span>
 		</dl><!-- / sections -->
 	</div><!-- / tableOfContents -->
@@ -107,7 +104,7 @@
 		<br class="clear" />
 		
 		<div class="col1 colL largeSpace">
-			<div class="section right">1.1</div>
+			<div class="section right" id="sec11">1.1</div>
 		</div>
 		<div class="col2 largeSpace">		
 			<h2>De•sign <span class="phonetic">[dih-zahyn]</span> is a <br />method of problem solving.</h2>
@@ -115,7 +112,7 @@
 		</div><!-- / What is Design? -->
 		
 		<div class="col1 largeSpace">
-			<div class="section right">1.2</div>
+			<div class="section right" id="sec12">1.2</div>
 		</div>
 		<div class="col2 colR largeSpace">	
 			<h2>So what is <br /><span style="margin-left:-0.3em;">“good design”?</span></h2>
@@ -127,7 +124,7 @@
 		
 		<div class="col2 colL">
 			<img class="dieterRamsPhoto" src="./img/dieterRamsPhoto.jpg" />
-			<div class="section right">1.3</div>
+			<div class="section right" id="sec13">1.3</div>
 		</div>
 		<div class="col4 colR">
 			<h2><a href="./tooltips.php?q=dieterrams" rel="./tooltips.php?q=dieterrams" class="tip">Dieter Rams</a>’ Ten Principles of&nbsp;&nbsp;“Good Design”<br />
@@ -196,7 +193,7 @@
 		<div id="sec1SummaryWrapper">
 			<div id="sec1Summary">
 			<div class="col1 colL">
-				<div class="section right">1.4</div>
+				<div class="section right" id="sec14">1.4</div>
 			</div>
 			<div class="col3">
 				<p class="text">Good design can’t be achieved with glossy buttons, or masterful <a href="./tooltips.php?q=wireframes" rel="./tooltips.php?q=wireframes" class="tip">wireframes</a> alone. It’s a merger of all  these principles into something that is meaningful and deliberate.</p>
@@ -209,7 +206,7 @@
 		
 		<br class="clear" />
 		
-		<div class="section" style="margin-top:325px;">1.5</div>
+		<div class="section" style="margin-top:325px;" id="sec15">1.5</div>
 		<div class="col1 colL principles">
 			<h3>Less and More</h3>
 				<p>The following interview with Dieter Rams reveals his take on the products he created at Braun and industrial design as a whole.</p>
@@ -222,7 +219,7 @@
 		<br class="clear" />
 					
 		<div class="col2 colL">
-			<div class="section right">1.6</div>
+			<div class="section right" id="sec16">1.6</div>
 			<div style="margin-top:30px;">
 			<div class="slideshow">
 				<img src="./img/ramsSpeaker.jpg" />
@@ -254,7 +251,7 @@
 			<img style="designPoster" src="./img/dylan-glaser.png" />
 		</div>
 		<div class="col3">
-			<div class="section">2.1</div>
+			<div class="section" id="sec21">2.1</div>
 				<h3>Graphic Design</h3>
 				<br class="clear" />
 				<p class="text">This is a term that describes an array of different kinds of designers. Think of it like the term “entrepreneur”. It describes a wide variety of businesspeople - from founders to VC's to <a href="./tooltips.php?q=ninjas" rel="./tooltips.php?q=ninjas" class="tip dark">“Chief Ninjas”</a> - but isn’t all-inclusive. Graphic designers work with graphical images, whether they be illustrations, typography, or images, and on a variety of media including print and web. Graphic design is typically rendered in 2D – printed on a physical surface or displayed on a screen.</p>
@@ -271,7 +268,7 @@
 		<br class="clear" />
 		
 		<div class="col3 colL">
-			<div class="section">2.2</div>
+			<div class="section" id="sec22">2.2</div>
 				<h3>Interaction Design</h3>
 				<br class="clear" />
 				<p class="text">Interaction designers, on the other hand, focus on digital products and interactive software design. Some examples include web apps like Facebook and Pinterest, mobile apps like Tweetbot, and Operating Systems like OS X. While graphic design is meant to be observed, interaction design helps humans experience or manipulate software or interface with screen-based hardware in order to <em>achieve specific goals</em> – checking email, withdrawing money from an ATM, or "Liking" a webpage (such as this one!)</p>
@@ -315,7 +312,7 @@
 			<img class="industrialDesign" src="./img/ipod.png" />
 		</div>
 		<div class="col3" style="margin-top:120px;">
-			<div class="section">2.3</div>
+			<div class="section" id="sec23">2.3</div>
 				<h3>Industrial Design</h3>
 				<br class="clear" />
 				<p class="text">Industrial Designers create physical goods designated for mass-consumption by millions of people. Motorcycles, iPods, toothbrushes, and nightstands are all designed by Industrial Designers. These people are masters of 3D and innovating within the constraints of production lines and machines.</p>
@@ -329,7 +326,7 @@
 <div id="section3">
 	<div class="globalWrapper">	
 		<div class="col1 colL">
-			<div class="section right">3.1</div>
+			<div class="section right" id="sec31">3.1</div>
 		</div>
 		<div class="col5 colR">
 			<h2>What qualities of design do <br />startups consider most important?</h2>
@@ -352,7 +349,7 @@
 <div id="section4">
 	<div class="globalWrapper">		
 		<div class="col1 colL">
-			<div class="section right">4.1</div>
+			<div class="section right" id="sec41">4.1</div>
 		</div>
 		<div class="col3">
 			<h2>The missing link</h2>
@@ -404,7 +401,7 @@
 		<div class="founderBioWrapper">
 		<div class="founderBio">
 			<div class="col2 colL">
-				<div class="section">4.2</div>
+				<div class="section" id="sec42">4.2</div>
 				<h3>Dave Morin</h3>
 				
 				<br class="clear" />
@@ -428,7 +425,7 @@
 		</div><!-- / Founder Bio -->
 		<div class="founderBio">
 			<div class="col2 colL">
-				<div class="section">4.3</div>
+				<div class="section" id="sec43">4.3</div>
 				<h3>Joe Gebbia</h3>
 				
 				<br class="clear" />
@@ -452,7 +449,7 @@
 		</div><!-- / Founder Bio -->
 		<div class="founderBio">
 			<div class="col2 colL">
-				<div class="section">4.4</div>
+				<div class="section" id="sec44">4.4</div>
 				<h3>Jessica Hische</h3>
 				
 				<br class="clear" />
@@ -474,7 +471,7 @@
 		</div><!-- / Founder Bio -->
 		<div class="founderBio">
 			<div class="col2 colL">
-				<div class="section">4.5</div>
+				<div class="section" id="sec45">4.5</div>
 				<h3>Mike Matas</h3>
 				
 				<br class="clear" />
@@ -506,7 +503,7 @@
 		</div><!-- / Founder Bio -->
 		<div class="founderBio">
 			<div class="col2 colL">
-				<div class="section">4.6</div>
+				<div class="section" id="sec46">4.6</div>
 				<h3>Jeffrey Veen</h3>
 				
 				<br class="clear" />
@@ -541,7 +538,7 @@
 			
 			<h3>Design is the missing link from your founding team. The perfect balance of business, tech, and design is an incredibly powerful tool… 
 				<br /><br />and an even more powerful business model.</h3>
-		</div><!-- / section 4 wrap-up -->
+		</div><!-- / \ 4 wrap-up -->
 		
 		<br class="clear" />
 		
@@ -555,7 +552,7 @@
 		<h2>Finding Great Talent</h2>
 
 		<div class="col2 colL">
-			<div class="section right" style="margin-top:20px;">5.1</div>
+			<div class="section right" style="margin-top:20px;" id="sec51">5.1</div>
 		</div>
 		<div class="col2">
 			<p class="text">Finding a stellar designer can be just as challenging as finding a co-founder or developer. Founders need to share passion, drive, and vision. Your co-founders need to compliment your skills, ideas, and perspectives with fresh ones. Find someone who can solve problems and think critically about more than just designing a website –<br /><a href="./tooltips.php?q=startupteam" rel="./tooltips.php?q=startupteam" class="tip">a huge asset who makes your founding team unstoppable</a>.</p>
@@ -569,7 +566,7 @@
 		<h3>Go where the designers are.</h3>
 		
 		<div class="col1 colL">
-			<div class="section right" style="margin-top:20px;">5.2</div>
+			<div class="section right" style="margin-top:20px;" id="sec52">5.2</div>
 		</div>
 		<div class="col3">
 			<p class="text">The design community is small and nuanced. Many aren’t aware of the high demand for designers within startups, so they might not come to you. Here’s a few places where you can find excellent local designers right now.</p>
@@ -624,7 +621,7 @@
 		<h2 style="margin-top:160px;">So much more to learn!</h2>
 		
 		<div class="col2 colL">
-			<div class="section right" style="margin-top:20px;">5.3</div>
+			<div class="section right" style="margin-top:20px;" id="sec53">5.3</div>
 		</div>
 		
 		<div class="col3">
