@@ -152,10 +152,10 @@ b{color:#444;}
 	color:#fff;
 	float:left;
 	margin-left:40px;
+	position: fixed;
 	
 	}
 	#tableOfContents dl{	
-		display:none;
 		}
 	#tableOfContents a{
 		color:#fff;
@@ -169,6 +169,7 @@ b{color:#444;}
 		#tableOfContents dd{
 			padding:5px 20px;
 			color:#999;	
+			display:none;
 			}
 			#tableOfContents dd a{
 				color:#ddd;

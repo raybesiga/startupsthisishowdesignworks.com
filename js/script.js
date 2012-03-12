@@ -167,6 +167,11 @@ $(document).ready(function()
          hide: 'unfocus',
          style: {
             classes: 'ui-tooltip-wiki ui-tooltip-light ui-tooltip-shadow'
+         },
+         events: {
+         	hide: function(event, api){
+         		$(this).children("iframe").api_pause()
+         		}
          }
       })
    })
