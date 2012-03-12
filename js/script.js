@@ -170,7 +170,7 @@ $(document).ready(function()
          },
          events: {
          	hide: function(event, api){
-         		$(this).children("iframe").api_pause()
+         		$(this).children("iframe").api('pause')
          		}
          }
       })
