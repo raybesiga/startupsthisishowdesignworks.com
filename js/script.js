@@ -469,27 +469,8 @@ $(document).ready(function() {
 	
 	
 	// Scrollable plugin for Section 4 Designer Founders
-	 // main vertical scroll
-      $("#founderBios").scrollable({
- 
-        // basic settings
-        vertical: true,
- 
-        // up/down keys will always control this scrollable
-        keyboard: 'static',
- 
-        // assign left/right keys to the actively viewed scrollable
-        onSeek: function(event, i) {
-          horizontal.eq(i).data("founderBio").focus();
-        }
- 
-        // main navigator (thumbnail images)
-      }).navigator("#designerFounders");
-
-      // when page loads setup keyboard focus on the first horzontal scrollable
-      horizontal.eq(0).data("founderBio").focus();
-	
-	
+	 // main  scroll
+      $('.founderBioWrapper').scrollable().navigator('#designerFounders');
 	
 	
 });

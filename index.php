@@ -420,15 +420,15 @@
 		<div id="designerFoundersWrapper">
 			<ul id="designerFounders">
 				<li class="df_DaveMorin"><a><p>Dave Morin</p><p>Path</p></a></li>
-				<li class="df_JoeGebbia"><p>Joe Gebbia</p><p>Airbnb</p></li>
+				<li class="df_JoeGebbia"><a><p>Joe Gebbia</p><p>Airbnb</p></a></li>
 				<li class="df_JessicaHische"><a href="#"><p>Jessica Hische</p><p>Side Projects</p></a></li>
 				<li class="df_MikeMatas"><a href="#"><p>Mike Matas</p><p>Push Pop Press</p></a></li>
 				<li class="df_JeffVeen"><a href="#"><p>Jeffrey Veen</p><p>TypeKit</p></a></li>
 			</ul>
 		</div><!-- / designerFoundersWrapper -->
 		<div id="founderBioWrapper">
-			<div id="founderBios">
-				<div class="founderBio scrollable">
+			<div id="founderBios" class="scrollable">
+				<div class="founderBio">
 					<div class="col2 colL">
 						<div class="section" id="sec42">4.2</div>
 						<h3>Dave Morin</h3>
@@ -452,7 +452,7 @@
 					<br class="clear" />
 				
 				</div><!-- / founderBio -->
-				<div class="founderBio scrollable">
+				<div class="founderBio">
 					<div class="col2 colL">
 						<div class="section" id="sec43">4.3</div>
 						<h3>Joe Gebbia</h3>
@@ -476,7 +476,7 @@
 					<br class="clear" />
 				
 				</div><!-- / founderBio -->
-				<div class="founderBio scrollable">
+				<div class="founderBio">
 					<div class="col2 colL">
 						<div class="section" id="sec44">4.4</div>
 						<h3>Jessica Hische</h3>
@@ -498,7 +498,7 @@
 					<br class="clear" />
 				
 				</div><!-- / founderBio -->
-				<div class="founderBio scrollable">
+				<div class="founderBio">
 					<div class="col2 colL">
 						<div class="section" id="sec45">4.5</div>
 						<h3>Mike Matas</h3>
@@ -526,7 +526,7 @@
 						</object>
 					</div>
 				</div><!-- / founderBio -->
-				<div class="founderBio scrollable">
+				<div class="founderBio">
 					<div class="col2 colL">
 						<div class="section" id="sec46">4.6</div>
 						<h3>Jeffrey Veen</h3>
@@ -781,7 +781,7 @@
 <script src="./js/libs/highcharts.js"></script>
 <script src="./js/libs/jquery.tools.min.js"></script>
 <script src="./js/libs/jquery-ui.min.js"></script>
-<script src="js/script.js"></script>
+<script src="./js/script.js"></script>
 <!-- Facebook Like -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {

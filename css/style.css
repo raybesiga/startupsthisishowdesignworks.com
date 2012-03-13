@@ -592,7 +592,7 @@ h1{
 				}
 
 	#founderBioWrapper{
-		width:100%;
+		width:1000px;
 		background:#f0f0f0;
 		margin-top:230px;
 		left:0;
@@ -600,9 +600,10 @@ h1{
 		padding:70px 0;
 		overflow:hidden;
 		height:500px;
+		position:relative;
 		}
 	#founderBios{
-		width:1000px;
+		width:5000px;
 		margin:0 auto;
 		position:absolute;
 		height:500px;
@@ -612,6 +613,7 @@ h1{
 		text-align:left;
 		width:1000px;
 		padding:0;
+		float:left;
 		}
 		.founderBio h3{
 			float:left;
