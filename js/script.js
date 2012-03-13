@@ -466,12 +466,9 @@ $(document).ready(function() {
 	});
 	
 	
-	
-	
 	// Scrollable plugin for Section 4 Designer Founders
-	 // main  scroll
-      $('.founderBioWrapper').scrollable({ items: '.founderBios' }).navigator('#designerFounders');
-	
+	var api = $("#scroll").scrollable({ items: '#founderBios' }).navigator().data("scrollable");
+
 	
 });
 

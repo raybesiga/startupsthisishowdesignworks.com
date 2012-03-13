@@ -532,15 +532,33 @@ h1{
 			font-size:18px;
 			}
 
-#designerFoundersWrapper{
-	position:absolute;
-	width:100%;
-	background:#212121;
-	margin-top:30px;
-	left:0;
-	height:200px;
-	text-align:center;
-	}
+
+
+#totalWrapper{
+		width:100%;
+		position:absolute;
+		text-align:center;
+		background:#f0f0f0;
+		height:700px;
+		left:0;
+		margin-top:40px;
+		}
+	#founderThumbsBg{
+		width:100%;
+		background:#212121;
+		left:0;
+		height:200px;
+		position:absolute;
+		}
+	#scroll{
+		width:1000px;
+		text-align:center;
+		overflow:hidden;
+		height:700px;
+		position:relative;
+		margin:0 auto;
+		}
+
 	#designerFounders{
 		width:1000px;
 		padding:0;
@@ -583,7 +601,7 @@ h1{
 		#designerFounders li a{
 			display:block;
 			width:200px;
-			height:200px;
+			height:140px;
 			padding-top:60px;
 			}
 			#designerFounders li a:hover{
@@ -591,28 +609,17 @@ h1{
 				text-decoration:none;
 				}
 
-	#founderBioWrapper{
-		width:1000px;
-		background:#f0f0f0;
-		margin-top:230px;
-		left:0;
-		text-align:center;
-		padding:70px 0;
-		overflow:hidden;
-		height:450px;
-		position:relative;
-		}
 	#founderBios{
-		width:5000px;
-		margin:0 auto;
+		width:9999em;
 		position:absolute;
-		height:450px;
+		height:700px;
+		margin-top:30px;
 		}
 
 	.founderBio{
 		text-align:left;
 		width:1000px;
-		padding:0;
+		padding:0 10px;
 		float:left;
 		}
 		.founderBio h3{

@@ -53,11 +53,11 @@
 			<dt><a class="subsection" href="#">4. All Together Now</a></dt>
 				<div class="subsectionContent">
 					<dd><a href="#sec41" data-offset="90">4.1. The missing link</a></dd>
-					<dd><a href="#sec42" data-offset="75">4.2. Dave Morin, Path</a></dd>
-					<dd><a href="#sec43" data-offset="75">4.3. Joe Gebbia, Airbnb</a></dd>
-					<dd><a href="#sec44" data-offset="75">4.4. Jessica Hische, Side Projects</a></dd>
-					<dd><a href="#sec45" data-offset="75">4.5. Mike Matas, Push Pop Press</a></dd>
-					<dd><a href="#sec46" data-offset="75">4.6. Jeffrey Veen, Typekit</a></dd>
+					<dd><a href="#sec42" data-offset="270">4.2. Dave Morin, Path</a></dd>
+					<dd><a href="#sec43" data-offset="270">4.3. Joe Gebbia, Airbnb</a></dd>
+					<dd><a href="#sec44" data-offset="270">4.4. Jessica Hische, Side Projects</a></dd>
+					<dd><a href="#sec45" data-offset="270">4.5. Mike Matas, Push Pop Press</a></dd>
+					<dd><a href="#sec46" data-offset="270">4.6. Jeffrey Veen, Typekit</a></dd>
 					<dd><a href="#sec47" data-offset="90">4.7. Changing the world</a></dd>
 				</div>
 			<dt><a class="subsection" href="#">5. Finding great talent</a></dt>
@@ -417,18 +417,19 @@
 		
 		<br class="clear" />
 		
-		<div id="designerFoundersWrapper">
-			<ul id="designerFounders">
-				<li class="df_DaveMorin"><a href="javascript:void(0)"><p>Dave Morin</p><p>Path</p></a></li>
-				<li class="df_JoeGebbia"><a href="javascript:void(0)"><p>Joe Gebbia</p><p>Airbnb</p></a></li>
-				<li class="df_JessicaHische"><a href="javascript:void(0)"><p>Jessica Hische</p><p>Side Projects</p></a></li>
-				<li class="df_MikeMatas"><a href="javascript:void(0)"><p>Mike Matas</p><p>Push Pop Press</p></a></li>
-				<li class="df_JeffVeen"><a href="javascript:void(0)"><p>Jeffrey Veen</p><p>TypeKit</p></a></li>
-			</ul>
-		</div><!-- / designerFoundersWrapper -->
-		<div id="founderBioWrapper">
+	<div id="totalWrapper">
+	<div id="founderThumbsBg"></div>
+		<div id="scroll">
+			<ul class="navi" id="designerFounders">
+				<li class="df_DaveMorin"><a href="javascript:void(0)" id="t1"><p>Dave Morin</p><p>Path</p></a></li>
+				<li class="df_JoeGebbia"><a href="javascript:void(0)" id="t2"><p>Joe Gebbia</p><p>Airbnb</p></a></li>
+				<li class="df_JessicaHische"><a href="javascript:void(0)" id="t3"><p>Jessica Hische</p><p>Side Projects</p></a></li>
+				<li class="df_MikeMatas"><a href="javascript:void(0)" id="t4"><p>Mike Matas</p><p>Push Pop Press</p></a></li>
+				<li class="df_JeffVeen"><a href="javascript:void(0)" id="t5"><p>Jeffrey Veen</p><p>TypeKit</p></a></li>
+			</ul><!-- navi -->
+			<br class="clear" />
 			<div id="founderBios">
-				<div class="founderBio">
+			    <div class="founderBio">
 					<div class="col2 colL">
 						<div class="section" id="sec42">4.2</div>
 						<h3>Dave Morin</h3>
@@ -436,7 +437,7 @@
 						<br class="clear" />
 						
 						<p class="text">Dave is the Co-Founder and CEO of <a href="http://path.com">Path</a>, the smart journal that helps you share life with the ones you love. Previously, as an original member of the <a href="http://www.facebook.com/">Facebook</a> team, Dave played a variety of product, marketing, strategy, and management roles in expanding the Facebook ecosystem to over 800 million people worldwide. Dave was a co-inventor of <a href="http://developers.facebook.com/connect.php">Facebook Connect</a> which was created to make the Internet more social, and is now used by over 7 million apps and websites.</p>
-		
+			
 						<p class="text">In 2011, Dave was named a <a href="http://images.businessweek.com/slideshows/20110516/best-young-tech-entrepreneurs-2011/slides/18">30 under 30 Best Young Tech Entrepreneur</a> by Bloomberg Businessweek. He was also named <a href="http://www.businessinsider.com/the-silicon-valley-100-2012-1#12-dave-morin-89">#12 on the Silicon Valley 100</a> by Business Insider. <sup><a href="#cite-10">10</a></sup></p>
 					</div>
 					<div class="col3 colR right">
@@ -460,7 +461,7 @@
 						<br class="clear" />
 						
 						<p class="text">Joe defines the <a href="http://airbnb.com">Airbnb</a> experience. He is dedicated to creating an inspiring and effortless user experience through sharp, intuitive design, and crafts the product roadmap to make it so. Joe values products that simplify life and have a positive impact on the environment, and ensures that the company adheres to these tenets.</p>
-		
+			
 						<p class="text">Prior to Airbnb, Joe was employed by Chronicle Books, co-founded a green design website, and developed several consumer products. An alumni of the <a href="http://risd.edu">Rhode Island School of Design</a>, Joe earned dual degrees in Graphic Design and Industrial Design. <sup><a href="#cite-11">11</a></sup></p>
 					</div>
 					<div class="col3 colR right">
@@ -534,8 +535,8 @@
 						<br class="clear" />
 						
 						<p class="text">Jeffrey Veen is a founder and the CEO of <a href="http://smallbatchinc.com">Small Batch, Inc.</a> where he’s leading a team of developers and creating user-centered web products. Their current effort is <a href="http://typekit.com">Typekit</a> — a widely praised subscription font service that is bringing real typography to the Web for the first time.</p>
-		
-						<p class="text">Jeffrey was also one of the founding partners of <a href="http://adaptivepath.com">Adaptive Path</a> and project lead for Measure Map, the well-received web analytics tool acquired by Google in 2006, where he managed the user experience group responsible for some of the largest web apps in the world. As a consultant, he has been involved in designing the leading blog and social media applications on the web, including Blogger, TypePad, Flickr, and National Public Radio. <sup><a href="#cite-14">14</a></sup></p>
+			
+						<p class="text">Jeffrey was also one of the founding partners of <a href="http://adaptivepath.com">Adaptive Path</a> and project lead for Measure Map, the well-received web analytics tool acquired by Google in 2006, where he managed the user experience group responsible for some of the largest web apps in the world.<sup><a href="#cite-14">14</a></sup></p>
 					</div>
 					<div class="col3 colR right">
 						<ul class="socialLinks">
@@ -548,9 +549,10 @@
 					</div>			
 				</div><!-- / founderBio -->
 			</div><!-- / founderBios -->
-		</div><!-- / founderBioWrapper -->
+		</div><!-- / scroll -->
+	</div><!-- totalWrapper-->
 		
-		<br class="clear" />
+	<br class="clear" />
 		
 		<div class="col2 colL" style="text-align:center;margin-top:800px;">
 			<img class="linkSword" src="./img/linkSword.jpg" />
