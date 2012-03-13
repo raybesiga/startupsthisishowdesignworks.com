@@ -12,7 +12,7 @@ $(document).ready(function() {
     $('#toc').click(function(){
     	if($('.sections').hasClass('closed')){
     		$('.sections').removeClass('closed');
-    		$('.sections').animate({ top: '34px' }, 200);
+    		$('.sections').animate({ top: '35px' }, 200);
     	}else{
     		$('.sections').addClass('closed');
     		$('.sections').animate({ top: '-' + sectionsHeight + 'px' }, 100);
@@ -164,9 +164,10 @@ $(document).ready(function() {
 	    text: 'Business, Marketers, and Engineers',
 	    margin: 0,
 	    style: {
-			color: '#3f3f3f',
-			fontSize: '20px',
-			fontFamily: 'Crimson Text'
+			color: '#ed1c24',
+			fontSize: '14px',
+			fontFamily: 'Helvetica',
+			fontWeight: 'Bold'
 		}
 	 },
 	 plotOptions: {
@@ -212,9 +213,10 @@ $(document).ready(function() {
 	    text: 'Designers and Creative Directors',
 	    margin: 0,
 	    style: {
-			color: '#3f3f3f',
-			fontSize: '20px',
-			fontFamily: 'Crimson Text'
+			color: '#ed1c24',
+			fontSize: '14px',
+			fontFamily: 'Helvetica',
+			fontWeight: 'Bold'
 		}
 	 },
 	 legend: {
@@ -262,9 +264,10 @@ $(document).ready(function() {
 	    text: "Dieter Rams' Principles",
 	    margin: 0,
 	    style: {
-			color: '#3f3f3f',
-			fontSize: '20px',
-			fontFamily: 'Crimson Text'
+			color: '#ed1c24',
+			fontSize: '14px',
+			fontFamily: 'Helvetica',
+			fontWeight: 'Bold'
 		}
 	 },
 	 plotOptions: {
@@ -300,14 +303,16 @@ $(document).ready(function() {
 	        renderTo: 'row2_biz',
 	        backgroundColor: 'transparent',
 	        type: 'column',
-       		marginTop:75
+	        spacingTop: 30,
+       		marginTop:85
 	    },
 	    title: {
 	        text: 'How important is product design to you?',
 	    style: {
-			color: '#3f3f3f',
-			fontSize: '20px',
-			fontFamily: 'Crimson Text'
+			color: '#ed1c24',
+			fontSize: '14px',
+			fontFamily: 'Helvetica',
+			fontWeight: 'Bold'
 		}
 	    },
 	    credits: {
@@ -359,14 +364,16 @@ $(document).ready(function() {
 	        renderTo: 'row2_users',
 	        backgroundColor: 'transparent',
 	        type: 'column',
-       		marginTop:75
+       		spacingTop: 30,
+       		marginTop:85
 	    },
 	    title: {
-	        text: '…and to your users?',
+	        text: 'How important is product design to your users?',
 	    style: {
-			color: '#3f3f3f',
-			fontSize: '20px',
-			fontFamily: 'Crimson Text'
+			color: '#ed1c24',
+			fontSize: '14px',
+			fontFamily: 'Helvetica',
+			fontWeight: 'Bold'
 		}
 	    },
 	    credits: {

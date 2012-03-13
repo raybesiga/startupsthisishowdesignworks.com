@@ -124,7 +124,7 @@
 		<br class="clear" />
 		
 		<div class="col2 colL">
-			<img class="dieterRamsPhoto" src="./img/dieterRamsPhoto.jpg" />
+			<img id="dieterRamsPhoto" src="./img/dieterRamsPhoto.jpg" />
 			<div class="section right" id="sec13">1.3</div>
 		</div>
 		<div class="col4 colR">
@@ -168,7 +168,7 @@
 		
 		<br class="clear" />
 		
-		<div class="braunApple">
+		<div id="braunApple">
 			<div class="col2 colL">
 			<sub><a href="#cite-4" style="color:#ddd;">4</a></sub>
 			<div class="slideshow">
@@ -232,7 +232,7 @@
 			</div>
 			</div>
 		</div>
-		<div class="col4 colR grayContainer">
+		<div id="grayContainer" class="col4 colR">
 				<p class="text">Dieter Rams is known as the “Godfather of Design.” He helped make design understandable and measurable by breaking the components of good design into manageable parts. Take a look at your current product – is design contributing in an innovative way? Does it make the product useful, understandable, and environmentally-friendly? Is it long-lasting, or will it look outdated or break in a few years?</p>
 				<p class="text">These are really hard questions to answer, and most products won’t hit this sweet spot in the first try. Designers enable you to work within these constraints to create a product customers will fall in love with. <em>Love is a really strong emotion</em>.</p>
 				<p class="text">Dieter Rams and his <a href="./tooltips.php?q=contemporaries" rel="./tooltips.php?q=contemporaries" class="tip">contemporaries</a>  created brilliant products in the 1950’s and 60’s. Design was a strongly valued aspect of business, even 60 years ago. It totally has a place in business today – it’s already been proven.</p>
@@ -245,50 +245,51 @@
 	
 <div id="section2">
 	<div class="globalWrapper">	
-		<h2>There are different kinds of designers.</h2>
-		<h2 class="line2">There are different kinds of design.</h2>
+		<h2>There are different kinds of design.</h2>
 		
 		<div class="col2 colL">
-			<img style="designPoster" src="./img/dylan-glaser.png" />
+			<div class="section right" id="sec21">2.1</div>
+			<img id="designPoster" src="./img/dylan-glaser.jpg" />
 		</div>
 		<div class="col3">
-			<div class="section" id="sec21">2.1</div>
 				<h3>Graphic Design</h3>
-				<br class="clear" />
-				<p class="text">This is a term that describes an array of different kinds of designers. Think of it like the term “entrepreneur”. It describes a wide variety of businesspeople - from founders to VC's to <a href="./tooltips.php?q=ninjas" rel="./tooltips.php?q=ninjas" class="tip dark">“Chief Ninjas”</a> - but isn’t all-inclusive. Graphic designers work with graphical images, whether they be illustrations, typography, or images, and on a variety of media including print and web. Graphic design is typically rendered in 2D – printed on a physical surface or displayed on a screen.</p>
+				<p class="text">This is a term that describes an array of different kinds of designers. Think of it like the term “entrepreneur”. It describes a wide variety of businesspeople - from founders to VC's to <a href="./tooltips.php?q=ninjas" rel="./tooltips.php?q=ninjas" class="tip">“Chief Ninjas”</a> - but isn’t all-inclusive. Graphic designers work with graphical images, whether they be illustrations, typography, or images, and on a variety of media including print and web. Graphic design is typically rendered in 2D – printed on a physical surface or displayed on a screen.</p>
 		</div><!-- / Graphic Design -->
 		
 		<br class="clear" />
 		
 		<div class="col3 colL"></div>
-		<div class="col2" style="margin:-200px 0 150px;">
+		<div class="col2" style="margin:-250px 0 150px;">
 				<h4>Print Design</h4>
-				<p class="subText">A type of graphic designer that works exclusively with print media. Before the widespread adoption of computers, software, and the web, virtually all graphic designers worked on print media such as posters, magazines, billboards, and books. Print designers are typically masters of <a href="./tooltips.php?q=typography" rel="./tooltips.php?q=typography" class="tip dark">typography</a>, illustration, and traditional printing processes like the <a href="./tooltips.php?q=linotype" rel="./tooltips.php?q=linotype" class="tip dark">Linotype machine</a> or the <a href="./tooltips.php?q=letterpress" rel="./tooltips.php?q=letterpress" class="tip dark">letterpress machine</a>, a 500-year-old printing method that has regained popularity in recent years for its' handmade and traditional feel.</p>
+				<p class="subText">A type of graphic designer that works exclusively with print media. Before the widespread adoption of computers, software, and the web, virtually all graphic designers worked on print media such as posters, magazines, billboards, and books. Print designers are typically masters of <a href="./tooltips.php?q=typography" rel="./tooltips.php?q=typography" class="tip">typography</a>, illustration, and traditional printing processes like the <a href="./tooltips.php?q=linotype" rel="./tooltips.php?q=linotype" class="tip">Linotype machine</a> or the <a href="./tooltips.php?q=letterpress" rel="./tooltips.php?q=letterpress" class="tip">letterpress machine</a>, a 500-year-old printing method that has regained popularity in recent years for its' handmade and traditional feel.</p>
 		</div><!-- / Print Design -->
 		
 		<br class="clear" />
 		
-		<div class="col3 colL">
-			<div class="section" id="sec22">2.2</div>
+		<div class="col1 colL">
+			<div class="section right" id="sec22">2.2</div>
+		</div>
+		
+		<div class="col3">
 				<h3>Interaction Design</h3>
 				<br class="clear" />
 				<p class="text">Interaction designers, on the other hand, focus on digital products and interactive software design. Some examples include web apps like Facebook and Pinterest, mobile apps like Tweetbot, and Operating Systems like OS X. While graphic design is meant to be observed, interaction design helps humans experience or manipulate software or interface with screen-based hardware in order to <em>achieve specific goals</em> – checking email, withdrawing money from an ATM, or "Liking" a webpage (such as this one!)</p>
 				<p class="text">As Wikipedia puts it, <em>Interaction design is heavily focused on satisfying the needs and desires of the people who will use the product.</em> <sup><a href="#cite-5">5</a></sup></p>
 		</div><!-- / Interaction Design -->
-		<div class="col3 colR">
-			<img class="ixdGraphic" style="margin-bottom:80px;" src="./img/ux-verplank.png" />
+		<div class="col2 colR">
+			<img id="ixdGraphic" src="./img/ux-verplank.jpg" />
 		</div>
 		
 		<br class="clear" />
 		
 		<div class="col2 colL" style="text-align:center;">
-			<img class="uxDesign" src="./img/tronguy.jpg" />&nbsp;
+			<img id="uxDesign" src="./img/tronguy.jpg" />&nbsp;
 		</div>
 		<div class="col2">
 			<h4>User Interface Design</h4>
 			<p class="subText"></p>
 			<p class="subText">User Interface Design (UI) he design of software applications and websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing user goals</em> — what is often called user-centered design. Good user interface design facilitates finishing the task at hand without drawing unnecessary attention to itself. Graphic design may be utilized to support its usability. The design process must balance technical functionality and visual elements to create a system that is not only operational but also <em>usable and adaptable to changing user needs</em>.</p>
-			<p class="subText">Interface design is involved in a wide range of projects from <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip dark">computer systems, to cars, to commercial planes</a>; all of these projects involve much of the same basic human interactions yet also require some unique skills and knowledge. As a result, designers tend to specialize in certain types of projects and have skills centered around their expertise, such as software design, user research, web design, or industrial design. <sup><a href="#cite-7">7</a></sup></p>
+			<p class="subText">Interface design is involved in a wide range of projects from <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">computer systems, to cars, to commercial planes</a>; all of these projects involve much of the same basic human interactions yet also require some unique skills and knowledge. As a result, designers tend to specialize in certain types of projects and have skills centered around their expertise, such as software design, user research, web design, or industrial design. <sup><a href="#cite-7">7</a></sup></p>
 
 		</div><!-- / Interface Design -->
 		
@@ -300,28 +301,30 @@
 			
 		<br class="clear" />
 		
-		<div class="col2" style="text-align:center;">		
-			<img class="industrialDesign" src="./img/ipod.png" />
+		<div class="col2" style="text-align:center;margin-top:160px;">
+			<div class="section right" id="sec23">2.3</div>
+			<img id="industrialDesign" src="./img/ipod.png" />
 		</div>
-		<div class="col3" style="margin-top:120px;">
-			<div class="section" id="sec23">2.3</div>
+		<div class="col3" style="margin-top:160px;" >
 				<h3>Industrial Design</h3>
 				<br class="clear" />
 				<p class="text">Industrial Designers create physical goods designated for mass-consumption by millions of people. Motorcycles, iPods, toothbrushes, and nightstands are all designed by Industrial Designers. These people are masters of 3D and innovating within the constraints of production lines and machines.</p>
 				<p class="text">The objective of this area is to study both function and form, and the connection between product, the user and the environment - product as it happens in any other architecture area, being the only difference, that here the professionals that participate in the process are all specialized in small scale design, rather than in other massive colossal equipments like buildings or ships.<sup><a href="#cite-9">9</a></sup></p>
-		</div><!-- / Industrial Design -->
+		</div><!-- / Industrial Design -->	
+		
+		<br class="clear" />
 		
 	</div><!-- / globalWrapper -->
 </div><!-- / section2 -->
-<div id="section2_top"></div>
 
+<div id="sec3top"></div>
 <div id="section3">
 	<div class="globalWrapper">	
 		<div class="col1 colL">
-			<div class="section right" id="sec31" style="margin-top:113px;">3.1</div>
+			<div class="section right" id="sec31">3.1</div>
 		</div>
 		<div class="col5 colR">
-			<h2>What qualities of design do <br />startups consider most important?</h2>
+			<h3>What qualities of design do startups consider most important?</h3>
 		</div>
 		
 		<br class="clear" />
@@ -333,17 +336,17 @@
 		
 		<br class="clear" />
 		
-		<div id="row1_biz" class="col2 colL"></div>
-		<div id="row1_dez" class="col2"></div>
-		<div id="row1_ramz" class="col2 colR"></div>
+		<div id="row1_biz" class="col2 colL chart"></div>
+		<div id="row1_dez" class="col2 chart"></div>
+		<div id="row1_ramz" class="col2 colR chart"></div>
 	
 		<br class="clear" />
 		
 		<div class="col1 colL">
-			<div class="section right" id="sec32" style="margin-top:113px;">3.2</div>
+			<div class="section right" id="sec32">3.2</div>
 		</div>
 		<div class="col5 colR">
-			<h2>How important is product design?</h2>
+			<h3>How important is product design?</h3>
 		</div>
 		
 		<br class="clear" />
@@ -356,8 +359,8 @@
 		<br class="clear" />
 
 		
-		<div id="row2_biz" class="col3 colL"></div>
-		<div id="row2_users" class="col3 colR"></div>
+		<div id="row2_biz" class="col3 colL chart"></div>
+		<div id="row2_users" class="col3 colR chart"></div>
 		
 		<br class="clear" />
 	
@@ -733,6 +736,7 @@
 			<li><a href="http://losttype.com">Lost Type Co-op</a></li>
 			<li><a href="http://mantia.me">Louie Mantia</a></li>
 			<li><a href="http://squaredeye.com">Matthew Smith</a></li>
+			<li><a href="http://finegoodsmarket.com">Rogie King & Fine Goods</a></li>
 			<li><a href="http://dribbble.com/shots/183766-Pattern-Kit-One-Ribbon-Dancer-">Seth Nickerson</a></li>
 			<li><a href="http://www.apple.com/stevejobs/"> Steve Jobs</a></li>
 		</ul>

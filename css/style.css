@@ -147,8 +147,7 @@ b{color:#444;}
 
 /* -- Table of Contents -- */
 #tableOfContents{  
-	background:#000;
-	width:300px;
+	width:320px;
 	color:#fff;
 	float:left;
 	position: fixed;
@@ -158,29 +157,31 @@ b{color:#444;}
 	}
 	
 	#tableOfContents h2{
+		font-family:"Helvetica",Arial,sans-serif;
 		padding:0;
 		font-size:13px;
-		font-weight:normal;
-		margin:0;
+		font-weight:lighter;
+		margin:0 !important;
+		line-height:18px;
 		z-index:9999;
 		position: relative;
-		background:#000;
+		background:#ed1c24;
 		}
 		#tableOfContents h2 a{
 			background:url('../img/tocArrow.jpg') no-repeat top left;
 			padding:8px 0 8px 50px;
-			width:250px;
+			width:270px;
 			display:block;
 			}
 			#tableOfContents h2 a:hover{
-				background:url('../img/tocArrow.jpg') no-repeat top left #333;
+				background:url('../img/tocArrow.jpg') no-repeat top left #ca0c13;
 				background-position:0 -36px;
 				}
 	
 	#tableOfContents a{
 		color:#fff;
 		text-decoration:none;
-		width:260px;
+		width:280px;
 		padding:6px 10px;
 		margin:0;
 		display:block;
@@ -196,7 +197,7 @@ b{color:#444;}
 		top:0;
 		background:#000;
 		visibility: hidden;
-		width:260px;
+		width:280px;
 		z-index:9998;
 		}
 		#tableOfContents dl.closed{}
@@ -243,12 +244,51 @@ h1{
 	}
 
 
+/* -- Global Page Styles -- */
+
+h2{
+	font-family: 'Raleway', cursive;
+	font-weight:100;
+	color:#656565;
+	font-size:100px;
+	line-height:120px;
+	margin:0 0 80px;
+	}
+
+h3{
+	font-family:'Crimson Text', serif;
+	font-weight:400;
+	font-size:31px;
+	line-height:normal;
+	color:#000;
+	letter-spacing:-1px;
+	margin:-12px 0 10px;
+	}
+
+h4{
+	font-family:"Helvetica",sans-serif;
+	font-size:14px;
+	color:#ed1c24;
+	font-weight:bold;
+	line-height:25px;
+	letter-spacing:normal;
+	margin:0 0 30px;
+	}
+
+p.subText{
+	color:#6a6a6a;
+	font-size:15.5px;
+	line-height:19px;
+	margin:15px 0;
+	}
+
 /* -- Section 1 -- */
 
 #section1 h2{
 	font-family:'Crimson Text', serif;
 	font-weight:400;
 	font-size:31px;
+	line-height:normal;
 	color:#000;
 	letter-spacing:-1px;
 	margin:-12px 0 10px;
@@ -258,42 +298,37 @@ h1{
 		font-style:italic;
 		}
 
-#section1 p.subText{
-	color:#6a6a6a;
-	font-size:15.5px;
-	line-height:19px;
-	margin:15px 0;
-	}
-
-#section1 .largeSpace{
+.largeSpace{
 	margin:80px 0;
 	}
 
-#section1 .dieterRamsPhoto{
+#dieterRamsPhoto{
 	width:257px;
 	height:257px;
 	margin:0 auto;
 	float:left;
 	}
 	
-#section1 .principles{
+.principles{
 	list-style-type: none;
-	margin:50px 0 80px;
+	margin-bottom:80px;
 	}
-	#section1 .principles li{
+	.principles li{
 		float:left;
 		padding:0 10px;
 		width:150px;
 		}
-	#section1 .principles h3{
+	.principles h3{
 		font-family:"Helvetica",sans-serif;
 		font-size:12px;
 		color:#ed1c24;
 		padding-bottom:10px;
 		font-weight:bold;
 		line-height:14px;
+		letter-spacing:normal;
+		margin:30px 0 0;
 		}
-		#section1 .principles p{
+		.principles p{
 			font-family:'Crimson Text', serif;
 			font-weight:400;
 			font-size:14px;
@@ -301,7 +336,7 @@ h1{
 			line-height:15px;
 			}
 
-#section1 .braunApple{	
+#braunApple{	
 	margin-bottom:140px;
 	}
 	
@@ -341,137 +376,60 @@ h1{
 	margin:-20px 0 120px;
 	}
 	
-#section1 .ramsSpeaker{
-	width:168px;
-	height:278px;
-	margin:30px 0 0 60px;
-	float:left;
-	}
-
-.grayContainer{
+#grayContainer{
 	background:#e3e3e3;
 	padding:0 20px !important;
 	width:620px !important;
 	}
-	.grayContainer p{
+	#grayContainer p{
 		font-size:17px;
 		}
 
 /* -- Section 2 -- */
 
 #section2{
-	margin-top:140px;
-	background:#def9ff;
-	border-top:5px solid #fff;
-	border-bottom:5px solid #fff;
-	position:absolute;
-	width:100%;
-	padding:40px 0 60px;
-	left:0;
-	z-index:1000;
-	transform: skew(0,-2deg);
-	-ms-transform: skew(0,-2deg); /* IE 9 */
-	-webkit-transform: skew(0,-2deg); /* Safari and Chrome */
-	-o-transform: skew(0,-2deg); /* Opera */
-	-moz-transform: skew(0,-2deg); /* Firefox */
-	font-family:"Helvetica",sans-serif;
-	color:#fff;
-	font-size:18px;
+	margin:200px 0 100px;
 	}
 	
-	#section2_top{
-		background:#aff0ff;
-		height:40px;
-		margin-top:127px;
-		z-index:-1000;
-		transform: skew(0,-3deg);
-		-ms-transform: skew(0,-3deg); /* IE 9 */
-		-webkit-transform: skew(0,-3deg); /* Safari and Chrome */
-		-o-transform: skew(0,-3deg); /* Opera */
-		-moz-transform: skew(0,-3deg); /* Firefox */
-		}
-	
-#section2 .section{
-	transform: skew(0,2deg);
-	-ms-transform: skew(0,2deg); /* IE 9 */
-	-webkit-transform: skew(0,2deg); /* Safari and Chrome */
-	-o-transform: skew(0,2deg); /* Opera */
-	-moz-transform: skew(0,2deg); /* Firefox */
-	float:left;
+#designPoster{
+	margin-top:35px;
 	}
-
-#section2 h2{
-	font-size:59px;
-	line-height:76px;
-	margin:0;
-	font-family:"Open Sans Condensed","HelveticaNeue-CondensedBold","Helvetica",sans-serif;
-	text-shadow:3px 4px 0 #1ad4ff;
+#ixdGraphic{
+	margin:65px 0 80px 14px;
 	}
-	#section2 h2.line2{
-		margin:0 0 140px 170px;
-		}
-
-#section2 h3{
-	font-size:32px;
-	font-family:"Open Sans Condensed","HelveticaNeue-CondensedBold","Helvetica",sans-serif;
-	text-shadow:2px 3px 0 #1ad4ff;
-	float:left;
-	margin:-10px 0 0 15px;
+#uxDesign{
+	margin-top:62px;
 	}
-
-#section2 h4{
-	font-size:26px;
-	font-family:"Open Sans Condensed","HelveticaNeue-CondensedBold","Helvetica",sans-serif;
-	text-shadow:2px 2px 0 #008aaa;
-	margin:0;
-	}
-
-#section2 p.text{
-	font-family:"Helvetica",sans-serif;
-	font-size:15px;
-	}
-#section2 p.subText{
-	font-family:"Helvetica",sans-serif;
-	font-size:15px;
-	}
-
-#section2 .uxDesign{
-	margin-top:50px;
-	}
-
-#section2 .industrialDesign{
-	margin-top:120px;
+#industrialDesign{
+	margin-top:20px;
 	}
 
 /* -- Section 3 -- */
 #section3{
-	margin-top:2620px;
-	padding-top:144px;
 	height:1584px;
-	background:url('../img/sec3bg.jpg') repeat #efefef;
+	background:url('../img/sec3bg.jpg') repeat #f9f9f9;
+	padding:72px 0;
 	}
 
 #sec3bottom{
 	height:145px;
-	background:url('../img/sec3bottom.jpg') repeat-x #efefef;
+	background:url('../img/sec3bottom.jpg') repeat-x #f9f9f9;
 	}
-	
-#section3 h2{
-	font-family: 'Raleway', cursive;
-	color:#656565;
-	font-size:54px;
-	font-weight:lighter;
-	line-height:60px;
-	margin:100px 0 0;
+#sec3top{
+	height:144px;
+	background:url('../img/sec3top.jpg') repeat-x #f9f9f9;
+	margin:0;
+	padding:0;
 	}
 
-#section3 p{
-	margin:35px 0 60px;
+#section3 .chart{
+	height:430px;
+	margin:20px 0 100px;
 	}
 
 /* -- Section 4 -- */
 #section4{
-	margin-top:150px;
+	margin-top:100px;
 	}
 
 #section4 h2{
