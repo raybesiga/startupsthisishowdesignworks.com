@@ -278,7 +278,7 @@ h1{
 	
 #section1 .principles{
 	list-style-type: none;
-	margin:10px 0 80px;
+	margin:50px 0 80px;
 	}
 	#section1 .principles li{
 		float:left;
@@ -369,7 +369,7 @@ h1{
 
 #section2{
 	margin-top:140px;
-	background:#aff0ff;
+	background:#def9ff;
 	border-top:5px solid #fff;
 	border-bottom:5px solid #fff;
 	position:absolute;
@@ -413,7 +413,7 @@ h1{
 	line-height:76px;
 	margin:0;
 	font-family:"Open Sans Condensed","HelveticaNeue-CondensedBold","Helvetica",sans-serif;
-	text-shadow:3px 4px 0 #008aaa;
+	text-shadow:3px 4px 0 #1ad4ff;
 	}
 	#section2 h2.line2{
 		margin:0 0 140px 170px;
@@ -422,7 +422,7 @@ h1{
 #section2 h3{
 	font-size:32px;
 	font-family:"Open Sans Condensed","HelveticaNeue-CondensedBold","Helvetica",sans-serif;
-	text-shadow:2px 3px 0 #008aaa;
+	text-shadow:2px 3px 0 #1ad4ff;
 	float:left;
 	margin:-10px 0 0 15px;
 	}

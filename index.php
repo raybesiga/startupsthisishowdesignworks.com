@@ -287,15 +287,6 @@
 		<div class="col2">
 			<h4>User Interface Design</h4>
 			<p class="subText"></p>
-			<p class="subText">Interface design is involved in a wide range of projects from <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip dark">computer systems, to cars, to commercial planes</a>; all of these projects involve much of the same basic human interactions yet also require some unique skills and knowledge. As a result, designers tend to specialize in certain types of projects and have skills centered around their expertise, such as software design, user research, web design, or industrial design. <sup><a href="#cite-7">7</a></sup></p>
-			
-			
-			
-			
-			
-			
-			
-			
 			<p class="subText">User Interface Design (UI) he design of software applications and websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing user goals</em> — what is often called user-centered design. Good user interface design facilitates finishing the task at hand without drawing unnecessary attention to itself. Graphic design may be utilized to support its usability. The design process must balance technical functionality and visual elements to create a system that is not only operational but also <em>usable and adaptable to changing user needs</em>.</p>
 			<p class="subText">Interface design is involved in a wide range of projects from <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip dark">computer systems, to cars, to commercial planes</a>; all of these projects involve much of the same basic human interactions yet also require some unique skills and knowledge. As a result, designers tend to specialize in certain types of projects and have skills centered around their expertise, such as software design, user research, web design, or industrial design. <sup><a href="#cite-7">7</a></sup></p>
 
