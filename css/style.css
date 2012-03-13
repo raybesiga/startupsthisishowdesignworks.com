@@ -309,7 +309,7 @@ h1{
 #sec1SummaryWrapper{
 	position:absolute;
 	width:100%;
-	background:#212121;
+	background:#e3e3e3;
 	padding-top:30px;
 	left:0;
 	height:192px;
@@ -322,7 +322,6 @@ h1{
 		margin:0 auto;
 		}
 	#sec1Summary p{
-		color:#eee;
 		margin-top:0px;
 		}
 	#paintCan{
@@ -332,18 +331,11 @@ h1{
 		}
 	.caption{
 		float:right;
-		color:#b2b2b2 !important;
 		font-style:italic;
 		font-size:13px;
 		margin-top:130px !important;
 		line-height:14px;
 		}
-		.caption a{
-			color:#dadada;
-			}
-			.caption a:hover{
-				color:#fff;
-				}
 
 #ramsVideo{
 	margin:-20px 0 120px;
@@ -357,7 +349,7 @@ h1{
 	}
 
 .grayContainer{
-	background:#e3e3e4;
+	background:#e3e3e3;
 	padding:0 20px !important;
 	width:620px !important;
 	}
@@ -466,7 +458,7 @@ h1{
 	
 #section3 h2{
 	font-family: 'Raleway', cursive;
-	color:#4c4c4c;
+	color:#656565;
 	font-size:54px;
 	font-weight:lighter;
 	line-height:60px;
@@ -474,8 +466,7 @@ h1{
 	}
 
 #section3 p{
-	color:#696969;
-	margin:35px 0;
+	margin:35px 0 60px;
 	}
 
 /* -- Section 4 -- */
