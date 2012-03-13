@@ -97,12 +97,12 @@ td { vertical-align: top; }
 
 /* -- Columns -- */
 
-.col1{width:150px;float:left;padding:0 10px;}
-.col2{width:320px;float:left;padding:0 10px;}
-.col3{width:490px;float:left;padding:0 10px;}
-.col4{width:660px;float:left;padding:0 10px;}
-.col5{width:830px;float:left;padding:0 10px;}
-.col6{width:1000px;float:left;padding:0 10px;}
+.col1{width:150px;min-height:1px;float:left;padding:0 10px;}
+.col2{width:320px;min-height:1px;float:left;padding:0 10px;}
+.col3{width:490px;min-height:1px;float:left;padding:0 10px;}
+.col4{width:660px;min-height:1px;float:left;padding:0 10px;}
+.col5{width:830px;min-height:1px;float:left;padding:0 10px;}
+.col6{width:1000px;min-height:1px;float:left;padding:0 10px;}
 .colL{padding-left:0 !important;}
 .colR{padding-right:0 !important;}
 
@@ -163,6 +163,8 @@ b{color:#444;}
 		font-weight:normal;
 		margin:0;
 		z-index:9999;
+		position: relative;
+		background:#000;
 		}
 		#tableOfContents h2 a{
 			background:url('../img/tocArrow.jpg') no-repeat top left;
@@ -452,8 +454,9 @@ h1{
 
 /* -- Section 3 -- */
 #section3{
-	margin-top:2500px;
-	padding-top:185px;
+	margin-top:2520px;
+	padding-top:216px;
+	height:1512px;
 	background:url('../img/sec3bg.jpg') repeat #efefef;
 	}
 
@@ -463,16 +466,17 @@ h1{
 	}
 	
 #section3 h2{
-	font-family: 'Sail', cursive;
+	font-family: 'Raleway', cursive;
 	color:#4c4c4c;
 	font-size:54px;
 	font-weight:lighter;
 	line-height:60px;
-	margin:-20px 0 0;
+	margin:100px 0 0;
 	}
 
 #section3 p{
 	color:#696969;
+	margin:35px 0;
 	}
 
 /* -- Section 4 -- */
@@ -590,7 +594,7 @@ h1{
 
 	.founderBioWrapper{
 		position:absolute;
-		width:400%;
+		width:100%;
 		background:#f0f0f0;
 		margin-top:230px;
 		left:0;
@@ -598,11 +602,17 @@ h1{
 		padding:70px 0;
 		overflow:hidden;
 		}
+	.founderBios{
+		width:1000px;
+		margin:0 auto;
+		overflow:hidden;
+		height:550px;
+		}
 	.founderBio{
 		text-align:left;
 		width:1000px;
 		float:left;
-		padding:0 50px;
+		padding:0;
 		}
 		.founderBio h3{
 			float:left;

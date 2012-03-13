@@ -4,13 +4,6 @@ var chart1; // globally available
 $( init );
 
 $(document).ready(function() {
-	// Set height for Section 3 div as a multiple of the bg image height
-    $div = $('#section3');
-    var remainder = $div.height() % 72;
-    var newHeight = $div.height() + (72-remainder);
-    $div.css('height', newHeight);
-    
-    
     
     // Table of Contents
     var sectionsHeight = $('.sections').height();
@@ -30,17 +23,37 @@ $(document).ready(function() {
     $('.subsection').click(function(){
     	$('.subsectionContent').hide(100);
     	$(this).parent().next('.subsectionContent').show(200);
+    	
     	return false;
     });
     
     $('#tableOfContents').mouseleave(function(){
-    	$('.subsectionContent').hide(100,function(){
+    	$('.subsectionContent').hide(100, function(){
     		$('.sections').addClass('closed');
     		$('.sections').animate({ top: '-' + sectionsHeight + 'px' }, 200);
     	});
     });
     
+    // ScrollToStuff
     
+    jQuery('.subsectionContent a').click(function(){
+    	var offset = $(this).attr("data-offset") || 50;
+		var tid = jQuery(this).attr('href');
+		var target = jQuery(tid);
+		var targetOffset = target.offset();
+		var targetTop = targetOffset.top
+		var targetTopOffset = targetTop - offset;
+		
+		jQuery('html, body').animate({scrollTop: targetTopOffset}, 500);
+		
+		$('.subsectionContent').hide(100);
+		$('.sections').addClass('closed');
+    	$('.sections').animate({ top: '-' + sectionsHeight + 'px' }, 0);
+		
+		return false;
+	});
+	
+	
     
     /*! Copyright © 2010 Burin Asavesna (http://helloburin.com)
 	 * Licensed under the MIT License (LICENSE.txt).
@@ -135,31 +148,269 @@ $(document).ready(function() {
         });
     }
     
-    // Playing with charts
-	chart1 = new Highcharts.Chart({
+    // Chart: What's important to biz / engineering / devs?
+	chart_row1_biz = new Highcharts.Chart({
 	 chart: {
-	    renderTo: 'container',
-	    type: 'area'
+	    renderTo: 'row1_biz',
+	    type: 'pie',
+	    backgroundColor: 'transparent',
+	    spacingTop: 30,
+        spacingLeft:30,
+        spacingBottom:30,
+        spacingRight:30,
+        marginTop:0
 	 },
 	 title: {
-	    text: 'Fruit Consumption'
+	    text: 'Business, Marketers, and Engineers',
+	    margin: 0,
+	    style: {
+			color: '#3f3f3f',
+			fontSize: '20px',
+			fontFamily: 'Crimson Text'
+		}
 	 },
-	 xAxis: {
-	    categories: ['Apples', 'Bananas', 'Oranges']
-	 },
-	 yAxis: {
-	    title: {
-	       text: 'Fruit eaten'
-	    }
-	 },
+	 plotOptions: {
+        pie: {
+             allowPointSelect: true,
+             cursor: 'pointer',
+             dataLabels: {
+                 enabled: false
+             },
+             showInLegend: false
+         }
+     },
+	 credits: {
+        enabled: false
+     },
 	 series: [{
-	    name: 'Jane',
-	    data: [1, 0, 4]
-	 }, {
-	    name: 'John',
-	    data: [5, 7, 3]
-	 }]
+	    name: 'Responses',
+	    data: [
+	    	['Good design makes a product useful', 46],
+	    	['Good design is aesthetic', 46],
+	    	['Good design is innovative', 42],
+	    	['Good design makes a product understandable', 44],
+	    	['Good design is timeless', 22],
+	    	['Good design is environmentally friendly', 12]
+	    ]
+	   }]
 	});
+	
+	// Chart: What's important to designers?
+	chart_row1_dez = new Highcharts.Chart({
+	 chart: {
+	    renderTo: 'row1_dez',
+	    type: 'pie',
+	    backgroundColor: 'transparent',
+	    spacingTop: 30,
+        spacingLeft:0,
+        spacingBottom:0,
+        spacingRight:0,
+        marginTop:50,
+        height:430
+	 },
+	 title: {
+	    text: 'Designers and Creative Directors',
+	    margin: 0,
+	    style: {
+			color: '#3f3f3f',
+			fontSize: '20px',
+			fontFamily: 'Crimson Text'
+		}
+	 },
+	 plotOptions: {
+        pie: {
+             allowPointSelect: true,
+             cursor: 'pointer',
+             dataLabels: {
+                 enabled: false
+             },
+             showInLegend: true
+         }
+     },
+	 credits: {
+        enabled: false
+     },
+	 series: [{
+	    name: 'Responses',
+	    data: [
+	    	['Good design makes a product useful', 19],
+	    	['Good design is aesthetic', 22],
+	    	['Good design is innovative', 16],
+	    	['Good design makes a product understandable', 20],
+	    	['Good design is timeless', 11],
+	    	['Good design is environmentally friendly', 7]
+	    ]
+	   }]
+	});
+	
+	// Chart: What's important to Dieter Rams?
+	chart_row1_ramz = new Highcharts.Chart({
+	 chart: {
+	    renderTo: 'row1_ramz',
+	    type: 'pie',
+	    backgroundColor: 'transparent',
+	    spacingTop: 30,
+        spacingLeft:30,
+        spacingBottom:30,
+        spacingRight:30,
+        marginTop:0
+	 },
+	 title: {
+	    text: "Dieter Rams' Principles",
+	    margin: 0,
+	    style: {
+			color: '#3f3f3f',
+			fontSize: '20px',
+			fontFamily: 'Crimson Text'
+		}
+	 },
+	 plotOptions: {
+        pie: {
+             allowPointSelect: true,
+             cursor: 'pointer',
+             dataLabels: {
+                 enabled: false
+             },
+             showInLegend: false
+         }
+     },
+	 credits: {
+        enabled: false
+     },
+	 series: [{
+	    name: 'Responses',
+	    data: [
+	    	['Good design makes a product useful', 1],
+	    	['Good design is aesthetic', 1],
+	    	['Good design is innovative', 1],
+	    	['Good design makes a product understandable', 1],
+	    	['Good design is timeless', 1],
+	    	['Good design is environmentally friendly', 1]
+	    ]
+	   }]
+	});
+	
+	
+	// Chart: How important is design to biz / engineering / devs / designers?
+	chart_row2_biz = new Highcharts.Chart({
+	    chart: {
+	        renderTo: 'row2_biz',
+	        backgroundColor: 'transparent',
+	        type: 'column',
+       		marginTop:75
+	    },
+	    title: {
+	        text: 'How important is product design to you?',
+	    style: {
+			color: '#3f3f3f',
+			fontSize: '20px',
+			fontFamily: 'Crimson Text'
+		}
+	    },
+	    credits: {
+       		enabled: false
+     	},
+	    xAxis: {
+	        categories: [
+	            '1 (Not important)',
+	            '2',
+	            '3',
+	            '4',
+	            '5 (Very important)'
+	        ]
+	    },
+	    yAxis: {
+	        min: 0,
+	        title: {
+	            text: null
+	        }
+	    },
+	    tooltip: {
+	        formatter: function() {
+	            return ''+
+	                this.y +' responses';
+	        }
+	    },
+	    plotOptions: {
+	        column: {
+	        	stacking: 'normal',
+	            pointPadding: 0.2,
+	            borderWidth: 0
+	        },
+	        series: {
+            pointWidth: 40
+        	}
+	    },
+	        series: [{
+	        	name: 'Designers',
+	        	data: [0, 1, 0, 5, 18]
+	    	}, {
+	        	name: 'Biz, Marketing, Dev',
+	        	data: [0, 2, 3, 5, 44]
+	    	}]
+	});
+	
+	// Chart: How important do you think product design is to your users?
+	chart_row2_users = new Highcharts.Chart({
+	    chart: {
+	        renderTo: 'row2_users',
+	        backgroundColor: 'transparent',
+	        type: 'column',
+       		marginTop:75,
+       		spacingRight:50
+	    },
+	    title: {
+	        text: '…and to your users?',
+	    style: {
+			color: '#3f3f3f',
+			fontSize: '20px',
+			fontFamily: 'Crimson Text'
+		}
+	    },
+	    credits: {
+       		enabled: false
+     	},
+	    xAxis: {
+	        categories: [
+	            '1 (Not important)',
+	            '2',
+	            '3',
+	            '4',
+	            '5 (Very important)'
+	        ]
+	    },
+	    yAxis: {
+	        min: 0,
+	        title: {
+	            text: null
+	        }
+	    },
+	    tooltip: {
+	        formatter: function() {
+	            return ''+
+	                this.y +' responses';
+	        }
+	    },
+	    plotOptions: {
+	        column: {
+	        	stacking: 'normal',
+	            pointPadding: 0.2,
+	            borderWidth: 0
+	        },
+	        series: {
+            pointWidth: 40
+        	}
+	    },
+	        series: [{
+	        	name: 'Designers',
+	        	data: [0, 1, 6, 7, 10]
+	    	}, {
+	        	name: 'Biz, Marketing, Dev',
+	        	data: [0, 1, 11, 16, 26]
+	    	}]
+	});
+	
+	
 	
 	// Tooltips using qTip2
 	// Make sure to only match links to the Tooltip PHP file with a rel tag
