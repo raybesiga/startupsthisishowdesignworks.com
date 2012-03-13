@@ -12,7 +12,7 @@ $(document).ready(function() {
     $('#toc').click(function(){
     	if($('.sections').hasClass('closed')){
     		$('.sections').removeClass('closed');
-    		$('.sections').animate({ top: '35px' }, 200);
+    		$('.sections').animate({ top: '34px' }, 200);
     	}else{
     		$('.sections').addClass('closed');
     		$('.sections').animate({ top: '-' + sectionsHeight + 'px' }, 100);

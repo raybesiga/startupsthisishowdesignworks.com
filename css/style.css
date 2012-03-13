@@ -105,6 +105,7 @@ td { vertical-align: top; }
 .col6{width:1000px;min-height:1px;float:left;padding:0 10px;}
 .colL{padding-left:0 !important;}
 .colR{padding-right:0 !important;}
+.clear { clear: both; }
 
 .right{float:right !important;}
 .noPadding{padding:0 !important;}
@@ -112,11 +113,10 @@ td { vertical-align: top; }
 em{font-weight:bold;}
 b{color:#444;}
 
-/* ===== Primary Styles ========================================================
-   Author: Wells Riley
-   ========================================================================== */
 
-/* -- Global Wrapper -- */
+/* ===== Primary Styles ===== */
+
+/* -- Global Wrappers -- */
 .globalWrapper{
 	width:1000px;
 	padding:0 10px;
@@ -283,7 +283,6 @@ p.subText{
 	}
 
 /* -- Section 1 -- */
-
 #section1 h2{
 	font-family:'Crimson Text', serif;
 	font-weight:400;
@@ -336,27 +335,17 @@ p.subText{
 			line-height:15px;
 			}
 
-/*
-#sec1SummaryWrapper{
-	position:absolute;
-	width:100%;
+#sec1Summary{
+	text-align:left;
+	width:1000px;
 	background:#e3e3e3;
-	padding-top:30px;
-	left:0;
-	
-	text-align:center;
+	padding:30px 0 0;
+	margin:120px auto;
+	height:192px;
 	}
-*/
-	#sec1Summary{
-		text-align:left;
-		width:1000px;
-		background:#e3e3e3;
-		padding:30px 0 0;
-		margin:120px auto;
-		height:192px;
-		}
 	#sec1Summary p{
 		margin-top:0px;
+		color:#000;
 		}
 	#paintCan{
 		width:150px;
@@ -385,7 +374,6 @@ p.subText{
 		}
 
 /* -- Section 2 -- */
-
 #section2{
 	margin:200px 0 100px;
 	}
@@ -400,7 +388,6 @@ p.subText{
 	margin-top:62px;
 	}
 #industrialDesign{
-	margin-top:20px;
 	}
 
 /* -- Section 3 -- */
@@ -444,6 +431,7 @@ p.subText{
 	font-family:"CubanoRegular","Helvetica",sans-serif;
 	font-size:24px;
 	font-weight:normal;
+	letter-spacing: normal;
 	}
 
 #triforce{
@@ -482,36 +470,36 @@ p.subText{
 
 
 
-	#totalWrapper{
-		width:100%;
-		position:absolute;
-		text-align:center;
-		background:#f0f0f0;
-		height:700px;
-		left:0;
-		margin-top:40px;
-		}
-	#founderThumbsBg{
-		width:100%;
-		background:#212121;
-		left:0;
-		height:200px;
-		position:absolute;
-		}
-	#scroll{
-		width:1000px;
-		text-align:center;
-		overflow:hidden;
-		height:700px;
-		position:relative;
-		margin:0 auto;
-		}
+#totalWrapper{
+	width:100%;
+	position:absolute;
+	text-align:center;
+	background:#f0f0f0;
+	height:700px;
+	left:0;
+	margin-top:40px;
+	}
+#founderThumbsBg{
+	width:100%;
+	background:#212121;
+	left:0;
+	height:200px;
+	position:absolute;
+	}
+#scroll{
+	width:1000px;
+	text-align:center;
+	overflow:hidden;
+	height:700px;
+	position:relative;
+	margin:0 auto;
+	}
 
-	#designerFounders{
-		width:1000px;
-		padding:0;
-		margin:0 auto;
-		}
+#designerFounders{
+	width:1000px;
+	padding:0;
+	margin:0 auto;
+	}
 	#designerFounders li{
 		text-indent:-9999px;
 		display:block;
@@ -557,30 +545,30 @@ p.subText{
 				text-decoration:none;
 				}
 
-	#founderBios{
-		width:9999em;
-		position:absolute;
-		height:700px;
-		margin-top:30px;
-		}
+#founderBios{
+	width:9999em;
+	position:absolute;
+	height:700px;
+	margin-top:30px;
+	}
 
-	.founderBio{
-		text-align:left;
-		width:1000px;
-		padding:0 10px;
+.founderBio{
+	text-align:left;
+	width:1000px;
+	padding:0 10px;
+	float:left;
+	}
+	.founderBio h3{
 		float:left;
+		margin:0 0 0 10px;
+		}	
+	.founderBio .section{
+		float:left;
+		margin-top:5px;
 		}
-		.founderBio h3{
-			float:left;
-			margin:0 0 0 10px;
-			}	
-		.founderBio .section{
-			float:left;
-			margin-top:5px;
-			}
-		.founderBio iframe, .founderBio object, .founderBio embed{
-			margin-top:25px;
-			}
+	.founderBio iframe, .founderBio object, .founderBio embed{
+		margin-top:25px;
+		}
 			
 	/* -- Social Link Buttons -- */
 	/* Icons designed by Rogie King: http://www.finegoodsmarket.com/ -- */
@@ -603,28 +591,14 @@ p.subText{
 		.socialLinks li a:hover{
 			margin:1px 0 0;
 			}
-	.tw{
-		background:url('../img/rogieSocial/twitter.png') no-repeat;
-		}
+	.tw{background:url('../img/rogieSocial/twitter.png') no-repeat;}
+	.db{background:url('../img/rogieSocial/dribbble.png') no-repeat;}
+	.www{background:url('../img/rogieSocial/link.png') no-repeat;}
+	.zp{background:url('../img/rogieSocial/zerply.png') no-repeat;}
+	.path{background:url('../img/rogieSocial/path.png') no-repeat;}
 
-	.db{
-		background:url('../img/rogieSocial/dribbble.png') no-repeat;
-		}
-
-	.www{
-		background:url('../img/rogieSocial/link.png') no-repeat;
-		}
-
-	.zp{
-		background:url('../img/rogieSocial/zerply.png') no-repeat;
-		}
-	.path{
-		background:url('../img/rogieSocial/path.png') no-repeat;
-		}
-
-
-#section4 .linkSword{
-	margin-top:80px;
+#linkSword{
+	margin-top:70px;
 	}
 
 .oversize{
@@ -652,35 +626,8 @@ p.subText{
 	height:2784px;
 	}
 
-#section5 p.text{
+p{
 	color:#555;
-	}
-
-#section5 h2{
-	font-family:"Pacifico",cursive,"Helvetica",sans-serif;
-	font-size:96px;
-	color:#1ad4ff;
-	font-weight:normal;
-	transform: skew(0,-5deg);
-	-ms-transform: skew(0,-5deg); /* IE 9 */
-	-webkit-transform: skew(0,-5deg); /* Safari and Chrome */
-	-o-transform: skew(0,-5deg); /* Opera */
-	-moz-transform: skew(0,-5deg); /* Firefox */
-	line-height:60px;
-	margin-top:30px;
-	}
-
-#section5 h3{
-	font-family:"Pacifico",cursive,"Helvetica",sans-serif;
-	font-size:36px;
-	color:#595959;
-	font-weight:normal;
-	transform: skew(0,-5deg);
-	-ms-transform: skew(0,-5deg); /* IE 9 */
-	-webkit-transform: skew(0,-5deg); /* Safari and Chrome */
-	-o-transform: skew(0,-5deg); /* Opera */
-	-moz-transform: skew(0,-5deg); /* Firefox */
-	margin:70px 0 40px;
 	}
 
 .orangeLinks a{
@@ -702,28 +649,28 @@ p.subText{
 			margin:1px 0 0;
 			}
 
-#section5 .resources{
+#resources{
 	list-style-type:none;
 	width:1020px;
 	margin:40px 0 0 -50px;
 	}
-	#section5 .resources li{
+	#resources li{
 		float:left;
 		}
-		#section5 .resources img:hover{
-			-webkit-transition: -webkit-transform 0.2s ease,-webkit-box-shadow 0.2s ease;
-			-webkit-transform:scale(1.05);
-			-webkit-box-shadow:0 15px 20px #000;
-			-moz-transition: -moz-transform 0.2s ease,-moz-box-shadow 0.2s ease;
-			-moz-transform:  scale(1.05);
-			-moz-box-shadow:0 15px 20px #000;
-			}
+	#resources img:hover{
+		-webkit-transition: -webkit-transform 0.2s ease,-webkit-box-shadow 0.2s ease;
+		-webkit-transform:scale(1.05);
+		-webkit-box-shadow:0 15px 20px #000;
+		-moz-transition: -moz-transform 0.2s ease,-moz-box-shadow 0.2s ease;
+		-moz-transform:  scale(1.05);
+		-moz-box-shadow:0 15px 20px #000;
+		}
 
 /* -- Section 6 -- */
 #section6{
 	background:url('../img/sec6bg.png') repeat;
 	width:967px;
-	margin:-260px 0 100px -10px;
+	margin:-200px 0 120px -10px;
 	border:3px solid #fff;
 	border-radius:3px;
 	box-shadow:0 1px 2px #999;
@@ -734,10 +681,9 @@ p.subText{
 #section6 h2{
 	font-family: 'Raleway', cursive;
 	font-size:54px;
-	color:#656565;
-	font-weight:100;
 	float:left;
 	margin:0;
+	line-height:normal;
 	}
 
 #section6 .me{
@@ -745,18 +691,16 @@ p.subText{
 	box-shadow:0 1px 2px #bbb;
 	}
 
+/* -- Section 7 -- */
 #section7{
 	}
 #section7 h2{
-	font-family: 'Raleway', cursive;
-	font-weight:100;
-	color:#656565;
 	font-size:48px;
+	line-height:normal;
 	}
 
 .acknowledgements{
 	list-style-type:none;
-	font-size:15px;
 	color:#666;
 	margin:0;
 	padding:0;
@@ -767,9 +711,9 @@ p.subText{
 
 #section7 p{
 	font-family:"Helvetica",sans-serif;
-	color:#777777;
+	color:#666;
 	font-size:15px;
-	margin:145px 0 -8px;
+	margin:127px 0 -8px;
 	}
 #section7 ol{
 	margin-left:0;
@@ -792,7 +736,7 @@ p.subText{
 			text-decoration:underline;
 			}
 
-
+/* -- Footer -- */
 footer{
 	width:1000px;
 	margin:100px auto 30px;
@@ -868,29 +812,6 @@ footer{
 		border:0;
 		}
 
-
-/* =============================================================================
-   Media Queries
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-	/* Style adjustments for viewports that meet the condition */
-}
-
-/* =============================================================================
-   Non-Semantic Helper Classes
-   ========================================================================== */
-
-.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
-.ir br { display: none; }
-.hidden { display: none !important; visibility: hidden; }
-.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
-.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
-.invisible { visibility: hidden; }
-.clearfix:before, .clearfix:after { content: ""; display: table; }
-.clearfix:after { clear: both; }
-.clearfix { *zoom: 1; }
-.clear { clear: both; }
 
 /* =============================================================================
    Print Styles

@@ -69,7 +69,7 @@
 			<dt><a class="subsection" href="#">About me & Acknowledgements</a></dt>
 				<div class="subsectionContent">
 					<dd><a href="#section6" data-offset="70">6.&nbsp;&nbsp;&nbsp;About me</a></dd>
-					<dd><a href="#section7" data-offset="40">7.&nbsp;&nbsp;&nbsp;Acknowledgements</a></dd>
+					<dd><a href="#section7" data-offset="0">7.&nbsp;&nbsp;&nbsp;Acknowledgements</a></dd>
 				</div>
 		</dl><!-- / sections -->
 	</div><!-- / tableOfContents -->
@@ -220,8 +220,8 @@
 		<br class="clear" />
 					
 		<div class="col2 colL">
-			<div class="section right" id="sec16">1.6</div>
-			<div style="margin-top:30px;">
+			<div class="section right" id="sec16" style="margin-top:18px;">1.6</div>
+			<div style="margin-top:42px;">
 			<div class="slideshow">
 				<img src="./img/ramsSpeaker.jpg" />
 				<img src="./img/ramsChair.jpg" />
@@ -351,7 +351,7 @@
 		
 		<br class="clear" />
 		
-		<div class="col1 colL">&nbsp</div>
+		<div class="col1 colL"></div>
 		<div class="col4">
 			<p class="text">I asked 78 CEOs, marketers, engineers, and designers about their opinions and definitions of design. Before I could come up with anything for this project, I had to check my assumptions at the door and get some legit data. Here’s what I discovered.</p>
 		</div>
@@ -379,7 +379,7 @@
 		<br class="clear" />
 		<div class="col1 colL"></div>
 		<div class="col4">
-			<p class="text">For a long time, the minimum viable team of co-founders consisted of a business / sales person and a developer / engineer. It worked for Facebook, Microsoft, and Apple, just to name a few. All of these companies now have excellent designers now, <em>because it’s a necessity they can’t afford to ignore</em>. It seems like design is becoming more and more prevalent in new startups as well – Apple, Path, Airbnb, and more are pushing the envelope.</p>
+			<p class="text">For a long time, the minimum viable team of co-founders consisted of a business / sales person and a developer / engineer. It worked for Facebook, Microsoft, and Apple, just to name a few. All of these companies now have excellent designers now, <em>because it’s a necessity they can’t afford to ignore</em>. It seems like design is becoming more and more prevalent in new startups as well – Square, Path, Airbnb, and more are pushing the envelope.</p>
 			<p><em>Design is becoming a key differentiator</em> for companies to acquire outside funding, rapid adoption, press coverage, and loyal users.</p>
 		
 			<h3>I think it’s time to shake things up a bit.
@@ -412,7 +412,7 @@
 		<br class="clear" />
 		
 	<div id="totalWrapper">
-	<div id="founderThumbsBg"></div>
+	<!-- <div id="founderThumbsBg"></div> -->
 		<div id="scroll">
 			<ul class="navi" id="designerFounders">
 				<li class="df_DaveMorin"><a href="javascript:void(0)" id="t1"><p>Dave Morin</p><p>Path</p></a></li>
@@ -426,7 +426,7 @@
 			    <div class="founderBio">
 					<div class="col2 colL">
 						<div class="section" id="sec42">4.2</div>
-						<h3>Dave Morin</h3>
+						<h3>Dave Morin, Path</h3>
 						
 						<br class="clear" />
 						
@@ -450,7 +450,7 @@
 				<div class="founderBio">
 					<div class="col2 colL">
 						<div class="section" id="sec43">4.3</div>
-						<h3>Joe Gebbia</h3>
+						<h3>Joe Gebbia, Airbnb</h3>
 						
 						<br class="clear" />
 						
@@ -474,7 +474,7 @@
 				<div class="founderBio">
 					<div class="col2 colL">
 						<div class="section" id="sec44">4.4</div>
-						<h3>Jessica Hische</h3>
+						<h3>Jessica Hische, Side Projects</h3>
 						
 						<br class="clear" />
 						
@@ -496,7 +496,7 @@
 				<div class="founderBio">
 					<div class="col2 colL">
 						<div class="section" id="sec45">4.5</div>
-						<h3>Mike Matas</h3>
+						<h3>Mike Matas, Push Pop Press</h3>
 						
 						<br class="clear" />
 						
@@ -524,7 +524,7 @@
 				<div class="founderBio">
 					<div class="col2 colL">
 						<div class="section" id="sec46">4.6</div>
-						<h3>Jeffrey Veen</h3>
+						<h3>Jeffrey Veen, Typekit</h3>
 						
 						<br class="clear" />
 						
@@ -549,7 +549,7 @@
 	<br class="clear" />
 		
 		<div class="col2 colL" style="text-align:center;margin-top:800px;">
-			<img class="linkSword" src="./img/linkSword.jpg" />
+			<img id="linkSword" src="./img/linkSword.jpg" />
 		</div>
 		
 		<div id="sec47" class="col4 colR" style="margin-top:800px;">
@@ -582,12 +582,11 @@
 		
 		<br class="clear" />
 		
-		<h3>Go where the designers are.</h3>
-		
-		<div class="col1 colL">
-			<div class="section right" style="margin-top:20px;" id="sec52">5.2</div>
+		<div class="col1 colL" style="margin-top:120px;">
+			<div class="section right" id="sec52">5.2</div>
 		</div>
-		<div class="col3">
+		<div class="col3" style="margin-top:120px;">
+			<h3>Go where the designers are.</h3>
 			<p class="text">The design community is small and nuanced. Many aren’t aware of the high demand for designers within startups, so they might not come to you. Here’s a few places where you can find excellent local designers right now.</p>
 		</div>
 		
@@ -637,7 +636,7 @@
 		
 		<br class="clear"/>
 				
-		<h2 style="margin-top:160px;">So much more to learn!</h2>
+		<h2 style="margin-top:160px;">Resources!</h2>
 		
 		<div class="col2 colL">
 			<div class="section right" style="margin-top:20px;" id="sec53">5.3</div>
@@ -650,7 +649,7 @@
 		
 		<br class="clear" />
 				
-		<ul class="resources">
+		<ul id="resources">
 			<li><a href="http://thedesignerfund.com"><img src="./img/rsrc_designerFund.jpg" /></a></li>
 			<li><a href="http://swiss-miss.com"><img src="./img/rsrc_swissMiss.jpg" /></a></li>
 			<li><a href="http://creativemornings.com"><img src="./img/rsrc_creativeMornings.jpg" /></a></li>
@@ -679,8 +678,9 @@
 		
 		<br class="clear" />
 		
-		</div><!-- globalWrapper -->
+	</div><!-- globalWrapper -->
 </div><!-- section5 -->
+
 <div id="sec5bottom"></div>
 	
 <div class="globalWrapper">
