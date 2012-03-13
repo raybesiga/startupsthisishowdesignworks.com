@@ -50,7 +50,7 @@
 					<dd><a href="#sec31" data-offset="90">3.1. What qualities of design do startups <br />consider most important?</a></dd>
 					<dd><a href="#sec32" data-offset="90">3.2. How important is product design?</a></dd>
 				</div>
-			<dt><a class="subsection" href="#">4. All Together Now</a></dt>
+			<dt><a class="subsection" href="#">4. Designer founders</a></dt>
 				<div class="subsectionContent">
 					<dd><a href="#sec41" data-offset="90">4.1. The missing link</a></dd>
 					<dd><a href="#sec42" data-offset="270">4.2. Dave Morin, Path</a></dd>
@@ -69,7 +69,7 @@
 			<dt><a class="subsection" href="#">About me & Acknowledgements</a></dt>
 				<div class="subsectionContent">
 					<dd><a href="#section6" data-offset="70">6.&nbsp;&nbsp;&nbsp;About me</a></dd>
-					<dd><a href="#section7" data-offset="20">7.&nbsp;&nbsp;&nbsp;Acknowledgements</a></dd>
+					<dd><a href="#section7" data-offset="40">7.&nbsp;&nbsp;&nbsp;Acknowledgements</a></dd>
 				</div>
 		</dl><!-- / sections -->
 	</div><!-- / tableOfContents -->
@@ -559,7 +559,7 @@
 		</div>
 		
 		<div id="sec47" class="col4 colR" style="margin-top:800px;">
-			<p class="text oversize" style="margin:80px 0 110px;">It’s getting harder and harder to differentiate based on tech talent alone. Designers like Dieter Rams and <a href="./tooltips.php?q=contemporaries" rel="./tooltips.php?q=contemporaries" class="tip">Charles & Ray Eames</a> made huge waves in their industries for bringing great design to the masses. Jonathan Ive at Apple, Joe Gebbia at Airbnb, and Dave Morin at Path (to name a few) are changing the world today – not because Apple, Airbnb, or Path’s tech is more advanced than the competition, but because they make their products more usable. More aesthetic. More <em>human</em>.</p>
+			<p class="text oversize" style="margin:30px 0 110px;">It’s getting harder and harder to differentiate based on tech talent alone. Designers like Dieter Rams and <a href="./tooltips.php?q=contemporaries" rel="./tooltips.php?q=contemporaries" class="tip">Charles & Ray Eames</a> made huge waves in their industries for bringing great design to the masses. Jonathan Ive at Apple, Joe Gebbia at Airbnb, and Dave Morin at Path (to name a few) are changing the world today – not because Apple, Airbnb, or Path’s tech is more advanced than the competition, but because they make their products more usable. More aesthetic. More <em>human</em>.</p>
 			
 			<h3>Design is the missing link from your founding team. The perfect balance of business, tech, and design is an incredibly powerful tool… 
 				<br /><br />and an even more powerful business model.</h3>
