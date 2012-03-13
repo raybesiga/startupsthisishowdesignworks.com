@@ -419,15 +419,15 @@
 		
 		<div id="designerFoundersWrapper">
 			<ul id="designerFounders">
-				<li class="df_DaveMorin"><a><p>Dave Morin</p><p>Path</p></a></li>
-				<li class="df_JoeGebbia"><a><p>Joe Gebbia</p><p>Airbnb</p></a></li>
-				<li class="df_JessicaHische"><a href="#"><p>Jessica Hische</p><p>Side Projects</p></a></li>
-				<li class="df_MikeMatas"><a href="#"><p>Mike Matas</p><p>Push Pop Press</p></a></li>
-				<li class="df_JeffVeen"><a href="#"><p>Jeffrey Veen</p><p>TypeKit</p></a></li>
+				<li class="df_DaveMorin"><a href="javascript:void(0)"><p>Dave Morin</p><p>Path</p></a></li>
+				<li class="df_JoeGebbia"><a href="javascript:void(0)"><p>Joe Gebbia</p><p>Airbnb</p></a></li>
+				<li class="df_JessicaHische"><a href="javascript:void(0)"><p>Jessica Hische</p><p>Side Projects</p></a></li>
+				<li class="df_MikeMatas"><a href="javascript:void(0)"><p>Mike Matas</p><p>Push Pop Press</p></a></li>
+				<li class="df_JeffVeen"><a href="javascript:void(0)"><p>Jeffrey Veen</p><p>TypeKit</p></a></li>
 			</ul>
 		</div><!-- / designerFoundersWrapper -->
 		<div id="founderBioWrapper">
-			<div id="founderBios" class="scrollable">
+			<div id="founderBios">
 				<div class="founderBio">
 					<div class="col2 colL">
 						<div class="section" id="sec42">4.2</div>
