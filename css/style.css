@@ -341,20 +341,25 @@ p.subText{
 	}
 	
 
+/*
 #sec1SummaryWrapper{
 	position:absolute;
 	width:100%;
 	background:#e3e3e3;
 	padding-top:30px;
 	left:0;
-	height:192px;
+	
 	text-align:center;
 	}
+*/
 	#sec1Summary{
 		text-align:left;
 		width:1000px;
+		background:#e3e3e3;
 		padding:0 10px;
 		margin:0 auto;
+		height:192px;
+		padding-top:30px;
 		}
 	#sec1Summary p{
 		margin-top:0px;
