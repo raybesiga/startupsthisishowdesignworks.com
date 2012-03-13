@@ -369,7 +369,7 @@ h1{
 
 #section2{
 	margin-top:140px;
-	background:#1ad4ff;
+	background:#aff0ff;
 	border-top:5px solid #fff;
 	border-bottom:5px solid #fff;
 	position:absolute;
@@ -428,7 +428,7 @@ h1{
 	}
 
 #section2 h4{
-	font-size:22px;
+	font-size:26px;
 	font-family:"Open Sans Condensed","HelveticaNeue-CondensedBold","Helvetica",sans-serif;
 	text-shadow:2px 2px 0 #008aaa;
 	margin:0;
@@ -436,12 +436,11 @@ h1{
 
 #section2 p.text{
 	font-family:"Helvetica",sans-serif;
-	font-size:17px;
+	font-size:15px;
 	}
 #section2 p.subText{
 	font-family:"Helvetica",sans-serif;
-	font-size:14px;
-	line-height:18px;
+	font-size:15px;
 	}
 
 #section2 .uxDesign{
@@ -454,9 +453,9 @@ h1{
 
 /* -- Section 3 -- */
 #section3{
-	margin-top:2520px;
-	padding-top:216px;
-	height:1512px;
+	margin-top:2620px;
+	padding-top:144px;
+	height:1584px;
 	background:url('../img/sec3bg.jpg') repeat #efefef;
 	}
 
@@ -592,8 +591,7 @@ h1{
 				text-decoration:none;
 				}
 
-	.founderBioWrapper{
-		position:absolute;
+	#founderBioWrapper{
 		width:100%;
 		background:#f0f0f0;
 		margin-top:230px;
@@ -601,17 +599,18 @@ h1{
 		text-align:center;
 		padding:70px 0;
 		overflow:hidden;
+		height:500px;
 		}
-	.founderBios{
+	#founderBios{
 		width:1000px;
 		margin:0 auto;
-		overflow:hidden;
-		height:550px;
+		position:absolute;
+		height:500px;
 		}
+
 	.founderBio{
 		text-align:left;
 		width:1000px;
-		float:left;
 		padding:0;
 		}
 		.founderBio h3{
@@ -792,8 +791,9 @@ h1{
 	margin-top:160px;
 	}
 #section7 h2{
-	font-family:"Helvetica",sans-serif;
-	color:#777777;
+	font-family: 'Raleway', cursive;
+	font-weight:100;
+	color:#656565;
 	font-size:48px;
 	}
 
@@ -811,8 +811,13 @@ h1{
 #section7 p{
 	font-family:"Helvetica",sans-serif;
 	color:#777777;
-	font-size:24px;
-	margin:150px 0 33px;
+	font-size:15px;
+	margin:145px 0 -8px;
+	}
+#section7 ol{
+	margin-left:0;
+	padding-left:0;
+	color:#ccc;
 	}
 #section7 li{
 	font-size:15px;

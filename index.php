@@ -32,43 +32,44 @@
 		<dl class="sections closed">
 			<dt><a class="subsection" href="#">1. Definitions</a></dt>
 				<div class="subsectionContent">
-					<dd><a href="#sec11">1.1. What is design?</a></dd>
-					<dd><a href="#sec12">1.2. What is good design?</a></dd>
-					<dd><a href="#sec13">1.3. Ten principles of good design</a></dd>
-					<dd><a href="#sec14">1.4. An example</a></dd>
-					<dd><a href="#sec15" data-offset="200">1.5. Video: Interview with Dieter Rams</a></dd>
-					<dd><a href="#sec16">1.6. Is your product well-designed?</a></dd>
+					<dd><a href="#sec11" data-offset="70">1.1. What is design?</a></dd>
+					<dd><a href="#sec12" data-offset="70">1.2. What is good design?</a></dd>
+					<dd><a href="#sec13" data-offset="70">1.3. Ten principles of good design</a></dd>
+					<dd><a href="#sec14" data-offset="90">1.4. An example</a></dd>
+					<dd><a href="#sec15" data-offset="90">1.5. Video: Interview with Dieter Rams</a></dd>
+					<dd><a href="#sec16" data-offset="90">1.6. Is your product well-designed?</a></dd>
 				</div>
 			<dt><a class="subsection" href="#">2. Different kinds of design</a></dt>
 				<div class="subsectionContent">
-					<dd><a href="#sec21">2.1. Graphic Design</a></dd>
-					<dd><a href="#sec22">2.2. Interaction Design</a></dd>
-					<dd><a href="#sec23">2.3. Industrial Design</a></dd>
+					<dd><a href="#sec21" data-offset="80">2.1. Graphic Design</a></dd>
+					<dd><a href="#sec22" data-offset="80">2.2. Interaction Design</a></dd>
+					<dd><a href="#sec23" data-offset="90">2.3. Industrial Design</a></dd>
 				</div>
 			<dt><a class="subsection" href="#">3. Data</a></dt>
 				<div class="subsectionContent">
-					<dd><a href="#sec31">What qualities of design do startups <br />consider most important?</a></dd>
+					<dd><a href="#sec31" data-offset="90">3.1. What qualities of design do startups <br />consider most important?</a></dd>
+					<dd><a href="#sec32" data-offset="90">3.2. How important is product design?</a></dd>
 				</div>
 			<dt><a class="subsection" href="#">4. All Together Now</a></dt>
 				<div class="subsectionContent">
-					<dd><a href="#sec41">4.1. The missing link</a></dd>
-					<dd><a href="#sec42">4.2. Dave Morin, Path</a></dd>
-					<dd><a href="#sec43">4.3. Joe Gebbia, Airbnb</a></dd>
-					<dd><a href="#sec44">4.4. Jessica Hische, Side Projects</a></dd>
-					<dd><a href="#sec45">4.5. Mike Matas, Push Pop Press</a></dd>
-					<dd><a href="#sec46">4.6. Jeffrey Veen, Typekit</a></dd>
-					<dd><a href="#sec47">4.7. Changing the world</a></dd>
+					<dd><a href="#sec41" data-offset="90">4.1. The missing link</a></dd>
+					<dd><a href="#sec42" data-offset="75">4.2. Dave Morin, Path</a></dd>
+					<dd><a href="#sec43" data-offset="75">4.3. Joe Gebbia, Airbnb</a></dd>
+					<dd><a href="#sec44" data-offset="75">4.4. Jessica Hische, Side Projects</a></dd>
+					<dd><a href="#sec45" data-offset="75">4.5. Mike Matas, Push Pop Press</a></dd>
+					<dd><a href="#sec46" data-offset="75">4.6. Jeffrey Veen, Typekit</a></dd>
+					<dd><a href="#sec47" data-offset="90">4.7. Changing the world</a></dd>
 				</div>
 			<dt><a class="subsection" href="#">5. Finding great talent</a></dt>
 				<div class="subsectionContent">
-					<dd><a href="#sec51">5.1. Qualities to look for</a></dd>
-					<dd><a href="#sec52">5.2. Go Where the designers are</a></dd>
-					<dd><a href="#sec53">5.3. Resources</a></dd>
+					<dd><a href="#sec51" data-offset="220">5.1. Qualities to look for</a></dd>
+					<dd><a href="#sec52" data-offset="160">5.2. Go Where the designers are</a></dd>
+					<dd><a href="#sec53" data-offset="220">5.3. Resources</a></dd>
 				</div>
 			<dt><a class="subsection" href="#">About me & Acknowledgements</a></dt>
 				<div class="subsectionContent">
-					<dd><a href="#section6">6.&nbsp;&nbsp;&nbsp;About me</a></dd>
-					<dd><a href="#section7">7.&nbsp;&nbsp;&nbsp;Acknowledgements</a></dd>
+					<dd><a href="#section6" data-offset="70">6.&nbsp;&nbsp;&nbsp;About me</a></dd>
+					<dd><a href="#section7" data-offset="20">7.&nbsp;&nbsp;&nbsp;Acknowledgements</a></dd>
 				</div>
 		</dl><!-- / sections -->
 	</div><!-- / tableOfContents -->
@@ -351,7 +352,7 @@
 			<div class="section right" id="sec32" style="margin-top:113px;">3.2</div>
 		</div>
 		<div class="col5 colR">
-			<h2>How important is design?</h2>
+			<h2>How important is product design?</h2>
 		</div>
 		
 		<br class="clear" />
@@ -364,11 +365,8 @@
 		<br class="clear" />
 
 		
-		<div id="row2_biz" class="col2 colL"></div>
-		<div id="row2_users" class="col2"></div>
-		<div class="col2 colR">
-			<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dE5ObENhck9OME13X3I1d2czTndIRHc6MQ" width="314px" height="292px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-		</div>
+		<div id="row2_biz" class="col3 colL"></div>
+		<div id="row2_users" class="col3 colR"></div>
 		
 		<br class="clear" />
 	
@@ -421,139 +419,136 @@
 		
 		<div id="designerFoundersWrapper">
 			<ul id="designerFounders">
-				<li class="df_DaveMorin"><a href="#"><p>Dave Morin</p><p>Path</p></a></li>
-				<li class="df_JoeGebbia"><a href="#"><p>Joe Gebbia</p><p>Airbnb</p></a></li>
+				<li class="df_DaveMorin"><a><p>Dave Morin</p><p>Path</p></a></li>
+				<li class="df_JoeGebbia"><p>Joe Gebbia</p><p>Airbnb</p></li>
 				<li class="df_JessicaHische"><a href="#"><p>Jessica Hische</p><p>Side Projects</p></a></li>
 				<li class="df_MikeMatas"><a href="#"><p>Mike Matas</p><p>Push Pop Press</p></a></li>
 				<li class="df_JeffVeen"><a href="#"><p>Jeffrey Veen</p><p>TypeKit</p></a></li>
 			</ul>
 		</div><!-- / designerFoundersWrapper -->
-		<div class="founderBioWrapper">
-		<div class="founderBios">
-			<div class="founderBio">
-				<div class="col2 colL">
-					<div class="section" id="sec42">4.2</div>
-					<h3>Dave Morin</h3>
-					
-					<br class="clear" />
-					
-					<p class="text">Dave is the Co-Founder and CEO of <a href="http://path.com">Path</a>, the smart journal that helps you share life with the ones you love. Previously, as an original member of the <a href="http://www.facebook.com/">Facebook</a> team, Dave played a variety of product, marketing, strategy, and management roles in expanding the Facebook ecosystem to over 800 million people worldwide. Dave was a co-inventor of <a href="http://developers.facebook.com/connect.php">Facebook Connect</a> which was created to make the Internet more social, and is now used by over 7 million apps and websites.</p>
-	
-					<p class="text">In 2011, Dave was named a <a href="http://images.businessweek.com/slideshows/20110516/best-young-tech-entrepreneurs-2011/slides/18">30 under 30 Best Young Tech Entrepreneur</a> by Bloomberg Businessweek. He was also named <a href="http://www.businessinsider.com/the-silicon-valley-100-2012-1#12-dave-morin-89">#12 on the Silicon Valley 100</a> by Business Insider. <sup><a href="#cite-10">10</a></sup></p>
-				</div>
-				<div class="col3 colR right">
-					<ul class="socialLinks">
-						<li><a href="http://twitter.com/davemorin" class="tw">Twitter</a></li>
-						<li><a href="http://davemorin.com/" class="www">Website</a></li>
-						<li><a href="http://path.com/" class="path">Path</a></li>
+		<div id="founderBioWrapper">
+			<div id="founderBios">
+				<div class="founderBio scrollable">
+					<div class="col2 colL">
+						<div class="section" id="sec42">4.2</div>
+						<h3>Dave Morin</h3>
+						
 						<br class="clear" />
-					</ul>
-					<object width="490" height="305"><param name="movie" value="http://www.youtube.com/v/2iDjrW8NqJI?version=3&amp;hl=en_US&amp;rel=0&start=14"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/2iDjrW8NqJI?version=3&amp;hl=en_US&amp;rel=0&start=14" type="application/x-shockwave-flash" width="490" height="305" allowscriptaccess="always" allowfullscreen="true"></embed></object>
-				</div>
-				
-				<br class="clear" />
-			
-			</div><!-- / Founder Bio -->
-			<div class="founderBio">
-				<div class="col2 colL">
-					<div class="section" id="sec43">4.3</div>
-					<h3>Joe Gebbia</h3>
-					
-					<br class="clear" />
-					
-					<p class="text">Joe defines the <a href="http://airbnb.com">Airbnb</a> experience. He is dedicated to creating an inspiring and effortless user experience through sharp, intuitive design, and crafts the product roadmap to make it so. Joe values products that simplify life and have a positive impact on the environment, and ensures that the company adheres to these tenets.</p>
-	
-					<p class="text">Prior to Airbnb, Joe was employed by Chronicle Books, co-founded a green design website, and developed several consumer products. An alumni of the <a href="http://risd.edu">Rhode Island School of Design</a>, Joe earned dual degrees in Graphic Design and Industrial Design. <sup><a href="#cite-11">11</a></sup></p>
-				</div>
-				<div class="col3 colR right">
-					<ul class="socialLinks">
-						<li><a href="http://twitter.com/jgebbia" class="tw">Twitter</a></li>
-						<li><a href="http://joegebbia.com/" class="www">Website</a></li>
-						<li><a href="http://airbnb.com/" class="www">Airbnb</a></li>
-						<br class="clear" />
-					</ul>
-					<iframe src="http://player.vimeo.com/video/23275754?portrait=0" width="491" height="340" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-				</div>
-				
-				<br class="clear" />
-			
-			</div><!-- / Founder Bio -->
-			<div class="founderBio">
-				<div class="col2 colL">
-					<div class="section" id="sec44">4.4</div>
-					<h3>Jessica Hische</h3>
-					
-					<br class="clear" />
-					
-					<p class="text">Jessica Hische is a letterer and illustrator best known for her personal projects <a href="http://dailydropcap.com/">Daily Drop Cap</a> and the <a href="http://shouldiworkforfree.com/">Should I Work for Free?</a> flowchart. Just five years out of college, she’s been named one of Print Magazine’s New Visual Artists and an ADC Young Gun, one of Forbes 30 under 30 in Art and Design, and currently serves on the TDC board of Directors. She has been profiled in many publications, has traveled the world speaking about lettering and illustration, and has probably consumed enough coffee to power a small nation. <sup><a href="#cite-12">12</a></sup></p>
-				</div>
-				<div class="col3 colR right">
-					<ul class="socialLinks">
-						<li><a href="http://twitter.com/jessicahische" class="tw">Twitter</a></li>
-						<li><a href="http://dribbble.com/jessicahische" class="db">Dribbble</a></li>
-						<li><a href="http://jessicahische.is" class="www">Website</a></li>
-						<br class="clear" />
-					</ul>
-					<iframe src="http://player.vimeo.com/video/11093835?title=0&amp;byline=0&amp;portrait=0&amp;color=ee621c" width="491" height="276" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-				</div>
-				
-				<br class="clear" />
-			
-			</div><!-- / Founder Bio -->
-			<div class="founderBio">
-				<div class="col2 colL">
-					<div class="section" id="sec45">4.5</div>
-					<h3>Mike Matas</h3>
-					
-					<br class="clear" />
-					
-					<p class="text">Mike is a user interface designer and cofounder of <a href="http://www.pushpoppress.com">Push Pop Press</a>, a digital publishing company that worked with Al Gore to create the first full-length interactive book <a href="http://www.pushpoppress.com/ourchoice">Our Choice</a>. Recently Push Pop Press was <a href="http://pushpoppress.com/about/">acquired by Facebook</a> where he is now working, giving people better tools to explore and share ideas.</p>
-					<p class="text">Prior to starting Push Pop Press he worked at Apple where he designed user interfaces and artwork for the iPhone, the iPad, and Mac OS X. Before that he cofounded <a href="http://www.delicious-monster.com/">Delicious Monster</a>, a software company that created a book cataloging app called Delicious Library. <sup><a href="#cite-13">13</a></sup></p>
-				</div>
-				<div class="col3 colR right">
-					<ul class="socialLinks">
-						<li><a href="http://twitter.com/mike_matas" class="tw">Twitter</a></li>
-						<li><a href="http://pushpoppress.com" class="www">Website</a></li>
-						<li><a href="http://mikematas.com" class="www">Website</a></li>
-						<br class="clear" />
-					</ul>
-					<object width="490" height="370">
-						<param name="movie" value="http://video.ted.com/assets/player/swf/EmbedPlayer.swf"></param>
-						<param name="allowFullScreen" value="true" />
-						<param name="allowScriptAccess" value="always"/>
-						<param name="wmode" value="transparent"></param>
-						<param name="bgColor" value="#ffffff"></param>
-						<param name="flashvars" value="vu=http://video.ted.com/talk/stream/2011/Blank/MikeMatas_2011-320k.mp4&su=http://images.ted.com/images/ted/tedindex/embed-posters/MikeMatas-2011.embed_thumbnail.jpg&vw=512&vh=288&ap=0&ti=1134&lang=&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=mike_matas;year=2011;theme=what_s_next_in_tech;theme=words_about_words;theme=the_creative_spark;event=TED2011;tag=demo;tag=design;tag=entertainment;tag=software;tag=technology;&preAdTag=tconf.ted/embed;tile=1;sz=490x288;" />
-						<embed src="http://video.ted.com/assets/player/swf/EmbedPlayer.swf" pluginspace="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" bgColor="#ffffff" width="490" height="370" allowFullScreen="true" allowScriptAccess="always" flashvars="vu=http://video.ted.com/talk/stream/2011/Blank/MikeMatas_2011-320k.mp4&su=http://images.ted.com/images/ted/tedindex/embed-posters/MikeMatas-2011.embed_thumbnail.jpg&vw=512&vh=288&ap=0&ti=1134&lang=&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=mike_matas;year=2011;theme=what_s_next_in_tech;theme=words_about_words;theme=the_creative_spark;event=TED2011;tag=demo;tag=design;tag=entertainment;tag=software;tag=technology;&preAdTag=tconf.ted/embed;tile=1;sz=490x288;"></embed>
-					</object>
-				</div>
-			</div><!-- / Founder Bio -->
-			<div class="founderBio">
-				<div class="col2 colL">
-					<div class="section" id="sec46">4.6</div>
-					<h3>Jeffrey Veen</h3>
-					
-					<br class="clear" />
-					
-					<p class="text">Jeffrey Veen is a founder and the CEO of <a href="http://smallbatchinc.com">Small Batch, Inc.</a> where he’s leading a team of developers and creating user-centered web products. Their current effort is <a href="http://typekit.com">Typekit</a> — a widely praised subscription font service that is bringing real typography to the Web for the first time.</p>
-	
-					<p class="text">Jeffrey was also one of the founding partners of <a href="http://adaptivepath.com">Adaptive Path</a> and project lead for Measure Map, the well-received web analytics tool acquired by Google in 2006, where he managed the user experience group responsible for some of the largest web apps in the world. As a consultant, he has been involved in designing the leading blog and social media applications on the web, including Blogger, TypePad, Flickr, and National Public Radio. <sup><a href="#cite-14">14</a></sup></p>
-				</div>
-				<div class="col3 colR right">
-					<ul class="socialLinks">
-						<li><a href="http://twitter.com/veen" class="tw">Twitter</a></li>
-						<li><a href="http://typekit.com" class="www">Website</a></li>
-						<li><a href="http://veen.com/jeff" class="www">Website</a></li>
-						<br class="clear" />
-					</ul>
-					<object width="490" height="305"><param name="movie" value="http://www.youtube.com/v/8CtC_qbQ51U?version=3&amp;hl=en_US&amp;rel=0&start=45"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/8CtC_qbQ51U?version=3&amp;hl=en_US&amp;rel=0&start=45" type="application/x-shockwave-flash" width="490" height="305" allowscriptaccess="always" allowfullscreen="true"></embed></object>
-				</div>			
-			</div><!-- / Founder Bio -->
-		</div>
+						
+						<p class="text">Dave is the Co-Founder and CEO of <a href="http://path.com">Path</a>, the smart journal that helps you share life with the ones you love. Previously, as an original member of the <a href="http://www.facebook.com/">Facebook</a> team, Dave played a variety of product, marketing, strategy, and management roles in expanding the Facebook ecosystem to over 800 million people worldwide. Dave was a co-inventor of <a href="http://developers.facebook.com/connect.php">Facebook Connect</a> which was created to make the Internet more social, and is now used by over 7 million apps and websites.</p>
 		
-		<br class="clear" />
+						<p class="text">In 2011, Dave was named a <a href="http://images.businessweek.com/slideshows/20110516/best-young-tech-entrepreneurs-2011/slides/18">30 under 30 Best Young Tech Entrepreneur</a> by Bloomberg Businessweek. He was also named <a href="http://www.businessinsider.com/the-silicon-valley-100-2012-1#12-dave-morin-89">#12 on the Silicon Valley 100</a> by Business Insider. <sup><a href="#cite-10">10</a></sup></p>
+					</div>
+					<div class="col3 colR right">
+						<ul class="socialLinks">
+							<li><a href="http://twitter.com/davemorin" class="tw">Twitter</a></li>
+							<li><a href="http://davemorin.com/" class="www">Website</a></li>
+							<li><a href="http://path.com/" class="path">Path</a></li>
+							<br class="clear" />
+						</ul>
+						<object width="490" height="305"><param name="movie" value="http://www.youtube.com/v/2iDjrW8NqJI?version=3&amp;hl=en_US&amp;rel=0&start=14"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/2iDjrW8NqJI?version=3&amp;hl=en_US&amp;rel=0&start=14" type="application/x-shockwave-flash" width="490" height="305" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+					</div>
+					
+					<br class="clear" />
+				
+				</div><!-- / founderBio -->
+				<div class="founderBio scrollable">
+					<div class="col2 colL">
+						<div class="section" id="sec43">4.3</div>
+						<h3>Joe Gebbia</h3>
+						
+						<br class="clear" />
+						
+						<p class="text">Joe defines the <a href="http://airbnb.com">Airbnb</a> experience. He is dedicated to creating an inspiring and effortless user experience through sharp, intuitive design, and crafts the product roadmap to make it so. Joe values products that simplify life and have a positive impact on the environment, and ensures that the company adheres to these tenets.</p>
 		
-		</div>
+						<p class="text">Prior to Airbnb, Joe was employed by Chronicle Books, co-founded a green design website, and developed several consumer products. An alumni of the <a href="http://risd.edu">Rhode Island School of Design</a>, Joe earned dual degrees in Graphic Design and Industrial Design. <sup><a href="#cite-11">11</a></sup></p>
+					</div>
+					<div class="col3 colR right">
+						<ul class="socialLinks">
+							<li><a href="http://twitter.com/jgebbia" class="tw">Twitter</a></li>
+							<li><a href="http://joegebbia.com/" class="www">Website</a></li>
+							<li><a href="http://airbnb.com/" class="www">Airbnb</a></li>
+							<br class="clear" />
+						</ul>
+						<iframe src="http://player.vimeo.com/video/23275754?portrait=0" width="491" height="340" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+					</div>
+					
+					<br class="clear" />
+				
+				</div><!-- / founderBio -->
+				<div class="founderBio scrollable">
+					<div class="col2 colL">
+						<div class="section" id="sec44">4.4</div>
+						<h3>Jessica Hische</h3>
+						
+						<br class="clear" />
+						
+						<p class="text">Jessica Hische is a letterer and illustrator best known for her personal projects <a href="http://dailydropcap.com/">Daily Drop Cap</a> and the <a href="http://shouldiworkforfree.com/">Should I Work for Free?</a> flowchart. Just five years out of college, she’s been named one of Print Magazine’s New Visual Artists and an ADC Young Gun, one of Forbes 30 under 30 in Art and Design, and currently serves on the TDC board of Directors. She has been profiled in many publications, has traveled the world speaking about lettering and illustration, and has probably consumed enough coffee to power a small nation. <sup><a href="#cite-12">12</a></sup></p>
+					</div>
+					<div class="col3 colR right">
+						<ul class="socialLinks">
+							<li><a href="http://twitter.com/jessicahische" class="tw">Twitter</a></li>
+							<li><a href="http://dribbble.com/jessicahische" class="db">Dribbble</a></li>
+							<li><a href="http://jessicahische.is" class="www">Website</a></li>
+							<br class="clear" />
+						</ul>
+						<iframe src="http://player.vimeo.com/video/11093835?title=0&amp;byline=0&amp;portrait=0&amp;color=ee621c" width="491" height="276" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+					</div>
+					
+					<br class="clear" />
+				
+				</div><!-- / founderBio -->
+				<div class="founderBio scrollable">
+					<div class="col2 colL">
+						<div class="section" id="sec45">4.5</div>
+						<h3>Mike Matas</h3>
+						
+						<br class="clear" />
+						
+						<p class="text">Mike is a user interface designer and cofounder of <a href="http://www.pushpoppress.com">Push Pop Press</a>, a digital publishing company that worked with Al Gore to create the first full-length interactive book <a href="http://www.pushpoppress.com/ourchoice">Our Choice</a>. Recently Push Pop Press was <a href="http://pushpoppress.com/about/">acquired by Facebook</a> where he is now working, giving people better tools to explore and share ideas.</p>
+						<p class="text">Prior to starting Push Pop Press he worked at Apple where he designed user interfaces and artwork for the iPhone, the iPad, and Mac OS X. Before that he cofounded <a href="http://www.delicious-monster.com/">Delicious Monster</a>, a software company that created a book cataloging app called Delicious Library. <sup><a href="#cite-13">13</a></sup></p>
+					</div>
+					<div class="col3 colR right">
+						<ul class="socialLinks">
+							<li><a href="http://twitter.com/mike_matas" class="tw">Twitter</a></li>
+							<li><a href="http://pushpoppress.com" class="www">Website</a></li>
+							<li><a href="http://mikematas.com" class="www">Website</a></li>
+							<br class="clear" />
+						</ul>
+						<object width="490" height="370">
+							<param name="movie" value="http://video.ted.com/assets/player/swf/EmbedPlayer.swf"></param>
+							<param name="allowFullScreen" value="true" />
+							<param name="allowScriptAccess" value="always"/>
+							<param name="wmode" value="transparent"></param>
+							<param name="bgColor" value="#ffffff"></param>
+							<param name="flashvars" value="vu=http://video.ted.com/talk/stream/2011/Blank/MikeMatas_2011-320k.mp4&su=http://images.ted.com/images/ted/tedindex/embed-posters/MikeMatas-2011.embed_thumbnail.jpg&vw=512&vh=288&ap=0&ti=1134&lang=&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=mike_matas;year=2011;theme=what_s_next_in_tech;theme=words_about_words;theme=the_creative_spark;event=TED2011;tag=demo;tag=design;tag=entertainment;tag=software;tag=technology;&preAdTag=tconf.ted/embed;tile=1;sz=490x288;" />
+							<embed src="http://video.ted.com/assets/player/swf/EmbedPlayer.swf" pluginspace="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" bgColor="#ffffff" width="490" height="370" allowFullScreen="true" allowScriptAccess="always" flashvars="vu=http://video.ted.com/talk/stream/2011/Blank/MikeMatas_2011-320k.mp4&su=http://images.ted.com/images/ted/tedindex/embed-posters/MikeMatas-2011.embed_thumbnail.jpg&vw=512&vh=288&ap=0&ti=1134&lang=&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=mike_matas;year=2011;theme=what_s_next_in_tech;theme=words_about_words;theme=the_creative_spark;event=TED2011;tag=demo;tag=design;tag=entertainment;tag=software;tag=technology;&preAdTag=tconf.ted/embed;tile=1;sz=490x288;"></embed>
+						</object>
+					</div>
+				</div><!-- / founderBio -->
+				<div class="founderBio scrollable">
+					<div class="col2 colL">
+						<div class="section" id="sec46">4.6</div>
+						<h3>Jeffrey Veen</h3>
+						
+						<br class="clear" />
+						
+						<p class="text">Jeffrey Veen is a founder and the CEO of <a href="http://smallbatchinc.com">Small Batch, Inc.</a> where he’s leading a team of developers and creating user-centered web products. Their current effort is <a href="http://typekit.com">Typekit</a> — a widely praised subscription font service that is bringing real typography to the Web for the first time.</p>
+		
+						<p class="text">Jeffrey was also one of the founding partners of <a href="http://adaptivepath.com">Adaptive Path</a> and project lead for Measure Map, the well-received web analytics tool acquired by Google in 2006, where he managed the user experience group responsible for some of the largest web apps in the world. As a consultant, he has been involved in designing the leading blog and social media applications on the web, including Blogger, TypePad, Flickr, and National Public Radio. <sup><a href="#cite-14">14</a></sup></p>
+					</div>
+					<div class="col3 colR right">
+						<ul class="socialLinks">
+							<li><a href="http://twitter.com/veen" class="tw">Twitter</a></li>
+							<li><a href="http://typekit.com" class="www">Website</a></li>
+							<li><a href="http://veen.com/jeff" class="www">Website</a></li>
+							<br class="clear" />
+						</ul>
+						<object width="490" height="305"><param name="movie" value="http://www.youtube.com/v/8CtC_qbQ51U?version=3&amp;hl=en_US&amp;rel=0&start=45"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/8CtC_qbQ51U?version=3&amp;hl=en_US&amp;rel=0&start=45" type="application/x-shockwave-flash" width="490" height="305" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+					</div>			
+				</div><!-- / founderBio -->
+			</div><!-- / founderBios -->
+		</div><!-- / founderBioWrapper -->
 		
 		<br class="clear" />
 		
@@ -561,7 +556,7 @@
 			<img class="linkSword" src="./img/linkSword.jpg" />
 		</div>
 		
-		<div class="col4 colR" style="margin-top:800px;">
+		<div id="sec47" class="col4 colR" style="margin-top:800px;">
 			<p class="text oversize" style="margin:80px 0 110px;">It’s getting harder and harder to differentiate based on tech talent alone. Designers like Dieter Rams and <a href="./tooltips.php?q=contemporaries" rel="./tooltips.php?q=contemporaries" class="tip">Charles & Ray Eames</a> made huge waves in their industries for bringing great design to the masses. Jonathan Ive at Apple, Joe Gebbia at Airbnb, and Dave Morin at Path (to name a few) are changing the world today – not because Apple, Airbnb, or Path’s tech is more advanced than the competition, but because they make their products more usable. More aesthetic. More <em>human</em>.</p>
 			
 			<h3>Design is the missing link from your founding team. The perfect balance of business, tech, and design is an incredibly powerful tool… 
@@ -731,7 +726,7 @@
 	<div class="globalWrapper">		
 		
 		<div class="col3 colL">
-			<h2>Thank you so much</h2>
+			<h2>Thank you so much!</h2>
 		
 		<ul class="acknowledgements">
 			<li><a href="http://fictivecameron.com">Cameron Cozcon</a></li>
@@ -739,6 +734,7 @@
 			<li><a href="http://www.vitsoe.com/en/us/about/dieterrams/who-is-dieter-rams">Dieter Rams</a></li>
 			<li><a href="http://twitter.com/enriqueallen">Enrique Allen</a></li>
 			<li><a href="http://www.amazon.com/s/ref=sr_nr_scat_2649512011_ln?rh=n%3A2649512011%2Ck%3Agary+hustwit&keywords=gary+hustwit&ie=UTF8&qid=1331486160&scn=2649512011&h=db9370a14fa03cf4c75d5c07cbd58d3549e24ec8#/ref=sr_nr_p_n_format_browse-bi_0?rh=n%3A2625373011%2Cn%3A%212625374011%2Cn%3A2649512011%2Ck%3Agary+hustwit%2Cp_n_format_browse-bin%3A2650306011&bbn=2649512011&keywords=gary+hustwit&ie=UTF8&qid=1331486168&rnid=2650303011">Gary Hustwit</a></li>
+			<li><a href="http://ianhirschfeld.com">Ian Hirschfeld</a></li>
 			<li><a href="http://jessicahische.is">Jessica Hische</a></li>
 			<li><a href="http://www.amazon.com/Type-Primer-2nd-John-Kane/dp/0205066445/ref=ntt_at_ep_dpt_1">John Kane</a></li>
 			<li><a href="http://losttype.com">Lost Type Co-op</a></li>
@@ -777,7 +773,15 @@
 </footer>
 	
 </div>
-
+<!-- Javascript -->
+<script src="./js/libs/jquery-1.7.1.min.js"></script>
+<script src="./js/libs/modernizr-2.5.3.min.js"></script>
+<script src="./js/libs/jquery.cycle.lite.js"></script>
+<script src="./js/libs/jquery.qtip.min.js"></script>
+<script src="./js/libs/highcharts.js"></script>
+<script src="./js/libs/jquery.tools.min.js"></script>
+<script src="./js/libs/jquery-ui.min.js"></script>
+<script src="js/script.js"></script>
 <!-- Facebook Like -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -787,17 +791,10 @@
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=334362973268161";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<!--Google Plus-->
+<!-- Google Plus -->
 <script type="text/javascript" src="http://platform.linkedin.com/in.js?ver=3.4-alpha-20150"></script>
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js?ver=3.4-alpha-20150"></script>
-<!-- Javascripts -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
-<script src="./js/libs/modernizr-2.5.3.min.js"></script>
-<script src="./js/libs/highcharts.js"></script>
-<script src="./js/libs/jquery.qtip.min.js"></script>
-<script src="./js/libs/jquery.cycle.lite.js"></script>
-<script src="js/script.js"></script>
+<!-- Google Analytics -->
 <script>
 	var _gaq=[['_setAccount','UA-4881230-13'],['_trackPageview']];
 	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

@@ -217,6 +217,9 @@ $(document).ready(function() {
 			fontFamily: 'Crimson Text'
 		}
 	 },
+	 legend: {
+	 	layout: 'vertical'
+	 },
 	 plotOptions: {
         pie: {
              allowPointSelect: true,
@@ -233,12 +236,12 @@ $(document).ready(function() {
 	 series: [{
 	    name: 'Responses',
 	    data: [
-	    	['Good design makes a product useful', 19],
-	    	['Good design is aesthetic', 22],
-	    	['Good design is innovative', 16],
-	    	['Good design makes a product understandable', 20],
-	    	['Good design is timeless', 11],
-	    	['Good design is environmentally friendly', 7]
+	    	['Makes a product useful', 19],
+	    	['Is aesthetic', 22],
+	    	['Is innovative', 16],
+	    	['Makes a product understandable', 20],
+	    	['Is timeless', 11],
+	    	['Is environmentally friendly', 7]
 	    ]
 	   }]
 	});
@@ -356,8 +359,7 @@ $(document).ready(function() {
 	        renderTo: 'row2_users',
 	        backgroundColor: 'transparent',
 	        type: 'column',
-       		marginTop:75,
-       		spacingRight:50
+       		marginTop:75
 	    },
 	    title: {
 	        text: '…and to your users?',
@@ -462,6 +464,34 @@ $(document).ready(function() {
 		fx: 'fade',
 		speed: 500
 	});
+	
+	
+	
+	
+	// Scrollable plugin for Section 4 Designer Founders
+	 // main vertical scroll
+      $("#founderBios").scrollable({
+ 
+        // basic settings
+        vertical: true,
+ 
+        // up/down keys will always control this scrollable
+        keyboard: 'static',
+ 
+        // assign left/right keys to the actively viewed scrollable
+        onSeek: function(event, i) {
+          horizontal.eq(i).data("founderBio").focus();
+        }
+ 
+        // main navigator (thumbnail images)
+      }).navigator("#designerFounders");
+
+      // when page loads setup keyboard focus on the first horzontal scrollable
+      horizontal.eq(0).data("founderBio").focus();
+	
+	
+	
+	
 });
 
 function init() {
