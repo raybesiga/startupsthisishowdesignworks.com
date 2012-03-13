@@ -336,11 +336,6 @@ p.subText{
 			line-height:15px;
 			}
 
-#braunApple{	
-	margin-bottom:140px;
-	}
-	
-
 /*
 #sec1SummaryWrapper{
 	position:absolute;
@@ -356,10 +351,9 @@ p.subText{
 		text-align:left;
 		width:1000px;
 		background:#e3e3e3;
-		padding:0 10px;
-		margin:0 auto;
+		padding:30px 0 0;
+		margin:120px auto;
 		height:192px;
-		padding-top:30px;
 		}
 	#sec1Summary p{
 		margin-top:0px;

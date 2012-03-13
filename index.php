@@ -207,7 +207,7 @@
 		
 		<br class="clear" />
 		
-		<div class="section" style="margin-top:325px;" id="sec15">1.5</div>
+		<div class="section" id="sec15">1.5</div>
 		<div class="col1 colL principles">
 			<h3>Less and More</h3>
 				<p>The following interview with Dieter Rams reveals his take on the products he created at Braun and industrial design as a whole.</p>
