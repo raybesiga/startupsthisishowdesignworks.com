@@ -148,6 +148,13 @@ $(document).ready(function() {
         });
     }
     
+    
+    // Das Charts
+    
+    Highcharts.setOptions({
+   		colors: ['#083055', '#024873', '#03738C', '#428994', '#68A69B', '#B8D9C4']
+	});
+    
     // Chart: What's important to biz / engineering / devs?
 	chart_row1_biz = new Highcharts.Chart({
 	 chart: {

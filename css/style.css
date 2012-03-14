@@ -275,11 +275,14 @@ h4{
 	margin:0 0 30px;
 	}
 
+p.text{
+	}
+
 p.subText{
 	color:#6a6a6a;
 	font-size:15.5px;
 	line-height:19px;
-	margin:15px 0;
+	margin:10px 0;
 	}
 
 /* -- Section 1 -- */
@@ -314,31 +317,45 @@ p.subText{
 	}
 	.principles li{
 		float:left;
-		padding:0 10px;
-		width:150px;
+		padding:50px 0 0;
+		margin:30px 5px;
+		width:148px;
+		height:70px;
+		text-align:center;
 		}
 	.principles h3{
 		font-family:"Helvetica",sans-serif;
-		font-size:12px;
+		font-size:14px;
 		color:#ed1c24;
 		padding-bottom:10px;
 		font-weight:bold;
-		line-height:14px;
+		line-height:20px;
 		letter-spacing:normal;
 		margin:30px 0 0;
 		}
 		.principles p{
+			display:none;
 			font-family:'Crimson Text', serif;
 			font-weight:400;
 			font-size:14px;
 			color:#3f3f3f;
 			line-height:15px;
 			}
-
+	#dr1{background:url('../img/dr/innovative.png') no-repeat top center;}
+	#dr2{background:url('../img/dr/useful.png') no-repeat top center;}
+	#dr3{background:url('../img/dr/aesthetic.png') no-repeat top center;}
+	#dr4{background:url('../img/dr/understandable.png') no-repeat top center;}
+	#dr5{background:url('../img/dr/unobtrusive.png') no-repeat top center;}
+	#dr6{background:url('../img/dr/honest.png') no-repeat top center;}
+	#dr7{background:url('../img/dr/longlasting.png') no-repeat top center;}
+	#dr8{background:url('../img/dr/thorough.png') no-repeat top center;}
+	#dr9{background:url('../img/dr/environmental.png') no-repeat top center;}
+	#dr10{background:url('../img/dr/littledesign.png') no-repeat top center;}
+	
 #sec1Summary{
 	text-align:left;
 	width:1000px;
-	background:#e3e3e3;
+	background:#efefef;
 	padding:30px 0 0;
 	margin:120px auto;
 	height:192px;
@@ -348,29 +365,37 @@ p.subText{
 		color:#000;
 		}
 	#paintCan{
-		width:150px;
+		background:url('../img/paintCan.jpg') no-repeat top center #fff;
+		width:320px;
 		height:222px;
 		margin-top:-30px;
 		}
-	.caption{
-		float:right;
-		font-style:italic;
-		font-size:13px;
-		margin-top:130px !important;
-		line-height:14px;
-		}
+		#paintCan p{
+			float:right;
+			font-style:italic;
+			font-size:13px;
+			margin-top:0 !important;
+			line-height:14px;
+			text-align:right;
+			color:#bbb;
+			}
+			#paintCan p a{
+				color:#bbb;
+				}
 
-#ramsVideo{
-	margin:-20px 0 120px;
+#objVideo{
+	margin:-45px 0 120px;
 	}
 	
+.slideshow{
+	margin:0 auto;
+	}
 #grayContainer{
-	background:#e3e3e3;
-	padding:0 20px !important;
-	width:620px !important;
+	padding:0 30px 0 0 !important;
+	width:640px !important;
 	}
 	#grayContainer p{
-		font-size:17px;
+		font-size:20px;
 		}
 
 /* -- Section 2 -- */
@@ -418,6 +443,7 @@ p.subText{
 	margin-top:100px;
 	}
 
+/*
 #section4 h2{
 	color:#ee621c;
 	font-family:"CubanoRegular","Helvetica",sans-serif;
@@ -425,7 +451,9 @@ p.subText{
 	font-weight:normal;
 	margin:-30px 0 0;
 	}
+*/
 
+/*
 #section4 h3{
 	color:#ee621c;
 	font-family:"CubanoRegular","Helvetica",sans-serif;
@@ -433,6 +461,7 @@ p.subText{
 	font-weight:normal;
 	letter-spacing: normal;
 	}
+*/
 
 #triforce{
 	margin:100px 0 150px;
@@ -474,8 +503,8 @@ p.subText{
 	width:100%;
 	position:absolute;
 	text-align:center;
-	background:#f0f0f0;
-	height:700px;
+	background:#efefef;
+	height:730px;
 	left:0;
 	margin-top:40px;
 	}
@@ -560,7 +589,8 @@ p.subText{
 	}
 	.founderBio h3{
 		float:left;
-		margin:0 0 0 10px;
+		width:350px;
+		margin:-33px 0 0 35px;
 		}	
 	.founderBio .section{
 		float:left;
@@ -597,8 +627,31 @@ p.subText{
 	.zp{background:url('../img/rogieSocial/zerply.png') no-repeat;}
 	.path{background:url('../img/rogieSocial/path.png') no-repeat;}
 
+	#navButtons{
+		position:relative;
+		float:right;
+		margin-top:450px;
+		}
+		#navButtons div{
+			float:left;
+			margin:0 0 0 50px;
+			width:32px;
+			height:32px;
+			text-indent:-9999px;
+			background:url('../img/prevNext.png') no-repeat;
+			}
+			#navButtons div:hover{
+				margin-top:1px;
+				}
+			#navButtons .prev{
+				background-position:-32px 0;
+				}
+			#navButtons .next{
+				background-position:0 0;
+				}
+
 #linkSword{
-	margin-top:70px;
+	margin-top:50px;
 	}
 
 .oversize{

@@ -93,13 +93,13 @@
 	
 	<header>
 		<h1>Startups, this is how design works.</h1>
-		<div id="author">A short guide by <a href="http://wellsriley.com">Wells Riley</a>.
+		<div id="author">A guide for non-designers by <a href="http://wellsriley.com">Wells Riley</a>.
 			<br />Format inspired by <a href="http://jessicahische.is">Jessica Hische</a>.</div>
 		<br class="clear" />
 	</header>
 	
 	<div id="section1">
-		<p class="text col5">Design and business have never really seen eye to eye – <strong><em>or have they?</em></strong>  The .com boom may have come and gone before designers could catch up, but today companies like Apple are making design impossible to ignore. The roles have reversed, and startupers are lost in the nuanced world of art & design. What is ‘design’ actually? Is it a logo? The cartoon gorilla on your home page? An innovative <a href="./tooltips.php?q=ui" rel="./tooltips.php?q=ui" class="tip">UI</a>? <img src="./img/tooltipNote.jpg" /style="vertical-align:middle;"></p>
+		<p class="text col5"><!-- Design and business have never really seen eye to eye – <strong><em>or have they?</em></strong>   -->The .com boom may have come and gone before designers could catch up, but today companies like Apple are making design impossible to ignore. The roles have reversed, and startupers are lost in the nuanced world of art & design. What is ‘design’ actually? Is it a logo? A wordpress theme? An innovative <a href="./tooltips.php?q=ui" rel="./tooltips.php?q=ui" class="tip">UI</a>? <img src="./img/tooltipNote.jpg" /style="vertical-align:middle;"></p>
 		<p class="text col5">It’s so much more than that. It’s a state of mind. It’s an approach to a problem. It’s how you’re going to kick your competitor’s ass. This handy guide will help your understanding of design and provide resources to help you find awesome design talent.</p>
 		
 		<br class="clear" />
@@ -128,9 +128,9 @@
 			<div class="section right" id="sec13">1.3</div>
 		</div>
 		<div class="col4 colR">
-			<h2><a href="./tooltips.php?q=dieterrams" rel="./tooltips.php?q=dieterrams" class="tip">Dieter Rams</a>’ Ten Principles of&nbsp;&nbsp;“Good Design”<br />
+			<h2><!-- <a href="./tooltips.php?q=dieterrams" rel="./tooltips.php?q=dieterrams" class="tip"> -->Dieter Rams<!-- </a> -->’ Ten Principles of&nbsp;&nbsp;“Good Design”<br />
 				<span class="phonetic">(Wow, how convenient is that?)</span></h2>
-			<p class="subText col3 noPadding"><strong><em>Dieter Rams</em></strong> <span class="phonetic">(Pronounced “deeiter roms”)</span> is a German <a href="./tooltips.php?q=industrialdesigner" rel="./tooltips.php?q=industrialdesigner" class="tip">industrial designer</a> closely associated with the consumer products company Braun and functionalist industrial design.</p>
+			<p class="subText col3 noPadding"><strong><em>Dieter Rams</em></strong> is a German <a href="./tooltips.php?q=industrialdesigner" rel="./tooltips.php?q=industrialdesigner" class="tip">industrial designer</a> closely associated with the consumer products company Braun and functionalist industrial design.</p>
 			<p class="subText col3 noPadding">According to <a href="http://www.vitsoe.com/en/gb/about/dieterrams/gooddesign">Vitsœ</a>: Back in the early 1980s, Dieter Rams was becoming increasingly concerned by the state of the world around him – “an impenetrable confusion of forms, colours and noises.” Aware that he was a significant contributor to that world, he asked himself an important question: is my design good design?
 			<p class="subText col3 noPadding">As good design cannot be measured in a finite way he set about expressing the ten most important principles for what he considered was good design. (Sometimes they are referred as the ‘Ten commandments’.) Here they are.<sup><a href="#cite-3">3</a></sup></p>
 		</div><!-- / Dieter Rams' Principles -->
@@ -140,28 +140,28 @@
 		<div class="col1 colL"></div>
 		
 			<ul class="principles col5 colR">
-				<li class="colL"><h3>Good design is innovative<br />&nbsp;</h3>
+				<li id="dr1" class="colL"><h3>is innovative<br />&nbsp;</h3>
 					<p>The possibilities for innovation are not, by any means, exhausted. Technological development is always offering new opportunities for innovative design. But <b>innovative design always develops in tandem with innovative technology</b>, and can never be an end in itself.</p></li>
-				<li><h3>Good design makes a product useful</h3>
+				<li id="dr2"><h3>makes a product useful</h3>
 					<p>A product is bought to be used. It has to satisfy certain criteria, <b>not only functional, but also psychological and aesthetic</b>. Good design emphasizes the usefulness of a product whilst disregarding anything that could possibly detract from it.</p></li>
-				<li><h3>Good design is aesthetic<br />&nbsp;</h3>
+				<li id="dr3"><h3>is aesthetic<br />&nbsp;</h3>
 					<p>The aesthetic quality of a product is integral to its usefulness because products we use every day affect our person and our well-being. But <b>only well-executed objects can be beautiful</b>.</p></li>
-				<li><h3>Good design makes a product understandable</h3>
+				<li id="dr4"><h3>makes a product understandable</h3>
 					<p>It clarifies the product’s structure. Better still, it can make the product talk. At best, it is self-explanatory.</p></li>
-				<li class="colR"><h3>Good design is unobtrusive</h3>
+				<li id="dr5" class="colR"><h3>is unobtrusive</h3>
 					<p>Products fulfilling a purpose are like tools. They are neither decorative objects nor works of art. Their design should therefore be both neutral and restrained, to leave room for the user’s self-expression.</p></li>
 				
 				<br class="clear" />
 				
-				<li class="colL"><h3>Good design is honest<br />&nbsp;</h3>
+				<li id="dr6" class="colL"><h3>is honest<br />&nbsp;</h3>
 					<p>It does not make a product more innovative, powerful or valuable than it really is. It does not attempt to manipulate the consumer with promises that cannot be kept.</p></li>
-				<li><h3>Good design is long-lasting</h3>
+				<li id="dr7"><h3>is long-lasting</h3>
 					<p>It avoids being fashionable and therefore never appears antiquated. Unlike fashionable design, it lasts many years – even in today’s throwaway society.</p></li>
-				<li><h3>Good design is thorough<br />&nbsp;</h3>
+				<li id="dr8"><h3>is thorough<br />&nbsp;</h3>
 					<p>Nothing must be arbitrary or left to chance. Care and accuracy in the design process show respect towards the consumer.</p></li>
-				<li><h3>Good design is environmentally friendly</h3>
+				<li id="dr9"><h3>is environmentally friendly</h3>
 					<p>Design makes an important contribution to the preservation of the environment. It conserves resources and minimizes physical and visual pollution throughout the lifecycle of the product.</p></li>
-				<li class="colR"><h3>Good design is as little design as possible</h3>
+				<li id="dr10" class="colR"><h3>is as little design as possible</h3>
 					<p>Less, but better – because it concentrates on the essential aspects, and the products are not burdened with non-essentials.</p>
 					<p>Back to purity, back to simplicity.</p></li>
 			</ul><!-- / 10 Principles of Design -->
@@ -200,28 +200,28 @@
 				<p class="text">Good design can’t be achieved with glossy buttons, or masterful <a href="./tooltips.php?q=wireframes" rel="./tooltips.php?q=wireframes" class="tip">wireframes</a> alone. It’s a merger of all  these principles into something that is meaningful and deliberate.</p>
 				<p class="text">Just like a great business plan is nothing without expert execution, a great Photoshop mockup is nothing, for example, without careful consideration to UI or the user’s needs.</p>
 			</div>
-				<img id="paintCan" class="col1" src="./img/paintCan.jpg"  />
-				<p class="caption col1 colR">“Fill Can” icon for MacPaint <br />&copy; <a href="http://www.kareprints.com/">Susan Kare</a></p>
+				<div class="col2 colR" id="paintCan">
+					<p class="caption col1 colR">“Fill Can” icon <br />&copy; <a href="http://www.kareprints.com/">Susan Kare</a></p>
+				</div>
 			</div>
 		</div><!-- / sec1SummaryWrapper -->
 		
 		<br class="clear" />
 		
 		<div class="section" id="sec15">1.5</div>
-		<div class="col1 colL principles">
-			<h3>Less and More</h3>
-				<p>The following interview with Dieter Rams reveals his take on the products he created at Braun and industrial design as a whole.</p>
-				<p>The interview was conducted to celebrate Rams' book "<a href="http://usshop.gestalten.com/books/product-design/less-and-more-hardcover.html">Less and More</a>" and his retrospective museum show that is currently traveling the world.</p>
+		
+		<br class="clear" />
+		
+		<div class="col1 colL">
+			<h3>Objectified</h3>
+				<p class="subText">A documentary film that provides a look at the creativity behind everything from toothbrushes to <br />tech gadgets. <sup><a href="#cite-15">15</a></sup></p>
 		</div>
-		<div id="ramsVideo" class="col5 colR" onclick="this.nextSibling.style.display='block'; this.style.display='none'"><img src="./img/dieterRamsVideo.jpg" style="cursor:pointer" /></div><div style="display:none">
-			<iframe id="ramsVideo" class="col5 colR" src="http://player.vimeo.com/video/7917568?portrait=0" width="830" height="467" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-		</div><!-- / Less and More video -->
+		<iframe id="objVideo" class="col5 colR" src="http://player.vimeo.com/video/12793996?portrait=0&title=0&byline=0&color=ffffff" width="830" height="467" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 		
 		<br class="clear" />
 					
 		<div class="col2 colL">
-			<div class="section right" id="sec16" style="margin-top:18px;">1.6</div>
-			<div style="margin-top:42px;">
+			<div class="section right" id="sec16" style="margin-top:20px;">1.6</div>
 			<div class="slideshow">
 				<img src="./img/ramsSpeaker.jpg" />
 				<img src="./img/ramsChair.jpg" />
@@ -230,12 +230,11 @@
 				<img src="./img/ramsRazor.jpg" />
 				<img src="./img/ramsLighter.jpg" />
 			</div>
-			</div>
 		</div>
 		<div id="grayContainer" class="col4 colR">
-				<p class="text">Dieter Rams is known as the “Godfather of Design.” He helped make design understandable and measurable by breaking the components of good design into manageable parts. Take a look at your current product – is design contributing in an innovative way? Does it make the product useful, understandable, and environmentally-friendly? Is it long-lasting, or will it look outdated or break in a few years?</p>
-				<p class="text">These are really hard questions to answer, and most products won’t hit this sweet spot in the first try. Designers enable you to work within these constraints to create a product customers will fall in love with. <em>Love is a really strong emotion</em>.</p>
-				<p class="text">Dieter Rams and his <a href="./tooltips.php?q=contemporaries" rel="./tooltips.php?q=contemporaries" class="tip">contemporaries</a>  created brilliant products in the 1950’s and 60’s. Design was a strongly valued aspect of business, even 60 years ago. It totally has a place in business today – it’s already been proven.</p>
+				<p class="text"><!-- Dieter Rams is known as the “Godfather of Design.” He helped make design understandable and measurable by breaking the components of good design into manageable parts.  -->Take a look at your current product – is design contributing in an innovative way? Does it make the product useful, understandable, and aesthetic? Is it long-lasting, or will it look outdated or break in a few years?</p>
+				<p class="text">These are really hard questions to answer. Designers enable you to work within these constraints to create a product customers will fall in love with. <br /><em>Love is a really strong emotion</em>.</p>
+				<p class="text">Dieter Rams and his <a href="./tooltips.php?q=contemporaries" rel="./tooltips.php?q=contemporaries" class="tip">contemporaries</a>  started a movement in 20<sup>th</sup> Century towards simple and beautiful products. Design was a strongly valued aspect of business, even 60 years ago. It totally has a place in business today – it’s a proven method.</p>
 		</div><!-- / Section 1 wrap-up -->
 		
 		<br class="clear" />	
@@ -261,7 +260,7 @@
 		<div class="col3 colL"></div>
 		<div class="col2" style="margin:-250px 0 150px;">
 				<h4>Print Design</h4>
-				<p class="subText">A type of graphic designer that works exclusively with print media. Before the widespread adoption of computers, software, and the web, virtually all graphic designers worked on print media such as posters, magazines, billboards, and books. Print designers are typically masters of <a href="./tooltips.php?q=typography" rel="./tooltips.php?q=typography" class="tip">typography</a>, illustration, and traditional printing processes like the <a href="./tooltips.php?q=linotype" rel="./tooltips.php?q=linotype" class="tip">Linotype machine</a> or the <a href="./tooltips.php?q=letterpress" rel="./tooltips.php?q=letterpress" class="tip">letterpress machine</a>, a 500-year-old printing method that has regained popularity in recent years for its' handmade and traditional feel.</p>
+				<p class="text">A type of graphic designer that works exclusively with print media. Before the widespread adoption of computers, software, and the web, virtually all graphic designers worked on print media such as posters, magazines, billboards, and books. Print designers are typically masters of <a href="./tooltips.php?q=typography" rel="./tooltips.php?q=typography" class="tip">typography</a>, illustration, and traditional printing processes like the <a href="./tooltips.php?q=linotype" rel="./tooltips.php?q=linotype" class="tip">Linotype machine</a> or the <a href="./tooltips.php?q=letterpress" rel="./tooltips.php?q=letterpress" class="tip">letterpress machine</a>, a 500-year-old printing method that has regained popularity in recent years for its' handmade and traditional feel.</p>
 		</div><!-- / Print Design -->
 		
 		<br class="clear" />
@@ -282,28 +281,27 @@
 		
 		<br class="clear" />
 		
-		<div class="col2 colL" style="text-align:center;">
-			<img id="uxDesign" src="./img/tronguy.jpg" />&nbsp;
+		<div class="col2 colL">
+			<img id="uxDesign" src="./img/tapbots.jpg" />&nbsp;
 		</div>
 		<div class="col2">
 			<h4>User Interface Design</h4>
-			<p class="subText"></p>
-			<p class="subText">User Interface Design (UI) he design of software applications and websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing user goals</em> — what is often called user-centered design. Good user interface design facilitates finishing the task at hand without drawing unnecessary attention to itself. Graphic design may be utilized to support its usability. The design process must balance technical functionality and visual elements to create a system that is not only operational but also <em>usable and adaptable to changing user needs</em>.</p>
-			<p class="subText">Interface design is involved in a wide range of projects from <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">computer systems, to cars, to commercial planes</a>; all of these projects involve much of the same basic human interactions yet also require some unique skills and knowledge. As a result, designers tend to specialize in certain types of projects and have skills centered around their expertise, such as software design, user research, web design, or industrial design. <sup><a href="#cite-7">7</a></sup></p>
+			<p class="text">User Interface Design (UI) he design of software applications and websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing user goals</em> — what is often called user-centered design. Good user interface design facilitates finishing the task at hand without drawing unnecessary attention to itself. Graphic design may be utilized to support its usability. The design process must balance technical functionality and visual elements to create a system that is not only operational but also <em>usable and adaptable to changing user needs</em>.</p>
+			<p class="text">Interface design is involved in a wide range of projects from <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">computer systems, to cars, to commercial planes</a>; all of these projects involve much of the same basic human interactions yet also require some unique skills and knowledge. As a result, designers tend to specialize in certain types of projects and have skills centered around their expertise, such as software design, user research, web design, or industrial design. <sup><a href="#cite-7">7</a></sup></p>
 
 		</div><!-- / Interface Design -->
 		
 		<div class="col2 colR">	
 			<h4>User Experience Design</h4>
-			<p class="subText">User Experience (UX) Design is a highly multi-disciplinary field, incorporating aspects of <em>psychology, anthropology, sociology, computer science, graphic design, industrial design and cognitive science</em>. Depending on the purpose of the product, UX may also involve content design disciplines such as communication design, instructional design, or game design.</p>
-			<p class="subText">User experience design incorporates most or all of the above disciplines to positively impact the overall experience a person has with a particular interactive system, and its provider. User experience design most frequently defines a sequence of interactions between a user and a system, virtual or physical, <em>designed to meet or support user needs and goals</em>, primarily, while also satisfying systems requirements and organizational objectives. <sup><a href="#cite-8">8</a></sup></p>
+			<p class="text">User Experience (UX) Design is a highly multi-disciplinary field, incorporating aspects of <em>psychology, anthropology, sociology, computer science, graphic design, industrial design and cognitive science</em>. Depending on the purpose of the product, UX may also involve content design disciplines such as communication design, instructional design, or game design.</p>
+			<p class="text">User experience design incorporates most or all of the above disciplines to positively impact the overall experience a person has with a particular interactive system, and its provider. User experience design most frequently defines a sequence of interactions between a user and a system, virtual or physical, <em>designed to meet or support user needs and goals</em>, primarily, while also satisfying systems requirements and organizational objectives. <sup><a href="#cite-8">8</a></sup></p>
 		</div><!-- / User Experience Design -->
 			
 		<br class="clear" />
 		
 		<div class="col2" style="text-align:center;margin-top:160px;">
 			<div class="section right" id="sec23">2.3</div>
-			<img id="industrialDesign" src="./img/ipod.png" />
+			<img id="industrialDesign" src="./img/eames_lcw.jpg" />
 		</div>
 		<div class="col3" style="margin-top:160px;" >
 				<h3>Industrial Design</h3>
@@ -319,7 +317,14 @@
 
 <div id="sec3top"></div>
 <div id="section3">
-	<div class="globalWrapper">	
+	<div class="globalWrapper">
+	
+		<div class="col6 colL colR">
+			<h2>Data: what does the industry think?</h2>
+		</div>
+	
+		<br class="clear" />
+		
 		<div class="col1 colL">
 			<div class="section right" id="sec31">3.1</div>
 		</div>
@@ -369,20 +374,24 @@
 <div id="sec3bottom"></div>
 	
 <div id="section4">
-	<div class="globalWrapper">		
+	<div class="globalWrapper">
+	
+		<div class="col6 colL colR">
+			<h2>Designer Founders: the missing link</h2>
+		</div>
+		
+		<br class="clear" />
+		
 		<div class="col1 colL">
 			<div class="section right" id="sec41">4.1</div>
 		</div>
-		<div class="col3">
-			<h2>The missing link</h2>
-		</div>
-		<br class="clear" />
-		<div class="col1 colL"></div>
-		<div class="col4">
-			<p class="text">For a long time, the minimum viable team of co-founders consisted of a business / sales person and a developer / engineer. It worked for Facebook, Microsoft, and Apple, just to name a few. All of these companies now have excellent designers now, <em>because it’s a necessity they can’t afford to ignore</em>. It seems like design is becoming more and more prevalent in new startups as well – Square, Path, Airbnb, and more are pushing the envelope.</p>
-			<p><em>Design is becoming a key differentiator</em> for companies to acquire outside funding, rapid adoption, press coverage, and loyal users.</p>
 		
-			<h3>I think it’s time to shake things up a bit.
+		<div class="col4">
+			<h3>Startups + designers = ?</h3>
+			<p class="text">For a long time, a pair of co-founders consisted of an executive and an engineer. <b>It worked for Facebook, Microsoft, and Apple</b>, just to name a few. These companies have excellent designers today, <em>because it’s a necessity they can’t afford to ignore</em>. It seems like design is becoming more and more prevalent in new startups as well – <a href="http://squareup.com">Square</a>, <a href="http://path.com">Path</a>, <a href="http://airbnb.com">Airbnb</a>, and more are pushing the envelope.</p>
+			<p><em>Design is becoming a key differentiator</em> for companies to acquire funding, press coverage, and loyal users.</p>
+		
+			<h3 style="margin-top:40px;">I think it’s time to shake things up a bit.
 			<br />Let’s add designers into the mix.</h3>
 		</div><!-- / section 4 intro -->
 		
@@ -394,12 +403,6 @@
 				<p id="dragText">Drag &raquo;</p>
 			</div>
 			<div id="triforceDrop"><div id="triforceDropz"></div></div>
-			<br class="clear" />
-		</div>
-		
-		<div class="col1 colL"></div>
-		<div class="col4">
-			<h2>Designer Founders</h2>
 		</div>
 		
 		<br class="clear" />
@@ -412,7 +415,6 @@
 		<br class="clear" />
 		
 	<div id="totalWrapper">
-	<!-- <div id="founderThumbsBg"></div> -->
 		<div id="scroll">
 			<ul class="navi" id="designerFounders">
 				<li class="df_DaveMorin"><a href="javascript:void(0)" id="t1"><p>Dave Morin</p><p>Path</p></a></li>
@@ -465,7 +467,7 @@
 							<li><a href="http://airbnb.com/" class="www">Airbnb</a></li>
 							<br class="clear" />
 						</ul>
-						<iframe src="http://player.vimeo.com/video/23275754?portrait=0" width="491" height="340" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+						<iframe src="http://player.vimeo.com/video/23275754?portrait=0&title=0&byline=0&color=ffffff" width="491" height="276" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 					</div>
 					
 					<br class="clear" />
@@ -487,7 +489,7 @@
 							<li><a href="http://jessicahische.is" class="www">Website</a></li>
 							<br class="clear" />
 						</ul>
-						<iframe src="http://player.vimeo.com/video/11093835?title=0&amp;byline=0&amp;portrait=0&amp;color=ee621c" width="491" height="276" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+						<iframe src="http://player.vimeo.com/video/11093835?portrait=0&title=0&byline=0&color=ffffff" width="491" height="276" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 					</div>
 					
 					<br class="clear" />
@@ -501,7 +503,7 @@
 						<br class="clear" />
 						
 						<p class="text">Mike is a user interface designer and cofounder of <a href="http://www.pushpoppress.com">Push Pop Press</a>, a digital publishing company that worked with Al Gore to create the first full-length interactive book <a href="http://www.pushpoppress.com/ourchoice">Our Choice</a>. Recently Push Pop Press was <a href="http://pushpoppress.com/about/">acquired by Facebook</a> where he is now working, giving people better tools to explore and share ideas.</p>
-						<p class="text">Prior to starting Push Pop Press he worked at Apple where he designed user interfaces and artwork for the iPhone, the iPad, and Mac OS X. Before that he cofounded <a href="http://www.delicious-monster.com/">Delicious Monster</a>, a software company that created a book cataloging app called Delicious Library. <sup><a href="#cite-13">13</a></sup></p>
+						<p class="text">Prior to starting Push Pop Press he worked at Apple where he designed user interfaces and artwork for the iPhone, the iPad, and Mac OS X. Before that he cofounded <a href="http://www.delicious-monster.com/">Delicious Monster</a>, a software company that created Delicious Library. <sup><a href="#cite-13">13</a></sup></p>
 					</div>
 					<div class="col3 colR right">
 						<ul class="socialLinks">
@@ -510,15 +512,7 @@
 							<li><a href="http://mikematas.com" class="www">Website</a></li>
 							<br class="clear" />
 						</ul>
-						<object width="490" height="370">
-							<param name="movie" value="http://video.ted.com/assets/player/swf/EmbedPlayer.swf"></param>
-							<param name="allowFullScreen" value="true" />
-							<param name="allowScriptAccess" value="always"/>
-							<param name="wmode" value="transparent"></param>
-							<param name="bgColor" value="#ffffff"></param>
-							<param name="flashvars" value="vu=http://video.ted.com/talk/stream/2011/Blank/MikeMatas_2011-320k.mp4&su=http://images.ted.com/images/ted/tedindex/embed-posters/MikeMatas-2011.embed_thumbnail.jpg&vw=512&vh=288&ap=0&ti=1134&lang=&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=mike_matas;year=2011;theme=what_s_next_in_tech;theme=words_about_words;theme=the_creative_spark;event=TED2011;tag=demo;tag=design;tag=entertainment;tag=software;tag=technology;&preAdTag=tconf.ted/embed;tile=1;sz=490x288;" />
-							<embed src="http://video.ted.com/assets/player/swf/EmbedPlayer.swf" pluginspace="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" bgColor="#ffffff" width="490" height="370" allowFullScreen="true" allowScriptAccess="always" flashvars="vu=http://video.ted.com/talk/stream/2011/Blank/MikeMatas_2011-320k.mp4&su=http://images.ted.com/images/ted/tedindex/embed-posters/MikeMatas-2011.embed_thumbnail.jpg&vw=512&vh=288&ap=0&ti=1134&lang=&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=mike_matas;year=2011;theme=what_s_next_in_tech;theme=words_about_words;theme=the_creative_spark;event=TED2011;tag=demo;tag=design;tag=entertainment;tag=software;tag=technology;&preAdTag=tconf.ted/embed;tile=1;sz=490x288;"></embed>
-						</object>
+						<object width="490" height="305"><param name="movie" value="http://www.youtube.com/v/LV-RvzXGH2YU?version=3&amp;hl=en_US&amp;rel=0&start=15"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/LV-RvzXGH2Y?version=3&amp;hl=en_US&amp;rel=0&start=15" type="application/x-shockwave-flash" width="490" height="305" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 					</div>
 				</div><!-- / founderBio -->
 				<div class="founderBio">
@@ -543,6 +537,10 @@
 					</div>			
 				</div><!-- / founderBio -->
 			</div><!-- / founderBios -->
+			<div id="navButtons">
+				<div class="prev">Prev</div>
+				<div class="next">Next</div>
+			</div>
 		</div><!-- / scroll -->
 	</div><!-- totalWrapper-->
 		
@@ -553,7 +551,7 @@
 		</div>
 		
 		<div id="sec47" class="col4 colR" style="margin-top:800px;">
-			<p class="text oversize" style="margin:30px 0 110px;">It’s getting harder and harder to differentiate based on tech talent alone. Designers like Dieter Rams and <a href="./tooltips.php?q=contemporaries" rel="./tooltips.php?q=contemporaries" class="tip">Charles & Ray Eames</a> made huge waves in their industries for bringing great design to the masses. Jonathan Ive at Apple, Joe Gebbia at Airbnb, and Dave Morin at Path (to name a few) are changing the world today – not because Apple, Airbnb, or Path’s tech is more advanced than the competition, but because they make their products more usable. More aesthetic. More <em>human</em>.</p>
+			<p class="text oversize" style="margin:30px 0 110px;">It’s getting harder and harder to differentiate based on tech talent alone. Designers like Jonathan Ive at Apple, Joe Gebbia at Airbnb, and Dave Morin at Path (to name a few) are changing the world today – not entirely because Apple, Airbnb, or Path have better tech, but because they make their products more usable, aesthetic, and <em>human</em>.</p>
 			
 			<h3>Design is the missing link from your founding team. The perfect balance of business, tech, and design is an incredibly powerful tool… 
 				<br /><br />and an even more powerful business model.</h3>
@@ -722,7 +720,7 @@
 	<div class="globalWrapper">		
 		
 		<div class="col3 colL">
-			<h2>Thank you so much!</h2>
+			<h2>Thank you so much</h2>
 		
 		<ul class="acknowledgements">
 			<li><a href="http://fictivecameron.com">Cameron Cozcon</a></li>
@@ -739,6 +737,11 @@
 			<li><a href="http://finegoodsmarket.com">Rogie King & Fine Goods</a></li>
 			<li><a href="http://dribbble.com/shots/183766-Pattern-Kit-One-Ribbon-Dancer-">Seth Nickerson</a></li>
 			<li><a href="http://www.apple.com/stevejobs/"> Steve Jobs</a></li>
+			<br />
+			<li>Greg Skloot</li>
+			<li>Maroun Najjar</li>
+			<li>Sam Carr</li>
+			<li>Cory Bolotsky</li>
 		</ul>
 		</div>
 		
@@ -759,6 +762,7 @@
 				<li id="cite-12"><a href="http://www.jessicahische.is/bloggable">Press Page : Jessica Hische</a></li>
 				<li id="cite-13"><a href="http://mikematas.com/#!about">About : Mike Matas</a></li>
 				<li id="cite-14"><a href="http://aneventapart.com/speakers/jeffveen/">Jeffrey Veen : An Event Apart</a></li>
+				<li id="cite-15"><a href="http://www.objectifiedfilm.com/about/">About the Film : Objectified</a></li>
 			</ol>
 		</div>
 		<br class="clear" />
