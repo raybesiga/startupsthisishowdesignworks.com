@@ -131,8 +131,9 @@
 			<h2><!-- <a href="./tooltips.php?q=dieterrams" rel="./tooltips.php?q=dieterrams" class="tip"> -->Dieter Rams<!-- </a> -->’ Ten Principles of&nbsp;&nbsp;“Good Design”<br />
 				<span class="phonetic">(Wow, how convenient is that?)</span></h2>
 			<p class="subText col3 noPadding"><strong><em>Dieter Rams</em></strong> is a German <a href="./tooltips.php?q=industrialdesigner" rel="./tooltips.php?q=industrialdesigner" class="tip">industrial designer</a> closely associated with the consumer products company Braun and functionalist industrial design.</p>
-			<p class="subText col3 noPadding">According to <a href="http://www.vitsoe.com/en/gb/about/dieterrams/gooddesign">Vitsœ</a>: Back in the early 1980s, Dieter Rams was becoming increasingly concerned by the state of the world around him – “an impenetrable confusion of forms, colours and noises.” Aware that he was a significant contributor to that world, he asked himself an important question: is my design good design?
-			<p class="subText col3 noPadding">As good design cannot be measured in a finite way he set about expressing the ten most important principles for what he considered was good design. (Sometimes they are referred as the ‘Ten commandments’.) Here they are.<sup><a href="#cite-3">3</a></sup></p>
+			<p class="subText col3 noPadding">According to <a href="http://www.vitsoe.com/en/gb/about/dieterrams/gooddesign">Vitsœ</a>: Back in the early 1980s, <!-- Dieter Rams was becoming increasingly concerned by the state of the world around him – “an impenetrable confusion of forms, colours and noises.” A -->aware that he was a significant contributor to that world, he asked himself an important question: 
+				<br /><em>"Is my design good design?"</em>
+			<p class="subText col3 noPadding">Since good design can't be measured in a finite way, he set about expressing the ten most important principles for what he considered was good design. (Sometimes they are referred as the ‘Ten commandments’.) Here they are. <sup><a href="#cite-3">3</a></sup></p>
 		</div><!-- / Dieter Rams' Principles -->
 		
 		<br class="clear" />
@@ -140,28 +141,28 @@
 		<div class="col1 colL"></div>
 		
 			<ul class="principles col5 colR">
-				<li id="dr1" class="colL"><h3>is innovative<br />&nbsp;</h3>
+				<li class="colL"><h3><a id="dr1" href="./tooltips.php?q=industrialdesigner" rel="./tooltips.php?q=industrialdesigner">is innovative</a></h3>
 					<p>The possibilities for innovation are not, by any means, exhausted. Technological development is always offering new opportunities for innovative design. But <b>innovative design always develops in tandem with innovative technology</b>, and can never be an end in itself.</p></li>
-				<li id="dr2"><h3>makes a product useful</h3>
+				<li><h3><a href="#" id="dr2">makes a product useful</a></h3>
 					<p>A product is bought to be used. It has to satisfy certain criteria, <b>not only functional, but also psychological and aesthetic</b>. Good design emphasizes the usefulness of a product whilst disregarding anything that could possibly detract from it.</p></li>
-				<li id="dr3"><h3>is aesthetic<br />&nbsp;</h3>
+				<li><h3><a href="#" id="dr3">is aesthetic</a></h3>
 					<p>The aesthetic quality of a product is integral to its usefulness because products we use every day affect our person and our well-being. But <b>only well-executed objects can be beautiful</b>.</p></li>
-				<li id="dr4"><h3>makes a product understandable</h3>
+				<li><h3><a href="#" id="dr4">makes a product understandable</a></h3>
 					<p>It clarifies the product’s structure. Better still, it can make the product talk. At best, it is self-explanatory.</p></li>
-				<li id="dr5" class="colR"><h3>is unobtrusive</h3>
+				<li class="colR"><h3><a href="#" id="dr5">is unobtrusive</a></h3>
 					<p>Products fulfilling a purpose are like tools. They are neither decorative objects nor works of art. Their design should therefore be both neutral and restrained, to leave room for the user’s self-expression.</p></li>
 				
 				<br class="clear" />
 				
-				<li id="dr6" class="colL"><h3>is honest<br />&nbsp;</h3>
+				<li class="colL"><h3><a href="#" id="dr6">is honest</a></h3>
 					<p>It does not make a product more innovative, powerful or valuable than it really is. It does not attempt to manipulate the consumer with promises that cannot be kept.</p></li>
-				<li id="dr7"><h3>is long-lasting</h3>
+				<li><h3><a href="#" id="dr7">is long-lasting</a></h3>
 					<p>It avoids being fashionable and therefore never appears antiquated. Unlike fashionable design, it lasts many years – even in today’s throwaway society.</p></li>
-				<li id="dr8"><h3>is thorough<br />&nbsp;</h3>
+				<li><h3><a href="#" id="dr8">is thorough</a></h3>
 					<p>Nothing must be arbitrary or left to chance. Care and accuracy in the design process show respect towards the consumer.</p></li>
-				<li id="dr9"><h3>is environmentally friendly</h3>
+				<li><h3><a href="#" id="dr9">is environmentally friendly</a></h3>
 					<p>Design makes an important contribution to the preservation of the environment. It conserves resources and minimizes physical and visual pollution throughout the lifecycle of the product.</p></li>
-				<li id="dr10" class="colR"><h3>is as little design as possible</h3>
+				<li class="colR"><h3><a href="#" id="dr10">is as little design as possible</a></h3>
 					<p>Less, but better – because it concentrates on the essential aspects, and the products are not burdened with non-essentials.</p>
 					<p>Back to purity, back to simplicity.</p></li>
 			</ul><!-- / 10 Principles of Design -->
