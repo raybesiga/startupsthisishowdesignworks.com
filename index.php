@@ -287,24 +287,24 @@
 		</div>
 		<div class="col2">
 			<h4>User Interface Design</h4>
-			<p class="text">User Interface Design (UI) he design of software applications and websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing user goals</em> — what is often called user-centered design. Good user interface design facilitates finishing the task at hand without drawing unnecessary attention to itself. Graphic design may be utilized to support its usability. The design process must balance technical functionality and visual elements to create a system that is not only operational but also <em>usable and adaptable to changing user needs</em>.</p>
-			<p class="text">Interface design is involved in a wide range of projects from <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">computer systems, to cars, to commercial planes</a>; all of these projects involve much of the same basic human interactions yet also require some unique skills and knowledge. As a result, designers tend to specialize in certain types of projects and have skills centered around their expertise, such as software design, user research, web design, or industrial design. <sup><a href="#cite-7">7</a></sup></p>
+			<p class="text">User Interface Design (UI) he design of software applications and websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing user goals</em>. Good user interface design facilitates finishing the task at hand without drawing unnecessary attention to itself. The design process must balance technical functionality and visual elements to create a system that is not only operational but also <em>usable and <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">adaptable</a> to changing user needs</em>. <sup><a href="#cite-7">7</a></sup></p>
+			<!-- <p class="text">Interface design is involved in a wide range of projects from <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">computer systems, to cars, to commercial planes</a>; all of these projects involve much of the same basic human interactions yet also require some unique skills and knowledge. As a result, designers tend to specialize in certain types of projects and have skills centered around their expertise, such as software design, user research, web design, or industrial design. <sup><a href="#cite-7">7</a></sup></p> -->
 
 		</div><!-- / Interface Design -->
 		
 		<div class="col2 colR">	
 			<h4>User Experience Design</h4>
-			<p class="text">User Experience (UX) Design is a highly multi-disciplinary field, incorporating aspects of <em>psychology, anthropology, sociology, computer science, graphic design, industrial design and cognitive science</em>. Depending on the purpose of the product, UX may also involve content design disciplines such as communication design, instructional design, or game design.</p>
-			<p class="text">User experience design incorporates most or all of the above disciplines to positively impact the overall experience a person has with a particular interactive system, and its provider. User experience design most frequently defines a sequence of interactions between a user and a system, virtual or physical, <em>designed to meet or support user needs and goals</em>, primarily, while also satisfying systems requirements and organizational objectives. <sup><a href="#cite-8">8</a></sup></p>
+			<p class="text">User Experience (UX) Design incorporates aspects of <em>psychology, anthropology, sociology, computer science, graphic design, industrial design and cognitive science</em>. Depending on the purpose of the product, UX may also involve content design disciplines such as communication design, instructional design, or game design.</p>
+			<p class="text">User experience design is used to positively impact the overall experience a person has with a particular interactive product. It considers the interactions between a user and a system, virtual or physical, <em>designed to meet or support user needs and goals</em>. <sup><a href="#cite-8">8</a></sup></p>
 		</div><!-- / User Experience Design -->
 			
 		<br class="clear" />
 		
-		<div class="col2" style="text-align:center;margin-top:160px;">
+		<div class="col2" style="text-align:center;margin-top:180px;">
 			<div class="section right" id="sec23">2.3</div>
 			<img id="industrialDesign" src="./img/eames_lcw.jpg" />
 		</div>
-		<div class="col3" style="margin-top:160px;" >
+		<div class="col3" style="margin-top:180px;" >
 				<h3>Industrial Design</h3>
 				<br class="clear" />
 				<p class="text">Industrial Designers create physical goods designated for mass-consumption by millions of people. Motorcycles, iPods, toothbrushes, and nightstands are all designed by Industrial Designers. These people are masters of 3D and innovating within the constraints of production lines and machines.</p>
@@ -390,7 +390,7 @@
 		<div class="col4">
 			<h3>Startups + designers = ?</h3>
 			<p class="text">For a long time, a pair of co-founders consisted of an executive and an engineer. <b>It worked for Facebook, Microsoft, and Apple</b>, just to name a few. These companies have excellent designers today, <em>because it’s a necessity they can’t afford to ignore</em>. It seems like design is becoming more and more prevalent in new startups as well – <a href="http://squareup.com">Square</a>, <a href="http://path.com">Path</a>, <a href="http://airbnb.com">Airbnb</a>, and more are pushing the envelope.</p>
-			<p><em>Design is becoming a key differentiator</em> for companies to acquire funding, press coverage, and loyal users.</p>
+			<p><em>Design is becoming a key differentiator</em> for companies to acquire funding, press coverage, <br />and loyal users.</p>
 		
 			<h3 style="margin-top:40px;">I think it’s time to shake things up a bit.
 			<br />Let’s add designers into the mix.</h3>
@@ -569,24 +569,27 @@
 		<br />
 		<h2>Finding Great Talent</h2>
 
-		<div class="col2 colL">
-			<div class="section right" style="margin-top:20px;" id="sec51">5.1</div>
+		<div class="col1 colL">
+			<div class="section right" id="sec51">5.1</div>
 		</div>
 		<div class="col2">
-			<p class="text">Finding a stellar designer can be just as challenging as finding a co-founder or developer. Founders need to share passion, drive, and vision. Your co-founders need to compliment your skills, ideas, and perspectives with fresh ones. Find someone who can solve problems and think critically about more than just designing a website –<br /><a href="./tooltips.php?q=startupteam" rel="./tooltips.php?q=startupteam" class="tip">a huge asset who makes your founding team unstoppable</a>.</p>
+			<h3>Okay, I need a designer. <br /><span class="phonetic">What do I look for?</span></h3>
+			<p class="text">Founders need to share passion, drive, and vision. Find someone who can solve problems and think critically about more than just designing a website. Someone who makes your founding team <a href="./tooltips.php?q=startupteam" rel="./tooltips.php?q=startupteam" class="tip">unstoppable</a>.</p>
 		</div>
-		<div class="col2 colR">
+		<!--
+<div class="col2 colR">
 			<p class="text">Non-founding designers should share many of these qualities too. As with any employee in a startup, they need to believe in your product and be driven to make it great, not just good. Technical skills aside, learn their process. What kind of thinking goes into their work? How do they arrive at the final product? Good process lays the foundation for great design.</p>
 		</div>
+-->
 		
-		<br class="clear" />
 		
-		<div class="col1 colL" style="margin-top:120px;">
+		<div class="col1 colL">
 			<div class="section right" id="sec52">5.2</div>
 		</div>
-		<div class="col3" style="margin-top:120px;">
-			<h3>Go where the designers are.</h3>
-			<p class="text">The design community is small and nuanced. Many aren’t aware of the high demand for designers within startups, so they might not come to you. Here’s a few places where you can find excellent local designers right now.</p>
+		<div class="col2 colR">
+			<h3>Go where the designers are.<br />&nbsp;</h3>
+			<p class="text">The design community is small and nuanced. Many designers aren’t aware of their increasing demand within startups, but that doesn't make them impossible to find.</p>
+			<p class="text">Here are a few places where you can find excellent local designers right now.</p>
 		</div>
 		
 		<br class="clear" />
@@ -635,7 +638,7 @@
 		
 		<br class="clear"/>
 				
-		<h2 style="margin-top:160px;">Resources!</h2>
+		<h2 style="margin:60px 0 30px;">Resources!</h2>
 		
 		<div class="col2 colL">
 			<div class="section right" style="margin-top:20px;" id="sec53">5.3</div>
