@@ -131,7 +131,7 @@
 			<h2><!-- <a href="./tooltips.php?q=dieterrams" rel="./tooltips.php?q=dieterrams" class="tip"> -->Dieter Rams<!-- </a> -->’ Ten Principles of&nbsp;&nbsp;“Good Design”<br />
 				<span class="phonetic">(Wow, how convenient is that?)</span></h2>
 			<p class="subText col3 noPadding"><strong><em>Dieter Rams</em></strong> is a German <a href="./tooltips.php?q=industrialdesigner" rel="./tooltips.php?q=industrialdesigner" class="tip">industrial designer</a> closely associated with the consumer products company Braun and functionalist industrial design.</p>
-			<p class="subText col3 noPadding">According to <a href="http://www.vitsoe.com/en/gb/about/dieterrams/gooddesign" target="_blank">Vitsœ</a>: Back in the early 1980s, <!-- Dieter Rams was becoming increasingly concerned by the state of the world around him – “an impenetrable confusion of forms, colours and noises.” A -->aware that he was a significant contributor to that world, he asked himself an important question: 
+			<p class="subText col3 noPadding">According to <a href="http://www.vitsoe.com/en/gb/about/dieterrams/gooddesign" target="_blank">Vitsœ</a>: Back in the early 1980s, aware that his design was a significant contributor to the world, he asked himself an important question: 
 				<br /><em>"Is my design good design?"</em>
 			<p class="subText col3 noPadding">Since good design can't be measured in a finite way, he set about expressing the ten most important principles for what he considered was good design. (Sometimes they are referred as the ‘Ten commandments’.) Here they are. <sup><a id="ref-3" href="#cite-3">3</a></sup></p>
 		</div><!-- / Dieter Rams' Principles -->
@@ -141,30 +141,19 @@
 		<div class="col1 colL"></div>
 		
 			<ul class="principles col5 colR">
-				<li class="colL"><h3><a id="dr1" href="./tooltips.php?q=industrialdesigner" rel="./tooltips.php?q=industrialdesigner">is innovative</a></h3>
-					<p>The possibilities for innovation are not, by any means, exhausted. Technological development is always offering new opportunities for innovative design. But <b>innovative design always develops in tandem with innovative technology</b>, and can never be an end in itself.</p></li>
-				<li><h3><a href="#" id="dr2">makes a product useful</a></h3>
-					<p>A product is bought to be used. It has to satisfy certain criteria, <b>not only functional, but also psychological and aesthetic</b>. Good design emphasizes the usefulness of a product whilst disregarding anything that could possibly detract from it.</p></li>
-				<li><h3><a href="#" id="dr3">is aesthetic</a></h3>
-					<p>The aesthetic quality of a product is integral to its usefulness because products we use every day affect our person and our well-being. But <b>only well-executed objects can be beautiful</b>.</p></li>
-				<li><h3><a href="#" id="dr4">makes a product understandable</a></h3>
-					<p>It clarifies the product’s structure. Better still, it can make the product talk. At best, it is self-explanatory.</p></li>
-				<li class="colR"><h3><a href="#" id="dr5">is unobtrusive</a></h3>
-					<p>Products fulfilling a purpose are like tools. They are neither decorative objects nor works of art. Their design should therefore be both neutral and restrained, to leave room for the user’s self-expression.</p></li>
+				<li class="colL"><h3><a id="dr1" href="./dieterrams.php?q=innovative" rel="./dieterrams.php?q=innovative">innovative</a></h3></li>
+				<li><h3><a id="dr2" href="./dieterrams.php?q=useful" rel="./dieterrams.php?q=useful">makes a product useful</a></h3></li>
+				<li><h3><a id="dr3" href="./dieterrams.php?q=aesthetic" rel="./dieterrams.php?q=aesthetic">aesthetic</a></h3></li>
+				<li><h3><a id="dr4" href="./dieterrams.php?q=understandable" rel="./dieterrams.php?q=understandable">makes a product understandable</a></h3></li>
+				<li class="colR"><h3><a id="dr5" href="./dieterrams.php?q=unobtrusive" rel="./dieterrams.php?q=unobtrusive">unobtrusive</a></h3></li>
 				
 				<br class="clear" />
 				
-				<li class="colL"><h3><a href="#" id="dr6">is honest</a></h3>
-					<p>It does not make a product more innovative, powerful or valuable than it really is. It does not attempt to manipulate the consumer with promises that cannot be kept.</p></li>
-				<li><h3><a href="#" id="dr7">is long-lasting</a></h3>
-					<p>It avoids being fashionable and therefore never appears antiquated. Unlike fashionable design, it lasts many years – even in today’s throwaway society.</p></li>
-				<li><h3><a href="#" id="dr8">is thorough</a></h3>
-					<p>Nothing must be arbitrary or left to chance. Care and accuracy in the design process show respect towards the consumer.</p></li>
-				<li><h3><a href="#" id="dr9">is environmentally friendly</a></h3>
-					<p>Design makes an important contribution to the preservation of the environment. It conserves resources and minimizes physical and visual pollution throughout the lifecycle of the product.</p></li>
-				<li class="colR"><h3><a href="#" id="dr10">is as little design as possible</a></h3>
-					<p>Less, but better – because it concentrates on the essential aspects, and the products are not burdened with non-essentials.</p>
-					<p>Back to purity, back to simplicity.</p></li>
+				<li class="colL"><h3><a id="dr6" href="./dieterrams.php?q=honest" rel="./dieterrams.php?q=honest">honest</a></h3></li>
+				<li><h3><a id="dr7" href="./dieterrams.php?q=longlasting" rel="./dieterrams.php?q=longlasting">long-lasting</a></h3></li>
+				<li><h3><a id="dr8" href="./dieterrams.php?q=thorough" rel="./dieterrams.php?q=thorough">thorough</a></h3></li>
+				<li><h3><a id="dr9" href="./dieterrams.php?q=environmental" rel="./dieterrams.php?q=environmental">environmentally friendly</a></h3></li>
+				<li class="colR"><h3><a id="dr10" href="./dieterrams.php?q=littledesign" rel="./dieterrams.php?q=littledesign">as little design<br />as possible</a></h3></li>
 			</ul><!-- / 10 Principles of Design -->
 		
 		<br class="clear" />
@@ -198,7 +187,7 @@
 				<div class="section right" id="sec14">1.4</div>
 			</div>
 			<div class="col3">
-				<p class="text">Good design can’t be achieved with glossy buttons, or masterful <a href="./tooltips.php?q=wireframes" rel="./tooltips.php?q=wireframes" class="tip">wireframes</a> alone. It’s a merger of all  these principles into something that is meaningful and deliberate.</p>
+				<p class="text">Good design can’t be achieved with glossy buttons or masterful <a href="./tooltips.php?q=wireframes" rel="./tooltips.php?q=wireframes" class="tip">wireframes</a> alone. It’s a merger of all  these principles into something that is meaningful and deliberate.</p>
 				<p class="text">Just like a great business plan is nothing without expert execution, a great Photoshop mockup is nothing, for example, without careful consideration to UI or the user’s needs.</p>
 			</div>
 				<div class="col2 colR" id="paintCan">
@@ -231,9 +220,10 @@
 				<img src="./img/ramsRazor.jpg" />
 				<img src="./img/ramsLighter.jpg" />
 			</div>
+			<p class="caption" style="padding:290px 60px 0 0">Various Braun and Vitsoe Products<br />&copy;1960-2012 <a href="http://www.braun-time.com/" target="_blank">Braun</a> & <a href="http://vitsoe.com" target="_blank">Vitsoe</a></p>
 		</div>
 		<div id="grayContainer" class="col4 colR">
-				<p class="text"><!-- Dieter Rams is known as the “Godfather of Design.” He helped make design understandable and measurable by breaking the components of good design into manageable parts.  -->Take a look at your current product – is design contributing in an innovative way? Does it make the product useful, understandable, and aesthetic? Is it long-lasting, or will it look outdated or break in a few years?</p>
+				<p class="text">Take a look at your current product – is design contributing in an innovative way? Does it make the product useful, understandable, and aesthetic? Is it long-lasting, or will it look outdated or break in a few years?</p>
 				<p class="text">These are really hard questions to answer. Designers enable you to work within these constraints to create a product customers will fall in love with. <br /><em>Love is a really strong emotion</em>.</p>
 				<p class="text">Dieter Rams and his <a href="./tooltips.php?q=contemporaries" rel="./tooltips.php?q=contemporaries" class="tip">contemporaries</a>  started a movement in 20<sup>th</sup> Century towards simple and beautiful products. Design was a strongly valued aspect of business, even 60 years ago. It totally has a place in business today – it’s a proven method.</p>
 		</div><!-- / Section 1 wrap-up -->
@@ -363,7 +353,7 @@
 		
 		<div class="col1 colL"></div>
 		<div class="col4">
-			<p class="text">I asked 78 CEOs, marketers, engineers, and designers about their opinions and definitions of design. Before I could come up with anything for this project, I had to check my assumptions at the door and get some legit data. Here’s what I discovered.</p>
+			<p class="text">Product design includes both digital and physical products.</p>
 		</div>
 		
 		<br class="clear" />

@@ -10,7 +10,7 @@ if($q === "ui"){
 	<p><em>Via <a href="http://en.wikipedia.org/wiki/Elements_of_graphical_user_interfaces">Wikipedia</a></em></p>
 </div>
 <?php }elseif($q === "undesigned"){ ?>
-	<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/t0fe800C2CU?version=3&hl=en_US&rel=0&start=20"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/t0fe800C2CU?version=3&hl=en_US&rel=0&start=20" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+	<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/t0fe800C2CU?version=3&hl=en_US&rel=0&start=20&showinfo=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/t0fe800C2CU?version=3&hl=en_US&rel=0&start=20&showinfo=0" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 	Via <a href="http://amazon.com/Objectified/dp/B002SOUVKU/ref=pd_sim_mov_aiv_2">Objectified</a> by Gary Huswit
 <?php }elseif($q === "dieterrams"){ ?>
 <img src="./img/tool/dieterrams.jpg" />
@@ -64,11 +64,11 @@ if($q === "ui"){
 	<p>In the startup world, everyone's got a different title, and everyone is expected to wear many different hats.</p>
 	<p><em>Via <a href="http://en.wikipedia.org/wiki/Website_wireframe">Wikipedia</a></em></p>
 </div><?php }elseif($q === "linotype"){ ?>
-	<iframe id="videeo" src="http://player.vimeo.com/video/15032988?byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	<iframe id="videeo" src="http://player.vimeo.com/video/15032988?api=1&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 	<a href="http://vimeo.com/15032988">"Linotype: The Film" Official Trailer</a> from <a href="http://vimeo.com/user4747369">Linotype: The Film</a>
 </div>
 </div><?php }elseif($q === "letterpress"){ ?>
-	<iframe src="http://player.vimeo.com/video/25780155?byline=0&amp;portrait=0&amp;color=ffffff" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	<iframe src="http://player.vimeo.com/video/25780155?api=1&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 	<a href="http://vimeo.com/25780155">Jack Daniel's Does Letterpress</a> from <a href="http://vimeo.com/aggrodesign">Aggrodesign</a>
 </div>
 </div><?php }elseif($q === "interfaces"){ ?>
@@ -86,4 +86,5 @@ if($q === "ui"){
 	<h6>Content not found</h6>
 	<p>Whoops, it looks like the content for this tooltip is missing. That's really embarrasing, and I'm really sorry.</p>
 	<p>Please tweet me <a href="http://twitter.com/wellsriley">@wellsriley</a> and I'll try to fix the problem.</p>
+</div>
 <?php } ?>

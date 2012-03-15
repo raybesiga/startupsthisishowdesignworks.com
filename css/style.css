@@ -193,12 +193,13 @@ sup a{color:#1f7291 !important;font-weight:bold;}
 			}
 					
 	#tableOfContents dl{
-		margin:0 0 0 40px;
+		margin:0;
 		overflow: hidden;
 		position:absolute;
 		top:0;
-		background:#000;
+		background:url('../img/tocbg.jpg') repeat-y left #000;
 		visibility: hidden;
+		padding:0 0 20px 40px;
 		width:280px;
 		z-index:9998;
 		}
@@ -550,13 +551,12 @@ p.subText{
 	margin:0 auto;
 	}
 	#designerFounders li{
-		text-indent:-9999px;
 		display:block;
 		width:200px;
 		height:200px;
 		float:left;
 		}
-	#designerFounders li p{
+	#designerFounders p{
 		text-align:center;
 		font-family:"CubanoRegular","Helvetica",sans-serif;
 		font-size:20px;
@@ -579,27 +579,39 @@ p.subText{
 	.df_JeffVeen{	
 		background:url('../img/df_JeffVeen.jpg') no-repeat;
 		}
-		#designerFounders li:hover{
-			text-indent:0;
-			}
-		#designerFounders li a{
+		
+		#designerFounders a{
 			display:block;
 			width:200px;
 			height:140px;
 			padding-top:60px;
 			background:url('../img/hover_bg2.png') repeat;
+			text-indent:-9999px;
 			}
-			#designerFounders li a:hover{
+			#designerFounders a:hover{
 				background:url('../img/hover_bg.png') repeat;
 				text-decoration:none;
+				text-indent:0;
 				}
-			#designerFounders .active a, #designerFounders a:hover{
+			#designerFounders .active a{
 				background:none;
 				text-decoration:none;
 				height:133px;
 				border-bottom:7px solid #ed1c24;
 				cursor:pointer;
 				}
+			
+			#designerFounders a:hover{
+				text-decoration:none;
+				height:133px;
+				border-bottom:7px solid #ed1c24;
+				cursor:pointer;
+				}
+			
+				#designerFounders .active a:hover{
+					background:none !important;
+					text-indent:-9999px;
+					}
 
 #founderBios{
 	width:9999em;
@@ -903,6 +915,10 @@ footer{
 		color:#666;
 		margin-left:222px;
 		}
+		.ui-tooltip p.principleContent{
+		margin-left:0;
+		width:210px;
+			}
 	
 	.ui-tooltip-wiki ul{
 		margin:0 0 30px -20px;

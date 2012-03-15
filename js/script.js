@@ -12,10 +12,10 @@ $(document).ready(function() {
     $('#toc').click(function(){
     	if($('.sections').hasClass('closed')){
     		$('.sections').removeClass('closed');
-    		$('.sections').animate({ top: '34px' }, 200);
+    		$('.sections').stop().animate({ top: '34px' }, 200);
     	}else{
     		$('.sections').addClass('closed');
-    		$('.sections').animate({ top: '-' + sectionsHeight + 'px' }, 100);
+    		$('.sections').stop().animate({ top: '-' + sectionsHeight + 'px' }, 100);
     	}
     	return false;
     });
@@ -30,7 +30,7 @@ $(document).ready(function() {
     $('#tableOfContents').mouseleave(function(){
     	$('.subsectionContent').hide(100, function(){
     		$('.sections').addClass('closed');
-    		$('.sections').animate({ top: '-' + sectionsHeight + 'px' }, 200);
+    		$('.sections').stop().animate({ top: '-' + sectionsHeight + 'px' }, 200);
     	});
     });
     
@@ -325,6 +325,11 @@ $(document).ready(function() {
 	    credits: {
        		enabled: false
      	},
+     	legend: {
+     		labelFormatter: function() {
+            return this.name +' '+ this.total;
+        	}
+     	},
 	    xAxis: {
 	        categories: [
 	            '1 (Not important)',
@@ -341,12 +346,6 @@ $(document).ready(function() {
 	            text: null
 	        }
 	    },
-	    tooltip: {
-	        formatter: function() {
-	            return ''+
-	                this.y +' responses';
-	        }
-	    },
 	    plotOptions: {
 	        column: {
 	            borderWidth: 0
@@ -359,7 +358,7 @@ $(document).ready(function() {
 	        	name: 'Designers',
 	        	shadow: false,
 	        	data: [0, 1, 0, 5, 18],
-	        	color: '#68A69B'
+	        	color: '#428994'
 	    	}, {
 	        	name: 'Biz, Marketing, Dev',
 	        	shadow: false,
@@ -424,7 +423,7 @@ $(document).ready(function() {
 	        	name: 'Designers',
 	        	shadow: false,
 	        	data: [0, 1, 6, 7, 10],
-	        	color: '#68A69B'
+	        	color: '#428994'
 	    	}, {
 	        	name: 'Biz, Marketing, Dev',
 	        	shadow: false,
@@ -529,7 +528,7 @@ $(document).ready(function() {
 	    	y: 48,
 	    	color: '#024873'
 	    	},{
-	    	name: 'Design',
+	    	name: 'Designers',
 	    	y: 15,
 	    	color: '#03738C'
 	    },{
@@ -537,7 +536,7 @@ $(document).ready(function() {
 	    	y: 13,
 	    	color: '#68A69B'
 	    	},{
-	    	name: 'Design',
+	    	name: 'Designers',
 	    	y: 2,
 	    	color: '#B8D9C4'
 	    }],
@@ -579,14 +578,31 @@ $(document).ready(function() {
          style: {
             classes: 'ui-tooltip-wiki ui-tooltip-light ui-tooltip-shadow'
          },
-         events: {
-         	hide: function(event, api){
-         		//$(this).children("iframe").api('pause')
-         		//$(this).html("")
-         		}
-         }
+		events: {
+			render: function(event, api) {
+				// Grab the iframse window element on render…
+				var iframe = $(this).children('iframe');
+				if(iframe && iframe.contentWindow) {
+					api.player = iframe.contentWindow
+				}
+			},
+			hide: function(event, api) {
+				if(api.player) {
+					api.player.postMessage(
+						'{ "method": "pause" }',
+						'http://player.vimeo.com'
+					);
+				}
+			}
+		}
       })
    })
+
+   
+   
+   
+   
+   
  
    // Make sure it doesn't follow the link when we click it
    .click(function(event) { event.preventDefault(); });
@@ -607,6 +623,10 @@ $(document).ready(function() {
 		$("#designerFounders a").removeClass("active");
     	$(this).toggleClass("active");
     });
+    $('.active').parent().css({
+    	textIndent: '-9999px',
+    	border: '0px solid #f0f'
+    	});
 
 	
 	
