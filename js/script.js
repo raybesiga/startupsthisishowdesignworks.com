@@ -567,6 +567,7 @@ $(document).ready(function() {
          position: {
             at: 'bottom center', // Position the tooltip above the link
             my: 'top center',
+            viewport: $(window),
             //viewport: $(window), // Keep the tooltip on-screen at all times
             effect: false // Disable positioning animation
          },

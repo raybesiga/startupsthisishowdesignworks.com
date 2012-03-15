@@ -109,7 +109,7 @@
 		</div>
 		<div class="col2 largeSpace">		
 			<h2>De•sign <span class="phonetic">[dih-zahyn]</span> is a <br />method of problem solving.</h2>
-			<p class="subText">The simplest definition. Design is so many things, executed in so many different ways, but the underlying function is always the same. Whether it’s blueprints, a clever UI, a brochure, or a chair– design can help solve a visual or physical problem.<sup><a id="ref-1" href="#cite-1">1</a></sup></p>
+			<p class="subText">The simplest definition. Design is so many things, executed in many different ways, but the function is always the same. Whether it’s blueprints, a clever UI, a brochure, or a chair – design can help solve a visual or physical problem. <sup><a id="ref-1" href="#cite-1">1</a></sup></p>
 		</div><!-- / What is Design? -->
 		
 		<div class="col1 largeSpace">
@@ -128,7 +128,7 @@
 			<div class="section right" id="sec13">1.3</div>
 		</div>
 		<div class="col4 colR">
-			<h2><!-- <a href="./tooltips.php?q=dieterrams" rel="./tooltips.php?q=dieterrams" class="tip"> -->Dieter Rams<!-- </a> -->’ Ten Principles of&nbsp;&nbsp;“Good Design”<br />
+			<h2>Dieter Rams’ Ten Principles of&nbsp;&nbsp;“Good Design”<br />
 				<span class="phonetic">(Wow, how convenient is that?)</span></h2>
 			<p class="subText col3 noPadding"><strong><em>Dieter Rams</em></strong> is a German <a href="./tooltips.php?q=industrialdesigner" rel="./tooltips.php?q=industrialdesigner" class="tip">industrial designer</a> closely associated with the consumer products company Braun and functionalist industrial design.</p>
 			<p class="subText col3 noPadding">According to <a href="http://www.vitsoe.com/en/gb/about/dieterrams/gooddesign" target="_blank">Vitsœ</a>: Back in the early 1980s, aware that his design was a significant contributor to the world, he asked himself an important question: 
@@ -138,6 +138,11 @@
 		
 		<br class="clear" />
 		
+		<div class="colL col2"></div>
+		<div class="col2"><h3 style="margin-top:10px;margin-bottom:-10px;">Good design is…</h3></div>
+		
+		<br class="clear" />
+ 		
 		<div class="col1 colL"></div>
 		
 			<ul class="principles col5 colR">
@@ -210,8 +215,8 @@
 		
 		<br class="clear" />
 					
-		<div class="col2 colL">
-			<div class="section right" id="sec16" style="margin-top:20px;">1.6</div>
+		<div class="col2 colL" style="margin-top:20px;">
+			<div class="section right" id="sec16">1.6</div>
 			<div class="slideshow">
 				<img src="./img/ramsSpeaker.jpg" />
 				<img src="./img/ramsChair.jpg" />
@@ -220,11 +225,11 @@
 				<img src="./img/ramsRazor.jpg" />
 				<img src="./img/ramsLighter.jpg" />
 			</div>
-			<p class="caption" style="padding:290px 60px 0 0">Various Braun and Vitsoe Products<br />&copy;1960-2012 <a href="http://www.braun-time.com/" target="_blank">Braun</a> & <a href="http://vitsoe.com" target="_blank">Vitsoe</a></p>
+			<p class="caption" style="padding:290px 60px 0 0">Various Braun and Vitsoe Products<br />&copy;1955-2012 <a href="http://www.braun-time.com/" target="_blank">Braun</a> & <a href="http://vitsoe.com" target="_blank">Vitsoe</a></p>
 		</div>
-		<div id="grayContainer" class="col4 colR">
+		<div class="col3">
 				<p class="text">Take a look at your current product – is design contributing in an innovative way? Does it make the product useful, understandable, and aesthetic? Is it long-lasting, or will it look outdated or break in a few years?</p>
-				<p class="text">These are really hard questions to answer. Designers enable you to work within these constraints to create a product customers will fall in love with. <br /><em>Love is a really strong emotion</em>.</p>
+				<p class="text">These are really hard questions to answer. Designers enable you to work within these constraints to create a product customers will fall in love with. <em>Love is a really strong emotion</em>.</p>
 				<p class="text">Dieter Rams and his <a href="./tooltips.php?q=contemporaries" rel="./tooltips.php?q=contemporaries" class="tip">contemporaries</a>  started a movement in 20<sup>th</sup> Century towards simple and beautiful products. Design was a strongly valued aspect of business, even 60 years ago. It totally has a place in business today – it’s a proven method.</p>
 		</div><!-- / Section 1 wrap-up -->
 		
@@ -250,7 +255,7 @@
 		<br class="clear" />
 		
 		<div class="col3 colL"></div>
-		<div class="col2" style="margin:-250px 0 150px;">
+		<div class="col2" style="margin:-300px 0 150px;">
 				<h4>↳ Print Design</h4>
 				<p class="text">A type of graphic designer that works exclusively with print media. Before the widespread adoption of computers, software, and the web, virtually all graphic designers worked on print media such as posters, magazines, billboards, and books. Print designers are typically masters of <a href="./tooltips.php?q=typography" rel="./tooltips.php?q=typography" class="tip">typography</a>, illustration, and traditional printing processes like the <a href="./tooltips.php?q=linotype" rel="./tooltips.php?q=linotype" class="tip">Linotype machine</a> or the <a href="./tooltips.php?q=letterpress" rel="./tooltips.php?q=letterpress" class="tip">letterpress machine</a>, a 500-year-old printing method that has regained popularity in recent years for its' handmade and traditional feel.</p>
 		</div><!-- / Print Design -->
@@ -298,11 +303,11 @@
 			<p class="caption"style="margin-right:50px;padding-top:10px;">Panton Stacking Chair <br />&copy;1967 <a href="http://www.vitra.com/en-us/home/products/panton-chair-classic/overview/" target="_blank">Verner Panton</a></p>
 			
 		</div>
-		<div class="col3" style="margin-top:180px;" >
+		<div class="col3" style="margin-top:140px;" >
 				<h3>Industrial Design</h3>
 				<br class="clear" />
 				<p class="text">Industrial Designers create physical goods designated for mass-consumption by millions of people. Motorcycles, iPods, toothbrushes, and nightstands are all designed by Industrial Designers. These people are masters of 3D and innovating within the constraints of production lines and machines.</p>
-				<p class="text">The objective of this area is to study both function and form, and the connection between product, the user and the environment - product as it happens in any other architecture area, being the only difference, that here the professionals that participate in the process are all specialized in small scale design, rather than in other massive colossal equipments like buildings or ships.<sup><a id="ref-9" href="#cite-9">9</a></sup></p>
+				<p class="text">The objective of this area is to study both function and form, and the connection between product, the user and the environment - product as it happens in any other architecture area, being the only difference, that here the professionals that participate in the process are all specialized in small scale design, rather than in other massive colossal equipments like buildings or ships. <sup><a id="ref-9" href="#cite-9">9</a></sup></p>
 		</div><!-- / Industrial Design -->	
 		
 		<br class="clear" />
@@ -482,7 +487,7 @@
 						<ul class="socialLinks">
 							<li><a href="http://twitter.com/jgebbia" target="_blank" class="tw">Twitter</a></li>
 							<li><a href="http://joegebbia.com/" target="_blank" class="www">Website</a></li>
-							<li><a href="http://airbnb.com/" target="_blank" class="www">Airbnb</a></li>
+							<li><a href="http://airbnb.com/" target="_blank" class="airb">Airbnb</a></li>
 							<br class="clear" />
 						</ul>
 						<iframe src="http://player.vimeo.com/video/23275754?portrait=0&title=0&byline=0&color=ffffff" width="491" height="276" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -526,8 +531,8 @@
 					<div class="col3 colR right">
 						<ul class="socialLinks">
 							<li><a href="http://twitter.com/mike_matas" target="_blank" class="tw">Twitter</a></li>
-							<li><a href="http://pushpoppress.com" target="_blank" class="www">Website</a></li>
 							<li><a href="http://mikematas.com" target="_blank" class="www">Website</a></li>
+							<li><a href="http://pushpoppress.com" target="_blank" class="pushp">Website</a></li>
 							<br class="clear" />
 						</ul>
 						<object width="490" height="305"><param name="movie" value="http://www.youtube.com/v/LV-RvzXGH2YU?version=3&amp;hl=en_US&amp;rel=0&start=15"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/LV-RvzXGH2Y?version=3&amp;hl=en_US&amp;rel=0&start=15" type="application/x-shockwave-flash" width="490" height="305" allowscriptaccess="always" allowfullscreen="true"></embed></object>
@@ -542,13 +547,13 @@
 						
 						<p class="text">Jeffrey Veen is a founder and the CEO of <a href="http://smallbatchinc.com" target="_blank">Small Batch, Inc.</a> where he’s leading a team of developers and creating user-centered web products. Their current effort is <a href="http://typekit.com" target="_blank">Typekit</a> — a widely praised subscription font service that is bringing real typography to the Web for the first time.</p>
 			
-						<p class="text">Jeffrey was also one of the founding partners of <a href="http://adaptivepath.com" target="_blank">Adaptive Path</a> and project lead for Measure Map, the well-received web analytics tool acquired by Google in 2006, where he managed the user experience group responsible for some of the largest web apps in the world.<sup><a id="ref-14" href="#cite-14">14</a></sup></p>
+						<p class="text">Jeffrey was also one of the founding partners of <a href="http://adaptivepath.com" target="_blank">Adaptive Path</a> and project lead for Measure Map, the well-received web analytics tool acquired by Google in 2006, where he managed the user experience group responsible for some of the largest web apps in the world. <sup><a id="ref-14" href="#cite-14">14</a></sup></p>
 					</div>
 					<div class="col3 colR right">
 						<ul class="socialLinks">
 							<li><a href="http://twitter.com/veen" target="_blank" class="tw">Twitter</a></li>
-							<li><a href="http://typekit.com" target="_blank" class="www">Website</a></li>
 							<li><a href="http://veen.com/jeff" target="_blank" class="www">Website</a></li>
+							<li><a href="http://typekit.com" target="_blank" class="tkit">Website</a></li>
 							<br class="clear" />
 						</ul>
 						<object width="490" height="305"><param name="movie" value="http://www.youtube.com/v/8CtC_qbQ51U?version=3&amp;hl=en_US&amp;rel=0&start=45"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/8CtC_qbQ51U?version=3&amp;hl=en_US&amp;rel=0&start=45" type="application/x-shockwave-flash" width="490" height="305" allowscriptaccess="always" allowfullscreen="true"></embed></object>

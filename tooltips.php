@@ -12,12 +12,13 @@ if($q === "ui"){
 <?php }elseif($q === "undesigned"){ ?>
 	<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/t0fe800C2CU?version=3&hl=en_US&rel=0&start=20&showinfo=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/t0fe800C2CU?version=3&hl=en_US&rel=0&start=20&showinfo=0" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 	Via <a href="http://amazon.com/Objectified/dp/B002SOUVKU/ref=pd_sim_mov_aiv_2">Objectified</a> by Gary Huswit
-<?php }elseif($q === "dieterrams"){ ?>
-<img src="./img/tool/dieterrams.jpg" />
+<?php }elseif($q === "industrialdesigner"){ ?>
+<img src="./img/tool/industrialdesign.jpg" />
 <div class="content">
-	<h6>Who is Dieter Rams?</h6>
-	<p>Graphical user interfaces, also known as GUIs, offer a consistent visual language to represent information stored in computers. This makes it easier for people with little computer skills to work with and use computer software.</p>
-	<p><em>Via <a href="http://en.wikipedia.org/wiki/Elements_of_graphical_user_interfaces">Wikipedia</a></em></p>
+	<h6>Industrial Design</h6>
+	<p>Industrial Designers create physical goods designated for mass-consumption by millions of people. Motorcycles, iPods, toothbrushes, and nightstands are all created by industrial designers. These people are masters of physical goods and innovating within the constraints of production lines and machines.</p>
+	<p><object width="325" height="210"><param name="movie" value="http://www.youtube.com/v/XdMpz_YQt74?version=3&amp;hl=en_US&amp;rel=0&showinfo=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/XdMpz_YQt74?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="325" height="210" allowscriptaccess="always" allowfullscreen="true"></embed></object></p>
+	<p><i>Image credit: <a href="http://www.smartdesignworldwide.com/news/archive.php?filter=announcement">Smart Design</a></i></p>
 </div>
 <?php }elseif($q === "vacuum"){ ?>
 <img src="./img/tool/vacuum.png" />

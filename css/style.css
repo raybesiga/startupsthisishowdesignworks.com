@@ -41,8 +41,8 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
 ::selection { background: #f0f; color: #ff0; text-shadow: none; }*/
 
 a { color: #000; }
-a:visited { color: #333; }
-a:hover { color: #06e; }
+a:visited { color: #000; }
+a:hover { color: #f75c26; }
 a:focus { }
 a:hover, a:active { outline: 0; }
 
@@ -410,13 +410,7 @@ p.subText{
 .slideshow{
 	margin:0 auto;
 	}
-#grayContainer{
-	padding:0 30px 0 0 !important;
-	width:640px !important;
-	}
-	#grayContainer p{
-		font-size:20px;
-		}
+
 
 /* -- Section 2 -- */
 #section2{
@@ -665,6 +659,9 @@ p.subText{
 	.www{background:url('../img/rogieSocial/link.png') no-repeat;}
 	.zp{background:url('../img/rogieSocial/zerply.png') no-repeat;}
 	.path{background:url('../img/rogieSocial/path.png') no-repeat;}
+	.airb{background:url('../img/rogieSocial/airbnb.png') no-repeat;}
+	.pushp{background:url('../img/rogieSocial/pushpop.png') no-repeat;}
+	.tkit{background:url('../img/rogieSocial/typekit.png') no-repeat;}
 
 	#navButtons{
 		position:relative;
@@ -926,6 +923,7 @@ footer{
 	
 	.ui-tooltip-wiki img{
 		float:left;
+		margin-top:50px;
 		padding: 0 30px 0 0;
 	}
 	.ui-tooltip-titlebar{
