@@ -13,7 +13,7 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="./touch-icon-ipad.png" />
 	<link rel="apple-touch-icon" sizes="114x114" href="./touch-icon-iphone4.png" />
 	<link href="./favicon.ico" rel="shortcut icon">
-	<link href="http://fonts.googleapis.com/css?family=Raleway:100|Crimson+Text:400,400italic,600,600italic|Open+Sans+Condensed:700|Sail" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Raleway:100|Crimson+Text:400,400italic,600,600italic|Open+Sans+Condensed:700|Sail" target="_blank" rel="stylesheet" type="text/css">
 	<link href="./css/jquery.qtip.min.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="./css/style.css" media="screen" rel="stylesheet" type="text/css" />
 <!-- Notes -
@@ -76,7 +76,7 @@
 	
 	<ul class="socialSharing">
 		<li class="platform">
-			<fb:like href="http://startupsthisishowdesignworks.com" layout="button_count" send="false" show_faces="false"></fb:like>
+			<fb:like href="http://startupsthisishowdesignworks.com" target="_blank" layout="button_count" send="false" show_faces="false"></fb:like>
 		</li>
 		<li class="platform">
 			<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.html?url=http%3A%2F%2Fstartupsthisishowdesignworks.com&amp;via=wellsriley" style="width:130px; height:20px;" allowTransparency="true" frameborder="0"></iframe>
@@ -85,7 +85,7 @@
 			<script type="in/share" data-counter="right" data-url="http://startupsthisishowdesignworks.com"></script>
 		</li>
 		<li class="platform">
-			<g:plusone size="medium" count="true" href="http://startupsthisishowdesignworks.com"></g:plusone>
+			<g:plusone size="medium" count="true" href="http://startupsthisishowdesignworks.com" target="_blank"></g:plusone>
 		</li>
 	</ul><!-- / socialSharing -->
 	
@@ -93,14 +93,14 @@
 	
 	<header>
 		<h1>Startups, this is how design works.</h1>
-		<div id="author">A guide for non-designers by <a href="http://wellsriley.com">Wells Riley</a>.
-			<br />Format inspired by <a href="http://jessicahische.is">Jessica Hische</a>.</div>
+		<div id="author">A guide for non-designers by <a href="http://wellsriley.com" target="_blank">Wells Riley</a>.
+			<br />Format inspired by <a href="http://jessicahische.is" target="_blank">Jessica Hische</a>.</div>
 		<br class="clear" />
 	</header>
 	
 	<div id="section1">
-		<p class="text col5"><!-- Design and business have never really seen eye to eye – <strong><em>or have they?</em></strong>   -->The .com boom may have come and gone before designers could catch up, but today companies like Apple are making design impossible to ignore. The roles have reversed, and startupers are lost in the nuanced world of art & design. What is ‘design’ actually? Is it a logo? A wordpress theme? An innovative <a href="./tooltips.php?q=ui" rel="./tooltips.php?q=ui" class="tip">UI</a>? <img src="./img/tooltipNote.jpg" /style="vertical-align:middle;"></p>
-		<p class="text col5">It’s so much more than that. It’s a state of mind. It’s an approach to a problem. It’s how you’re going to kick your competitor’s ass. This handy guide will help your understanding of design and provide resources to help you find awesome design talent.</p>
+		<p class="text col4">Companies like Apple are making design impossible for startups to ignore. Startups like <a href="http://path.com" target="blank">Path</a>, <a href="http://airbnb.com" target="_blank">Airbnb</a>, <a href="http://squareup.com" target="_blank">Square</a>, and <a href="http://massivehealth.com" target="_blank">Massive Health</a> have design at the core of their business, and they're doing phenomenal work. But what is ‘design’ actually? Is it a logo? A Wordpress theme? An innovative <a href="./tooltips.php?q=ui" rel="./tooltips.php?q=ui" class="tip">UI</a>? <img src="./img/tooltipNote.jpg" /style="vertical-align:middle;"></p>
+		<p class="text col4">It’s so much more than that. It’s a state of mind. It’s an approach to a problem. It’s how you’re going to kick your competitor’s ass. This handy guide will help you understand design and provide resources to help you find awesome design talent.</p>
 		
 		<br class="clear" />
 		
@@ -109,7 +109,7 @@
 		</div>
 		<div class="col2 largeSpace">		
 			<h2>De•sign <span class="phonetic">[dih-zahyn]</span> is a <br />method of problem solving.</h2>
-			<p class="subText">The simplest definition. Design is so many things, executed in so many different ways, but the underlying function is always the same. Whether it’s blueprints, a clever UI, a brochure, or a chair– design can help solve a visual or physical problem.<sup><a href="#cite-1">1</a></sup></p>
+			<p class="subText">The simplest definition. Design is so many things, executed in so many different ways, but the underlying function is always the same. Whether it’s blueprints, a clever UI, a brochure, or a chair– design can help solve a visual or physical problem.<sup><a id="ref-1" href="#cite-1">1</a></sup></p>
 		</div><!-- / What is Design? -->
 		
 		<div class="col1 largeSpace">
@@ -131,9 +131,9 @@
 			<h2><!-- <a href="./tooltips.php?q=dieterrams" rel="./tooltips.php?q=dieterrams" class="tip"> -->Dieter Rams<!-- </a> -->’ Ten Principles of&nbsp;&nbsp;“Good Design”<br />
 				<span class="phonetic">(Wow, how convenient is that?)</span></h2>
 			<p class="subText col3 noPadding"><strong><em>Dieter Rams</em></strong> is a German <a href="./tooltips.php?q=industrialdesigner" rel="./tooltips.php?q=industrialdesigner" class="tip">industrial designer</a> closely associated with the consumer products company Braun and functionalist industrial design.</p>
-			<p class="subText col3 noPadding">According to <a href="http://www.vitsoe.com/en/gb/about/dieterrams/gooddesign">Vitsœ</a>: Back in the early 1980s, <!-- Dieter Rams was becoming increasingly concerned by the state of the world around him – “an impenetrable confusion of forms, colours and noises.” A -->aware that he was a significant contributor to that world, he asked himself an important question: 
+			<p class="subText col3 noPadding">According to <a href="http://www.vitsoe.com/en/gb/about/dieterrams/gooddesign" target="_blank">Vitsœ</a>: Back in the early 1980s, <!-- Dieter Rams was becoming increasingly concerned by the state of the world around him – “an impenetrable confusion of forms, colours and noises.” A -->aware that he was a significant contributor to that world, he asked himself an important question: 
 				<br /><em>"Is my design good design?"</em>
-			<p class="subText col3 noPadding">Since good design can't be measured in a finite way, he set about expressing the ten most important principles for what he considered was good design. (Sometimes they are referred as the ‘Ten commandments’.) Here they are. <sup><a href="#cite-3">3</a></sup></p>
+			<p class="subText col3 noPadding">Since good design can't be measured in a finite way, he set about expressing the ten most important principles for what he considered was good design. (Sometimes they are referred as the ‘Ten commandments’.) Here they are. <sup><a id="ref-3" href="#cite-3">3</a></sup></p>
 		</div><!-- / Dieter Rams' Principles -->
 		
 		<br class="clear" />
@@ -171,7 +171,7 @@
 		
 		<div id="braunApple">
 			<div class="col2 colL">
-			<sub><a href="#cite-4" style="color:#ddd;">4</a></sub>
+			<sub><a id="ref-4" style="color:#ddd;" href="#cite-4" style="color:#ddd;">4</a></sub>
 			<div class="slideshow">
 				<img src="./img/braunapple_1.jpg" />
 				<img src="./img/braunapple_2.jpg" />
@@ -202,7 +202,7 @@
 				<p class="text">Just like a great business plan is nothing without expert execution, a great Photoshop mockup is nothing, for example, without careful consideration to UI or the user’s needs.</p>
 			</div>
 				<div class="col2 colR" id="paintCan">
-					<p class="caption col1 colR">“Fill Can” icon <br />&copy; <a href="http://www.kareprints.com/">Susan Kare</a></p>
+					<p class="caption col1 colR">“Fill Can” icon <br />&copy;1983 <a href="http://www.kareprints.com/" target="_blank">Susan Kare</a></p>
 				</div>
 			</div>
 		</div><!-- / sec1SummaryWrapper -->
@@ -215,7 +215,7 @@
 		
 		<div class="col1 colL">
 			<h3>Objectified</h3>
-				<p class="subText">A documentary film that provides a look at the creativity behind everything from toothbrushes to <br />tech gadgets. <sup><a href="#cite-15">15</a></sup></p>
+				<p class="subText">A documentary film that provides a look at the creativity behind everything from toothbrushes to <br />tech gadgets. <sup><a id="ref-15" href="#cite-15">15</a></sup></p>
 		</div>
 		<iframe id="objVideo" class="col5 colR" src="http://player.vimeo.com/video/12793996?portrait=0&title=0&byline=0&color=ffffff" width="830" height="467" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 		
@@ -250,6 +250,7 @@
 		<div class="col2 colL">
 			<div class="section right" id="sec21">2.1</div>
 			<img id="designPoster" src="./img/dylan-glaser.jpg" />
+			<p class="caption">Poster for Bob Dylan's Greatest Hits <br />&copy;1975 <a href="http://www.miltonglaser.com/the-work/444/columbia-records-poster-for-bob-dylans-greatest-hits-1975/" target="_blank">Milton Glaser</a></p>
 		</div>
 		<div class="col3">
 				<h3>Graphic Design</h3>
@@ -260,7 +261,7 @@
 		
 		<div class="col3 colL"></div>
 		<div class="col2" style="margin:-250px 0 150px;">
-				<h4>Print Design</h4>
+				<h4>↳ Print Design</h4>
 				<p class="text">A type of graphic designer that works exclusively with print media. Before the widespread adoption of computers, software, and the web, virtually all graphic designers worked on print media such as posters, magazines, billboards, and books. Print designers are typically masters of <a href="./tooltips.php?q=typography" rel="./tooltips.php?q=typography" class="tip">typography</a>, illustration, and traditional printing processes like the <a href="./tooltips.php?q=linotype" rel="./tooltips.php?q=linotype" class="tip">Linotype machine</a> or the <a href="./tooltips.php?q=letterpress" rel="./tooltips.php?q=letterpress" class="tip">letterpress machine</a>, a 500-year-old printing method that has regained popularity in recent years for its' handmade and traditional feel.</p>
 		</div><!-- / Print Design -->
 		
@@ -274,7 +275,7 @@
 				<h3>Interaction Design</h3>
 				<br class="clear" />
 				<p class="text">Interaction designers, on the other hand, focus on digital products and interactive software design. Some examples include web apps like Facebook and Pinterest, mobile apps like Tweetbot, and Operating Systems like OS X. While graphic design is meant to be observed, interaction design helps humans experience or manipulate software or interface with screen-based hardware in order to <em>achieve specific goals</em> – checking email, withdrawing money from an ATM, or "Liking" a webpage (such as this one!)</p>
-				<p class="text">As Wikipedia puts it, <em>Interaction design is heavily focused on satisfying the needs and desires of the people who will use the product.</em> <sup><a href="#cite-5">5</a></sup></p>
+				<p class="text">As Wikipedia puts it, <em>Interaction design is heavily focused on satisfying the needs and desires of the people who will use the product.</em> <sup><a id="ref-5" href="#cite-5">5</a></sup></p>
 		</div><!-- / Interaction Design -->
 		<div class="col2 colR">
 			<img id="ixdGraphic" src="./img/ux-verplank.jpg" />
@@ -283,32 +284,35 @@
 		<br class="clear" />
 		
 		<div class="col2 colL">
-			<img id="uxDesign" src="./img/tapbots.jpg" />&nbsp;
+			<img id="uxDesign" src="./img/tapbots.jpg" />
+			<p class="caption"style="margin-right:30px;padding-top:10px;">ConvertBot and Weightbot UI <br />&copy;2008-2012 <a href="http://tapbots.com" target="_blank">Tapbots, LLC</a></p>
 		</div>
 		<div class="col2">
-			<h4>User Interface Design</h4>
-			<p class="text">User Interface Design (UI) he design of software applications and websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing user goals</em>. Good user interface design facilitates finishing the task at hand without drawing unnecessary attention to itself. The design process must balance technical functionality and visual elements to create a system that is not only operational but also <em>usable and <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">adaptable</a> to changing user needs</em>. <sup><a href="#cite-7">7</a></sup></p>
-			<!-- <p class="text">Interface design is involved in a wide range of projects from <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">computer systems, to cars, to commercial planes</a>; all of these projects involve much of the same basic human interactions yet also require some unique skills and knowledge. As a result, designers tend to specialize in certain types of projects and have skills centered around their expertise, such as software design, user research, web design, or industrial design. <sup><a href="#cite-7">7</a></sup></p> -->
+			<h4>↳ User Interface Design</h4>
+			<p class="text">User Interface Design (UI) he design of software applications and websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing user goals</em>. Good user interface design facilitates finishing the task at hand without drawing unnecessary attention to itself. The design process must balance technical functionality and visual elements to create a system that is not only operational but also <em>usable and <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">adaptable</a> to changing user needs</em>. <sup><a id="ref-7" href="#cite-7">7</a></sup></p>
+			<!-- <p class="text">Interface design is involved in a wide range of projects from <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">computer systems, to cars, to commercial planes</a>; all of these projects involve much of the same basic human interactions yet also require some unique skills and knowledge. As a result, designers tend to specialize in certain types of projects and have skills centered around their expertise, such as software design, user research, web design, or industrial design. <sup><a id="ref-7" href="#cite-7">7</a></sup></p> -->
 
 		</div><!-- / Interface Design -->
 		
 		<div class="col2 colR">	
-			<h4>User Experience Design</h4>
+			<h4>↳ User Experience Design</h4>
 			<p class="text">User Experience (UX) Design incorporates aspects of <em>psychology, anthropology, sociology, computer science, graphic design, industrial design and cognitive science</em>. Depending on the purpose of the product, UX may also involve content design disciplines such as communication design, instructional design, or game design.</p>
-			<p class="text">User experience design is used to positively impact the overall experience a person has with a particular interactive product. It considers the interactions between a user and a system, virtual or physical, <em>designed to meet or support user needs and goals</em>. <sup><a href="#cite-8">8</a></sup></p>
+			<p class="text">User experience design is used to positively impact the overall experience a person has with a particular interactive product. It considers the interactions between a user and a system, virtual or physical, <em>designed to meet or support user needs and goals</em>. <sup><a id="ref-8" href="#cite-8">8</a></sup></p>
 		</div><!-- / User Experience Design -->
 			
 		<br class="clear" />
 		
 		<div class="col2" style="text-align:center;margin-top:180px;">
 			<div class="section right" id="sec23">2.3</div>
-			<img id="industrialDesign" src="./img/eames_lcw.jpg" />
+			<img id="industrialDesign" src="./img/pantonChair.jpg" />
+			<p class="caption"style="margin-right:50px;padding-top:10px;">Panton Stacking Chair <br />&copy;1967 <a href="http://www.vitra.com/en-us/home/products/panton-chair-classic/overview/" target="_blank">Verner Panton</a></p>
+			
 		</div>
 		<div class="col3" style="margin-top:180px;" >
 				<h3>Industrial Design</h3>
 				<br class="clear" />
 				<p class="text">Industrial Designers create physical goods designated for mass-consumption by millions of people. Motorcycles, iPods, toothbrushes, and nightstands are all designed by Industrial Designers. These people are masters of 3D and innovating within the constraints of production lines and machines.</p>
-				<p class="text">The objective of this area is to study both function and form, and the connection between product, the user and the environment - product as it happens in any other architecture area, being the only difference, that here the professionals that participate in the process are all specialized in small scale design, rather than in other massive colossal equipments like buildings or ships.<sup><a href="#cite-9">9</a></sup></p>
+				<p class="text">The objective of this area is to study both function and form, and the connection between product, the user and the environment - product as it happens in any other architecture area, being the only difference, that here the professionals that participate in the process are all specialized in small scale design, rather than in other massive colossal equipments like buildings or ships.<sup><a id="ref-9" href="#cite-9">9</a></sup></p>
 		</div><!-- / Industrial Design -->	
 		
 		<br class="clear" />
@@ -363,13 +367,36 @@
 		</div>
 		
 		<br class="clear" />
-
 		
 		<div id="row2_biz" class="col3 colL chart"></div>
 		<div id="row2_users" class="col3 colR chart"></div>
 		
 		<br class="clear" />
-	
+
+		<div class="col1 colL">
+			<div class="section right" id="sec33">3.3</div>
+		</div>
+		<div class="col5 colR">
+			<h3>How deep does design go?</h3>
+		</div>
+
+		<br class="clear" />
+		
+		<div class="col1 colL"></div>
+		<div class="col4">
+			<p class="text">I asked 78 CEOs, marketers, engineers, and designers about their opinions and definitions of design. Before I could come up with anything for this project, I had to check my assumptions at the door and get some legit data. Here’s what I discovered.</p>
+		</div>
+		
+		<br class="clear" />
+
+		
+		<div id="row3_gdez" class="col2 colL chart"></div>
+		<div class="col1"></div>
+		<div id="row3_founders" class="col3 colR chart"></div>
+		
+		<br class="clear" />
+		
+		
 	</div><!-- / globalWrapper -->
 </div><!-- / section3 -->
 <div id="sec3bottom"></div>
@@ -389,7 +416,7 @@
 		
 		<div class="col4">
 			<h3>Startups + designers = ?</h3>
-			<p class="text">For a long time, a pair of co-founders consisted of an executive and an engineer. <b>It worked for Facebook, Microsoft, and Apple</b>, just to name a few. These companies have excellent designers today, <em>because it’s a necessity they can’t afford to ignore</em>. It seems like design is becoming more and more prevalent in new startups as well – <a href="http://squareup.com">Square</a>, <a href="http://path.com">Path</a>, <a href="http://airbnb.com">Airbnb</a>, and more are pushing the envelope.</p>
+			<p class="text">For a long time, a pair of co-founders consisted of an executive and an engineer. <b>It worked for Facebook, Microsoft, and Apple</b>, just to name a few. These companies have excellent designers today, <em>because it’s a necessity they can’t afford to ignore</em>. It seems like design is becoming more and more prevalent in new startups as well – <a href="http://squareup.com" target="_blank">Square</a>, <a href="http://path.com" target="_blank">Path</a>, <a href="http://airbnb.com" target="_blank">Airbnb</a>, and more are pushing the envelope.</p>
 			<p><em>Design is becoming a key differentiator</em> for companies to acquire funding, press coverage, <br />and loyal users.</p>
 		
 			<h3 style="margin-top:40px;">I think it’s time to shake things up a bit.
@@ -418,7 +445,7 @@
 	<div id="totalWrapper">
 		<div id="scroll">
 			<ul class="navi" id="designerFounders">
-				<li class="df_DaveMorin"><a href="javascript:void(0)" id="t1"><p>Dave Morin</p><p>Path</p></a></li>
+				<li class="df_DaveMorin active"><a href="javascript:void(0)" id="t1"><p>Dave Morin</p><p>Path</p></a></li>
 				<li class="df_JoeGebbia"><a href="javascript:void(0)" id="t2"><p>Joe Gebbia</p><p>Airbnb</p></a></li>
 				<li class="df_JessicaHische"><a href="javascript:void(0)" id="t3"><p>Jessica Hische</p><p>Side Projects</p></a></li>
 				<li class="df_MikeMatas"><a href="javascript:void(0)" id="t4"><p>Mike Matas</p><p>Push Pop Press</p></a></li>
@@ -433,15 +460,15 @@
 						
 						<br class="clear" />
 						
-						<p class="text">Dave is the Co-Founder and CEO of <a href="http://path.com">Path</a>, the smart journal that helps you share life with the ones you love. Previously, as an original member of the <a href="http://www.facebook.com/">Facebook</a> team, Dave played a variety of product, marketing, strategy, and management roles in expanding the Facebook ecosystem to over 800 million people worldwide. Dave was a co-inventor of <a href="http://developers.facebook.com/connect.php">Facebook Connect</a> which was created to make the Internet more social, and is now used by over 7 million apps and websites.</p>
+						<p class="text">Dave is the Co-Founder and CEO of <a href="http://path.com" target="_blank">Path</a>, the smart journal that helps you share life with the ones you love. Previously, as an original member of the <a href="http://www.facebook.com/" target="_blank">Facebook</a> team, Dave played a variety of product, marketing, strategy, and management roles in expanding the Facebook ecosystem to over 800 million people worldwide. Dave was a co-inventor of <a href="http://developers.facebook.com/connect.php" target="_blank">Facebook Connect</a> which was created to make the Internet more social, and is now used by over 7 million apps and websites.</p>
 			
-						<p class="text">In 2011, Dave was named a <a href="http://images.businessweek.com/slideshows/20110516/best-young-tech-entrepreneurs-2011/slides/18">30 under 30 Best Young Tech Entrepreneur</a> by Bloomberg Businessweek. He was also named <a href="http://www.businessinsider.com/the-silicon-valley-100-2012-1#12-dave-morin-89">#12 on the Silicon Valley 100</a> by Business Insider. <sup><a href="#cite-10">10</a></sup></p>
+						<p class="text">In 2011, Dave was named a <a href="http://images.businessweek.com/slideshows/20110516/best-young-tech-entrepreneurs-2011/slides/18" target="_blank">30 under 30 Best Young Tech Entrepreneur</a> by Bloomberg Businessweek. He was also named <a href="http://www.businessinsider.com/the-silicon-valley-100-2012-1#12-dave-morin-89" target="_blank">#12 on the Silicon Valley 100</a> by Business Insider. <sup><a id="ref-10" href="#cite-10">10</a></sup></p>
 					</div>
 					<div class="col3 colR right">
 						<ul class="socialLinks">
-							<li><a href="http://twitter.com/davemorin" class="tw">Twitter</a></li>
-							<li><a href="http://davemorin.com/" class="www">Website</a></li>
-							<li><a href="http://path.com/" class="path">Path</a></li>
+							<li><a href="http://twitter.com/davemorin" target="_blank" class="tw">Twitter</a></li>
+							<li><a href="http://davemorin.com/" target="_blank" class="www">Website</a></li>
+							<li><a href="http://path.com/" target="_blank" class="path">Path</a></li>
 							<br class="clear" />
 						</ul>
 						<object width="490" height="305"><param name="movie" value="http://www.youtube.com/v/2iDjrW8NqJI?version=3&amp;hl=en_US&amp;rel=0&start=14"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/2iDjrW8NqJI?version=3&amp;hl=en_US&amp;rel=0&start=14" type="application/x-shockwave-flash" width="490" height="305" allowscriptaccess="always" allowfullscreen="true"></embed></object>
@@ -457,15 +484,15 @@
 						
 						<br class="clear" />
 						
-						<p class="text">Joe defines the <a href="http://airbnb.com">Airbnb</a> experience. He is dedicated to creating an inspiring and effortless user experience through sharp, intuitive design, and crafts the product roadmap to make it so. Joe values products that simplify life and have a positive impact on the environment, and ensures that the company adheres to these tenets.</p>
+						<p class="text">Joe defines the <a href="http://airbnb.com" target="_blank">Airbnb</a> experience. He is dedicated to creating an inspiring and effortless user experience through sharp, intuitive design, and crafts the product roadmap to make it so. Joe values products that simplify life and have a positive impact on the environment, and ensures that the company adheres to these tenets.</p>
 			
-						<p class="text">Prior to Airbnb, Joe was employed by Chronicle Books, co-founded a green design website, and developed several consumer products. An alumni of the <a href="http://risd.edu">Rhode Island School of Design</a>, Joe earned dual degrees in Graphic Design and Industrial Design. <sup><a href="#cite-11">11</a></sup></p>
+						<p class="text">Prior to Airbnb, Joe was employed by Chronicle Books, co-founded a green design website, and developed several consumer products. An alumni of the <a href="http://risd.edu" target="_blank">Rhode Island School of Design</a>, Joe earned dual degrees in Graphic Design and Industrial Design. <sup><a id="ref-11" href="#cite-11">11</a></sup></p>
 					</div>
 					<div class="col3 colR right">
 						<ul class="socialLinks">
-							<li><a href="http://twitter.com/jgebbia" class="tw">Twitter</a></li>
-							<li><a href="http://joegebbia.com/" class="www">Website</a></li>
-							<li><a href="http://airbnb.com/" class="www">Airbnb</a></li>
+							<li><a href="http://twitter.com/jgebbia" target="_blank" class="tw">Twitter</a></li>
+							<li><a href="http://joegebbia.com/" target="_blank" class="www">Website</a></li>
+							<li><a href="http://airbnb.com/" target="_blank" class="www">Airbnb</a></li>
 							<br class="clear" />
 						</ul>
 						<iframe src="http://player.vimeo.com/video/23275754?portrait=0&title=0&byline=0&color=ffffff" width="491" height="276" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -481,13 +508,13 @@
 						
 						<br class="clear" />
 						
-						<p class="text">Jessica Hische is a letterer and illustrator best known for her personal projects <a href="http://dailydropcap.com/">Daily Drop Cap</a> and the <a href="http://shouldiworkforfree.com/">Should I Work for Free?</a> flowchart. Just five years out of college, she’s been named one of Print Magazine’s New Visual Artists and an ADC Young Gun, one of Forbes 30 under 30 in Art and Design, and currently serves on the TDC board of Directors. She has been profiled in many publications, has traveled the world speaking about lettering and illustration, and has probably consumed enough coffee to power a small nation. <sup><a href="#cite-12">12</a></sup></p>
+						<p class="text">Jessica Hische is a letterer and illustrator best known for her personal projects <a href="http://dailydropcap.com/" target="_blank">Daily Drop Cap</a> and the <a href="http://shouldiworkforfree.com/" target="_blank">Should I Work for Free?</a> flowchart. Just five years out of college, she’s been named one of Print Magazine’s New Visual Artists and an ADC Young Gun, one of Forbes 30 under 30 in Art and Design, and currently serves on the TDC board of Directors. She has been profiled in many publications, has traveled the world speaking about lettering and illustration, and has probably consumed enough coffee to power a small nation. <sup><a id="ref-12" href="#cite-12">12</a></sup></p>
 					</div>
 					<div class="col3 colR right">
 						<ul class="socialLinks">
-							<li><a href="http://twitter.com/jessicahische" class="tw">Twitter</a></li>
-							<li><a href="http://dribbble.com/jessicahische" class="db">Dribbble</a></li>
-							<li><a href="http://jessicahische.is" class="www">Website</a></li>
+							<li><a href="http://twitter.com/jessicahische" target="_blank" class="tw">Twitter</a></li>
+							<li><a href="http://dribbble.com/jessicahische" target="_blank" class="db">Dribbble</a></li>
+							<li><a href="http://jessicahische.is" target="_blank" class="www">Website</a></li>
 							<br class="clear" />
 						</ul>
 						<iframe src="http://player.vimeo.com/video/11093835?portrait=0&title=0&byline=0&color=ffffff" width="491" height="276" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -503,14 +530,14 @@
 						
 						<br class="clear" />
 						
-						<p class="text">Mike is a user interface designer and cofounder of <a href="http://www.pushpoppress.com">Push Pop Press</a>, a digital publishing company that worked with Al Gore to create the first full-length interactive book <a href="http://www.pushpoppress.com/ourchoice">Our Choice</a>. Recently Push Pop Press was <a href="http://pushpoppress.com/about/">acquired by Facebook</a> where he is now working, giving people better tools to explore and share ideas.</p>
-						<p class="text">Prior to starting Push Pop Press he worked at Apple where he designed user interfaces and artwork for the iPhone, the iPad, and Mac OS X. Before that he cofounded <a href="http://www.delicious-monster.com/">Delicious Monster</a>, a software company that created Delicious Library. <sup><a href="#cite-13">13</a></sup></p>
+						<p class="text">Mike is a user interface designer and cofounder of <a href="http://www.pushpoppress.com" target="_blank">Push Pop Press</a>, a digital publishing company that worked with Al Gore to create the first full-length interactive book <a href="http://www.pushpoppress.com/ourchoice" target="_blank">Our Choice</a>. Recently Push Pop Press was <a href="http://pushpoppress.com/about/" target="_blank">acquired by Facebook</a> where he is now working, giving people better tools to explore and share ideas.</p>
+						<p class="text">Prior to starting Push Pop Press he worked at Apple where he designed user interfaces and artwork for the iPhone, the iPad, and Mac OS X. Before that he cofounded <a href="http://www.delicious-monster.com/" target="_blank">Delicious Monster</a>, a software company that created Delicious Library. <sup><a id="ref-13" href="#cite-13">13</a></sup></p>
 					</div>
 					<div class="col3 colR right">
 						<ul class="socialLinks">
-							<li><a href="http://twitter.com/mike_matas" class="tw">Twitter</a></li>
-							<li><a href="http://pushpoppress.com" class="www">Website</a></li>
-							<li><a href="http://mikematas.com" class="www">Website</a></li>
+							<li><a href="http://twitter.com/mike_matas" target="_blank" class="tw">Twitter</a></li>
+							<li><a href="http://pushpoppress.com" target="_blank" class="www">Website</a></li>
+							<li><a href="http://mikematas.com" target="_blank" class="www">Website</a></li>
 							<br class="clear" />
 						</ul>
 						<object width="490" height="305"><param name="movie" value="http://www.youtube.com/v/LV-RvzXGH2YU?version=3&amp;hl=en_US&amp;rel=0&start=15"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/LV-RvzXGH2Y?version=3&amp;hl=en_US&amp;rel=0&start=15" type="application/x-shockwave-flash" width="490" height="305" allowscriptaccess="always" allowfullscreen="true"></embed></object>
@@ -523,15 +550,15 @@
 						
 						<br class="clear" />
 						
-						<p class="text">Jeffrey Veen is a founder and the CEO of <a href="http://smallbatchinc.com">Small Batch, Inc.</a> where he’s leading a team of developers and creating user-centered web products. Their current effort is <a href="http://typekit.com">Typekit</a> — a widely praised subscription font service that is bringing real typography to the Web for the first time.</p>
+						<p class="text">Jeffrey Veen is a founder and the CEO of <a href="http://smallbatchinc.com" target="_blank">Small Batch, Inc.</a> where he’s leading a team of developers and creating user-centered web products. Their current effort is <a href="http://typekit.com" target="_blank">Typekit</a> — a widely praised subscription font service that is bringing real typography to the Web for the first time.</p>
 			
-						<p class="text">Jeffrey was also one of the founding partners of <a href="http://adaptivepath.com">Adaptive Path</a> and project lead for Measure Map, the well-received web analytics tool acquired by Google in 2006, where he managed the user experience group responsible for some of the largest web apps in the world.<sup><a href="#cite-14">14</a></sup></p>
+						<p class="text">Jeffrey was also one of the founding partners of <a href="http://adaptivepath.com" target="_blank">Adaptive Path</a> and project lead for Measure Map, the well-received web analytics tool acquired by Google in 2006, where he managed the user experience group responsible for some of the largest web apps in the world.<sup><a id="ref-14" href="#cite-14">14</a></sup></p>
 					</div>
 					<div class="col3 colR right">
 						<ul class="socialLinks">
-							<li><a href="http://twitter.com/veen" class="tw">Twitter</a></li>
-							<li><a href="http://typekit.com" class="www">Website</a></li>
-							<li><a href="http://veen.com/jeff" class="www">Website</a></li>
+							<li><a href="http://twitter.com/veen" target="_blank" class="tw">Twitter</a></li>
+							<li><a href="http://typekit.com" target="_blank" class="www">Website</a></li>
+							<li><a href="http://veen.com/jeff" target="_blank" class="www">Website</a></li>
 							<br class="clear" />
 						</ul>
 						<object width="490" height="305"><param name="movie" value="http://www.youtube.com/v/8CtC_qbQ51U?version=3&amp;hl=en_US&amp;rel=0&start=45"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/8CtC_qbQ51U?version=3&amp;hl=en_US&amp;rel=0&start=45" type="application/x-shockwave-flash" width="490" height="305" allowscriptaccess="always" allowfullscreen="true"></embed></object>
@@ -597,18 +624,18 @@
 		<div class="col2 colL orangeLinks">
 
 			<div class="goToDesigners">
-				<a href="http://plancast.com/search?q=design"><img src="./img/plancast_logo.png" /></a>
-				<a href="http://meetup.com/find/?keywords=design" style="margin:0 33px;"><img src="./img/meetup_logo.png" /></a>
-				<a href="http://eventbrite.com/"><img src="./img/eventbrite_logo.png" /></a>
+				<a href="http://plancast.com/search?q=design" target="_blank"><img src="./img/plancast_logo.png" /></a>
+				<a href="http://meetup.com/find/?keywords=design" target="_blank" style="margin:0 33px;"><img src="./img/meetup_logo.png" /></a>
+				<a href="http://eventbrite.com/" target="_blank"><img src="./img/eventbrite_logo.png" /></a>
 			</div>
 			
 			<p class="text">Meetups and events are a great way to break into the design culture and mingle with prospective talent face-to-face. I strongly recommend you attend at least one design meetup – it’s really important to have that perspective going into your designer search.</p>
 			<p>
-			<a href="http://creativemornings.com">Creative Mornings</a><br />
-			<a href="http://warmgun.com">Warm Gun</a><br />
-			<a href="http://meetup.com/find/?keywords=design">Meetup.com – Search for “Design”</a><br />
-			<a href="http://plancast.com/search?q=design">Plancast.com – Search for “Design”</a>
-			<a href="http://www.eventbrite.com/directory?q=design">Eventbrite.com – Search for “Design”</a>
+			<a href="http://creativemornings.com" target="_blank">Creative Mornings</a><br />
+			<a href="http://warmgun.com" target="_blank">Warm Gun</a><br />
+			<a href="http://meetup.com/find/?keywords=design" target="_blank">Meetup.com – Search for “Design”</a><br />
+			<a href="http://plancast.com/search?q=design" target="_blank">Plancast.com – Search for “Design”</a>
+			<a href="http://www.eventbrite.com/directory?q=design" target="_blank">Eventbrite.com – Search for “Design”</a>
 			</p>
 			<p class="text">There’s always something going on.</p>
 
@@ -616,10 +643,10 @@
 		<div class="col2 orangeLinks">
 		
 			<div class="goToDesigners">
-				<a href="http://zerply.com"><img src="./img/zerply_logo.png" /></a>
+				<a href="http://zerply.com" target="_blank"><img src="./img/zerply_logo.png" /></a>
 			</div>
 			
-			<p class="text">Think of <a href="http://zerply.com">Zerply</a> as LinkedIn for designers, developers, and entrepreneurs. It’s an exquisitely designed platform that operates on a network connections and recommendations. Members can be “recommended” for excellence in a variety of disciplines and skills.</p>
+			<p class="text">Think of <a href="http://zerply.com" target="_blank">Zerply</a> as LinkedIn for designers, developers, and entrepreneurs. It’s an exquisitely designed platform that operates on a network connections and recommendations. Members can be “recommended” for excellence in a variety of disciplines and skills.</p>
 			<p class="text">Zerply allows you to search for designers by location, skills, and talents. The system is free to use.</p>
 			
 		</div>
@@ -627,10 +654,10 @@
 		<div class="col2 colR orangeLinks">
 
 				<div class="goToDesigners">
-					<a href="http://dribbble.com"><img src="./img/dribbble_logo.png" /></a>
+					<a href="http://dribbble.com" target="_blank"><img src="./img/dribbble_logo.png" /></a>
 				</div>
 				
-				<p class="text"><a href="http://dribbble.com">Dribbble</a> is an exclusive online community of designers from around the world. Signup is by (rare) invite only, which helps cultivate some of the best design talent in the world.</p>
+				<p class="text"><a href="http://dribbble.com" target="_blank">Dribbble</a> is an exclusive online community of designers from around the world. Signup is by (rare) invite only, which helps cultivate some of the best design talent in the world.</p>
 				<p class="text">Designers post works-in-progress (wip), completed projects, teasers, and fun work so designers and 'spectators' from anywhere can catch a glimpse of what they're working on.</p>
 				<p class="text">The site allows you to search for designers by skill, availability, and location. You can also advertise on the dribbble job board to allow some of the world’s best designers to come to you.</p>
 
@@ -652,30 +679,30 @@
 		<br class="clear" />
 				
 		<ul id="resources">
-			<li><a href="http://thedesignerfund.com"><img src="./img/rsrc_designerFund.jpg" /></a></li>
-			<li><a href="http://swiss-miss.com"><img src="./img/rsrc_swissMiss.jpg" /></a></li>
-			<li><a href="http://creativemornings.com"><img src="./img/rsrc_creativeMornings.jpg" /></a></li>
-			<li><a href="http://alistapart.com"><img src="./img/rsrc_aListApart.jpg" /></a></li>
-			<li><a href="http://designobserver.com"><img src="./img/rsrc_DesignObserver.jpg" /></a></li>
-			<li><a href="http://ilovetypography.com"><img src="./img/rsrc_iLoveTypography.jpg" /></a></li>
-			<li><a href="http://typekit.com"><img src="./img/rsrc_typeKit.jpg" /></a></li>
-			<li><a href="http://amazon.com/Objectified/dp/B002SOUVKU/ref=pd_sim_mov_aiv_2"><img src="./img/rsrc_objectified.jpg" /></a></li>
-			<li><a href="http://ourchoicethebook.com"><img src="./img/rsrc_ourChoice.jpg" /></a></li>
-			<li><a href="http://type.method.ac"><img src="./img/rsrc_kerningGame.jpg" /></a></li>
-			<li><a href="http://dribbble.com"><img src="./img/rsrc_dribbble.jpg" /></a></li>
-			<li><a href="http://amazon.com/Helvetica/dp/B002RIOGI0/ref=sr_1_1?s=instant-video&ie=UTF8&qid=1331186392&sr=1-1"><img src="./img/rsrc_helvetica.jpg" /></a></li>
-			<li><a href="http://www.smashingmagazine.com/"><img src="./img/rsrc_smashingMagazine.jpg" /></a></li>
-			<li><a href="http://fontsquirrel.com"><img src="./img/rsrc_fontSquirrel.jpg" /></a></li>
-			<li><a href="http://ted.org"><img src="./img/rsrc_ted.jpg" /></a></li>
-			<li><a href="http://zerply.com"><img src="./img/rsrc_zerply.jpg" /></a></li>
-			<li><a href="http://core77.com"><img src="./img/rsrc_core77.jpg" /></a></li>
-			<li><a href="http://500.co"><img src="./img/rsrc_500.jpg" /></a></li>
-			<li><a href="http://aiga.org"><img src="./img/rsrc_aiga.jpg" /></a></li>
-			<li><a href="http://atypeprimer.com"><img src="./img/rsrc_aTypePrimer.jpg" /></a></li>
-			<li><a href="http://losttype.com"><img src="./img/rsrc_lostType.jpg" /></a></li>
-			<li><a href="http://37signals.com/svn"><img src="./img/rsrc_37signals.jpg" /></a></li>
-			<li><a href="http://good.is"><img src="./img/rsrc_good.jpg" /></a></li>
-			<li><a href="http://behance.net"><img src="./img/rsrc_behance.jpg" /></a></li>
+			<li><a href="http://thedesignerfund.com" target="_blank"><img src="./img/rsrc_designerFund.jpg" /></a></li>
+			<li><a href="http://swiss-miss.com" target="_blank"><img src="./img/rsrc_swissMiss.jpg" /></a></li>
+			<li><a href="http://creativemornings.com" target="_blank"><img src="./img/rsrc_creativeMornings.jpg" /></a></li>
+			<li><a href="http://alistapart.com" target="_blank"><img src="./img/rsrc_aListApart.jpg" /></a></li>
+			<li><a href="http://designobserver.com" target="_blank"><img src="./img/rsrc_DesignObserver.jpg" /></a></li>
+			<li><a href="http://ilovetypography.com" target="_blank"><img src="./img/rsrc_iLoveTypography.jpg" /></a></li>
+			<li><a href="http://typekit.com" target="_blank"><img src="./img/rsrc_typeKit.jpg" /></a></li>
+			<li><a href="http://amazon.com/Objectified/dp/B002SOUVKU/ref=pd_sim_mov_aiv_2" target="_blank"><img src="./img/rsrc_objectified.jpg" /></a></li>
+			<li><a href="http://ourchoicethebook.com" target="_blank"><img src="./img/rsrc_ourChoice.jpg" /></a></li>
+			<li><a href="http://type.method.ac" target="_blank"><img src="./img/rsrc_kerningGame.jpg" /></a></li>
+			<li><a href="http://dribbble.com" target="_blank"><img src="./img/rsrc_dribbble.jpg" /></a></li>
+			<li><a href="http://amazon.com/Helvetica/dp/B002RIOGI0/ref=sr_1_1?s=instant-video&ie=UTF8&qid=1331186392&sr=1-1" target="_blank"><img src="./img/rsrc_helvetica.jpg" /></a></li>
+			<li><a href="http://www.smashingmagazine.com/" target="_blank"><img src="./img/rsrc_smashingMagazine.jpg" /></a></li>
+			<li><a href="http://fontsquirrel.com" target="_blank"><img src="./img/rsrc_fontSquirrel.jpg" /></a></li>
+			<li><a href="http://ted.org" target="_blank"><img src="./img/rsrc_ted.jpg" /></a></li>
+			<li><a href="http://zerply.com" target="_blank"><img src="./img/rsrc_zerply.jpg" /></a></li>
+			<li><a href="http://core77.com" target="_blank"><img src="./img/rsrc_core77.jpg" /></a></li>
+			<li><a href="http://500.co" target="_blank"><img src="./img/rsrc_500.jpg" /></a></li>
+			<li><a href="http://aiga.org" target="_blank"><img src="./img/rsrc_aiga.jpg" /></a></li>
+			<li><a href="http://atypeprimer.com" target="_blank"><img src="./img/rsrc_aTypePrimer.jpg" /></a></li>
+			<li><a href="http://losttype.com" target="_blank"><img src="./img/rsrc_lostType.jpg" /></a></li>
+			<li><a href="http://37signals.com/svn" target="_blank"><img src="./img/rsrc_37signals.jpg" /></a></li>
+			<li><a href="http://good.is" target="_blank"><img src="./img/rsrc_good.jpg" /></a></li>
+			<li><a href="http://behance.net" target="_blank"><img src="./img/rsrc_behance.jpg" /></a></li>
 		</ul>
 		
 		<br class="clear" />
@@ -692,7 +719,7 @@
 		
 		<ul class="socialSharing">
 			<li class="platform">
-				<fb:like href="http://startupsthisishowdesignworks.com" layout="button_count" send="false" show_faces="false"></fb:like>
+				<fb:like href="http://startupsthisishowdesignworks.com" target="_blank" layout="button_count" send="false" show_faces="false"></fb:like>
 			</li>
 			<li class="platform">
 				<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.html?url=http%3A%2F%2Fstartupsthisishowdesignworks.com&amp;via=wellsriley" style="width:130px; height:20px;" allowTransparency="true" frameborder="0"></iframe>
@@ -701,14 +728,14 @@
 				<script type="in/share" data-counter="right" data-url="http://startupsthisishowdesignworks.com"></script>
 			</li>
 			<li class="platform">
-				<g:plusone size="medium" count="true" href="http://startupsthisishowdesignworks.com"></g:plusone>
+				<g:plusone size="medium" count="true" href="http://startupsthisishowdesignworks.com" target="_blank"></g:plusone>
 			</li>
 		</ul><!-- / socialSharing -->
 		
 		<div class="col4 colL colR">
 			<p class="text">Seriously. I love startups and design, and I want them to be best friends forever. My name is Wells Riley, and I’m graduating with a BFA in Graphic Design from Northeastern this spring (2012). I’ve been working with startups for several years, and designing on the Web for even longer.</p>
 			<p class="text">Design and entrepreneurship are among the most important things in my life, and it’s so exciting to see design taking a stronger role in new companies. I hope this will be a valuable resource to help designers and entrepreneurs speak the same language.</p>
-			<p class="text">If you have any feedback, please feel free to tweet me <a href="http://twitter.com/wellsriley">@wellsriley</a>.</p>
+			<p class="text">If you have any feedback, please feel free to tweet me <a href="http://twitter.com/wellsriley" target="_blank">@wellsriley</a>.</p>
 		</div>
 		
 		<div class="col1" style="text-align:center;width:285px;padding:0 0 0 20px;">
@@ -727,20 +754,20 @@
 			<h2>Thank you so much</h2>
 		
 		<ul class="acknowledgements">
-			<li><a href="http://fictivecameron.com">Cameron Cozcon</a></li>
-			<li><a href="http://thedesignerfund.com">The Designer Fund</a></li>
-			<li><a href="http://www.vitsoe.com/en/us/about/dieterrams/who-is-dieter-rams">Dieter Rams</a></li>
-			<li><a href="http://twitter.com/enriqueallen">Enrique Allen</a></li>
-			<li><a href="http://www.amazon.com/s/ref=sr_nr_scat_2649512011_ln?rh=n%3A2649512011%2Ck%3Agary+hustwit&keywords=gary+hustwit&ie=UTF8&qid=1331486160&scn=2649512011&h=db9370a14fa03cf4c75d5c07cbd58d3549e24ec8#/ref=sr_nr_p_n_format_browse-bi_0?rh=n%3A2625373011%2Cn%3A%212625374011%2Cn%3A2649512011%2Ck%3Agary+hustwit%2Cp_n_format_browse-bin%3A2650306011&bbn=2649512011&keywords=gary+hustwit&ie=UTF8&qid=1331486168&rnid=2650303011">Gary Hustwit</a></li>
-			<li><a href="http://ianhirschfeld.com">Ian Hirschfeld</a></li>
-			<li><a href="http://jessicahische.is">Jessica Hische</a></li>
-			<li><a href="http://www.amazon.com/Type-Primer-2nd-John-Kane/dp/0205066445/ref=ntt_at_ep_dpt_1">John Kane</a></li>
-			<li><a href="http://losttype.com">Lost Type Co-op</a></li>
-			<li><a href="http://mantia.me">Louie Mantia</a></li>
-			<li><a href="http://squaredeye.com">Matthew Smith</a></li>
-			<li><a href="http://finegoodsmarket.com">Rogie King & Fine Goods</a></li>
-			<li><a href="http://dribbble.com/shots/183766-Pattern-Kit-One-Ribbon-Dancer-">Seth Nickerson</a></li>
-			<li><a href="http://www.apple.com/stevejobs/"> Steve Jobs</a></li>
+			<li><a href="http://fictivecameron.com" target="_blank">Cameron Cozcon</a></li>
+			<li><a href="http://thedesignerfund.com" target="_blank">The Designer Fund</a></li>
+			<li><a href="http://www.vitsoe.com/en/us/about/dieterrams/who-is-dieter-rams" target="_blank">Dieter Rams</a></li>
+			<li><a href="http://twitter.com/enriqueallen" target="_blank">Enrique Allen</a></li>
+			<li><a href="http://www.amazon.com/s/ref=sr_nr_scat_2649512011_ln?rh=n%3A2649512011%2Ck%3Agary+hustwit&keywords=gary+hustwit&ie=UTF8&qid=1331486160&scn=2649512011&h=db9370a14fa03cf4c75d5c07cbd58d3549e24ec8#/ref=sr_nr_p_n_format_browse-bi_0?rh=n%3A2625373011%2Cn%3A%212625374011%2Cn%3A2649512011%2Ck%3Agary+hustwit%2Cp_n_format_browse-bin%3A2650306011&bbn=2649512011&keywords=gary+hustwit&ie=UTF8&qid=1331486168&rnid=2650303011" target="_blank">Gary Hustwit</a></li>
+			<li><a href="http://ianhirschfeld.com" target="_blank">Ian Hirschfeld</a></li>
+			<li><a href="http://jessicahische.is" target="_blank">Jessica Hische</a></li>
+			<li><a href="http://www.amazon.com/Type-Primer-2nd-John-Kane/dp/0205066445/ref=ntt_at_ep_dpt_1" target="_blank">John Kane</a></li>
+			<li><a href="http://losttype.com" target="_blank">Lost Type Co-op</a></li>
+			<li><a href="http://mantia.me" target="_blank">Louie Mantia</a></li>
+			<li><a href="http://squaredeye.com" target="_blank">Matthew Smith</a></li>
+			<li><a href="http://finegoodsmarket.com" target="_blank">Rogie King & Fine Goods</a></li>
+			<li><a href="http://dribbble.com/shots/183766-Pattern-Kit-One-Ribbon-Dancer-" target="_blank">Seth Nickerson</a></li>
+			<li><a href="http://www.apple.com/stevejobs/" target="_blank"> Steve Jobs</a></li>
 			<br />
 			<li>Greg Skloot</li>
 			<li>Maroun Najjar</li>
@@ -752,21 +779,36 @@
 		<div class="sources col3 colR">
 			<p>Sources:</p>
 			<ol>
-				<li id="cite-1"><a href="http://atypeprimer.com/">A Type Primer (pp. vii) : John Kane</a></li>
-				<li id="cite-2"><a href="http://www.telegraph.co.uk/technology/apple/8555503/Dieter-Rams-Apple-has-achieved-something-I-never-did.html">Apple has achieved something I never did : The Telegraph</a></li>
-				<li id="cite-3"><a href="http://www.vitsoe.com/en/gb/about/dieterrams/gooddesign">Dieter Rams - ten principles for good design : Vitsoe</a></li>
-				<li id="cite-4"><a href="http://gizmodo.com/343641/1960s-braun-products-hold-the-secrets-to-apples-future">1960s Braun Products Hold the Secrets to Apple’s Future : Gizmodo</a></li>
-				<li id="cite-5"><a href="http://en.wikipedia.org/wiki/Interaction_design">Interaction Design : Wikipedia</a></li>
-				<li id="cite-6"><a href="http://wellsosaur.us/EvUB">This isn't a source don't click here.</a></li>
-				<li id="cite-7"><a href="http://en.wikipedia.org/wiki/User_interface_design">User Interface Design : Wikipedia</a></li>
-				<li id="cite-8"><a href="http://en.wikipedia.org/wiki/User_experience_design">User Experience Design : Wikipedia</a></li>
-				<li id="cite-9"><a href="http://en.wikipedia.org/wiki/Industrial_design">Industrial Design : Wikipedia</a></li>
-				<li id="cite-10"><a href="http://davemorin.tumblr.com/about">About Dave Morin : Dave Morin</a></li>
-				<li id="cite-11"><a href="http://www.airbnb.com/founding-team">Founding Team - Joe Gebbia : Airbnb</a></li>
-				<li id="cite-12"><a href="http://www.jessicahische.is/bloggable">Press Page : Jessica Hische</a></li>
-				<li id="cite-13"><a href="http://mikematas.com/#!about">About : Mike Matas</a></li>
-				<li id="cite-14"><a href="http://aneventapart.com/speakers/jeffveen/">Jeffrey Veen : An Event Apart</a></li>
-				<li id="cite-15"><a href="http://www.objectifiedfilm.com/about/">About the Film : Objectified</a></li>
+				<li id="cite-1"><a href="http://atypeprimer.com/" target="_blank">A Type Primer (pp. vii) : John Kane</a></li>
+					<a class="jumpBack" href="#ref-1">⇈ Jump back</a>
+				<li id="cite-2"><a href="http://www.telegraph.co.uk/technology/apple/8555503/Dieter-Rams-Apple-has-achieved-something-I-never-did.html" target="_blank">Apple has achieved something I never did : The Telegraph</a></li>
+					<a class="jumpBack" href="#ref-2">⇈ Jump back</a>
+				<li id="cite-3"><a href="http://www.vitsoe.com/en/gb/about/dieterrams/gooddesign" target="_blank">Dieter Rams - ten principles for good design : Vitsoe</a></li>
+					<a class="jumpBack" href="#ref-3">⇈ Jump back</a>
+				<li id="cite-4"><a href="http://gizmodo.com/343641/1960s-braun-products-hold-the-secrets-to-apples-future" target="_blank">1960s Braun Products Hold the Secrets to Apple’s Future : Gizmodo</a></li>
+					<a class="jumpBack" href="#ref-4">⇈ Jump back</a>
+				<li id="cite-5"><a href="http://en.wikipedia.org/wiki/Interaction_design" target="_blank">Interaction Design : Wikipedia</a></li>
+					<a class="jumpBack" href="#ref-5">⇈ Jump back</a>
+				<li id="cite-6"><a href="http://wellsosaur.us/EvUB" target="_blank">This isn't a source don't click here.</a></li>
+					<a class="jumpBack" href="#ref-6">⇈ Jump back</a>
+				<li id="cite-7"><a href="http://en.wikipedia.org/wiki/User_interface_design" target="_blank">User Interface Design : Wikipedia</a></li>
+					<a class="jumpBack" href="#ref-7">⇈ Jump back</a>
+				<li id="cite-8"><a href="http://en.wikipedia.org/wiki/User_experience_design" target="_blank">User Experience Design : Wikipedia</a></li>
+					<a class="jumpBack" href="#ref-8">⇈ Jump back</a>
+				<li id="cite-9"><a href="http://en.wikipedia.org/wiki/Industrial_design" target="_blank">Industrial Design : Wikipedia</a></li>
+					<a class="jumpBack" href="#ref-9">⇈ Jump back</a>
+				<li id="cite-10"><a href="http://davemorin.tumblr.com/about" target="_blank">About Dave Morin : Dave Morin</a></li>
+					<a class="jumpBack" href="#ref-10">⇈ Jump back</a>
+				<li id="cite-11"><a href="http://www.airbnb.com/founding-team" target="_blank">Founding Team - Joe Gebbia : Airbnb</a></li>
+					<a class="jumpBack" href="#ref-11">⇈ Jump back</a>
+				<li id="cite-12"><a href="http://www.jessicahische.is/bloggable" target="_blank">Press Page : Jessica Hische</a></li>
+					<a class="jumpBack" href="#ref-12">⇈ Jump back</a>
+				<li id="cite-13"><a href="http://mikematas.com/#!about" target="_blank">About : Mike Matas</a></li>
+					<a class="jumpBack" href="#ref-13">⇈ Jump back</a>
+				<li id="cite-14"><a href="http://aneventapart.com/speakers/jeffveen/" target="_blank">Jeffrey Veen : An Event Apart</a></li>
+					<a class="jumpBack" href="#ref-14">⇈ Jump back</a>
+				<li id="cite-15"><a href="http://www.objectifiedfilm.com/about/" target="_blank">About the Film : Objectified</a></li>
+					<a class="jumpBack" href="#ref-15">⇈ Jump back</a>
 			</ol>
 		</div>
 		<br class="clear" />
@@ -774,7 +816,7 @@
 </div>
 	
 <footer>
-	&copy; <?php echo date('Y'); ?> <a href="http://wellsriley.com">Wells Riley</a>. All rights reserved.
+	&copy; <?php echo date('Y'); ?> <a href="http://wellsriley.com" target="_blank">Wells Riley</a>. All rights reserved.
 </footer>
 	
 </div>

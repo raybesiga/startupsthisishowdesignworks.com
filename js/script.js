@@ -320,7 +320,7 @@ $(document).ready(function() {
 			fontSize: '14px',
 			fontFamily: 'Helvetica',
 			fontWeight: 'Bold'
-		}
+			}
 	    },
 	    credits: {
        		enabled: false
@@ -336,6 +336,7 @@ $(document).ready(function() {
 	    },
 	    yAxis: {
 	        min: 0,
+	        minRange: 40,
 	        title: {
 	            text: null
 	        }
@@ -348,22 +349,25 @@ $(document).ready(function() {
 	    },
 	    plotOptions: {
 	        column: {
-	        	stacking: 'normal',
-	            pointPadding: 0.2,
 	            borderWidth: 0
 	        },
 	        series: {
-            pointWidth: 40
+            pointWidth: 29
         	}
 	    },
 	        series: [{
 	        	name: 'Designers',
-	        	data: [0, 1, 0, 5, 18]
+	        	shadow: false,
+	        	data: [0, 1, 0, 5, 18],
+	        	color: '#68A69B'
 	    	}, {
 	        	name: 'Biz, Marketing, Dev',
-	        	data: [0, 2, 3, 5, 44]
+	        	shadow: false,
+	        	data: [0, 2, 3, 5, 44],
+	        	color: '#024873'
 	    	}]
 	});
+	
 	
 	// Chart: How important do you think product design is to your users?
 	chart_row2_users = new Highcharts.Chart({
@@ -397,6 +401,7 @@ $(document).ready(function() {
 	    },
 	    yAxis: {
 	        min: 0,
+	        minRange: 40,
 	        title: {
 	            text: null
 	        }
@@ -409,24 +414,137 @@ $(document).ready(function() {
 	    },
 	    plotOptions: {
 	        column: {
-	        	stacking: 'normal',
-	            pointPadding: 0.2,
 	            borderWidth: 0
 	        },
 	        series: {
-            pointWidth: 40
+            pointWidth: 29
         	}
 	    },
 	        series: [{
 	        	name: 'Designers',
-	        	data: [0, 1, 6, 7, 10]
+	        	shadow: false,
+	        	data: [0, 1, 6, 7, 10],
+	        	color: '#68A69B'
 	    	}, {
 	        	name: 'Biz, Marketing, Dev',
-	        	data: [0, 1, 11, 16, 26]
+	        	shadow: false,
+	        	data: [0, 1, 11, 16, 26],
+	        	color: '#024873'
 	    	}]
 	});
 	
+	// Chart: Is your product well designed?
+	chart_row3_gdez = new Highcharts.Chart({
+	 chart: {
+	    renderTo: 'row3_gdez',
+	    type: 'pie',
+	    backgroundColor: 'transparent',
+	    marginTop: 55
+	 },
+	 title: {
+	    text: "Is your product well designed?",
+	    margin: 0,
+	    style: {
+			color: '#ed1c24',
+			fontSize: '14px',
+			fontFamily: 'Helvetica',
+			fontWeight: 'Bold'
+		}
+	 },
+	 plotOptions: {
+        pie: {
+             allowPointSelect: true,
+             cursor: 'pointer',
+             dataLabels: {
+                 enabled: false
+             },
+             showInLegend: true
+         }
+     },
+	 credits: {
+        enabled: false
+     },
+	 series: [{
+	    name: 'Responses',
+	    data: [{
+	    	name: 'Yes',
+	    	y: 61,
+	    	color: '#083055'
+	    	},{
+	    	name: 'No',
+	    	y: 17,
+	    	color: '#428994'
+	    }],
+	   }]
+	});
 	
+	// Chart: Do designers belong on the founding team?
+	chart_row3_gdez = new Highcharts.Chart({
+	 chart: {
+	    renderTo: 'row3_founders',
+	    type: 'pie',
+	    backgroundColor: 'transparent'
+	 },
+	 title: {
+	    text: "Do designers belong on the founding team?",
+	    margin: 0,
+	    style: {
+			color: '#ed1c24',
+			fontSize: '14px',
+			fontFamily: 'Helvetica',
+			fontWeight: 'Bold'
+		}
+	 },
+	 plotOptions: {
+        pie: {
+             allowPointSelect: true,
+             cursor: 'pointer',
+             dataLabels: {
+                 enabled: false
+             },
+             showInLegend: false
+         }
+     },
+	 credits: {
+        enabled: false
+     },
+	 series: [{
+	    name: 'Responses',
+	    data: [{
+	    	name: 'Yes',
+	    	y: 63,
+	    	color: '#083055'
+	    	},{
+	    	name: 'No',
+	    	y: 15,
+	    	color: '#428994'
+	    }],
+	    size: '55%',
+	   },
+	   {
+	    name: 'Responses',
+	    
+	    data: [{
+	    	name: 'Biz / Marketing / Dev',
+	    	y: 48,
+	    	color: '#024873'
+	    	},{
+	    	name: 'Design',
+	    	y: 15,
+	    	color: '#03738C'
+	    },{
+	    	name: 'Biz / Marketing / Dev',
+	    	y: 13,
+	    	color: '#68A69B'
+	    	},{
+	    	name: 'Design',
+	    	y: 2,
+	    	color: '#B8D9C4'
+	    }],
+	    innerSize: '55%',
+	   }]
+	});
+
 	
 	// Tooltips using qTip2
 	// Make sure to only match links to the Tooltip PHP file with a rel tag
@@ -483,6 +601,14 @@ $(document).ready(function() {
 	// Scrollable plugin for Section 4 Designer Founders
 	var api = $("#scroll").scrollable({ items: '#founderBios' }).navigator().data("scrollable");
 
+
+	// toggle "active" on Designer Founder thumbnails
+	$("#designerFounders a").click(function () {
+		$("#designerFounders a").removeClass("active");
+    	$(this).toggleClass("active");
+    });
+
+	
 	
 });
 
