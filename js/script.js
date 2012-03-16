@@ -5,7 +5,7 @@ $( init );
 
 $(document).ready(function() {
     
-    // Table of Contents
+// Table of Contents
     var sectionsHeight = $('.sections').height();
     $('.sections').css({ top: '-' + sectionsHeight + 'px', visibility: 'visible' });
     
@@ -34,7 +34,7 @@ $(document).ready(function() {
     	});
     });
     
-    // ScrollToStuff
+// ScrollToStuff
     
     jQuery('.subsectionContent a').click(function(){
     	var offset = $(this).attr("data-offset") || 50;
@@ -55,10 +55,10 @@ $(document).ready(function() {
 	
 	
     
-    /*! Copyright © 2010 Burin Asavesna (http://helloburin.com)
-	 * Licensed under the MIT License (LICENSE.txt).
-	 */
-    // boxShadow get hooks
+/*! Copyright © 2010 Burin Asavesna (http://helloburin.com)
+* Licensed under the MIT License (LICENSE.txt).
+*/
+// boxShadow get hooks
     var div = document.createElement('div'),
         divStyle = div.style,
         support = $.support,
@@ -149,13 +149,13 @@ $(document).ready(function() {
     }
     
     
-    // Das Charts
+// Das Charts
     
     Highcharts.setOptions({
    		colors: ['#083055', '#024873', '#03738C', '#428994', '#68A69B', '#B8D9C4']
 	});
     
-    // Chart: What's important to biz / engineering / devs?
+  // Chart: What's important to biz / engineering / devs?
 	chart_row1_biz = new Highcharts.Chart({
 	 chart: {
 	    renderTo: 'row1_biz',
@@ -203,7 +203,7 @@ $(document).ready(function() {
 	   }]
 	});
 	
-	// Chart: What's important to designers?
+  // Chart: What's important to designers?
 	chart_row1_dez = new Highcharts.Chart({
 	 chart: {
 	    renderTo: 'row1_dez',
@@ -255,7 +255,7 @@ $(document).ready(function() {
 	   }]
 	});
 	
-	// Chart: What's important to Dieter Rams?
+  // Chart: What's important to Dieter Rams?
 	chart_row1_ramz = new Highcharts.Chart({
 	 chart: {
 	    renderTo: 'row1_ramz',
@@ -304,7 +304,7 @@ $(document).ready(function() {
 	});
 	
 	
-	// Chart: How important is design to biz / engineering / devs / designers?
+  // Chart: How important is design to biz / engineering / devs / designers?
 	chart_row2_biz = new Highcharts.Chart({
 	    chart: {
 	        renderTo: 'row2_biz',
@@ -368,7 +368,7 @@ $(document).ready(function() {
 	});
 	
 	
-	// Chart: How important do you think product design is to your users?
+  // Chart: How important do you think product design is to your users?
 	chart_row2_users = new Highcharts.Chart({
 	    chart: {
 	        renderTo: 'row2_users',
@@ -432,7 +432,7 @@ $(document).ready(function() {
 	    	}]
 	});
 	
-	// Chart: Is your product well designed?
+  // Chart: Is your product well designed?
 	chart_row3_gdez = new Highcharts.Chart({
 	 chart: {
 	    renderTo: 'row3_gdez',
@@ -477,7 +477,7 @@ $(document).ready(function() {
 	   }]
 	});
 	
-	// Chart: Do designers belong on the founding team?
+  // Chart: Do designers belong on the founding team?
 	chart_row3_gdez = new Highcharts.Chart({
 	 chart: {
 	    renderTo: 'row3_founders',
@@ -545,7 +545,8 @@ $(document).ready(function() {
 	});
 
 	
-	// Tooltips using qTip2
+// Tooltips using qTip2
+
 	// Make sure to only match links to the Tooltip PHP file with a rel tag
    $('a[href*=./tooltips.php?q=][rel]').each(function()
    {
@@ -598,24 +599,19 @@ $(document).ready(function() {
 		}
       })
    })
-
    
-   
-   
-   
-   
- 
    // Make sure it doesn't follow the link when we click it
    .click(function(event) { event.preventDefault(); });
    
-   // Apple vs. Braun Slideshow
+
+// Apple vs. Braun Slideshow
     $('.slideshow').cycle({
 		fx: 'fade',
 		speed: 500
 	});
 	
 	
-	// Scrollable plugin for Section 4 Designer Founders
+// Scrollable plugin for Section 4 Designer Founders
 	var api = $("#scroll").scrollable({ items: '#founderBios' }).navigator().data("scrollable");
 
 
@@ -633,27 +629,36 @@ $(document).ready(function() {
 	
 });
 
-function init() {
-  $('#triforceDrag').draggable({ 
-    axis: "x"
-  });
-  $('#triforceDrop').droppable( {
-    drop: handleDropEvent
-  });
-}
+
+// Triforce thing
+	function init() {
+	  $('#triforceDrag').draggable({ 
+	    axis: "x"
+	  });
+	  $('#triforceDrop').droppable( {
+	    drop: handleDropEvent
+	  });
+	}
  
-function handleDropEvent( event, ui ) {
-  var draggable = ui.draggable;
-  $('#triforceDrag').hide('fast', function() {
-  });
-  $('#triforceDrop').css('background-image', 'url("./img/triforceComplete.jpg")');
-  $('#triforceDrop').animate({
-  	marginRight: '380px',
-  	},500);
-  function animateTheShadow(){
-  $('#triforceDropz').animate({
-    'boxShadowBlur': '3000px'
-  	},650).animate ({'boxShadowBlur': '200px' }, 650, animateTheShadow );
-  };
-  animateTheShadow();
-}
+	function handleDropEvent( event, ui ) {
+	  var draggable = ui.draggable;
+	  $('#triforceDrag').hide('fast', function() {
+	  });
+	  $('#triforceDrop').css('background-image', 'url("./img/triforceComplete.jpg")');
+	  $('#triforceDrop').animate({
+	  	marginRight: '380px',
+	  	},500);
+	  function animateTheShadow(){
+	  $('#triforceDropz').animate({
+	    'boxShadowBlur': '3000px'
+	  	},650).animate ({'boxShadowBlur': '200px' }, 650, animateTheShadow );
+	  };
+	  animateTheShadow();
+	}
+
+// Sword thing
+	function init() {
+	  $('#linkSword').draggable({ 
+	   // axis: "x"
+	  });
+	}

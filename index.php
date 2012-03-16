@@ -36,7 +36,7 @@
 					<dd><a href="#sec12" data-offset="70">1.2. What is good design?</a></dd>
 					<dd><a href="#sec13" data-offset="70">1.3. Ten principles of good design</a></dd>
 					<dd><a href="#sec14" data-offset="90">1.4. An example</a></dd>
-					<dd><a href="#sec15" data-offset="90">1.5. Video: Interview with Dieter Rams</a></dd>
+					<dd><a href="#sec15" data-offset="90">1.5. Video: <i>Objectified</i> trailer</a></dd>
 					<dd><a href="#sec16" data-offset="90">1.6. Is your product well-designed?</a></dd>
 				</div>
 			<dt><a class="subsection" href="#">2. Different kinds of design</a></dt>
@@ -45,14 +45,15 @@
 					<dd><a href="#sec22" data-offset="80">2.2. Interaction Design</a></dd>
 					<dd><a href="#sec23" data-offset="90">2.3. Industrial Design</a></dd>
 				</div>
-			<dt><a class="subsection" href="#">3. Data</a></dt>
+			<dt><a class="subsection" href="#">3. Data: what does the industry think?</a></dt>
 				<div class="subsectionContent">
 					<dd><a href="#sec31" data-offset="90">3.1. What qualities of design do startups <br />consider most important?</a></dd>
 					<dd><a href="#sec32" data-offset="90">3.2. How important is product design?</a></dd>
+					<dd><a href="#sec33" data-offset="90">3.3. How deep does design go?</a></dd>
 				</div>
-			<dt><a class="subsection" href="#">4. Designer founders</a></dt>
+			<dt><a class="subsection" href="#">4. Designer Founders: the missing link</a></dt>
 				<div class="subsectionContent">
-					<dd><a href="#sec41" data-offset="90">4.1. The missing link</a></dd>
+					<dd><a href="#sec41" data-offset="90">4.1. Startups + designers = ?</a></dd>
 					<dd><a href="#sec42" data-offset="270">4.2. Dave Morin, Path</a></dd>
 					<dd><a href="#sec43" data-offset="270">4.3. Joe Gebbia, Airbnb</a></dd>
 					<dd><a href="#sec44" data-offset="270">4.4. Jessica Hische, Side Projects</a></dd>
@@ -62,7 +63,7 @@
 				</div>
 			<dt><a class="subsection" href="#">5. Finding great talent</a></dt>
 				<div class="subsectionContent">
-					<dd><a href="#sec51" data-offset="220">5.1. Qualities to look for</a></dd>
+					<dd><a href="#sec51" data-offset="220">5.1. Okay, I need a designer.</a></dd>
 					<dd><a href="#sec52" data-offset="160">5.2. Go Where the designers are</a></dd>
 					<dd><a href="#sec53" data-offset="220">5.3. Resources</a></dd>
 				</div>
@@ -570,7 +571,8 @@
 	<br class="clear" />
 		
 		<div class="col2 colL" style="text-align:center;margin-top:800px;">
-			<img id="linkSword" src="./img/linkSword.jpg" />
+			<img id="linkSword" src="./img/linkSword.png" />
+			<div id="linkLike">Oh, hello. <fb:like href="http://startupsthisishowdesignworks.com" target="_blank" layout="button_count" send="false" show_faces="false" style="margin-left:10px;"></fb:like></div>
 		</div>
 		
 		<div id="sec47" class="col4 colR" style="margin-top:800px;">

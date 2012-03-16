@@ -691,6 +691,13 @@ p.subText{
 
 #linkSword{
 	margin-top:50px;
+	position:relative;
+	z-index:999;
+	}
+#linkLike{
+	position:relative;
+	z-index:-1;
+	margin-top:-60px;
 	}
 
 .oversize{
