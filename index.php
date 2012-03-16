@@ -250,7 +250,7 @@
 		</div>
 		<div class="col3">
 				<h3>Graphic Design</h3>
-				<p class="text">This is a term that describes an array of different kinds of designers. Think of it like the term “entrepreneur”. It describes a wide variety of businesspeople - from founders to VC's to <a href="./tooltips.php?q=ninjas" rel="./tooltips.php?q=ninjas" class="tip">“Chief Ninjas”</a> - but isn’t all-inclusive. Graphic designers work with graphical images, whether they be illustrations, typography, or images, and on a variety of media including print and web. Graphic design is typically rendered in 2D – printed on a physical surface or displayed on a screen.</p>
+				<p class="text">This is a term that describes an array of different kinds of designers. Think of it like the term “entrepreneur”. It describes a wide variety of businesspeople - from founders to VC's to <a href="./tooltips.php?q=ninjas" rel="./tooltips.php?q=ninjas" class="tip">“Chief Ninjas”</a> - but isn’t all-inclusive. Graphic designers work with graphical images, whether they be illustrations, <a href="./tooltips.php?q=typography" rel="./tooltips.php?q=typography" class="tip">typography</a>, or images, and on a variety of media including print and web. Graphic design is typically rendered in 2D – printed on a physical surface or displayed on a screen.</p>
 		</div><!-- / Graphic Design -->
 		
 		<br class="clear" />
@@ -258,7 +258,7 @@
 		<div class="col3 colL"></div>
 		<div class="col2" style="margin:-300px 0 150px;">
 				<h4>↳ Print Design</h4>
-				<p class="text">A type of graphic designer that works exclusively with print media. Before the widespread adoption of computers, software, and the web, virtually all graphic designers worked on print media such as posters, magazines, billboards, and books. Print designers are typically masters of <a href="./tooltips.php?q=typography" rel="./tooltips.php?q=typography" class="tip">typography</a>, illustration, and traditional printing processes like the <a href="./tooltips.php?q=linotype" rel="./tooltips.php?q=linotype" class="tip">Linotype machine</a> or the <a href="./tooltips.php?q=letterpress" rel="./tooltips.php?q=letterpress" class="tip">letterpress machine</a>, a 500-year-old printing method that has regained popularity in recent years for its' handmade and traditional feel.</p>
+				<p class="text">A type of graphic designer that works exclusively with print media. Before the widespread adoption of computers, software, and the web, virtually all graphic designers worked on print media such as posters, magazines, billboards, and books. Print designers are typically masters of typography, illustration, and traditional printing processes like the <a href="./tooltips.php?q=linotype" rel="./tooltips.php?q=linotype" class="tip">Linotype machine</a> or the <a href="./tooltips.php?q=letterpress" rel="./tooltips.php?q=letterpress" class="tip">letterpress machine</a>, a 500-year-old printing method that has regained popularity in recent years for its' handmade and traditional feel.</p>
 		</div><!-- / Print Design -->
 		
 		<br class="clear" />
@@ -270,7 +270,7 @@
 		<div class="col3">
 				<h3>Interaction Design</h3>
 				<br class="clear" />
-				<p class="text">Interaction designers, on the other hand, focus on digital products and interactive software design. Some examples include web apps like Facebook and Pinterest, mobile apps like Tweetbot, and Operating Systems like OS X. While graphic design is meant to be observed, interaction design helps humans experience or manipulate software or interface with screen-based hardware in order to <em>achieve specific goals</em> – checking email, withdrawing money from an ATM, or "Liking" a webpage (such as this one!)</p>
+				<p class="text">Interaction designers, on the other hand, focus on digital products and interactive software design. Some examples include web apps like <a href="http://facebook.com" target="_blank">Facebook</a> and <a href="http://pinterest.com" target="_blank">Pinterest</a>, mobile apps like <a href="http://tapbots.com" target="_blank">Tweetbot</a>, and operating systems like OS X. While graphic design is meant to be observed, interaction design helps humans experience or manipulate software or interface with screen-based hardware in order to <em>achieve specific goals</em> – checking email, <a href="./tooltips.php?q=atm" rel="./tooltips.php?q=atm" class="tip">withdrawing money from an ATM</a>, or "Liking" a webpage (such as this one!)</p>
 				<p class="text">As Wikipedia puts it, <em>Interaction design is heavily focused on satisfying the needs and desires of the people who will use the product.</em> <sup><a id="ref-5" href="#cite-5">5</a></sup></p>
 		</div><!-- / Interaction Design -->
 		<div class="col2 colR">
@@ -298,7 +298,7 @@
 			
 		<br class="clear" />
 		
-		<div class="col2" style="text-align:center;margin-top:180px;">
+		<div class="col2" style="text-align:center;margin-top:140px;">
 			<div class="section right" id="sec23">2.3</div>
 			<img id="industrialDesign" src="./img/pantonChair.jpg" />
 			<p class="caption"style="margin-right:50px;padding-top:10px;">Panton Stacking Chair <br />&copy;1967 <a href="http://www.vitra.com/en-us/home/products/panton-chair-classic/overview/" target="_blank">Verner Panton</a></p>
@@ -307,8 +307,8 @@
 		<div class="col3" style="margin-top:140px;" >
 				<h3>Industrial Design</h3>
 				<br class="clear" />
-				<p class="text">Industrial Designers create physical goods designated for mass-consumption by millions of people. Motorcycles, iPods, toothbrushes, and nightstands are all designed by Industrial Designers. These people are masters of 3D and innovating within the constraints of production lines and machines.</p>
-				<p class="text">The objective of this area is to study both function and form, and the connection between product, the user and the environment - product as it happens in any other architecture area, being the only difference, that here the professionals that participate in the process are all specialized in small scale design, rather than in other massive colossal equipments like buildings or ships. <sup><a id="ref-9" href="#cite-9">9</a></sup></p>
+				<p class="text">Industrial designers create physical products designated for mass-consumption by millions of people. Motorcycles, iPods, toothbrushes, and nightstands are all designed by industrial designers. These people are masters of physical goods and innovation within the constraints of production lines and machines.</p>
+				<p class="text">"The objective of this area is to study both function and form, and the connection between product, the user and the environment - product as it happens in any other architecture area, being the only difference, that here the professionals that participate in the process are all specialized in small scale design, rather than in other massive colossal equipments like buildings or ships." <sup><a id="ref-9" href="#cite-9">9</a></sup></p>
 		</div><!-- / Industrial Design -->	
 		
 		<br class="clear" />
@@ -337,7 +337,7 @@
 		
 		<div class="col1 colL">&nbsp</div>
 		<div class="col4">
-			<p class="text">I asked 78 CEOs, marketers, engineers, and designers about their opinions and definitions of design. Before I could come up with anything for this project, I had to check my assumptions at the door and get some legit data. Here’s what I discovered.</p>
+			<p class="text">I asked 78 CEOs, marketers, engineers, and designers about their opinions and definitions of design. Before I could come up with anything for this project, I had to check my assumptions at the door and get some legit data. <em>It seems that entrepreneurs / engineers and designers are thinking about the same things.</em></p>
 		</div>
 		
 		<br class="clear" />
@@ -359,7 +359,8 @@
 		
 		<div class="col1 colL"></div>
 		<div class="col4">
-			<p class="text">Product design includes both digital and physical products.</p>
+			<p class="text">Product design includes both digital and physical products. It represents not only the aesthetic qualities, but <em>what it does, how well a user thinks it's going to do it, and how easily & quickly they can complete a task.</em></p>
+			<p class="text">Think for a moment. How important is product design to <em>you?</em> How important do you think aesthetics and ease-of-use are to <em>your</em> customers?</p>
 		</div>
 		
 		<br class="clear" />
@@ -380,7 +381,7 @@
 		
 		<div class="col1 colL"></div>
 		<div class="col4">
-			<p class="text">I asked 78 CEOs, marketers, engineers, and designers about their opinions and definitions of design. Before I could come up with anything for this project, I had to check my assumptions at the door and get some legit data. Here’s what I discovered.</p>
+			<p class="text">Now we're getting somewhere. Great design is taking root in startup culture, and it seems like many people are open to change. Not only do many entrepreneurs, devs, and engineers see substantial room to improve their own products, <em>they overwhelmingly believe that designers belong on a founding team.</em></p>
 		</div>
 		
 		<br class="clear" />
@@ -412,7 +413,7 @@
 		
 		<div class="col4">
 			<h3>Startups + designers = ?</h3>
-			<p class="text">For a long time, a pair of co-founders consisted of an executive and an engineer. <b>It worked for Facebook, Microsoft, and Apple</b>, just to name a few. These companies have excellent designers today, <em>because it’s a necessity they can’t afford to ignore</em>. It seems like design is becoming more and more prevalent in new startups as well – <a href="http://squareup.com" target="_blank">Square</a>, <a href="http://path.com" target="_blank">Path</a>, <a href="http://airbnb.com" target="_blank">Airbnb</a>, and more are pushing the envelope.</p>
+			<p class="text">For a long time, a pair of co-founders consisted of an executive and an engineer. <b>It worked for Facebook, Microsoft, and <a href="./tooltips.php?q=apple" rel="./tooltips.php?q=apple" class="tip">Apple</a></b>, just to name a few. These companies have excellent designers today, <em>because it’s a necessity they can’t afford to ignore</em>. It seems like design is becoming more and more prevalent in new startups as well – <a href="http://squareup.com" target="_blank">Square</a>, <a href="http://path.com" target="_blank">Path</a>, <a href="http://airbnb.com" target="_blank">Airbnb</a>, and more are pushing the envelope.</p>
 			<p><em>Design is becoming a key differentiator</em> for companies to acquire funding, press coverage, <br />and loyal users.</p>
 		
 			<h3 style="margin-top:40px;">I think it’s time to shake things up a bit.
@@ -578,7 +579,7 @@
 		<div id="sec47" class="col4 colR" style="margin-top:800px;">
 			<p class="text oversize" style="margin:30px 0 110px;">It’s getting harder and harder to differentiate based on tech talent alone. Designers like Jonathan Ive at Apple, Joe Gebbia at Airbnb, and Dave Morin at Path (to name a few) are changing the world today – not entirely because Apple, Airbnb, or Path have better tech, but because they make their products more usable, aesthetic, and <em>human</em>.</p>
 			
-			<h3>Design is the missing link from your founding team. The perfect balance of business, tech, and design is an incredibly powerful tool… 
+			<h3>Design is the link missing from your founding team. The perfect balance of business, tech, and design is an incredibly powerful tool… 
 				<br /><br />and an even more powerful business model.</h3>
 		</div><!-- / \ 4 wrap-up -->
 		
@@ -677,19 +678,19 @@
 				
 		<ul id="resources">
 			<li><a href="http://thedesignerfund.com" target="_blank"><img src="./img/rsrc_designerFund.jpg" /></a></li>
-			<li><a href="http://swiss-miss.com" target="_blank"><img src="./img/rsrc_swissMiss.jpg" /></a></li>
 			<li><a href="http://creativemornings.com" target="_blank"><img src="./img/rsrc_creativeMornings.jpg" /></a></li>
-			<li><a href="http://alistapart.com" target="_blank"><img src="./img/rsrc_aListApart.jpg" /></a></li>
 			<li><a href="http://designobserver.com" target="_blank"><img src="./img/rsrc_DesignObserver.jpg" /></a></li>
+			<li><a href="http://alistapart.com" target="_blank"><img src="./img/rsrc_aListApart.jpg" /></a></li>
+			<li><a href="http://swiss-miss.com" target="_blank"><img src="./img/rsrc_swissMiss.jpg" /></a></li>
 			<li><a href="http://ilovetypography.com" target="_blank"><img src="./img/rsrc_iLoveTypography.jpg" /></a></li>
 			<li><a href="http://typekit.com" target="_blank"><img src="./img/rsrc_typeKit.jpg" /></a></li>
-			<li><a href="http://amazon.com/Objectified/dp/B002SOUVKU/ref=pd_sim_mov_aiv_2" target="_blank"><img src="./img/rsrc_objectified.jpg" /></a></li>
+			<li><a href="http://generalassemb.ly" target="_blank"><img src="./img/rsrc_generalAssembly.jpg" /></a></li>
 			<li><a href="http://ourchoicethebook.com" target="_blank"><img src="./img/rsrc_ourChoice.jpg" /></a></li>
 			<li><a href="http://type.method.ac" target="_blank"><img src="./img/rsrc_kerningGame.jpg" /></a></li>
 			<li><a href="http://dribbble.com" target="_blank"><img src="./img/rsrc_dribbble.jpg" /></a></li>
 			<li><a href="http://amazon.com/Helvetica/dp/B002RIOGI0/ref=sr_1_1?s=instant-video&ie=UTF8&qid=1331186392&sr=1-1" target="_blank"><img src="./img/rsrc_helvetica.jpg" /></a></li>
 			<li><a href="http://www.smashingmagazine.com/" target="_blank"><img src="./img/rsrc_smashingMagazine.jpg" /></a></li>
-			<li><a href="http://fontsquirrel.com" target="_blank"><img src="./img/rsrc_fontSquirrel.jpg" /></a></li>
+			<li><a href="http://amazon.com/Objectified/dp/B002SOUVKU/ref=pd_sim_mov_aiv_2" target="_blank"><img src="./img/rsrc_objectified.jpg" /></a></li>
 			<li><a href="http://ted.org" target="_blank"><img src="./img/rsrc_ted.jpg" /></a></li>
 			<li><a href="http://zerply.com" target="_blank"><img src="./img/rsrc_zerply.jpg" /></a></li>
 			<li><a href="http://core77.com" target="_blank"><img src="./img/rsrc_core77.jpg" /></a></li>

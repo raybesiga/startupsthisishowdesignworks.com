@@ -432,7 +432,7 @@ p.subText{
 
 /* -- Section 3 -- */
 #section3{
-	height:2232px; /* (x * 72) */
+	height:2304px; /* (x * 72) */
 	background:url('../img/sec3bg.jpg') repeat #f9f9f9;
 	padding:72px 0;
 	}

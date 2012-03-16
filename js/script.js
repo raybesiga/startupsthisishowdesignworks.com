@@ -638,6 +638,12 @@ $(document).ready(function() {
 	  $('#triforceDrop').droppable( {
 	    drop: handleDropEvent
 	  });
+	  
+	  // Sword thing
+	  $('#linkSword').draggable({ 
+	   // axis: "x"
+	  });
+	  
 	}
  
 	function handleDropEvent( event, ui ) {
@@ -654,11 +660,4 @@ $(document).ready(function() {
 	  	},650).animate ({'boxShadowBlur': '200px' }, 650, animateTheShadow );
 	  };
 	  animateTheShadow();
-	}
-
-// Sword thing
-	function init() {
-	  $('#linkSword').draggable({ 
-	   // axis: "x"
-	  });
 	}
