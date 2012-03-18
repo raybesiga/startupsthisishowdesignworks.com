@@ -55,8 +55,8 @@
 			<dt><a class="subsection" href="#">4. Designer Founders: the missing link</a></dt>
 				<div class="subsectionContent">
 					<dd><a href="#sec41" data-offset="90">4.1. Startups + designers = ?</a></dd>
-					<dd><a href="#sec42" data-offset="270">4.2. Dave Morin, Path</a></dd>
-					<dd><a href="#sec43" data-offset="270">4.3. Joe Gebbia, Airbnb</a></dd>
+					<dd><a href="#sec42" data-offset="270">4.2. Joe Gebbia, Airbnb</a></dd>
+					<dd><a href="#sec43" data-offset="270">4.3. Dave Morin, Path</a></dd>
 					<dd><a href="#sec44" data-offset="270">4.4. Jessica Hische, Side Projects</a></dd>
 					<dd><a href="#sec45" data-offset="270">4.5. Mike Matas, Push Pop Press</a></dd>
 					<dd><a href="#sec46" data-offset="270">4.6. Jeffrey Veen, Typekit</a></dd>
@@ -466,41 +466,17 @@
 	<div id="totalWrapper">
 		<div id="scroll">
 			<ul class="navi" id="designerFounders">
-				<li class="df_DaveMorin active"><a href="javascript:void(0)" id="t1"><p>Dave Morin</p><p>Path</p></a></li>
-				<li class="df_JoeGebbia"><a href="javascript:void(0)" id="t2"><p>Joe Gebbia</p><p>Airbnb</p></a></li>
+				<li class="df_JoeGebbia active"><a href="javascript:void(0)" id="t1"><p>Joe Gebbia</p><p>Airbnb</p></a></li>
+				<li class="df_DaveMorin"><a href="javascript:void(0)" id="t2"><p>Dave Morin</p><p>Path</p></a></li>
 				<li class="df_JessicaHische"><a href="javascript:void(0)" id="t3"><p>Jessica Hische</p><p>Side Projects</p></a></li>
 				<li class="df_MikeMatas"><a href="javascript:void(0)" id="t4"><p>Mike Matas</p><p>Push Pop Press</p></a></li>
 				<li class="df_JeffVeen"><a href="javascript:void(0)" id="t5"><p>Jeffrey Veen</p><p>TypeKit</p></a></li>
 			</ul><!-- navi -->
 			<br class="clear" />
 			<div id="founderBios">
-			    <div class="founderBio">
-					<div class="col2 colL">
-						<div class="section" id="sec42">4.2</div>
-						<h3>Dave Morin, Path</h3>
-						
-						<br class="clear" />
-						
-						<p class="text">Dave is the Co-Founder and CEO of <a href="http://path.com" target="_blank">Path</a>, the smart journal that helps you share life with the ones you love. Previously, as an original member of the <a href="http://www.facebook.com/" target="_blank">Facebook</a> team, Dave played a variety of product, marketing, strategy, and management roles in expanding the Facebook ecosystem to over 800 million people worldwide. Dave was a co-inventor of <a href="http://developers.facebook.com/connect.php" target="_blank">Facebook Connect</a> which was created to make the Internet more social, and is now used by over 7 million apps and websites.</p>
-			
-						<p class="text">In 2011, Dave was named a <a href="http://images.businessweek.com/slideshows/20110516/best-young-tech-entrepreneurs-2011/slides/18" target="_blank">30 under 30 Best Young Tech Entrepreneur</a> by Bloomberg Businessweek. He was also named <a href="http://www.businessinsider.com/the-silicon-valley-100-2012-1#12-dave-morin-89" target="_blank">#12 on the Silicon Valley 100</a> by Business Insider. <sup><a id="ref-10" href="#cite-10">10</a></sup></p>
-					</div>
-					<div class="col3 colR right">
-						<ul class="socialLinks">
-							<li><a href="http://twitter.com/davemorin" target="_blank" class="tw">Twitter</a></li>
-							<li><a href="http://davemorin.com/" target="_blank" class="www">Website</a></li>
-							<li><a href="http://path.com/" target="_blank" class="path">Path</a></li>
-							<br class="clear" />
-						</ul>
-						<object width="490" height="305"><param name="movie" value="http://www.youtube.com/v/2iDjrW8NqJI?version=3&amp;hl=en_US&amp;rel=0&start=14"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/2iDjrW8NqJI?version=3&amp;hl=en_US&amp;rel=0&start=14" type="application/x-shockwave-flash" width="490" height="305" allowscriptaccess="always" allowfullscreen="true"></embed></object>
-					</div>
-					
-					<br class="clear" />
-				
-				</div><!-- / founderBio -->
 				<div class="founderBio">
 					<div class="col2 colL">
-						<div class="section" id="sec43">4.3</div>
+						<div class="section" id="sec43">4.2</div>
 						<h3>Joe Gebbia, Airbnb</h3>
 						
 						<br class="clear" />
@@ -517,6 +493,30 @@
 							<br class="clear" />
 						</ul>
 						<iframe src="http://player.vimeo.com/video/23275754?portrait=0&title=0&byline=0&color=ffffff" width="491" height="276" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+					</div>
+					
+					<br class="clear" />
+				
+				</div><!-- / founderBio -->
+			    <div class="founderBio">
+					<div class="col2 colL">
+						<div class="section" id="sec42">4.3</div>
+						<h3>Dave Morin, Path</h3>
+						
+						<br class="clear" />
+						
+						<p class="text">Dave is the Co-Founder and CEO of <a href="http://path.com" target="_blank">Path</a>, the smart journal that helps you share life with the ones you love. Previously, as an original member of the <a href="http://www.facebook.com/" target="_blank">Facebook</a> team, Dave played a variety of product, marketing, strategy, and management roles in expanding the Facebook ecosystem to over 800 million people worldwide. Dave was a co-inventor of <a href="http://developers.facebook.com/connect.php" target="_blank">Facebook Connect</a> which was created to make the Internet more social, and is now used by over 7 million apps and websites.</p>
+			
+						<p class="text">In 2011, Dave was named a <a href="http://images.businessweek.com/slideshows/20110516/best-young-tech-entrepreneurs-2011/slides/18" target="_blank">30 under 30 Best Young Tech Entrepreneur</a> by Bloomberg Businessweek. He was also named <a href="http://www.businessinsider.com/the-silicon-valley-100-2012-1#12-dave-morin-89" target="_blank">#12 on the Silicon Valley 100</a> by Business Insider. <sup><a id="ref-10" href="#cite-10">10</a></sup></p>
+					</div>
+					<div class="col3 colR right">
+						<ul class="socialLinks">
+							<li><a href="http://twitter.com/davemorin" target="_blank" class="tw">Twitter</a></li>
+							<li><a href="http://davemorin.com/" target="_blank" class="www">Website</a></li>
+							<li><a href="http://path.com/" target="_blank" class="path">Path</a></li>
+							<br class="clear" />
+						</ul>
+						<object width="490" height="305"><param name="movie" value="http://www.youtube.com/v/2iDjrW8NqJI?version=3&amp;hl=en_US&amp;rel=0&start=14"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/2iDjrW8NqJI?version=3&amp;hl=en_US&amp;rel=0&start=14" type="application/x-shockwave-flash" width="490" height="305" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 					</div>
 					
 					<br class="clear" />
