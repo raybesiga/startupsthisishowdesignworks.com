@@ -4,7 +4,14 @@ var chart1; // globally available
 $( init );
 
 $(document).ready(function() {
-    
+ 
+// Mobile detection
+var isMobile = false;
+if((navigator.userAgent.match(/iPhone/i)) || 
+ (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+ var isMobile = true;
+}
+   
 // Table of Contents
     var sectionsHeight = $('.sections').height();
     $('.sections').css({ top: '-' + sectionsHeight + 'px', visibility: 'visible' });
@@ -612,7 +619,7 @@ $(document).ready(function() {
 	
 	
 // Scrollable plugin for Section 4 Designer Founders
-	var api = $("#scroll").scrollable({ items: '#founderBios' }).navigator().data("scrollable");
+	var api = $("#scroll").scrollable({ items: '#founderBios', keyboard:false, mousewheel:false, autoscroll:false, touch:false }).navigator().data("scrollable");
 
 
 	// toggle "active" on Designer Founder thumbnails
@@ -650,7 +657,10 @@ $(document).ready(function() {
 	  var draggable = ui.draggable;
 	  $('#triforceDrag').hide('fast', function() {
 	  });
-	  $('#triforceDrop').css('background-image', 'url("./img/triforceComplete.jpg")');
+	  $('#triforceDrop').css({
+	  		backgroundImage: 'url("./img/triforceComplete@2x.jpg")',
+	  		backgroundSize: '160px 160px'
+	  	});
 	  $('#triforceDrop').animate({
 	  	marginRight: '380px',
 	  	},500);

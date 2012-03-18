@@ -35,7 +35,7 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 html, button, input, select, textarea { font-family:Helvetica, arial, sans-serif; color: #252525; }
-body { margin: 0; font-size: 1em; line-height: 1.4; }
+body { margin: 0; font-size: 1em; line-height: 1.4; min-width:1024px;}
 
 /*::-moz-selection { background: #f0f; color: #ff0; text-shadow: none; }
 ::selection { background: #f0f; color: #ff0; text-shadow: none; }*/
@@ -307,11 +307,20 @@ p.subText{
 	margin:80px 0;
 	}
 
+#tooltipNote{
+	background:url('../img/tooltipNote.jpg') no-repeat;
+	width:218px;
+	height:19px;
+	display:inline-block;
+	vertical-align: middle;
+	}
+
 #dieterRamsPhoto{
 	width:257px;
 	height:257px;
 	margin:0 auto;
 	float:left;
+	background:url('../img/dieterRamsPhoto.jpg') no-repeat;
 	}
 	
 .principles{
@@ -371,6 +380,16 @@ p.subText{
 	#dr9{background:url('../img/dr/environmental.png') no-repeat top center;}
 	#dr10{background:url('../img/dr/littledesign.png') no-repeat top center;}
 	
+#braunApple img{
+	width:320px;
+	height:225px;
+	}
+
+#ramsProducts img{
+	width:280px;
+	height:278px;
+	}
+
 #sec1Summary{
 	text-align:left;
 	width:1000px;
@@ -418,16 +437,28 @@ p.subText{
 	}
 	
 #designPoster{
-	margin-top:35px;
+	margin-top:56px;
+	background:url('../img/dylan-glaser.jpg') no-repeat;
+	width:320px;
+	height:487px;
 	}
 #ixdGraphic{
 	margin:65px 0 80px 14px;
+	background:url('../img/ux-verplank.jpg') no-repeat;
+	width:295px;
+	height:393px;
 	}
 #uxDesign{
 	margin-top:62px;
+	background:url('../img/tapbots.jpg') no-repeat;
+	width:294px;
+	height:359px;
 	}
 #industrialDesign{
 	margin-top:100px;
+	background:url('../img/pantonChair.jpg') no-repeat;
+	width:253px;
+	height:290px;
 	}
 
 /* -- Section 3 -- */
@@ -516,6 +547,7 @@ p.subText{
 
 #totalWrapper{
 	width:100%;
+	min-width:1024px;
 	position:absolute;
 	text-align:center;
 	background:#efefef;
@@ -693,11 +725,19 @@ p.subText{
 	margin-top:50px;
 	position:relative;
 	z-index:999;
+	width:291px;
+	height:108px;
+	background:url('../img/linkSword.png') no-repeat;
 	}
 #linkLike{
 	position:relative;
 	z-index:-1;
-	margin-top:-60px;
+	padding:43px 0 0 20px;
+	margin-top:-108px;
+	width:291px;
+	height:65px;
+	color:#aaa;
+	background:url('../img/linkSwordBg.png') no-repeat;
 	}
 
 .oversize{
@@ -741,12 +781,40 @@ p{
 	height:82px;
 	margin:80px 0 40px;
 	}
-	.goToDesigners img{
+	.goToDesigners a{
 		margin-bottom:1px;
+		text-indent:-9999px;
+		display:inline-block;
 		}
-		.goToDesigners img:hover{
+		.goToDesigners a:hover{
 			margin:1px 0 0;
 			}
+	#plancastLogo{
+		width:50px;
+		height:61px;
+		background:url('../img/plancast_logo.png') no-repeat;
+		}
+	#meetupLogo{
+		width:89px;
+		height:61px;
+		background:url('../img/meetup_logo.png') no-repeat;
+		}
+	#eventbriteLogo{
+		width:55px;
+		height:61px;
+		background:url('../img/eventbrite_logo.png') no-repeat;
+		}
+	#zerplyLogo{
+		width:228px;
+		height:82px;
+		background:url('../img/zerply_logo.png') no-repeat;
+		}
+	#dribbbleLogo{
+		width:253px;
+		height:64px;
+		background:url('../img/dribbble_logo.png') no-repeat;
+		}
+
 
 #resources{
 	list-style-type:none;
@@ -870,7 +938,7 @@ footer{
 
 /* -- Tooltips -- */
 .tip{
-	background:url('../img/highlight.png') repeat;
+	background:#fffdcc;
 	padding:1px 2px;
 	text-decoration:none;
 	margin:0 -2px;
@@ -956,4 +1024,86 @@ footer{
   @page { margin: 0.5cm; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
+}
+
+
+/* High Resolution Screens (Retina iPad / iPhone) */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	
+	#tableOfContents h2 a{background:url('../img/tocArrow@2x.jpg') no-repeat top left;background-size:40px 72px;}
+	#tableOfContents h2 a:hover{background:url('../img/tocArrow@2x.jpg') no-repeat top left #ca0c13;background-size:40px 72px;}
+	
+	
+	#tooltipNote{background:url('../img/tooltipNote@2x.jpg') no-repeat;background-size:218px 19px;}
+
+	#dieterRamsPhoto{background:url('../img/dieterRamsPhoto@2x.jpg') no-repeat;background-size:257px;}
+
+	#dr1{background:url('../img/dr/innovative@2x.png') no-repeat top center;background-size:64px;}
+	#dr2{background:url('../img/dr/useful@2x.png') no-repeat top center;background-size:64px;}
+	#dr3{background:url('../img/dr/aesthetic@2x.png') no-repeat top center;background-size:64px;}
+	#dr4{background:url('../img/dr/understandable@2x.png') no-repeat top center;background-size:64px;}
+	#dr5{background:url('../img/dr/unobtrusive@2x.png') no-repeat top center;background-size:64px;}
+	#dr6{background:url('../img/dr/honest@2x.png') no-repeat top center;background-size:64px;}
+	#dr7{background:url('../img/dr/longlasting@2x.png') no-repeat top center;background-size:64px;}
+	#dr8{background:url('../img/dr/thorough@2x.png') no-repeat top center;background-size:64px;}
+	#dr9{background:url('../img/dr/environmental@2x.png') no-repeat top center;background-size:64px;}
+	#dr10{background:url('../img/dr/littledesign@2x.png') no-repeat top center;background-size:64px;}
+	
+	#paintCan{background:url('../img/paintCan@2x.jpg') no-repeat top center #fff;background-size:216px 222px;}
+	
+	#designPoster{background:url('../img/dylan-glaser@2x.jpg') no-repeat;background-size:320px 487px;}
+	#ixdGraphic{background:url('../img/ux-verplank@2x.jpg') no-repeat;background-size:295px 393px;}
+	#uxDesign{background:url('../img/tapbots@2x.jpg') no-repeat;background-size:294px 359px;}
+	#industrialDesign{background:url('../img/pantonChair@2x.jpg') no-repeat;background-size:253px 290px;}
+
+	.df_DaveMorin{background:url('../img/df_DaveMorin@2x.jpg') no-repeat;background-size:200px;}
+	.df_JoeGebbia{background:url('../img/df_JoeGebbia@2x.jpg') no-repeat;background-size:200px;}
+	.df_JessicaHische{background:url('../img/df_JessicaHische@2x.jpg') no-repeat;background-size:200px;}
+	.df_MikeMatas{background:url('../img/df_MikeMatas@2x.jpg') no-repeat;background-size:200px;}
+	.df_JeffVeen{background:url('../img/df_JeffVeen@2x.jpg') no-repeat;background-size:200px;}
+
+	.tw{background:url('../img/rogieSocial/twitter@2x.png') no-repeat;background-size:32px;}
+	.db{background:url('../img/rogieSocial/dribbble@2x.png') no-repeat;background-size:32px;}
+	.www{background:url('../img/rogieSocial/link@2x.png') no-repeat;background-size:32px;}
+	.zp{background:url('../img/rogieSocial/zerply@2x.png') no-repeat;background-size:32px;}
+	.path{background:url('../img/rogieSocial/path@2x.png') no-repeat;background-size:32px;}
+	.airb{background:url('../img/rogieSocial/airbnb@2x.png') no-repeat;background-size:32px;}
+	.pushp{background:url('../img/rogieSocial/pushpop@2x.png') no-repeat;background-size:32px;}
+	.tkit{background:url('../img/rogieSocial/typekit@2x.png') no-repeat;background-size:32px;}
+	
+	#navButtons .prev{background:url('../img/prev@2x.png') no-repeat top;background-size:32px;background-position:left;}
+	#navButtons .next{background:url('../img/next@2x.png') no-repeat top;background-size:32px;background-position:right;}
+
+	
+	#triforceDrag{background:url('../img/link@2x.gif') no-repeat;background-size:112px 208px;}
+	#triforceDrop{background:url('../img/triforceIncomplete@2x.jpg') no-repeat;background-size:160px 160px !important;}
+	#linkSword{background:url('../img/linkSword@2x.png') no-repeat;background-size:291px 108px;}
+	#triforceDropz{-webkit-box-shadow:none;}
+	#linkLike{background:url('../img/linkSwordBg@2x.png') no-repeat;background-size:291px 108px;}
+
+	
+
+	#plancastLogo{
+		background:url('../img/plancast_logo@2x.png') no-repeat;
+		background-size:50px 61px;
+		}
+	#meetupLogo{
+		background:url('../img/meetup_logo@2x.png') no-repeat;
+		background-size:89px 61px;
+		}
+	#eventbriteLogo{
+		background:url('../img/eventbrite_logo@2x.png') no-repeat;
+		background-size:55px 61px;
+		}
+	#zerplyLogo{
+		background:url('../img/zerply_logo@2x.png') no-repeat;
+		background-size:228px 82px;
+		}
+	#dribbbleLogo{
+		background:url('../img/dribbble_logo@2x.png') no-repeat;
+		background-size:253px 64px;
+		}
+
+
 }

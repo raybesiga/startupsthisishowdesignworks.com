@@ -100,7 +100,7 @@
 	</header>
 	
 	<div id="section1">
-		<p class="text col4">Companies like Apple are making design impossible for startups to ignore. Startups like <a href="http://path.com" target="blank">Path</a>, <a href="http://airbnb.com" target="_blank">Airbnb</a>, <a href="http://squareup.com" target="_blank">Square</a>, and <a href="http://massivehealth.com" target="_blank">Massive Health</a> have design at the core of their business, and they're doing phenomenal work. But what is ‘design’ actually? Is it a logo? A Wordpress theme? An innovative <a href="./tooltips.php?q=ui" rel="./tooltips.php?q=ui" class="tip">UI</a>? <img src="./img/tooltipNote.jpg" /style="vertical-align:middle;"></p>
+		<p class="text col4">Companies like Apple are making design impossible for startups to ignore. Startups like <a href="http://path.com" target="blank">Path</a>, <a href="http://airbnb.com" target="_blank">Airbnb</a>, <a href="http://squareup.com" target="_blank">Square</a>, and <a href="http://massivehealth.com" target="_blank">Massive Health</a> have design at the core of their business, and they're doing phenomenal work. But what is ‘design’ actually? Is it a logo? A Wordpress theme? An innovative <a href="./tooltips.php?q=ui" rel="./tooltips.php?q=ui" class="tip">UI</a>? <span id="tooltipNote"></span></p>
 		<p class="text col4">It’s so much more than that. It’s a state of mind. It’s an approach to a problem. It’s how you’re going to kick your competitor’s ass. This handy guide will help you understand design and provide resources to help you find awesome design talent.</p>
 		
 		<br class="clear" />
@@ -125,7 +125,7 @@
 		<br class="clear" />
 		
 		<div class="col2 colL">
-			<img id="dieterRamsPhoto" src="./img/dieterRamsPhoto.jpg" />
+			<div id="dieterRamsPhoto"></div>
 			<div class="section right" id="sec13">1.3</div>
 		</div>
 		<div class="col4 colR">
@@ -168,6 +168,19 @@
 			<div class="col2 colL">
 			<sub><a id="ref-4" style="color:#ddd;" href="#cite-4" style="color:#ddd;">4</a></sub>
 			<div class="slideshow">
+			<?php 
+			$isiPad3 = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'9B176');
+			$isiPhone4 = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'8A293');
+			$isiPhone4S = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'9B179');
+			if($isiPad3 === true || $isiPhone4 === true || $isiPhone4S === true){ ?>
+				<img src="./img/braunapple_1@2x.jpg" />
+				<img src="./img/braunapple_2@2x.jpg" />
+				<img src="./img/braunapple_3@2x.jpg" />
+				<img src="./img/braunapple_4@2x.jpg" />
+				<img src="./img/braunapple_5@2x.jpg" />
+				<img src="./img/braunapple_6@2x.jpg" />
+				<img src="./img/braunapple_7@2x.jpg" />
+			<?php }else{ ?>
 				<img src="./img/braunapple_1.jpg" />
 				<img src="./img/braunapple_2.jpg" />
 				<img src="./img/braunapple_3.jpg" />
@@ -175,6 +188,7 @@
 				<img src="./img/braunapple_5.jpg" />
 				<img src="./img/braunapple_6.jpg" />
 				<img src="./img/braunapple_7.jpg" />
+			<?php } ?>
 			</div>
 			</div>
 			<div class="col1"></div>
@@ -218,13 +232,22 @@
 					
 		<div class="col2 colL" style="margin-top:20px;">
 			<div class="section right" id="sec16">1.6</div>
-			<div class="slideshow">
+			<div id="ramsProducts" class="slideshow">
+			<?php if($isiPad3 === true || $isiPhone4 === true || $isiPhone4S === true){ ?>
+				<img src="./img/ramsSpeaker@2x.jpg" />
+				<img src="./img/ramsChair@2x.jpg" />
+				<img src="./img/ramsRadio@2x.jpg" />
+				<img src="./img/ramsClock@2x.jpg" />
+				<img src="./img/ramsRazor@2x.jpg" />
+				<img src="./img/ramsLighter@2x.jpg" />
+			<?php }else{ ?>
 				<img src="./img/ramsSpeaker.jpg" />
 				<img src="./img/ramsChair.jpg" />
 				<img src="./img/ramsRadio.jpg" />
 				<img src="./img/ramsClock.jpg" />
 				<img src="./img/ramsRazor.jpg" />
 				<img src="./img/ramsLighter.jpg" />
+			<?php } ?>
 			</div>
 			<p class="caption" style="padding:290px 60px 0 0">Various Braun and Vitsoe Products<br />&copy;1955-2012 <a href="http://www.braun-time.com/" target="_blank">Braun</a> & <a href="http://vitsoe.com" target="_blank">Vitsoe</a></p>
 		</div>
@@ -245,7 +268,7 @@
 		
 		<div class="col2 colL">
 			<div class="section right" id="sec21">2.1</div>
-			<img id="designPoster" src="./img/dylan-glaser.jpg" />
+			<div id="designPoster"></div>
 			<p class="caption">Poster for Bob Dylan's Greatest Hits <br />&copy;1975 <a href="http://www.miltonglaser.com/the-work/444/columbia-records-poster-for-bob-dylans-greatest-hits-1975/" target="_blank">Milton Glaser</a></p>
 		</div>
 		<div class="col3">
@@ -274,13 +297,13 @@
 				<p class="text">As Wikipedia puts it, <em>Interaction design is heavily focused on satisfying the needs and desires of the people who will use the product.</em> <sup><a id="ref-5" href="#cite-5">5</a></sup></p>
 		</div><!-- / Interaction Design -->
 		<div class="col2 colR">
-			<img id="ixdGraphic" src="./img/ux-verplank.jpg" />
+			<div id="ixdGraphic"></div>
 		</div>
 		
 		<br class="clear" />
 		
 		<div class="col2 colL">
-			<img id="uxDesign" src="./img/tapbots.jpg" />
+			<div id="uxDesign"></div>
 			<p class="caption"style="margin-right:30px;padding-top:10px;">ConvertBot and Weightbot UI <br />&copy;2008-2012 <a href="http://tapbots.com" target="_blank">Tapbots, LLC</a></p>
 		</div>
 		<div class="col2">
@@ -300,7 +323,7 @@
 		
 		<div class="col2" style="text-align:center;margin-top:140px;">
 			<div class="section right" id="sec23">2.3</div>
-			<img id="industrialDesign" src="./img/pantonChair.jpg" />
+			<div id="industrialDesign"></div>
 			<p class="caption"style="margin-right:50px;padding-top:10px;">Panton Stacking Chair <br />&copy;1967 <a href="http://www.vitra.com/en-us/home/products/panton-chair-classic/overview/" target="_blank">Verner Panton</a></p>
 			
 		</div>
@@ -572,7 +595,7 @@
 	<br class="clear" />
 		
 		<div class="col2 colL" style="text-align:center;margin-top:800px;">
-			<img id="linkSword" src="./img/linkSword.png" />
+			<div id="linkSword"></div>
 			<div id="linkLike">Oh, hello. <fb:like href="http://startupsthisishowdesignworks.com" target="_blank" layout="button_count" send="false" show_faces="false" style="margin-left:10px;"></fb:like></div>
 		</div>
 		
@@ -622,9 +645,9 @@
 		<div class="col2 colL orangeLinks">
 
 			<div class="goToDesigners">
-				<a href="http://plancast.com/search?q=design" target="_blank"><img src="./img/plancast_logo.png" /></a>
-				<a href="http://meetup.com/find/?keywords=design" target="_blank" style="margin:0 33px;"><img src="./img/meetup_logo.png" /></a>
-				<a href="http://eventbrite.com/" target="_blank"><img src="./img/eventbrite_logo.png" /></a>
+				<a id="plancastLogo" href="http://plancast.com/search?q=design" target="_blank">Plancast</a>
+				<a id="meetupLogo" href="http://meetup.com/find/?keywords=design" target="_blank" style="margin-left:33px;margin-right:33px;">Meetup.com</a>
+				<a id="eventbriteLogo" href="http://eventbrite.com/" target="_blank">Eventbrite</a>
 			</div>
 			
 			<p class="text">Meetups and events are a great way to break into the design culture and mingle with prospective talent face-to-face. I strongly recommend you attend at least one design meetup – it’s really important to have that perspective going into your designer search.</p>
@@ -641,7 +664,7 @@
 		<div class="col2 orangeLinks">
 		
 			<div class="goToDesigners">
-				<a href="http://zerply.com" target="_blank"><img src="./img/zerply_logo.png" /></a>
+				<a id="zerplyLogo" href="http://zerply.com" target="_blank">Zerply</a>
 			</div>
 			
 			<p class="text">Think of <a href="http://zerply.com" target="_blank">Zerply</a> as LinkedIn for designers, developers, and entrepreneurs. It’s an exquisitely designed platform that operates on a network connections and recommendations. Members can be “recommended” for excellence in a variety of disciplines and skills.</p>
@@ -652,7 +675,7 @@
 		<div class="col2 colR orangeLinks">
 
 				<div class="goToDesigners">
-					<a href="http://dribbble.com" target="_blank"><img src="./img/dribbble_logo.png" /></a>
+					<a id="dribbbleLogo" href="http://dribbble.com" target="_blank">Dribbble</a>
 				</div>
 				
 				<p class="text"><a href="http://dribbble.com" target="_blank">Dribbble</a> is an exclusive online community of designers from around the world. Signup is by (rare) invite only, which helps cultivate some of the best design talent in the world.</p>
@@ -752,6 +775,7 @@
 			<h2>Thank you so much</h2>
 		
 		<ul class="acknowledgements">
+			<li>Special thanks:</li>
 			<li><a href="http://fictivecameron.com" target="_blank">Cameron Cozcon</a></li>
 			<li><a href="http://thedesignerfund.com" target="_blank">The Designer Fund</a></li>
 			<li><a href="http://www.vitsoe.com/en/us/about/dieterrams/who-is-dieter-rams" target="_blank">Dieter Rams</a></li>
@@ -767,10 +791,14 @@
 			<li><a href="http://dribbble.com/shots/183766-Pattern-Kit-One-Ribbon-Dancer-" target="_blank">Seth Nickerson</a></li>
 			<li><a href="http://www.apple.com/stevejobs/" target="_blank"> Steve Jobs</a></li>
 			<br />
-			<li>Greg Skloot</li>
-			<li>Maroun Najjar</li>
-			<li>Sam Carr</li>
-			<li>Cory Bolotsky</li>
+			<li>Greg S.</li>
+			<li>Maroun N.</li>
+			<li>Sam C.</li>
+			<li>Cory B.</li>
+			<li>Matt B.</li>
+			<li>Degree Project Class</li>
+			<li>Allison H.</li>
+			<li>Arel E.</li>
 		</ul>
 		</div>
 		
@@ -826,6 +854,7 @@
 <script src="./js/libs/highcharts.js"></script>
 <script src="./js/libs/jquery.tools.min.js"></script>
 <script src="./js/libs/jquery-ui.min.js"></script>
+<script src="./js/libs/jquery.ui.touch-punch.min.js"></script>
 <script src="./js/script.js"></script>
 <!-- Facebook Like -->
 <div id="fb-root"></div>
