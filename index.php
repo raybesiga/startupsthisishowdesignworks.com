@@ -701,30 +701,50 @@
 		<br class="clear" />
 				
 		<ul id="resources">
-			<li><a href="http://thedesignerfund.com" target="_blank"><img src="./img/rsrc_designerFund.jpg" /></a></li>
-			<li><a href="http://creativemornings.com" target="_blank"><img src="./img/rsrc_creativeMornings.jpg" /></a></li>
-			<li><a href="http://designobserver.com" target="_blank"><img src="./img/rsrc_DesignObserver.jpg" /></a></li>
-			<li><a href="http://alistapart.com" target="_blank"><img src="./img/rsrc_aListApart.jpg" /></a></li>
-			<li><a href="http://swiss-miss.com" target="_blank"><img src="./img/rsrc_swissMiss.jpg" /></a></li>
-			<li><a href="http://ilovetypography.com" target="_blank"><img src="./img/rsrc_iLoveTypography.jpg" /></a></li>
-			<li><a href="http://typekit.com" target="_blank"><img src="./img/rsrc_typeKit.jpg" /></a></li>
-			<li><a href="http://generalassemb.ly" target="_blank"><img src="./img/rsrc_generalAssembly.jpg" /></a></li>
-			<li><a href="http://ourchoicethebook.com" target="_blank"><img src="./img/rsrc_ourChoice.jpg" /></a></li>
-			<li><a href="http://type.method.ac" target="_blank"><img src="./img/rsrc_kerningGame.jpg" /></a></li>
-			<li><a href="http://dribbble.com" target="_blank"><img src="./img/rsrc_dribbble.jpg" /></a></li>
-			<li><a href="http://amazon.com/Helvetica/dp/B002RIOGI0/ref=sr_1_1?s=instant-video&ie=UTF8&qid=1331186392&sr=1-1" target="_blank"><img src="./img/rsrc_helvetica.jpg" /></a></li>
-			<li><a href="http://www.smashingmagazine.com/" target="_blank"><img src="./img/rsrc_smashingMagazine.jpg" /></a></li>
-			<li><a href="http://amazon.com/Objectified/dp/B002SOUVKU/ref=pd_sim_mov_aiv_2" target="_blank"><img src="./img/rsrc_objectified.jpg" /></a></li>
-			<li><a href="http://ted.org" target="_blank"><img src="./img/rsrc_ted.jpg" /></a></li>
-			<li><a href="http://zerply.com" target="_blank"><img src="./img/rsrc_zerply.jpg" /></a></li>
-			<li><a href="http://core77.com" target="_blank"><img src="./img/rsrc_core77.jpg" /></a></li>
-			<li><a href="http://500.co" target="_blank"><img src="./img/rsrc_500.jpg" /></a></li>
-			<li><a href="http://aiga.org" target="_blank"><img src="./img/rsrc_aiga.jpg" /></a></li>
-			<li><a href="http://atypeprimer.com" target="_blank"><img src="./img/rsrc_aTypePrimer.jpg" /></a></li>
-			<li><a href="http://losttype.com" target="_blank"><img src="./img/rsrc_lostType.jpg" /></a></li>
-			<li><a href="http://37signals.com/svn" target="_blank"><img src="./img/rsrc_37signals.jpg" /></a></li>
-			<li><a href="http://good.is" target="_blank"><img src="./img/rsrc_good.jpg" /></a></li>
-			<li><a href="http://behance.net" target="_blank"><img src="./img/rsrc_behance.jpg" /></a></li>
+			<li><a id="TDF" href="http://thedesignerfund.com" target="_blank">
+				We’re a community of designers who invest in designer founders through mentorship, funding, and access to our network.</a></li>
+			<li><a id="CM" href="http://creativemornings.com" target="_blank">
+				A monthly breakfast lecture series for creative types. Each event is free of charge, and includes a 20 minute talk, plus coffee!</a></li>
+			<li><a id="TDO" href="http://designobserver.com" target="_blank">
+				Writings on Design and Culture. Edited by Michael Bierut, William Drenttel, Jessica Helfand, Julie Lasky and Nancy Levinson.</a></li>
+			<li><a id="ALA" href="http://alistapart.com" target="_blank">
+				Explores the design, development, and meaning of web content, with a special focus on web standards and best practices.</a></li>
+			<li><a id="SM" href="http://swiss-miss.com" target="_blank">
+				a design blog and studio run by Tina Roth Eisenberg. Besides swissmiss, she founded and runs CreativeMornings, TeuxDeux, and Tattly.</a></li>
+			<li><a id="ILT" href="http://ilovetypography.com" target="_blank">
+				Where do our letters originate? Why do they look the way they do? And what makes for good type and typography?</a></li>
+			<li><a id="TK" href="http://typekit.com" target="_blank">
+				Add a line of code to your pages and choose from hundreds of web fonts. Simple, bulletproof, standards compliant, accessible, and totally legal.</a></li>
+			<li><a id="GA" href="http://generalassemb.ly" target="_blank">
+				A campus for technology, design, and entrepreneurship.</a></li>
+			<li><a id="OCTB" href="http://ourchoicethebook.com" target="_blank">
+				Our Choice will change the way we read books. And quite possibly change the world.</a></li>
+			<li><a id="TKG" href="http://type.method.ac" target="_blank">
+				Your mission is simple: achieve pleasant and readable text by distributing the space between letters.</a></li>
+			<li><a id="DBBB" href="http://dribbble.com" target="_blank">
+				Dribbble is show and tell for designers, who share shots — small screenshots of the designs and applications they’re working on.</a></li>
+			<li><a id="HEL" href="http://amazon.com/Helvetica/dp/B002RIOGI0/ref=sr_1_1?s=instant-video&ie=UTF8&qid=1331186392&sr=1-1" target="_blank">
+				A feature-length independent film about typography, graphic design and global visual culture.</a></li>
+			<li><a id="SMAG" href="http://www.smashingmagazine.com/" target="_blank">
+				Delivers useful and innovative information to Web designers and developers.</a></li>
+			<li><a id="OBJ" href="http://amazon.com/Objectified/dp/B002SOUVKU/ref=pd_sim_mov_aiv_2" target="_blank">
+				A feature-length documentary about our complex relationship with manufactured objects and, by extension, the people who design them.</a></li>
+			<li><a id="TED" href="http://ted.org" target="_blank">Riveting talks by remarkable people, free to the world. Facts, insight and humor - in shareable bites.</a></li>
+			<li><a id="ZRP" href="http://zerply.com" target="_blank">Go beyond the résumé - showcase your work and your talent.</a></li>
+			<li><a id="C77" href="http://core77.com" target="_blank">
+				Provides a gathering point for designers and enthusiasts alike by producing design competitions, lecture series, parties, and exhibits.</a></li>
+			<li><a id="FIVE" href="http://500.co" target="_blank">Seed fund and mentorship-driven accelerator program focused on helping startups succeed through design, data & distribution.</a></li>
+			<li><a id="AIGA" href="http://aiga.org" target="_blank">
+				 The professional association for design, is committed to advancing design as a professional craft, strategic tool and vital cultural force.</a></li>
+			<li><a id="ATP" href="http://atypeprimer.com" target="_blank">
+				A practical introduction to typography, this book analyses the basic principles and applications of type.</a></li>
+			<li><a id="LTC" href="http://losttype.com" target="_blank">
+				The Lost Type Co-Op is a Pay-What-You-Want Type foundry, the first of its kind. Users can pay what they like, even $0.</a></li>
+			<li><a id="THR" href="http://37signals.com/svn" target="_blank">
+				Signal vs. Noise, a weblog by 37signals about design, business, experience, simplicity, the web, culture, and more.</a></li>
+			<li><a id="GOOD" href="http://good.is" target="_blank">
+				A collaboration of individuals, businesses, and nonprofits pushing the world forward. Since 2006 we've been making for people who give a damn.</a></li>
+			<li><a id="BH" href="http://behance.net" target="_blank">Behance empowers creative professionals and teams to make ideas happen.</a></li>
 		</ul>
 		
 		<br class="clear" />

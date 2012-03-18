@@ -824,13 +824,81 @@ p{
 	#resources li{
 		float:left;
 		}
-	#resources img:hover{
+	
+	#resources li a{
+		display:block;
+		width:150px;
+		height:155px;
+		text-indent:-9999px;
+		padding:15px 10px 0;
+		font-family:"Crimson Text","Helvetica",sans-serif;
+		font-size:16px;
+		line-height:20px;
+		color:#fff;
+		text-decoration:none;
+		}
+	
+	#TDF{background:url('../img/rsrc_designerFund.jpg') no-repeat;background-size:170px 170px;}
+		#TDF:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_designerFund.jpg') no-repeat;background-size:170px 170px;}
+	#CM{background:url('../img/rsrc_creativeMornings.jpg') no-repeat;background-size:170px 170px;}
+		#CM:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_creativeMornings.jpg') no-repeat;background-size:170px 170px;}
+	#TDO{background:url('../img/rsrc_designObserver.jpg') no-repeat;background-size:170px 170px;}
+		#TDO:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_designObserver.jpg') no-repeat;background-size:170px 170px;}
+	#ALA{background:url('../img/rsrc_aListApart.jpg') no-repeat;background-size:170px 170px;}
+		#ALA:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_aListApart.jpg') no-repeat;background-size:170px 170px;}
+	#SM{background:url('../img/rsrc_swissMiss.jpg') no-repeat;background-size:170px 170px;}
+		#SM:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_swissMiss.jpg') no-repeat;background-size:170px 170px;}
+	#ILT{background:url('../img/rsrc_iLoveTypography.jpg') no-repeat;background-size:170px 170px;}
+		#ILT:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_iLoveTypography.jpg') no-repeat;background-size:170px 170px;}
+		
+	#TK{background:url('../img/rsrc_typeKit.jpg') no-repeat;background-size:170px 170px;}
+		#TK:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_typeKit.jpg') no-repeat;background-size:170px 170px;}
+	#GA{background:url('../img/rsrc_generalAssembly.jpg') no-repeat;background-size:170px 170px;}
+		#GA:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_generalAssembly.jpg') no-repeat;background-size:170px 170px;}
+	#OCTB{background:url('../img/rsrc_ourChoice.jpg') no-repeat;background-size:170px 170px;}
+		#OCTB:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_ourChoice.jpg') no-repeat;background-size:170px 170px;}
+	#TKG{background:url('../img/rsrc_kerningGame.jpg') no-repeat;background-size:170px 170px;}
+		#TKG:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_kerningGame.jpg') no-repeat;background-size:170px 170px;}
+	#DBBB{background:url('../img/rsrc_dribbble.jpg') no-repeat;background-size:170px 170px;}
+		#DBBB:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_dribbble.jpg') no-repeat;background-size:170px 170px;}
+	#HEL{background:url('../img/rsrc_helvetica.jpg') no-repeat;background-size:170px 170px;}
+		#HEL:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_helvetica.jpg') no-repeat;background-size:170px 170px;}
+	
+	#SMAG{background:url('../img/rsrc_smashingMagazine.jpg') no-repeat;background-size:170px 170px;}
+		#SMAG:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_smashingMagazine.jpg') no-repeat;background-size:170px 170px;}
+	#OBJ{background:url('../img/rsrc_objectified.jpg') no-repeat;background-size:170px 170px;}
+		#OBJ:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_objectified.jpg') no-repeat;background-size:170px 170px;}
+	#TED{background:url('../img/rsrc_ted.jpg') no-repeat;background-size:170px 170px;}
+		#TED:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_ted.jpg') no-repeat;background-size:170px 170px;}
+	#ZRP{background:url('../img/rsrc_zerply.jpg') no-repeat;background-size:170px 170px;}
+		#ZRP:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_zerply.jpg') no-repeat;background-size:170px 170px;}
+	#C77{background:url('../img/rsrc_core77.jpg') no-repeat;background-size:170px 170px;}
+		#C77:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_core77.jpg') no-repeat;background-size:170px 170px;}
+	#FIVE{background:url('../img/rsrc_500.jpg') no-repeat;background-size:170px 170px;}
+		#FIVE:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_500.jpg') no-repeat;background-size:170px 170px;}
+	
+	#AIGA{background:url('../img/rsrc_aiga.jpg') no-repeat;background-size:170px 170px;}
+		#AIGA:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_aiga.jpg') no-repeat;background-size:170px 170px;}
+	#ATP{background:url('../img/rsrc_aTypePrimer.jpg') no-repeat;background-size:170px 170px;}
+		#ATP:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_aTypePrimer.jpg') no-repeat;background-size:170px 170px;}
+	#LTC{background:url('../img/rsrc_lostType.jpg') no-repeat;background-size:170px 170px;}
+		#LTC:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_lostType.jpg') no-repeat;background-size:170px 170px;}
+	#THR{background:url('../img/rsrc_37signals.jpg') no-repeat;background-size:170px 170px;}
+		#THR:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_37signals.jpg') no-repeat;background-size:170px 170px;}
+	#GOOD{background:url('../img/rsrc_good.jpg') no-repeat;background-size:170px 170px;}
+		#GOOD:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_good.jpg') no-repeat;background-size:170px 170px;}
+	#BH{background:url('../img/rsrc_behance.jpg') no-repeat;background-size:170px 170px;}
+		#BH:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_behance.jpg') no-repeat;background-size:170px 170px;}
+
+	#resources li a:hover{
 		-webkit-transition: -webkit-transform 0.2s ease,-webkit-box-shadow 0.2s ease;
 		-webkit-transform:scale(1.05);
 		-webkit-box-shadow:0 15px 20px #000;
 		-moz-transition: -moz-transform 0.2s ease,-moz-box-shadow 0.2s ease;
 		-moz-transform:  scale(1.05);
 		-moz-box-shadow:0 15px 20px #000;
+		text-indent:0;
+		cursor:pointer;
 		}
 
 /* -- Section 6 -- */
@@ -1105,5 +1173,58 @@ footer{
 		background-size:253px 64px;
 		}
 
+
+
+	#TDF{background:url('../img/rsrc_designerFund@2x.jpg') no-repeat;background-size:170px 170px;}
+		#TDF:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_designerFund@2x.jpg') no-repeat;background-size:170px 170px;}
+	#CM{background:url('../img/rsrc_creativeMornings@2x.jpg') no-repeat;background-size:170px 170px;}
+		#CM:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_creativeMornings@2x.jpg') no-repeat;background-size:170px 170px;}
+	#TDO{background:url('../img/rsrc_designObserver@2x.jpg') no-repeat;background-size:170px 170px;}
+		#TDO:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_designObserver@2x.jpg') no-repeat;background-size:170px 170px;}
+	#ALA{background:url('../img/rsrc_aListApart@2x.jpg') no-repeat;background-size:170px 170px;}
+		#ALA:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_aListApart@2x.jpg') no-repeat;background-size:170px 170px;}
+	#SM{background:url('../img/rsrc_swissMiss@2x.jpg') no-repeat;background-size:170px 170px;}
+		#SM:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_swissMiss@2x.jpg') no-repeat;background-size:170px 170px;}
+	#ILT{background:url('../img/rsrc_iLoveTypography@2x.jpg') no-repeat;background-size:170px 170px;}
+		#ILT:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_iLoveTypography@2x.jpg') no-repeat;background-size:170px 170px;}
+		
+	#TK{background:url('../img/rsrc_typeKit@2x.jpg') no-repeat;background-size:170px 170px;}
+		#TK:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_typeKit@2x.jpg') no-repeat;background-size:170px 170px;}
+	#GA{background:url('../img/rsrc_generalAssembly@2x.jpg') no-repeat;background-size:170px 170px;}
+		#GA:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_generalAssembly@2x.jpg') no-repeat;background-size:170px 170px;}
+	#OCTB{background:url('../img/rsrc_ourChoice@2x.jpg') no-repeat;background-size:170px 170px;}
+		#OCTB:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_ourChoice@2x.jpg') no-repeat;background-size:170px 170px;}
+	#TKG{background:url('../img/rsrc_kerningGame@2x.jpg') no-repeat;background-size:170px 170px;}
+		#TKG:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_kerningGame@2x.jpg') no-repeat;background-size:170px 170px;}
+	#DBBB{background:url('../img/rsrc_dribbble@2x.jpg') no-repeat;background-size:170px 170px;}
+		#DBBB:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_dribbble@2x.jpg') no-repeat;background-size:170px 170px;}
+	#HEL{background:url('../img/rsrc_helvetica@2x.jpg') no-repeat;background-size:170px 170px;}
+		#HEL:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_helvetica@2x.jpg') no-repeat;background-size:170px 170px;}
+	
+	#SMAG{background:url('../img/rsrc_smashingMagazine@2x.jpg') no-repeat;background-size:170px 170px;}
+		#SMAG:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_smashingMagazine@2x.jpg') no-repeat;background-size:170px 170px;}
+	#OBJ{background:url('../img/rsrc_objectified@2x.jpg') no-repeat;background-size:170px 170px;}
+		#OBJ:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_objectified@2x.jpg') no-repeat;background-size:170px 170px;}
+	#TED{background:url('../img/rsrc_ted@2x.jpg') no-repeat;background-size:170px 170px;}
+		#TED:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_ted@2x.jpg') no-repeat;background-size:170px 170px;}
+	#ZRP{background:url('../img/rsrc_zerply@2x.jpg') no-repeat;background-size:170px 170px;}
+		#ZRP:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_zerply@2x.jpg') no-repeat;background-size:170px 170px;}
+	#C77{background:url('../img/rsrc_core77@2x.jpg') no-repeat;background-size:170px 170px;}
+		#C77:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_core77@2x.jpg') no-repeat;background-size:170px 170px;}
+	#FIVE{background:url('../img/rsrc_500@2x.jpg') no-repeat;background-size:170px 170px;}
+		#FIVE:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_500@2x.jpg') no-repeat;background-size:170px 170px;}
+	
+	#AIGA{background:url('../img/rsrc_aiga@2x.jpg') no-repeat;background-size:170px 170px;}
+		#AIGA:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_aiga@2x.jpg') no-repeat;background-size:170px 170px;}
+	#ATP{background:url('../img/rsrc_aTypePrimer@2x.jpg') no-repeat;background-size:170px 170px;}
+		#ATP:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_aTypePrimer@2x.jpg') no-repeat;background-size:170px 170px;}
+	#LTC{background:url('../img/rsrc_lostType@2x.jpg') no-repeat;background-size:170px 170px;}
+		#LTC:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_lostType@2x.jpg') no-repeat;background-size:170px 170px;}
+	#THR{background:url('../img/rsrc_37signals@2x.jpg') no-repeat;background-size:170px 170px;}
+		#THR:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_37signals@2x.jpg') no-repeat;background-size:170px 170px;}
+	#GOOD{background:url('../img/rsrc_good@2x.jpg') no-repeat;background-size:170px 170px;}
+		#GOOD:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_good@2x.jpg') no-repeat;background-size:170px 170px;}
+	#BH{background:url('../img/rsrc_behance@2x.jpg') no-repeat;background-size:170px 170px;}
+		#BH:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_behance@2x.jpg') no-repeat;background-size:170px 170px;}
 
 }
