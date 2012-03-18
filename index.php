@@ -309,15 +309,15 @@
 		</div>
 		<div class="col2">
 			<h4>↳ User Interface Design</h4>
-			<p class="text">User Interface Design (UI) he design of software applications and websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible, in terms of accomplishing user goals</em>. Good user interface design facilitates finishing the task at hand without drawing unnecessary attention to itself. The design process must balance technical functionality and visual elements to create a system that is not only operational but also <em>usable and <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">adaptable</a> to changing user needs</em>. <sup><a id="ref-7" href="#cite-7">7</a></sup></p>
-			<!-- <p class="text">Interface design is involved in a wide range of projects from <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">computer systems, to cars, to commercial planes</a>; all of these projects involve much of the same basic human interactions yet also require some unique skills and knowledge. As a result, designers tend to specialize in certain types of projects and have skills centered around their expertise, such as software design, user research, web design, or industrial design. <sup><a id="ref-7" href="#cite-7">7</a></sup></p> -->
+			<p class="text">User Interface design (UI) is the design of software or websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible</em>. Good user interface design puts emphasis on goals and completing tasks, and good UI design  never <a href="./tooltips.php?q=skeuomorphicism" rel="./tooltips.php?q=skeuomorphicism" class="tip">draws more attention to itself</a> than enforcing user goals.</p>
+			<p class="text">"The design process must balance technical functionality and visual elements to create a system that is not only operational but also <em>usable and <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">adaptable</a> to changing user needs</em>." <sup><a id="ref-7" href="#cite-7">7</a></sup></p>
 
 		</div><!-- / Interface Design -->
 		
 		<div class="col2 colR">	
 			<h4>↳ User Experience Design</h4>
-			<p class="text">User Experience (UX) Design incorporates aspects of <em>psychology, anthropology, sociology, computer science, graphic design, industrial design and cognitive science</em>. Depending on the purpose of the product, UX may also involve content design disciplines such as communication design, instructional design, or game design.</p>
-			<p class="text">User experience design is used to positively impact the overall experience a person has with a particular interactive product. It considers the interactions between a user and a system, virtual or physical, <em>designed to meet or support user needs and goals</em>. <sup><a id="ref-8" href="#cite-8">8</a></sup></p>
+			<p class="text">User Experience (UX) Design "incorporates aspects of <em>psychology, anthropology, sociology, computer science, graphic design, industrial design and cognitive science</em>. Depending on the purpose of the product, UX may also involve content design disciplines such as communication design, instructional design, or game design." <sup><a id="ref-8" href="#cite-8">8</a></sup></p>
+			<p class="text">The goal of UX design is to create a seamless, simple, and useful interaction between a user and a product, whether it be hardware or software. As with UI design, user experience design focuses on creating interactions <em>designed to meet or assist a user's goals and needs</em>.</p>
 		</div><!-- / User Experience Design -->
 			
 		<br class="clear" />
@@ -638,7 +638,7 @@
 		<div class="col2 colR">
 			<h3>Go where the designers are.<br />&nbsp;</h3>
 			<p class="text">The design community is small and nuanced. Many designers aren’t aware of their increasing demand within startups, but that doesn't make them impossible to find.</p>
-			<p class="text">Here are a few places where you can find excellent local designers right now.</p>
+			<p class="text"><em>Here are a few places where you can find excellent local designers <u>right now</u>.</em></p>
 		</div>
 		
 		<br class="clear" />

@@ -80,6 +80,15 @@ if($q === "ui"){ ?>
 	<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/a6cNdhOKwi0?version=3&hl=en_US&rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/a6cNdhOKwi0?version=3&hl=en_US&rel=0" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 	Via <a target="_blank" href="http://www.microsoft.com/office/vision/">Microsoft Office</a>
 
+<?php }elseif($q === "skeuomorphicism"){ ?>
+<img src="./img/tool/skeuomorphicism.jpg" />
+	<h6>Skeuomorphic UI</h6>
+	<blockquote>
+	<p>"It should probably be obvious that my own preference is for design without ornamentation, certainly without a hint of sentimentality, and that I detest these new apps. Why?</p>
+	<p>Simply put: it’s because they are lies. They attempt to comfort us (to patronise us) by trying to show how they relate to physical objects in the real world when there is no need. How are we helped to understand what Find My Friends does by the addition of “leather” trim? And how difficult can it be for someone, even a relative digital newcomer, to understand a list of books [in iBooks]? Difficult enough that the only possible way they could understand it is to present them in a “wooden” bookshelf format?"</p>
+	</blockquote>
+	<p>– <i><a target="_blank" href="http://madebymany.com/blog/apples-aesthetic-dichotomy">James Higgs</a> via <a target="_blank" href="http://daringfireball.net/linked/2011/10/26/against-skeuomorphism">Daring Fireball</a>.</i></p>
+
 <?php }elseif($q === "startupteam"){ ?>
 	<iframe src="http://player.vimeo.com/video/36608732?api=1&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="560" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 	 David Kelley, founder of <a target="_blank" href="http://ideo.com">IDEO</a> via  <a target="_blank" href="http://startmaking.com/">General Assembly</a>
