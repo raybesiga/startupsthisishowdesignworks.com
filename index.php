@@ -9,9 +9,10 @@
 	<meta name="description" content="">
 	<meta name="author" content="Wells Riley">
 	<meta name="viewport" content="width=device-width">
-	<link rel="apple-touch-icon" href="./touch-icon-iphone.png" />
-	<link rel="apple-touch-icon" sizes="72x72" href="./touch-icon-ipad.png" />
-	<link rel="apple-touch-icon" sizes="114x114" href="./touch-icon-iphone4.png" />
+	<link rel="apple-touch-icon-precomposed" href="./touch-icon-iphone.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./touch-icon-ipad.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./touch-icon-iphone4.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./touch-icon-ipad3.png" />
 	<link href="./favicon.ico" rel="shortcut icon">
 	<link href="http://fonts.googleapis.com/css?family=Raleway:100|Crimson+Text:400,400italic,600,600italic|Open+Sans+Condensed:700|Sail" target="_blank" rel="stylesheet" type="text/css">
 	<link href="./css/jquery.qtip.min.css" media="screen" rel="stylesheet" type="text/css" />
