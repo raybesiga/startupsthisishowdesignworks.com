@@ -295,7 +295,7 @@
 				<h3>Interaction Design</h3>
 				<br class="clear" />
 				<p class="text">Interaction designers, on the other hand, focus on digital products and interactive software design. Some examples include web apps like <a href="http://facebook.com" target="_blank">Facebook</a> and <a href="http://pinterest.com" target="_blank">Pinterest</a>, mobile apps like <a href="http://tapbots.com" target="_blank">Tweetbot</a>, and operating systems like OS X. While graphic design is meant to be observed, interaction design helps humans experience or manipulate software or interface with screen-based hardware in order to <em>achieve specific goals</em> – checking email, <a href="./tooltips.php?q=atm" rel="./tooltips.php?q=atm" class="tip">withdrawing money from an ATM</a>, or "Liking" a webpage (such as this one!)</p>
-				<p class="text">As Wikipedia puts it, <em>Interaction design is heavily focused on satisfying the needs and desires of the people who will use the product.</em> <sup><a id="ref-5" href="#cite-5">5</a></sup></p>
+				<p class="text"><em>"Interaction design is heavily focused on satisfying the needs and desires <br />of the people who will use the product."</em> <sup><a id="ref-5" href="#cite-5">5</a></sup></p>
 		</div><!-- / Interaction Design -->
 		<div class="col2 colR">
 			<div id="ixdGraphic"></div>
