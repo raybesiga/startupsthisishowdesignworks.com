@@ -842,7 +842,7 @@ p{
 		#TDF:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_designerFund.jpg') no-repeat;background-size:170px 170px;}
 	#CM{background:url('../img/rsrc_creativeMornings.jpg') no-repeat;background-size:170px 170px;}
 		#CM:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_creativeMornings.jpg') no-repeat;background-size:170px 170px;}
-	#TDO{background:url('../img/rsrc_DesignObserver.jpg') no-repeat;background-size:170px 170px;}
+	#TDO{background:url('../img/rsrc_designObserver.jpg') no-repeat;background-size:170px 170px;}
 		#TDO:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_designObserver.jpg') no-repeat;background-size:170px 170px;}
 	#ALA{background:url('../img/rsrc_aListApart.jpg') no-repeat;background-size:170px 170px;}
 		#ALA:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_aListApart.jpg') no-repeat;background-size:170px 170px;}
@@ -1179,8 +1179,8 @@ footer{
 		#TDF:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_designerFund@2x.jpg') no-repeat;background-size:170px 170px;}
 	#CM{background:url('../img/rsrc_creativeMornings@2x.jpg') no-repeat;background-size:170px 170px;}
 		#CM:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_creativeMornings@2x.jpg') no-repeat;background-size:170px 170px;}
-	#TDO{background:url('../img/rsrc_DesignObserver@2x.jpg') no-repeat;background-size:170px 170px;}
-		#TDO:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_DesignObserver@2x.jpg') no-repeat;background-size:170px 170px;}
+	#TDO{background:url('../img/rsrc_designObserver@2x.jpg') no-repeat;background-size:170px 170px;}
+		#TDO:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_designObserver@2x.jpg') no-repeat;background-size:170px 170px;}
 	#ALA{background:url('../img/rsrc_aListApart@2x.jpg') no-repeat;background-size:170px 170px;}
 		#ALA:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_aListApart@2x.jpg') no-repeat;background-size:170px 170px;}
 	#SM{background:url('../img/rsrc_swissMiss@2x.jpg') no-repeat;background-size:170px 170px;}
