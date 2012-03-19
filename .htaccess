@@ -1,5 +1,4 @@
-FileETag none # Turn off eTags
-<IfModule mod_expires.c> # Check that the expires module has been installed
+<IfModule mod_expires.c>
 ExpiresActive On
 ExpiresDefault "access plus 10 years"
 ExpiresByType image/gif "access plus 10 years"
@@ -11,7 +10,8 @@ ExpiresByType text/javascript "access plus 10 years"
 ExpiresByType application/x-unknown-content-type "access plus 10 years"
 ExpiresByType application/x-javascript "access plus 10 years"
 </IfModule>
-<IfModule mod_gzip.c>  # check if gZip support has been installed
+
+<IfModule mod_gzip.c>
 mod_gzip_on         Yes
 mod_gzip_dechunk    Yes
 mod_gzip_item_include file          \.(html?|txt|css|js|php|pl)$
