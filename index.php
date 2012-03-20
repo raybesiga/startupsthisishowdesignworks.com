@@ -413,7 +413,7 @@
 		
 		<div id="row3_gdez" class="col2 colL chart"></div>
 		<div class="col1"></div>
-		<div id="row3_founders" class="col3 colR chart"></div>
+		<div id="row3_founders" class="col3 colR chart" style="height:530px;"></div>
 		
 		<br class="clear" />
 		
@@ -603,7 +603,7 @@
 		<div id="sec47" class="col4 colR" style="margin-top:800px;">
 			<p class="text oversize" style="margin:30px 0 110px;">It’s getting harder and harder to differentiate based on tech talent alone. Designers like Jonathan Ive at Apple, Joe Gebbia at Airbnb, and Dave Morin at Path (to name a few) are changing the world today – not entirely because Apple, Airbnb, or Path have better tech, but because they make their products more usable, aesthetic, and <em>human</em>.</p>
 			
-			<h3>Design is the link missing from your founding team. The perfect balance of business, tech, and design is an incredibly powerful tool… 
+			<h3 class="bigRed">Design is the link missing from your founding team. The perfect balance of business, tech, and design is an incredibly powerful tool… 
 				<br /><br />and an even more powerful business model.</h3>
 		</div><!-- / \ 4 wrap-up -->
 		
@@ -710,17 +710,17 @@
 			<li><a id="ALA" href="http://alistapart.com" target="_blank">
 				Explores the design, development, and meaning of web content, with a special focus on web standards and best practices.</a></li>
 			<li><a id="SM" href="http://swiss-miss.com" target="_blank">
-				a design blog and studio run by Tina Roth Eisenberg. Besides swissmiss, she founded and runs CreativeMornings, TeuxDeux, and Tattly.</a></li>
+				A design blog and studio run by Tina Roth Eisenberg. Besides swissmiss, she founded and runs CreativeMornings, TeuxDeux, and Tattly.</a></li>
 			<li><a id="ILT" href="http://ilovetypography.com" target="_blank">
-				Where do our letters originate? Why do they look the way they do? And what makes for good type and typography?</a></li>
+				I Love Typography: Where do our letters originate? Why do they look the way they do? And what makes for good typography?</a></li>
 			<li><a id="TK" href="http://typekit.com" target="_blank">
 				Add a line of code to your pages and choose from hundreds of web fonts. Simple, bulletproof, standards compliant, accessible, and totally legal.</a></li>
 			<li><a id="GA" href="http://generalassemb.ly" target="_blank">
 				A campus for technology, design, and entrepreneurship.</a></li>
 			<li><a id="OCTB" href="http://ourchoicethebook.com" target="_blank">
-				Our Choice will change the way we read books. And quite possibly change the world.</a></li>
+				Our Choice, the digital book by Al Gore and Push Pop Press, will change the way we read books. And quite possibly change the world.</a></li>
 			<li><a id="TKG" href="http://type.method.ac" target="_blank">
-				Your mission is simple: achieve pleasant and readable text by distributing the space between letters.</a></li>
+				The Kerning Game. Your mission is simple: achieve pleasant and readable text by distributing the space between letters.</a></li>
 			<li><a id="DBBB" href="http://dribbble.com" target="_blank">
 				Dribbble is show and tell for designers, who share shots — small screenshots of the designs and applications they’re working on.</a></li>
 			<li><a id="HEL" href="http://amazon.com/Helvetica/dp/B002RIOGI0/ref=sr_1_1?s=instant-video&ie=UTF8&qid=1331186392&sr=1-1" target="_blank">

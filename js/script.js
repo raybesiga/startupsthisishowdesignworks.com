@@ -297,6 +297,11 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	 credits: {
         enabled: false
      },
+     tooltip: {
+		formatter: function() {
+			return this.point.name;
+		}
+	 },
 	 series: [{
 	    name: 'Responses',
 	    data: [
@@ -508,20 +513,23 @@ if((navigator.userAgent.match(/iPhone/i)) ||
              dataLabels: {
                  enabled: false
              },
-             showInLegend: false
+             showInLegend: true
          }
      },
+     legend: {
+	 	layout: 'vertical'
+	 },
 	 credits: {
         enabled: false
      },
 	 series: [{
 	    name: 'Responses',
 	    data: [{
-	    	name: 'Yes',
+	    	name: 'Yes (Total)',
 	    	y: 63,
 	    	color: '#083055'
 	    	},{
-	    	name: 'No',
+	    	name: 'No (Total)',
 	    	y: 15,
 	    	color: '#428994'
 	    }],
@@ -531,19 +539,19 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	    name: 'Responses',
 	    
 	    data: [{
-	    	name: 'Biz / Marketing / Dev',
+	    	name: 'Yes (Biz / Marketing / Dev)',
 	    	y: 48,
 	    	color: '#024873'
 	    	},{
-	    	name: 'Designers',
+	    	name: 'Yes (Designers)',
 	    	y: 15,
 	    	color: '#03738C'
 	    },{
-	    	name: 'Biz / Marketing / Dev',
+	    	name: 'No (Biz / Marketing / Dev)',
 	    	y: 13,
 	    	color: '#68A69B'
 	    	},{
-	    	name: 'Designers',
+	    	name: 'No (Designers)',
 	    	y: 2,
 	    	color: '#B8D9C4'
 	    }],

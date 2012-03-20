@@ -433,7 +433,7 @@ p.subText{
 
 /* -- Section 2 -- */
 #section2{
-	margin:200px 0 150px;
+	margin:200px 0 100px;
 	}
 	
 #designPoster{
@@ -746,11 +746,15 @@ p.subText{
 	color:#444;
 	}
 
+.bigRed{
+	color:#ed1c24;
+	}
+
 /* -- Section 5 -- */
 #sec5top{
 	background:url('../img/sec5top.jpg') repeat-x;
 	height:81px;
-	margin-top:150px;
+	margin-top:75px;
 	}
 #sec5bottom{
 	background:url('../img/sec5bottom.jpg') repeat-x;
@@ -761,7 +765,7 @@ p.subText{
 #section5{
 	background:url('../img/sec5bg.jpg') repeat;
 	margin:0;
-	padding:50px 0 0;
+	padding:20px 0 0;
 	height:2386px;
 	}
 
