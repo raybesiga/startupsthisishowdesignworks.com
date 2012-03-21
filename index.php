@@ -11,7 +11,7 @@
 	<meta name="author" content="Wells Riley">
 	<meta property="og:title" content="Startups, this is how design works" />
 	<meta property="og:url" content="http://startupsthisishowdesignworks.com/foop" />
-	<meta property="og:type" content="mult" />
+	<meta property="og:type" content="website" />
 	<meta property="og:image" content="http://startupsthisishowdesignworks.com/foop/touch-icon-ipad3.png" />
 	<meta name="viewport" content="width=device-width">
 	<link rel="apple-touch-icon-precomposed" href="./touch-icon-iphone.png" />
