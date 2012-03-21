@@ -1,7 +1,8 @@
 <?php
 // Global Variables
 $pageURL = "http://startupsthisishowdesignworks.com/foop";
-$pageDescription = "A guide to understanding digital and physical product design for startups and non-designers.";
+$pageTitle = "Startups, This Is How Design Works";
+$pageDescription = "A guide to understanding digital and physical product design for startups and non-designers";
 ?>
 
 <!doctype html>
@@ -12,10 +13,10 @@ $pageDescription = "A guide to understanding digital and physical product design
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Startups, this is how design works – by Wells Riley</title>
+	<title><?php echo $pageTitle; ?> – by Wells Riley</title>
 	<meta property="og:description" name="description" content="<?php echo $pageDescription; ?>">
 	<meta name="author" content="Wells Riley">
-	<meta property="og:title" content="Startups, this is how design works" />
+	<meta property="og:title" content="<?php echo $pageTitle; ?>" />
 	<meta property="og:url" content="<?php echo $pageURL ?>/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="<?php echo $pageURL ?>/fb-icon.png" />
@@ -94,7 +95,7 @@ $pageDescription = "A guide to understanding digital and physical product design
 			<fb:like href="<?php echo $pageURL ?>" target="_blank" layout="button_count" send="false" show_faces="false"></fb:like>
 		</li>
 		<li class="platform">
-			<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.html?url=<?php echo $pageURL; ?>&text=<?php echo $pageDescription; ?> by @wellsriley" style="width:130px; height:20px;" allowTransparency="true" frameborder="0"></iframe>
+			<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.html?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle." - ".$pageDescription; ?> by @wellsriley" style="width:130px; height:20px;" allowTransparency="true" frameborder="0"></iframe>
 		</li>
 	</ul><!-- / socialSharing -->
 	
@@ -788,7 +789,7 @@ $pageDescription = "A guide to understanding digital and physical product design
 			<li class="shareCount"><?php echo customFShare( $pageURL ); ?></li>
 
 			<li>
-				<a href="http://twitter.com/share?url=<?php echo $pageURL; ?>&text=<?php echo $pageDescription; ?> by @wellsriley" target="_blank" class="shareTw">Share (t)</a>
+				<a href="http://twitter.com/share?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle." - ".$pageDescription; ?> by @wellsriley" target="_blank" class="shareTw">Share (t)</a>
 			</li>
 			<li class="shareCount"><?php tweets( $pageURL ); ?></li>
 		</ul><!-- / socialSharing -->
