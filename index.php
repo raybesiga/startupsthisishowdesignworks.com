@@ -13,6 +13,8 @@
 	<meta property="og:url" content="http://startupsthisishowdesignworks.com/foop/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="http://startupsthisishowdesignworks.com/foop/touch-icon-ipad3.png" />
+	<meta property="fb:admins" content="1082730090" />
+	<meta property="fb:app_id" content="334362973268161" />
 	<meta name="viewport" content="width=device-width">
 	<link rel="apple-touch-icon-precomposed" href="./touch-icon-iphone.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./touch-icon-ipad.png" />
