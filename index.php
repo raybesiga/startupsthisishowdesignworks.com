@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -93,7 +95,10 @@
 	</ul><!-- / socialSharing -->
 	
 	<br class="clear" />
-	
+	<?php
+echo $_SERVER["SERVER_NAME"];
+echo $_SERVER["REQUEST_URI"];
+?>
 	<header>
 		<h1>Startups, this is how design works.</h1>
 		<div id="author">A guide for non-designers by <a href="http://wellsriley.com" target="_blank">Wells Riley</a>.
@@ -786,6 +791,8 @@
 			</li>
 			<li class="shareCount"><?php tweets("http://startupsthisishowdesignworks.com"); ?></li>
 		</ul><!-- / socialSharing -->
+		
+		<br class="clear" />
 		
 		<div class="col4 colL colR">
 			<p class="text">Seriously. I love startups and design, and I want them to be best friends forever. My name is Wells Riley, and I’m graduating with a BFA in Graphic Design from Northeastern this spring (2012). I’ve been working with startups for several years, and designing on the Web for even longer.</p>

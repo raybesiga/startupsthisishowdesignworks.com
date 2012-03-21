@@ -219,13 +219,12 @@ sup a{color:#1f7291 !important;font-weight:bold;}
 		padding-left:25px !important;
 		}
 
-.socialSharing{ float:right;list-style-type: none;}
-
+.socialSharing{ float:right;list-style-type: none;margin:10px 0 0;padding:0;}
 .platform{
 	float:left;
 	margin:0 0 0 20px;
 	padding:0;
-	width:80px;
+	display:block;
 	}
 
 /* -- Header -- */
