@@ -948,25 +948,25 @@ p{
 	display:block;
 	text-indent:-9999px
 	}
-.shareFb{
+.socialShare .shareFb{
 	background:url('../img/shareFb.png') no-repeat;
 	}
-	.shareFb:hover{
+	.socialShare .shareFb:hover{
 		background-position:0 -46px;
 		}
-	.shareFb:active{
+	.socialShare .shareFb:active{
 		background-position:0 -92px;
 		}
-.shareTw{
+.socialShare .shareTw{
 	background:url('../img/shareTw.png') no-repeat;
 	}
-	.shareTw:hover{
+	.socialShare .shareTw:hover{
 		background-position:0 -46px;
 		}
-	.shareTw:active{
+	.socialShare .shareTw:active{
 		background-position:0 -92px;
 		}
-.shareCount{
+.socialShare .shareCount{
 	background:url('../img/shareBubble.png') no-repeat;
 	width:50px;
 	height:34px;
@@ -978,7 +978,56 @@ p{
 	margin:0 34px 0 0 !important;
 	}
 	
-	
+.socialShareSmall{
+	padding:0;
+	margin:10px 0 0;
+	float:right;
+	list-style-type:none;
+	}
+
+.socialShareSmall li{
+	float:left;
+	margin:0;
+	}
+
+.socialShareSmall a{
+	width:61px;
+	height:23px;
+	display:block;
+	text-indent:-9999px
+	}
+.socialShareSmall .shareFb{
+	background:url('../img/shareFb@0x.png') no-repeat;
+	}
+	.socialShareSmall .shareFb:hover{
+		background-position:0 -23px;
+		}
+	.socialShareSmall .shareFb:active{
+		background-position:0 -46px;
+		}
+.socialShareSmall .shareTw{
+	background:url('../img/shareTw@0x.png') no-repeat;
+	}
+	.socialShareSmall .shareTw:hover{
+		background-position:0 -23px;
+		}
+	.socialShareSmall .shareTw:active{
+		background-position:0 -46px;
+		}
+.socialShareSmall .shareCount{
+	background:url('../img/shareBubble@0x.png') no-repeat;
+	width:29px;
+	height:23px;
+	font-family:"Helvetica",Arial,sans-serif;
+	color:#5a5a5a;
+	font-weight:600;
+	text-align:center;
+	padding:3px 0 0 3px;
+	margin:0 17px 0 2px !important;
+	font-size:12px;
+	}	
+
+
 
 /* -- Section 7 -- */
 #section7{
@@ -1283,18 +1332,32 @@ footer{
 	#BH{background:url('../img/rsrc_behance@2x.jpg') no-repeat;background-size:170px 170px;}
 		#BH:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_behance@2x.jpg') no-repeat;background-size:170px 170px;}
 
-	.shareFb{
+	.socialShare .shareFb{
 		background:url('../img/shareFb@2x.png') no-repeat;
 		background-size:121px 138px;
 		width:130px;
 	}
-	.shareTw{
+	.socialShare .shareTw{
 		background:url('../img/shareTw@2x.png') no-repeat;
 		background-size:121px 138px;
 		width:130px;
 	}
-	.shareCount{
+	.socialShare .shareCount{
 		background:url('../img/shareBubble@2x.png') no-repeat;
 		background-size:58px 46px;
+	}
+	.socialShareSmall .shareFb{
+		background:url('../img/shareFb.png') no-repeat;
+		background-size:61px 69px;
+		width:61px;
+	}
+	.socialShareSmall .shareTw{
+		background:url('../img/shareTw.png') no-repeat;
+		background-size:61px 69px;
+		width:61px;
+	}
+	.socialShareSmall .shareCount{
+		background:url('../img/shareBubble.png') no-repeat;
+		background-size:29px 23px;
 	}
 }

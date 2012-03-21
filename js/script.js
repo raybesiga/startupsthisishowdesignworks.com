@@ -1,5 +1,12 @@
 var chart1; // globally available
 
+
+function popitup(url) {
+	newwindow=window.open(url,'name','height=350,width=640');
+	if (window.focus) {newwindow.focus()}
+	return false;
+}
+
 // Link's Triforce Drag and Drop
 $( init );
 
@@ -341,7 +348,7 @@ if((navigator.userAgent.match(/iPhone/i)) ||
      	},
      	legend: {
      		labelFormatter: function() {
-            return this.name +' '+ this.total;
+            return this.name;
         	}
      	},
 	    xAxis: {
@@ -653,8 +660,11 @@ if((navigator.userAgent.match(/iPhone/i)) ||
  
 	function handleDropEvent( event, ui ) {
 	  var draggable = ui.draggable;
-	  $('#triforceDrag').hide('fast', function() {
-	  });
+	  $('#triforceDrag').css({
+	  		backgroundImage: 'url("./img/linkHappy@2x.gif")',
+	  		backgroundSize: '112px 208px',
+	  		fontSize: '0px'
+	  	});
 	  $('#triforceDrop').css({
 	  		backgroundImage: 'url("./img/triforceComplete@2x.jpg")',
 	  		backgroundSize: '160px 160px'

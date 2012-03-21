@@ -2,7 +2,7 @@
 // Global Variables
 $pageURL = "http://startupsthisishowdesignworks.com/foop";
 $pageTitle = "Startups, This Is How Design Works";
-$pageDescription = "A guide to understanding digital and physical product design for startups and non-designers";
+$pageDescription = "A guide to understanding digital %26 physical product design for startups";
 ?>
 
 <!doctype html>
@@ -90,14 +90,32 @@ $pageDescription = "A guide to understanding digital and physical product design
 		</dl><!-- / sections -->
 	</div><!-- / tableOfContents -->
 	
-	<ul class="socialSharing">
-		<li class="platform">
-			<fb:like href="<?php echo $pageURL ?>" target="_blank" layout="button_count" send="false" show_faces="false"></fb:like>
-		</li>
-		<li class="platform">
-			<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.html?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle." - ".$pageDescription; ?> by @wellsriley" style="width:130px; height:20px;" allowTransparency="true" frameborder="0"></iframe>
-		</li>
-	</ul><!-- / socialSharing -->
+	<ul class="socialShareSmall">
+			<li>
+				<?php
+				function customFShare($url) {
+				    $like_results = file_get_contents('http://graph.facebook.com/'.$url);
+				    $like_array = json_decode($like_results, true);
+				    $like_count =  $like_array['shares'];
+				    return ($like_count ) ? $like_count : "0";
+				}
+				function tweets($url){
+				  $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
+				  $x = new SimpleXmlElement($content);
+				  $tweets = $x->story->url_count;
+				  
+				  echo $tweets;
+				}
+				?>
+				<a href="http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>" target="_blank" class="shareFb" onclick="return popitup('http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>')">Share (f)</a>
+			</li>
+			<li class="shareCount"><?php echo customFShare( $pageURL ); ?></li>
+
+			<li>
+				<a href="http://twitter.com/intent/tweet?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle.": ".$pageDescription; ?>%20@wellsriley&related=wellsriley" target="_blank" class="shareTw">Share (t)</a>
+			</li>
+			<li class="shareCount"><?php tweets( $pageURL ); ?></li>
+		</ul><!-- / socialShareSmall -->
 	
 	<br class="clear" />
 	
@@ -605,7 +623,7 @@ $pageDescription = "A guide to understanding digital and physical product design
 		
 		<div class="col2 colL" style="text-align:center;margin-top:800px;">
 			<div id="linkSword"></div>
-			<div id="linkLike">Oh, hello. <fb:like href="http://startupsthisishowdesignworks.com" target="_blank" layout="button_count" send="false" show_faces="false" style="margin-left:10px;"></fb:like></div>
+			<div id="linkLike">Oh, hello.</div>
 		</div>
 		
 		<div id="sec47" class="col4 colR" style="margin-top:800px;">
@@ -769,30 +787,15 @@ $pageDescription = "A guide to understanding digital and physical product design
 		
 		<ul class="socialShare">
 			<li>
-				<?php
-				function customFShare($url) {
-				    $like_results = file_get_contents('http://graph.facebook.com/'.$url);
-				    $like_array = json_decode($like_results, true);
-				    $like_count =  $like_array['shares'];
-				    return ($like_count ) ? $like_count : "0";
-				}
-				function tweets($url){
-				  $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
-				  $x = new SimpleXmlElement($content);
-				  $tweets = $x->story->url_count;
-				  
-				  echo $tweets;
-				}
-				?>
-				<a href="http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>" target="_blank" class="shareFb">Share (f)</a>
+				<a href="http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>" target="_blank" class="shareFb" onclick="return popitup('http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>')">Share (f)</a>
 			</li>
 			<li class="shareCount"><?php echo customFShare( $pageURL ); ?></li>
 
 			<li>
-				<a href="http://twitter.com/share?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle." - ".$pageDescription; ?> by @wellsriley" target="_blank" class="shareTw">Share (t)</a>
+				<a href="http://twitter.com/intent/tweet?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle.": ".$pageDescription; ?>%20@wellsriley&related=wellsriley" target="_blank" class="shareTw">Share (t)</a>
 			</li>
 			<li class="shareCount"><?php tweets( $pageURL ); ?></li>
-		</ul><!-- / socialSharing -->
+		</ul><!-- / socialShare -->
 		
 		<br class="clear" />
 		
@@ -890,15 +893,7 @@ $pageDescription = "A guide to understanding digital and physical product design
 <script src="./js/libs/jquery-ui.min.js"></script>
 <script src="./js/libs/jquery.ui.touch-punch.min.js"></script>
 <script src="./js/script.js"></script>
-<!-- Facebook Like -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=334362973268161";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
 <!-- Google Analytics -->
 <script>
 	var _gaq=[['_setAccount','UA-4881230-13'],['_trackPageview']];
