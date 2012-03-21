@@ -1283,16 +1283,13 @@ footer{
 	.shareFb{
 		background:url('../img/shareFb@2x.png') no-repeat;
 		background-size:125px 138px;
-		border:1px solid #f0f;
 	}
 	.shareTw{
 		background:url('../img/shareTw@2x.png') no-repeat;
 		background-size:125px 138px;
-		border:1px solid #f0f;
 	}
 	.shareCount{
 		background:url('../img/shareBubble@2x.png') no-repeat;
 		background-size:58px 46px;
-		border:1px solid #f0f;
 	}
 }
