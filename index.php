@@ -9,6 +9,9 @@
 	<title>Startups, this is how design works – by Wells Riley</title>
 	<meta property="og:description" name="description" content="A guide to understanding digital and physical product design for startups and non-designers.">
 	<meta name="author" content="Wells Riley">
+	<meta property="og:title" content="Startups, this is how design works" />
+	<meta property="og:url" content="http://startupsthisishowdesignworks.com/foop" />
+	<meta property="og:type" content="mult" />
 	<meta property="og:image" content="http://startupsthisishowdesignworks.com/foop/touch-icon-ipad3.png" />
 	<meta name="viewport" content="width=device-width">
 	<link rel="apple-touch-icon-precomposed" href="./touch-icon-iphone.png" />
