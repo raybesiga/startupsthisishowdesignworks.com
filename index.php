@@ -755,31 +755,15 @@
 		
 		<ul class="socialShare">
 			<li>
-				<?php				
-				function get_data_url($url) {
-					$site_url = $url;
-					$ch = curl_init();
-					$timeout = 5; // set to zero for no timeout
-					curl_setopt ($ch, CURLOPT_URL, $site_url);
-					curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
-					
-					ob_start();
-					curl_exec($ch);
-					curl_close($ch);
-					$file_contents = ob_get_contents();
-					ob_end_clean();
-					
-					echo $file_contents;
-				}
-				
-				function customFShare($url) {
-				    $like_results = get_data_url("http://graph.facebook.com/".$url);
+				<?php
+				function customFShare() {
+				    $like_results = file_get_contents('http://graph.facebook.com/http://wellsriley.com');
 				    $like_array = json_decode($like_results, true);
 				    $like_count =  $like_array['shares'];
 				    return ($like_count ) ? $like_count : "0 :(";
 				}
 				function tweets($url){
-				  $content = get_data_url("http://api.tweetmeme.com/url_info?url=".$url);
+				  $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 				  $x = new SimpleXmlElement($content);
 				  $tweets = $x->story->url_count;
 				  if ($tweets == 0){ echo "0 :("; }
@@ -788,7 +772,7 @@
 				?>
 				<a href="http://www.facebook.com/sharer/sharer.php?u=http://startupsthisishowdesignworks.com" target="_blank" class="shareFb">Share (f)</a>
 			</li>
-			<li class="shareCount"><?php customFShare("http://wellsriley.com"); ?></li>
+			<li class="shareCount"><?php echo customFShare(); ?></li>
 
 			<li>
 				<a href="http://twitter.com/share?url=http://startupsthisishowdesignworks.com&text=Startups, this is how design works. A guide to understanding product design for non-designers by @wellsriley&count=horiztonal" target="_blank" class="shareTw">Share (t)</a>
