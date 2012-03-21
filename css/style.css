@@ -1281,11 +1281,15 @@ footer{
 		#BH:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_behance@2x.jpg') no-repeat;background-size:170px 170px;}
 
 	.shareFb{
-	background:url('../img/shareFb@2x.png') no-repeat;
-	background-size:125px 138px;
+		background:url('../img/shareFb@2x.png') no-repeat;
+		background-size:125px 138px;
 	}
 	.shareTw{
-	background:url('../img/shareTw@2x.png') no-repeat;
-	background-size:125px 138px;
+		background:url('../img/shareTw@2x.png') no-repeat;
+		background-size:125px 138px;
+	}
+	.shareCount{
+		background:url('../img/shareBubble@2x.png') no-repeat;
+		background-size:50px 34px;	
 	}
 }

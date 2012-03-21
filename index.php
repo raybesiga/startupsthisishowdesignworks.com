@@ -756,14 +756,29 @@
 		<ul class="socialShare">
 			<li>
 				<?php
+				
+				function get_data_url($url) {
+				    $ch = curl_init();
+				    $timeout = 5;
+				    
+				    curl_setopt($ch,CURLOPT_URL,$url);
+				    curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
+				    curl_setopt($ch,CURLOPT_CONNECTTIMEOUT,$timeout);
+				    $data = curl_exec($ch);
+				    curl_close($ch);
+				    
+				    return $data;
+				}
+				
+				
 				function customFShare() {
-				    $like_results = file_get_contents('http://graph.facebook.com/http://wellsriley.com');
+				    $like_results = get_data_url("http://graph.facebook.com/http://wellsriley.com");
 				    $like_array = json_decode($like_results, true);
 				    $like_count =  $like_array['shares'];
 				    return ($like_count ) ? $like_count : "0 :(";
 				}
 				function tweets($url){
-				  $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
+				  $content = get_data_url("http://api.tweetmeme.com/url_info?url=".$url);
 				  $x = new SimpleXmlElement($content);
 				  $tweets = $x->story->url_count;
 				  if ($tweets == 0){ echo "0 :("; }
