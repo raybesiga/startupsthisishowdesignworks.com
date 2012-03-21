@@ -1,4 +1,8 @@
-
+<?php
+// Global Variables
+$pageURL = "http://startupsthisishowdesignworks.com/foop";
+$pageDescription = "A guide to understanding digital and physical product design for startups and non-designers.";
+?>
 
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
@@ -9,12 +13,12 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Startups, this is how design works – by Wells Riley</title>
-	<meta property="og:description" name="description" content="A guide to understanding digital and physical product design for startups and non-designers.">
+	<meta property="og:description" name="description" content="<?php echo $pageDescription; ?>">
 	<meta name="author" content="Wells Riley">
 	<meta property="og:title" content="Startups, this is how design works" />
-	<meta property="og:url" content="http://startupsthisishowdesignworks.com/foop/" />
+	<meta property="og:url" content="<?php echo $pageURL ?>/" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="http://startupsthisishowdesignworks.com/foop/fb-icon.png" />
+	<meta property="og:image" content="<?php echo $pageURL ?>/fb-icon.png" />
 	<meta property="fb:admins" content="1082730090" />
 	<meta property="fb:app_id" content="334362973268161" />
 	<meta name="viewport" content="width=device-width">
@@ -87,18 +91,15 @@
 	
 	<ul class="socialSharing">
 		<li class="platform">
-			<fb:like href="http://startupsthisishowdesignworks.com" target="_blank" layout="button_count" send="false" show_faces="false"></fb:like>
+			<fb:like href="<?php echo $pageURL ?>" target="_blank" layout="button_count" send="false" show_faces="false"></fb:like>
 		</li>
 		<li class="platform">
-			<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.html?url=http%3A%2F%2Fstartupsthisishowdesignworks.com&amp;via=wellsriley" style="width:130px; height:20px;" allowTransparency="true" frameborder="0"></iframe>
+			<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.html?url=<?php echo $pageURL; ?>&text=<?php echo $pageDescription; ?> by @wellsriley" style="width:130px; height:20px;" allowTransparency="true" frameborder="0"></iframe>
 		</li>
 	</ul><!-- / socialSharing -->
 	
 	<br class="clear" />
-	<?php
-echo $_SERVER["SERVER_NAME"];
-echo $_SERVER["REQUEST_URI"];
-?>
+	
 	<header>
 		<h1>Startups, this is how design works.</h1>
 		<div id="author">A guide for non-designers by <a href="http://wellsriley.com" target="_blank">Wells Riley</a>.
@@ -782,14 +783,14 @@ echo $_SERVER["REQUEST_URI"];
 				  echo $tweets;
 				}
 				?>
-				<a href="http://www.facebook.com/sharer/sharer.php?u=http://startupsthisishowdesignworks.com" target="_blank" class="shareFb">Share (f)</a>
+				<a href="http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>" target="_blank" class="shareFb">Share (f)</a>
 			</li>
-			<li class="shareCount"><?php echo customFShare("http://startupsthisishowdesignworks.com"); ?></li>
+			<li class="shareCount"><?php echo customFShare( $pageURL ); ?></li>
 
 			<li>
-				<a href="http://twitter.com/share?url=http://startupsthisishowdesignworks.com&text=Startups, this is how design works. A guide to understanding product design for non-designers by @wellsriley&count=horiztonal" target="_blank" class="shareTw">Share (t)</a>
+				<a href="http://twitter.com/share?url=<?php echo $pageURL; ?>&text=<?php echo $pageDescription; ?> by @wellsriley" target="_blank" class="shareTw">Share (t)</a>
 			</li>
-			<li class="shareCount"><?php tweets("http://startupsthisishowdesignworks.com"); ?></li>
+			<li class="shareCount"><?php tweets( $pageURL ); ?></li>
 		</ul><!-- / socialSharing -->
 		
 		<br class="clear" />
@@ -831,15 +832,6 @@ echo $_SERVER["REQUEST_URI"];
 			<li><a href="http://finegoodsmarket.com" target="_blank">Rogie King & Fine Goods</a></li>
 			<li><a href="http://dribbble.com/shots/183766-Pattern-Kit-One-Ribbon-Dancer-" target="_blank">Seth Nickerson</a></li>
 			<li><a href="http://www.apple.com/stevejobs/" target="_blank"> Steve Jobs</a></li>
-			<br />
-			<li>Greg S.</li>
-			<li>Maroun N.</li>
-			<li>Sam C.</li>
-			<li>Cory B.</li>
-			<li>Matt B.</li>
-			<li>Degree Project Class</li>
-			<li>Allison H.</li>
-			<li>Arel E.</li>
 		</ul>
 		</div>
 		
