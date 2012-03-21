@@ -21,8 +21,10 @@ if((navigator.userAgent.match(/iPhone/i)) ||
     		$('.sections').removeClass('closed');
     		$('.sections').stop().animate({ top: '34px' }, 200);
     	}else{
-    		$('.sections').addClass('closed');
-    		$('.sections').stop().animate({ top: '-' + sectionsHeight + 'px' }, 100);
+    		$('.subsectionContent').hide(100, function(){
+	    		$('.sections').addClass('closed');
+	    		$('.sections').stop().animate({ top: '-' + sectionsHeight + 'px' }, 200);
+	    	});
     	}
     	return false;
     });
@@ -498,7 +500,7 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	 },
 	 title: {
 	    text: "Do designers belong on the founding team?",
-	    margin: 0,
+	    margin:35,
 	    style: {
 			color: '#ed1c24',
 			fontSize: '14px',
@@ -522,30 +524,18 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	 credits: {
         enabled: false
      },
-	 series: [{
-	    name: 'Responses',
-	    data: [{
-	    	name: 'Yes (Total)',
-	    	y: 63,
-	    	color: '#083055'
-	    	},{
-	    	name: 'No (Total)',
-	    	y: 15,
-	    	color: '#428994'
-	    }],
-	    size: '55%',
-	   },
+	 series: [
 	   {
 	    name: 'Responses',
 	    
 	    data: [{
 	    	name: 'Yes (Biz / Marketing / Dev)',
 	    	y: 48,
-	    	color: '#024873'
+	    	color: '#083055'
 	    	},{
 	    	name: 'Yes (Designers)',
 	    	y: 15,
-	    	color: '#03738C'
+	    	color: '#024873'
 	    },{
 	    	name: 'No (Biz / Marketing / Dev)',
 	    	y: 13,
@@ -555,7 +545,7 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	    	y: 2,
 	    	color: '#B8D9C4'
 	    }],
-	    innerSize: '55%',
+	    innerSize: '25%',
 	   }]
 	});
 

@@ -83,12 +83,6 @@
 		<li class="platform">
 			<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.html?url=http%3A%2F%2Fstartupsthisishowdesignworks.com&amp;via=wellsriley" style="width:130px; height:20px;" allowTransparency="true" frameborder="0"></iframe>
 		</li>
-		<li class="platform">
-			<script type="in/share" data-counter="right" data-url="http://startupsthisishowdesignworks.com"></script>
-		</li>
-		<li class="platform">
-			<g:plusone size="medium" count="true" href="http://startupsthisishowdesignworks.com" target="_blank"></g:plusone>
-		</li>
 	</ul><!-- / socialSharing -->
 	
 	<br class="clear" />
@@ -120,7 +114,7 @@
 		<div class="col2 colR largeSpace">	
 			<h2>So what is <br /><span style="margin-left:-0.3em;">“good design”?</span></h2>
 			<p class="subText">This definition is not so simple. The best designs are notorious for seeming not designed at all – or <a href="./tooltips.php?q=undesigned" rel="./tooltips.php?q=undesigned" class="tip">‘undesigned’</a>.</p>
-			<p class="subText">It’s easier if we break things down a bit. If you know what to look for, it’s easier to identify good design when you see it; or perhaps, <b>when you don’t see it.</b></p>
+			<p class="subText">It’s easier if we break things down a bit. If you know what to look for, it’s easier to identify good design when you see it; or perhaps <b>when you can’t see it at all.</b></p>
 		</div><!-- / What is Good Design? -->
 		
 		<br class="clear" />
@@ -413,7 +407,7 @@
 		
 		<div id="row3_gdez" class="col2 colL chart"></div>
 		<div class="col1"></div>
-		<div id="row3_founders" class="col3 colR chart" style="height:530px;"></div>
+		<div id="row3_founders" class="col3 colR chart" style="height:474px;"></div>
 		
 		<br class="clear" />
 		
@@ -440,7 +434,7 @@
 			<p class="text">For a long time, a pair of co-founders consisted of an executive and an engineer. <b>It worked for Facebook, Microsoft, and <a href="./tooltips.php?q=apple" rel="./tooltips.php?q=apple" class="tip">Apple</a></b>, just to name a few. These companies have excellent designers today, <em>because it’s a necessity they can’t afford to ignore</em>. It seems like design is becoming more and more prevalent in new startups as well – <a href="http://squareup.com" target="_blank">Square</a>, <a href="http://path.com" target="_blank">Path</a>, <a href="http://airbnb.com" target="_blank">Airbnb</a>, and more are pushing the envelope.</p>
 			<p><em>Design is becoming a key differentiator</em> for companies to acquire funding, press coverage, <br />and loyal users.</p>
 		
-			<h3 style="margin-top:40px;">I think it’s time to shake things up a bit.
+			<h3 style="margin-top:40px;color:#ed1c24;">I think it’s time to shake things up a bit.
 			<br />Let’s add designers into the mix.</h3>
 		</div><!-- / section 4 intro -->
 		
@@ -638,7 +632,7 @@
 		<div class="col2 colR">
 			<h3>Go where the designers are.<br />&nbsp;</h3>
 			<p class="text">The design community is small and nuanced. Many designers aren’t aware of their increasing demand within startups, but that doesn't make them impossible to find.</p>
-			<p class="text"><em>Here are a few places where you can find excellent local designers <u>right now</u>.</em></p>
+			<p class="text"><em>Here are a few places where you can find excellent local designers right now.</em></p>
 		</div>
 		
 		<br class="clear" />
@@ -756,22 +750,34 @@
 	
 <div class="globalWrapper">
 	<div id="section6">
-	
-		<h2>I hope that helps!</h2>
 		
-		<ul class="socialSharing">
-			<li class="platform">
-				<fb:like href="http://startupsthisishowdesignworks.com" target="_blank" layout="button_count" send="false" show_faces="false"></fb:like>
+		<h2>Was that helpful?</h2>
+		
+		<ul class="socialShare">
+			<li>
+				<?php
+				function customFShare() {
+				    $like_results = file_get_contents('http://graph.facebook.com/http://wellsriley.com');
+				    $like_array = json_decode($like_results, true);
+				    $like_count =  $like_array['shares'];
+				    return ($like_count ) ? $like_count : "0 :(";
+				}
+				function tweets($url){
+				  $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
+				  $x = new SimpleXmlElement($content);
+				  $tweets = $x->story->url_count;
+				  if ($tweets == 0){ echo "0 :("; }
+				  else{ echo $tweets; }
+				}
+				?>
+				<a href="http://www.facebook.com/sharer/sharer.php?u=http://startupsthisishowdesignworks.com" target="_blank" class="shareFb">Share (f)</a>
 			</li>
-			<li class="platform">
-				<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.html?url=http%3A%2F%2Fstartupsthisishowdesignworks.com&amp;via=wellsriley" style="width:130px; height:20px;" allowTransparency="true" frameborder="0"></iframe>
+			<li class="shareCount"><?php echo customFShare(); ?></li>
+
+			<li>
+				<a href="http://twitter.com/share?url=http://startupsthisishowdesignworks.com&text=Startups, this is how design works. A guide to understanding product design for non-designers by @wellsriley&count=horiztonal" target="_blank" class="shareTw">Share (t)</a>
 			</li>
-			<li class="platform">
-				<script type="in/share" data-counter="right" data-url="http://startupsthisishowdesignworks.com"></script>
-			</li>
-			<li class="platform">
-				<g:plusone size="medium" count="true" href="http://startupsthisishowdesignworks.com" target="_blank"></g:plusone>
-			</li>
+			<li class="shareCount"><?php tweets("http://www.techcrunch.com"); ?></li>
 		</ul><!-- / socialSharing -->
 		
 		<div class="col4 colL colR">
@@ -886,9 +892,6 @@
   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=334362973268161";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<!-- Google Plus -->
-<script type="text/javascript" src="http://platform.linkedin.com/in.js?ver=3.4-alpha-20150"></script>
-<script type="text/javascript" src="https://apis.google.com/js/plusone.js?ver=3.4-alpha-20150"></script>
 <!-- Google Analytics -->
 <script>
 	var _gaq=[['_setAccount','UA-4881230-13'],['_trackPageview']];
