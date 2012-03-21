@@ -751,33 +751,33 @@
 <div class="globalWrapper">
 	<div id="section6">
 		
-		<h2>Was that helpful?</h2>
+		<h2>Helpful? Share it!</h2>
 		
 		<ul class="socialShare">
 			<li>
 				<?php
-				function customFShare() {
-				    $like_results = file_get_contents('http://graph.facebook.com/http://wellsriley.com');
+				function customFShare($url) {
+				    $like_results = file_get_contents('http://graph.facebook.com/'.$url);
 				    $like_array = json_decode($like_results, true);
 				    $like_count =  $like_array['shares'];
-				    return ($like_count ) ? $like_count : "0 :(";
+				    return ($like_count ) ? $like_count : "0";
 				}
 				function tweets($url){
 				  $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 				  $x = new SimpleXmlElement($content);
 				  $tweets = $x->story->url_count;
-				  if ($tweets == 0){ echo "0 :("; }
-				  else{ echo $tweets; }
+				  
+				  echo $tweets;
 				}
 				?>
 				<a href="http://www.facebook.com/sharer/sharer.php?u=http://startupsthisishowdesignworks.com" target="_blank" class="shareFb">Share (f)</a>
 			</li>
-			<li class="shareCount"><?php echo customFShare(); ?></li>
+			<li class="shareCount"><?php echo customFShare("http://startupsthisishowdesignworks.com"); ?></li>
 
 			<li>
 				<a href="http://twitter.com/share?url=http://startupsthisishowdesignworks.com&text=Startups, this is how design works. A guide to understanding product design for non-designers by @wellsriley&count=horiztonal" target="_blank" class="shareTw">Share (t)</a>
 			</li>
-			<li class="shareCount"><?php tweets("http://www.techcrunch.com"); ?></li>
+			<li class="shareCount"><?php tweets("http://startupsthisishowdesignworks.com"); ?></li>
 		</ul><!-- / socialSharing -->
 		
 		<div class="col4 colL colR">

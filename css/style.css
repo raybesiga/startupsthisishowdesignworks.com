@@ -908,7 +908,7 @@ p{
 /* -- Section 6 -- */
 #section6{
 	background:url('../img/sec6bg.png') repeat;
-	width:967px;
+	width:968px;
 	margin:-150px 0 120px -10px;
 	border:3px solid #fff;
 	border-radius:3px;
@@ -921,7 +921,7 @@ p{
 	font-family: 'Raleway', cursive;
 	font-size:54px;
 	float:left;
-	margin:0;
+	margin:0 0 20px 0;
 	line-height:normal;
 	}
 
@@ -929,6 +929,57 @@ p{
 	margin-top:20px;
 	box-shadow:0 1px 2px #bbb;
 	}
+
+
+.socialShare{
+	padding:0;
+	margin:0;
+	float:right;
+	list-style-type:none;
+	}
+
+.socialShare li{
+	float:left;
+	margin:0;
+	}
+
+.socialShare a{
+	width:125px;
+	height:46px;
+	display:block;
+	text-indent:-9999px
+	}
+.shareFb{
+	background:url('../img/shareFb.png') no-repeat;
+	}
+	.shareFb:hover{
+		background-position:0 -46px;
+		}
+	.shareFb:active{
+		background-position:0 -92px;
+		}
+.shareTw{
+	background:url('../img/shareTw.png') no-repeat;
+	}
+	.shareTw:hover{
+		background-position:0 -46px;
+		}
+	.shareTw:active{
+		background-position:0 -92px;
+		}
+.shareCount{
+	background:url('../img/shareBubble.png') no-repeat;
+	width:50px;
+	height:34px;
+	font-family:"Helvetica",Arial,sans-serif;
+	color:#5a5a5a;
+	font-weight:600;
+	text-align:center;
+	padding:12px 0 0 8px;
+	margin:0 34px 0 0 !important;
+	}
+	
+	
 
 /* -- Section 7 -- */
 #section7{
@@ -997,53 +1048,6 @@ p{
 				text-decoration:underline;
 				}
 
-.socialShare{
-	padding:0;
-	margin:0;
-	float:right;
-	list-style-type:none;
-	}
-
-.socialShare li{
-	float:left;
-	margin:0;
-	}
-
-.socialShare a{
-	width:125px;
-	height:46px;
-	display:block;
-	text-indent:-9999px
-	}
-.shareFb{
-	background:url('../img/shareFb.png') no-repeat;
-	}
-	.shareFb:hover{
-		background-position:0 -46px;
-		}
-	.shareFb:active{
-		background-position:0 -92px;
-		}
-.shareTw{
-	background:url('../img/shareTw.png') no-repeat;
-	}
-	.shareTw:hover{
-		background-position:0 -46px;
-		}
-	.shareTw:active{
-		background-position:0 -92px;
-		}
-.shareCount{
-	background:url('../img/shareBubble.png') no-repeat;
-	width:50px;
-	height:34px;
-	font-family:"Helvetica",Arial,sans-serif;
-	color:#5a5a5a;
-	font-weight:600;
-	text-align:center;
-	padding:12px 0 0 8px;
-	margin:0 34px 0 0 !important;
-	}
 
 
 /* -- Footer -- */
