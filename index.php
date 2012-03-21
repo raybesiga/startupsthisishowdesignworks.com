@@ -1,18 +1,3 @@
-<?php
-function get_data_url($url) {
-				    $ch = curl_init();
-				    $timeout = 5;
-				    
-				    curl_setopt($ch,CURLOPT_URL,$url);
-				    curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
-				    curl_setopt($ch,CURLOPT_CONNECTTIMEOUT,$timeout);
-				    $data = curl_exec($ch);
-				    curl_close($ch);
-				    
-				    return $data;
-				}
-
-?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -771,6 +756,21 @@ function get_data_url($url) {
 		<ul class="socialShare">
 			<li>
 				<?php				
+				function get_data_url($url) {
+					$site_url = $url;
+					$ch = curl_init();
+					$timeout = 5; // set to zero for no timeout
+					curl_setopt ($ch, CURLOPT_URL, $site_url);
+					curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+					
+					ob_start();
+					curl_exec($ch);
+					curl_close($ch);
+					$file_contents = ob_get_contents();
+					ob_end_clean();
+					
+					echo $file_contents;
+				}
 				
 				function customFShare($url) {
 				    $like_results = get_data_url("http://graph.facebook.com/".$url);
