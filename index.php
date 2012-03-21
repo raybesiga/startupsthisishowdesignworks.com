@@ -1,3 +1,18 @@
+<?php
+function get_data_url($url) {
+				    $ch = curl_init();
+				    $timeout = 5;
+				    
+				    curl_setopt($ch,CURLOPT_URL,$url);
+				    curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
+				    curl_setopt($ch,CURLOPT_CONNECTTIMEOUT,$timeout);
+				    $data = curl_exec($ch);
+				    curl_close($ch);
+				    
+				    return $data;
+				}
+
+?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -755,24 +770,10 @@
 		
 		<ul class="socialShare">
 			<li>
-				<?php
+				<?php				
 				
-				function get_data_url($url) {
-				    $ch = curl_init();
-				    $timeout = 5;
-				    
-				    curl_setopt($ch,CURLOPT_URL,$url);
-				    curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
-				    curl_setopt($ch,CURLOPT_CONNECTTIMEOUT,$timeout);
-				    $data = curl_exec($ch);
-				    curl_close($ch);
-				    
-				    return $data;
-				}
-				
-				
-				function customFShare() {
-				    $like_results = get_data_url("http://graph.facebook.com/http://wellsriley.com");
+				function customFShare($url) {
+				    $like_results = get_data_url("http://graph.facebook.com/".$url);
 				    $like_array = json_decode($like_results, true);
 				    $like_count =  $like_array['shares'];
 				    return ($like_count ) ? $like_count : "0 :(";
@@ -787,7 +788,7 @@
 				?>
 				<a href="http://www.facebook.com/sharer/sharer.php?u=http://startupsthisishowdesignworks.com" target="_blank" class="shareFb">Share (f)</a>
 			</li>
-			<li class="shareCount"><?php echo customFShare(); ?></li>
+			<li class="shareCount"><?php customFShare("http://wellsriley.com"); ?></li>
 
 			<li>
 				<a href="http://twitter.com/share?url=http://startupsthisishowdesignworks.com&text=Startups, this is how design works. A guide to understanding product design for non-designers by @wellsriley&count=horiztonal" target="_blank" class="shareTw">Share (t)</a>
