@@ -662,16 +662,23 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	  var draggable = ui.draggable;
 	  $('#triforceDrag').css({
 	  		backgroundImage: 'url("./img/linkHappy@2x.gif")',
-	  		backgroundSize: '112px 208px',
-	  		fontSize: '0px'
+	  		backgroundSize: '112px 208px'
+	  	});
+	  $('#dragText').css({
+	  		fontSize: '0px',
+	  		color: "#fff"
 	  	});
 	  $('#triforceDrop').css({
 	  		backgroundImage: 'url("./img/triforceComplete@2x.jpg")',
 	  		backgroundSize: '160px 160px'
 	  	});
 	  $('#triforceDrop').animate({
-	  	marginRight: '380px',
+	  	marginRight: '420px',
+	  	fontSize: '24px'
 	  	},500);
+	  $('#killerCombo').delay(1200).animate({
+	  	fontSize: '40px'
+	  	});
 	  function animateTheShadow(){
 	  $('#triforceDropz').animate({
 	    'boxShadowBlur': '3000px'

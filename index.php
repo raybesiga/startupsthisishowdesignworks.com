@@ -477,7 +477,13 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 			<div id="triforceDrag">
 				<p id="dragText">Drag &raquo;</p>
 			</div>
-			<div id="triforceDrop"><div id="triforceDropz"></div></div>
+			<div id="triforceDrop">
+				<div id="triforceDropz"></div>
+				<div style="float:left;margin:-185px 0 0 60px;">Entrepreneurs</div>
+				<div style="float:left;margin:20px 0 0 0;">Designers</div>
+				<div style="float:right;margin:20px 0 0 65px;">Engineers</div>
+			</div>
+			<p id="killerCombo">… a killer combo!</p>
 		</div>
 		
 		<br class="clear" />
@@ -623,7 +629,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 		
 		<div class="col2 colL" style="text-align:center;margin-top:800px;">
 			<div id="linkSword"></div>
-			<div id="linkLike">Oh, hello.</div>
+			<div id="linkLike">eek!</div>
 		</div>
 		
 		<div id="sec47" class="col4 colR" style="margin-top:800px;">

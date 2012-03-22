@@ -509,7 +509,7 @@ p.subText{
 */
 
 #triforce{
-	margin:100px 0 150px;
+	margin:100px 0 500px;
 	}
 	#triforceDrag{
 		float:left;
@@ -521,20 +521,33 @@ p.subText{
 		text-align:right;
 		}
 	#triforceDrop{
-		width:160px;
+		width:300px;
 		height:160px;
 		background:url('../img/triforceIncomplete.jpg') no-repeat top center;
 		display:block;
 		float:right;
-		margin-right:120px;
-		padding:0 40px 130px;
+		margin-right:90px;
+		padding:0 0 130px;
+		font-size:0px;
+		font-family:"CubanoRegular","Helvetica",sans-serif;
+		font-weight:normal;
+		color:#ee621c;
+		text-align:center;
 		}
+		#killerCombo{
+			font-family:"CubanoRegular","Helvetica",sans-serif;
+			font-weight:normal;
+			color:#ee621c;
+			font-size:0px;
+			float:right;
+			margin-top:-300px;
+			}
 		#triforceDropz{
 			-webkit-box-shadow: #faaa3b 0 0 0,#faaa3b 0 0 0,#faaa3b 0 0 0; 
    			width:80px;
     		height:80px;
     		border-radius:80px;
-    		margin:65px 0 0 40px;
+    		margin:65px 0 0 110px;
 			}
 		#dragText{
 			font-family:"CubanoRegular","Helvetica",sans-serif;
@@ -1251,6 +1264,9 @@ footer{
 	
 	#triforceDrag{background:url('../img/link@2x.gif') no-repeat;background-size:112px 208px;}
 	#triforceDrop{background:url('../img/triforceIncomplete@2x.jpg') no-repeat;background-size:160px 160px !important;}
+	
+	#killerCombo{font-size:0;}
+	
 	#linkSword{background:url('../img/linkSword@2x.png') no-repeat;background-size:291px 108px;}
 	#triforceDropz{-webkit-box-shadow:none;}
 	#linkLike{background:url('../img/linkSwordBg@2x.png') no-repeat;background-size:291px 108px;}
