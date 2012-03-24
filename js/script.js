@@ -657,7 +657,8 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	  // Sword thing
 	  $('#linkSword').draggable({ 
 	   // axis: "x"
-	   revert: true
+	   revert: true,
+	   containment: 'document'
 	  });
 	  
 	}
