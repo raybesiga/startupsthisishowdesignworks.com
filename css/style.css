@@ -234,7 +234,8 @@ h1{
 	font-size:110px;
 	color:#656565;
 	font-weight:100;
-	line-height:190px;
+	line-height:120px;
+	padding:200px 0;
 	float:left;
 	margin-bottom:40px;
 	}
