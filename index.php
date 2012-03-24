@@ -889,6 +889,15 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 </footer>
 	
 </div>
+<!-- Preload some images FTW -->
+<div id="preload">
+	<img src="./img/triforceComplete.jpg" />
+	<img src="./img/triforceComplete@2x.jpg" />
+	<img src="./img/linkHappy@2x.jpg" />
+	<img src="./img/hover_bg.png" />
+	<img src="./img/hover_bg2.png" />
+	<img src="./img/loader.gif" />
+</div>
 <!-- Javascript -->
 <script src="./js/libs/jquery-1.7.1.min.js"></script>
 <script src="./js/libs/modernizr-2.5.3.min.js"></script>

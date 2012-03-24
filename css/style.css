@@ -1118,6 +1118,8 @@ footer{
 	}
 
 
+#preload{	display:none;	}
+
 /* -- Tooltips -- */
 .tip{
 	background:#fffdcc;
