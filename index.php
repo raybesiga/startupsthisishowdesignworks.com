@@ -69,23 +69,26 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 			<dt><a class="subsection" href="#">4. Designer Founders: the missing link</a></dt>
 				<div class="subsectionContent">
 					<dd><a href="#sec41" data-offset="90">4.1. Startups + designers = ?</a></dd>
-					<dd><a href="#sec42" data-offset="270">4.2. Joe Gebbia, Airbnb</a></dd>
-					<dd><a href="#sec43" data-offset="270">4.3. Dave Morin, Path</a></dd>
-					<dd><a href="#sec44" data-offset="270">4.4. Jack Dorsey, Twitter, Square</a></dd>
-					<dd><a href="#sec45" data-offset="270">4.5. Mike Matas, Push Pop Press</a></dd>
-					<dd><a href="#sec46" data-offset="270">4.6. Jeffrey Veen, Typekit</a></dd>
-					<dd><a href="#sec47" data-offset="90">4.7. Changing the world</a></dd>
+					<dd><a href="#sec42" data-offset="90">4.2. Meet the Designer Founders</a></dd>
+					<!--
+<dd><a href="#sec43" data-offset="270">4.3. Joe Gebbia, Airbnb</a></dd>
+					<dd><a href="#sec44" data-offset="270">4.4. Dave Morin, Path</a></dd>
+					<dd><a href="#sec45" data-offset="270">4.5. Jack Dorsey, Twitter, Square</a></dd>
+					<dd><a href="#sec46" data-offset="270">4.6. Mike Matas, Push Pop Press</a></dd>
+					<dd><a href="#sec47" data-offset="270">4.7. Jeffrey Veen, Typekit</a></dd>
+-->
+					<dd><a href="#sec48" data-offset="50">4.8. Changing the world</a></dd>
 				</div>
 			<dt><a class="subsection" href="#">5. Finding great talent</a></dt>
 				<div class="subsectionContent">
-					<dd><a href="#sec51" data-offset="220">5.1. Okay, I need a designer.</a></dd>
-					<dd><a href="#sec52" data-offset="160">5.2. Go Where the designers are</a></dd>
+					<dd><a href="#sec51" data-offset="250">5.1. Okay, I need a designer.</a></dd>
+					<dd><a href="#sec52" data-offset="250">5.2. Go Where the designers are</a></dd>
 					<dd><a href="#sec53" data-offset="220">5.3. Resources</a></dd>
 				</div>
 			<dt><a class="subsection" href="#">About me & Acknowledgements</a></dt>
 				<div class="subsectionContent">
 					<dd><a href="#section6" data-offset="70">6.&nbsp;&nbsp;&nbsp;About me</a></dd>
-					<dd><a href="#section7" data-offset="0">7.&nbsp;&nbsp;&nbsp;Acknowledgements</a></dd>
+					<dd><a href="#section7" data-offset="90">7.&nbsp;&nbsp;&nbsp;Acknowledgements</a></dd>
 				</div>
 		</dl><!-- / sections -->
 	</div><!-- / tableOfContents -->
@@ -486,10 +489,13 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 		
 		<br class="clear" />
 		
-		<div class="col1 colL"></div>
+		<div class="col1 colL">
+			<div class="section right" id="sec42">4.2</div>
+		</div>
+		
 		<div class="col4">
 			<h3>Meet the Designer Founders</h3>
-			<p class="text">Some text about designer founders</p>
+			<p class="text">According to <a href="http://designerfund.com" target="_blank">The Designer Fund</a>, startups with designer founders are generating <em>billions of dollars in growth</em>. <sup><a id="ref-16" href="#cite-16">16</a></sup> Below are profiles on five of the most influential designer founders and their incredibly hot startups.</p>
 		</div>
 		
 		<br class="clear" />
@@ -507,7 +513,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 			<div id="founderBios">
 				<div class="founderBio">
 					<div class="col2 colL">
-						<div class="section" id="sec43">4.2</div>
+						<div class="section" id="sec43">4.3</div>
 						<h3>Joe Gebbia, Airbnb</h3>
 						
 						<br class="clear" />
@@ -531,7 +537,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 				</div><!-- / founderBio -->
 			    <div class="founderBio">
 					<div class="col2 colL">
-						<div class="section" id="sec42">4.3</div>
+						<div class="section" id="sec44">4.4</div>
 						<h3>Dave Morin, Path</h3>
 						
 						<br class="clear" />
@@ -555,7 +561,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 				</div><!-- / founderBio -->
 				<div class="founderBio">
 					<div class="col2 colL">
-						<div class="section" id="sec44">4.4</div>
+						<div class="section" id="sec45">4.5</div>
 						<h3>Jack Dorsey, Twitter, Square</h3>
 						
 						<br class="clear" />
@@ -579,7 +585,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 				</div><!-- / founderBio -->
 				<div class="founderBio">
 					<div class="col2 colL">
-						<div class="section" id="sec45">4.5</div>
+						<div class="section" id="sec46">4.6</div>
 						<h3>Mike Matas, Push Pop Press</h3>
 						
 						<br class="clear" />
@@ -599,7 +605,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 				</div><!-- / founderBio -->
 				<div class="founderBio">
 					<div class="col2 colL">
-						<div class="section" id="sec46">4.6</div>
+						<div class="section" id="sec47">4.7</div>
 						<h3>Jeffrey Veen, Typekit</h3>
 						
 						<br class="clear" />
@@ -633,7 +639,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 			<div id="linkLike">eek!</div>
 		</div>
 		
-		<div id="sec47" class="col4 colR" style="margin-top:800px;">
+		<div id="sec48" class="col4 colR" style="margin-top:800px;">
 			<p class="text oversize" style="margin:30px 0 110px;">It’s getting harder and harder to differentiate based on tech talent alone. Designers like Jonathan Ive at Apple, Joe Gebbia at Airbnb, and Dave Morin at Path (to name a few) are changing the world today – not entirely because Apple, Airbnb, or Path have better tech, but because they make their products more usable, aesthetic, and <em>human</em>.</p>
 			
 			<h3 class="bigRed">Design is the link missing from your founding team. The perfect balance of business, tech, and design is an incredibly powerful tool… 
@@ -879,6 +885,8 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 					<a class="jumpBack" href="#ref-14">⇈ Jump back</a>
 				<li id="cite-15"><a href="http://www.objectifiedfilm.com/about/" target="_blank">About the Film : Objectified</a></li>
 					<a class="jumpBack" href="#ref-15">⇈ Jump back</a>
+				<li id="cite-16"><a href="http://designerfund.com/infographic" target="_blank">Infographic : The Designer Fund</a></li>
+					<a class="jumpBack" href="#ref-16">⇈ Jump back</a>
 			</ol>
 		</div>
 		<br class="clear" />
