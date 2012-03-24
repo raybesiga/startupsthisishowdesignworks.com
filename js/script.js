@@ -546,8 +546,17 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	 series: [
 	   {
 	    name: 'Responses',
-	    
-	    data: [{
+	 data: [{
+	    	name: 'Yes)',
+	    	y: 63,
+	    	color: '#083055'
+	    	},{
+	    	name: 'No',
+	    	y: 15,
+	    	color: '#428994'
+	    }],   
+	   /*
+ data: [{
 	    	name: 'Yes (Biz & Dev)',
 	    	y: 48,
 	    	color: '#083055'
@@ -564,6 +573,7 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	    	y: 2,
 	    	color: '#B8D9C4'
 	    }],
+*/
 	   }]
 	});
 

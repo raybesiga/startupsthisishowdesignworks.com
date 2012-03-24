@@ -488,6 +488,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 		
 		<div class="col1 colL"></div>
 		<div class="col4">
+			<h3>Meet the Designer Founders</h3>
 			<p class="text">Some text about designer founders</p>
 		</div>
 		
@@ -806,7 +807,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 		<br class="clear" />
 		
 		<div class="col4 colL colR">
-			<p class="text">I love startups and design, and I want them to be best friends forever. My name is Wells Riley, and I’m graduating with a BFA in Graphic Design from Northeastern this spring (2012). I’ve been working with startups for several years, and designing on the Web for even longer.</p>
+			<p class="text">I love startups and design, and I want them to be best friends forever. I'm Wells Riley, and I’m graduating with a BFA in Graphic Design from Northeastern this spring (2012). I’ve been working with startups for several years, and designing on the Web for even longer.</p>
 			<p class="text">Design and entrepreneurship are among the most important things in my life, and it’s so exciting to see design taking a stronger role in new companies. I hope this will be a valuable resource to help designers and entrepreneurs speak the same language.</p>
 			<p class="text">If you have any feedback, please feel free to tweet me <a href="https://twitter.com/intent/tweet?in_reply_to=182334227239534592&related=wellsriley">@wellsriley</a>.</p>
 		</div>
@@ -839,7 +840,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 			<li><a href="http://losttype.com" target="_blank">Lost Type Co-op</a></li>
 			<li><a href="http://mantia.me" target="_blank">Louie Mantia</a></li>
 			<li><a href="http://squaredeye.com" target="_blank">Matthew Smith</a></li>
-			<li><a href="http://finegoodsmarket.com" target="_blank">Rogie King & Fine Goods</a></li>
+			<li><a href="http://rogieking.com" target="_blank">Rogie King</a> & <a href="http://finegoodsmarket.com" target="_blank">Fine Goods</a></li>
 			<li><a href="http://dribbble.com/shots/183766-Pattern-Kit-One-Ribbon-Dancer-" target="_blank">Seth Nickerson</a></li>
 			<li><a href="http://www.apple.com/stevejobs/" target="_blank"> Steve Jobs</a></li>
 		</ul>
