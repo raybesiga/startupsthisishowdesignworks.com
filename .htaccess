@@ -1,3 +1,5 @@
+ErrorDocument 404 /startups-design/404.html
+
 FileETag none
 
 <IfModule mod_expires.c>

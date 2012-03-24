@@ -657,7 +657,7 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	function init() {
 	  $('#triforceDrag').draggable({ 
 	    axis: "x",
-	    containment: 'window'
+	    containment: 'document'
 	  });
 	  $('#triforceDrop').droppable( {
 	    drop: handleDropEvent

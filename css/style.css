@@ -513,7 +513,7 @@ p.subText{
 	}
 	#triforceDrag{
 		float:left;
-		width:200px;
+		width:160px;
 		height:208px;
 		margin-left:80px;
 		margin-top:80px;
@@ -534,14 +534,6 @@ p.subText{
 		color:#ee621c;
 		text-align:center;
 		}
-		#killerCombo{
-			font-family:"CubanoRegular","Helvetica",sans-serif;
-			font-weight:normal;
-			color:#ee621c;
-			font-size:0px;
-			float:right;
-			margin-top:-300px;
-			}
 		#triforceDropz{
 			-webkit-box-shadow: #faaa3b 0 0 0,#faaa3b 0 0 0,#faaa3b 0 0 0; 
    			width:80px;
