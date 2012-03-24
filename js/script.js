@@ -555,25 +555,6 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	    	y: 15,
 	    	color: '#428994'
 	    }],   
-	   /*
- data: [{
-	    	name: 'Yes (Biz & Dev)',
-	    	y: 48,
-	    	color: '#083055'
-	    	},{
-	    	name: 'Yes (Designers)',
-	    	y: 15,
-	    	color: '#024873'
-	    },{
-	    	name: 'No (Biz & Dev)',
-	    	y: 13,
-	    	color: '#68A69B'
-	    	},{
-	    	name: 'No (Designers)',
-	    	y: 2,
-	    	color: '#B8D9C4'
-	    }],
-*/
 	   }]
 	});
 
