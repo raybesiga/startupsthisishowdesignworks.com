@@ -71,7 +71,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 					<dd><a href="#sec41" data-offset="90">4.1. Startups + designers = ?</a></dd>
 					<dd><a href="#sec42" data-offset="270">4.2. Joe Gebbia, Airbnb</a></dd>
 					<dd><a href="#sec43" data-offset="270">4.3. Dave Morin, Path</a></dd>
-					<dd><a href="#sec44" data-offset="270">4.4. Jessica Hische, Side Projects</a></dd>
+					<dd><a href="#sec44" data-offset="270">4.4. Jack Dorsey, Twitter, Square</a></dd>
 					<dd><a href="#sec45" data-offset="270">4.5. Mike Matas, Push Pop Press</a></dd>
 					<dd><a href="#sec46" data-offset="270">4.6. Jeffrey Veen, Typekit</a></dd>
 					<dd><a href="#sec47" data-offset="90">4.7. Changing the world</a></dd>
@@ -335,14 +335,14 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 		</div>
 		<div class="col2">
 			<h4>↳ User Interface Design</h4>
-			<p class="text">User Interface design (UI) is the design of software or websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible</em>. Good user interface design puts emphasis on goals and completing tasks, and good UI design  never <a href="./tooltips.php?q=skeuomorphicism" rel="./tooltips.php?q=skeuomorphicism" class="tip">draws more attention to itself</a> than enforcing user goals.</p>
+			<p class="text">User Interface (UI) design is the design of software or websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible</em>. Good user interface design puts emphasis on goals and completing tasks, and good UI design  never <a href="./tooltips.php?q=skeuomorphicism" rel="./tooltips.php?q=skeuomorphicism" class="tip">draws more attention to itself</a> than enforcing user goals.</p>
 			<p class="text">"The design process must balance technical functionality and visual elements to create a system that is not only operational but also <em>usable and <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">adaptable</a> to changing user needs</em>." <sup><a id="ref-7" href="#cite-7">7</a></sup></p>
 
 		</div><!-- / Interface Design -->
 		
 		<div class="col2 colR">	
 			<h4>↳ User Experience Design</h4>
-			<p class="text">User Experience (UX) Design "incorporates aspects of <em>psychology, anthropology, sociology, computer science, graphic design, industrial design and cognitive science</em>. Depending on the purpose of the product, UX may also involve content design disciplines such as communication design, instructional design, or game design." <sup><a id="ref-8" href="#cite-8">8</a></sup></p>
+			<p class="text">User Experience (UX) design "incorporates aspects of <em>psychology, anthropology, sociology, computer science, graphic design, industrial design and cognitive science</em>. Depending on the purpose of the product, UX may also involve content design disciplines such as communication design, instructional design, or game design." <sup><a id="ref-8" href="#cite-8">8</a></sup></p>
 			<p class="text">The goal of UX design is to create a seamless, simple, and useful interaction between a user and a product, whether it be hardware or software. As with UI design, user experience design focuses on creating interactions <em>designed to meet or assist a user's goals and needs</em>.</p>
 		</div><!-- / User Experience Design -->
 			
@@ -354,11 +354,11 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 			<p class="caption"style="margin-right:50px;padding-top:10px;">Panton Stacking Chair <br />&copy;1967 <a href="http://www.vitra.com/en-us/home/products/panton-chair-classic/overview/" target="_blank">Verner Panton</a></p>
 			
 		</div>
-		<div class="col3" style="margin-top:140px;" >
+		<div class="col2" style="margin-top:140px;" >
 				<h3>Industrial Design</h3>
 				<br class="clear" />
-				<p class="text">Industrial designers create physical products designated for mass-consumption by millions of people. Motorcycles, iPods, toothbrushes, and nightstands are all designed by industrial designers. These people are masters of physical goods and innovation within the constraints of production lines and machines.</p>
-				<p class="text">"The objective of this area is to study both function and form, and the connection between product, the user and the environment - product as it happens in any other architecture area, being the only difference, that here the professionals that participate in the process are all specialized in small scale design, rather than in other massive colossal equipments like buildings or ships." <sup><a id="ref-9" href="#cite-9">9</a></sup></p>
+				<p class="text">Industrial designers create physical products designated for mass-consumption by <em>millions of people.</em> Motorcycles, iPods, toothbrushes, and nightstands are all designed by industrial designers. These people are masters of physical goods and innovation within the constraints of production lines and machines.</p>
+				<p class="text">"The objective is to study both function and form, and the connection between product, the user, and the environment." <sup><a id="ref-9" href="#cite-9">9</a></sup></p>
 		</div><!-- / Industrial Design -->	
 		
 		<br class="clear" />
@@ -437,9 +437,8 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 		<br class="clear" />
 
 		
-		<div id="row3_gdez" class="col2 colL chart"></div>
-		<div class="col1"></div>
-		<div id="row3_founders" class="col3 colR chart" style="height:474px;"></div>
+		<div id="row3_gdez" class="col3 colL chart"></div>
+		<div id="row3_founders" class="col3 colR chart"></div>
 		
 		<br class="clear" />
 		
@@ -483,7 +482,6 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 				<div style="float:left;margin:20px 0 0 0;">Designers</div>
 				<div style="float:right;margin:20px 0 0 65px;">Engineers</div>
 			</div>
-			<p id="killerCombo">… a killer combo!</p>
 		</div>
 		
 		<br class="clear" />
@@ -500,7 +498,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 			<ul class="navi" id="designerFounders">
 				<li class="df_JoeGebbia active"><a href="javascript:void(0)" id="t1"><p>Joe Gebbia</p><p>Airbnb</p></a></li>
 				<li class="df_DaveMorin"><a href="javascript:void(0)" id="t2"><p>Dave Morin</p><p>Path</p></a></li>
-				<li class="df_JessicaHische"><a href="javascript:void(0)" id="t3"><p>Jessica Hische</p><p>Side Projects</p></a></li>
+				<li class="df_JackDorsey"><a href="javascript:void(0)" id="t3"><p>Jack Dorsey</p><p>Twitter, Square</p></a></li>
 				<li class="df_MikeMatas"><a href="javascript:void(0)" id="t4"><p>Mike Matas</p><p>Push Pop Press</p></a></li>
 				<li class="df_JeffVeen"><a href="javascript:void(0)" id="t5"><p>Jeffrey Veen</p><p>TypeKit</p></a></li>
 			</ul><!-- navi -->
@@ -557,20 +555,22 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 				<div class="founderBio">
 					<div class="col2 colL">
 						<div class="section" id="sec44">4.4</div>
-						<h3>Jessica Hische, Side Projects</h3>
+						<h3>Jack Dorsey, Twitter, Square</h3>
 						
 						<br class="clear" />
 						
-						<p class="text">Jessica Hische is a letterer and illustrator best known for her personal projects <a href="http://dailydropcap.com/" target="_blank">Daily Drop Cap</a> and the <a href="http://shouldiworkforfree.com/" target="_blank">Should I Work for Free?</a> flowchart. Just five years out of college, she’s been named one of Print Magazine’s New Visual Artists and an ADC Young Gun, one of Forbes 30 under 30 in Art and Design, and currently serves on the TDC board of Directors. She has been profiled in many publications, has traveled the world speaking about lettering and illustration, and has probably consumed enough coffee to power a small nation. <sup><a id="ref-12" href="#cite-12">12</a></sup></p>
+						<p class="text">Software engineer Jack Dorsey is the Co-Founder of <a href="http://twitter.com" target="_blank">Twitter</a>, and was the CEO <a href="http://www.techcrunch.com/2008/10/16/ceo-change-at-twitter-ev-williams-back-at-the-helm/" target="_blank">until October 2008</a>. Dorsey had the original idea for Twitter while still at <a href="http://www.crunchbase.com/company/odeo" target="_blank">Odeo</a>, a podcasting startup which was a project of Obvious Corp. He is now the chairman of Twitter.
+
+						<p class="text">In <a href="http://www.techcrunch.com/2009/05/08/nuts-twitter-inventor-about-to-launch-his-next-project-code-named-squirrel/" target="_blank">May 2009</a>, Dorsey announced his latest startup, <a href="http://squareup.com" target="_blank">Square</a>. Square, originally code-named Squirrel, is a mobile payment startup with both an app and a piece of hardware that allows the iPhone and Android to accept credit card payments. <sup><a id="ref-12" href="#cite-12">12</a></sup></p>
 					</div>
 					<div class="col3 colR right">
 						<ul class="socialLinks">
-							<li><a href="http://twitter.com/jessicahische" target="_blank" class="tw">Twitter</a></li>
-							<li><a href="http://dribbble.com/jessicahische" target="_blank" class="db">Dribbble</a></li>
-							<li><a href="http://jessicahische.is" target="_blank" class="www">Website</a></li>
+							<li><a href="http://twitter.com/jack" target="_blank" class="tw">Twitter</a></li>
+							<li><a href="http://squareup.com" target="_blank" class="square">Square</a></li>
+							<li><a href="http://www.crunchbase.com/person/jack-dorsey" target="_blank" class="crunch">CrunchBase Profile</a></li>
 							<br class="clear" />
 						</ul>
-						<iframe src="http://player.vimeo.com/video/11093835?portrait=0&title=0&byline=0&color=ffffff" width="491" height="276" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+						<object width="490" height="305"><param name="movie" value="http://www.youtube.com/v/iSDbOYNd_tY?version=3&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/iSDbOYNd_tY?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="490" height="305" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 					</div>
 					
 					<br class="clear" />
@@ -806,9 +806,9 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 		<br class="clear" />
 		
 		<div class="col4 colL colR">
-			<p class="text">Seriously. I love startups and design, and I want them to be best friends forever. My name is Wells Riley, and I’m graduating with a BFA in Graphic Design from Northeastern this spring (2012). I’ve been working with startups for several years, and designing on the Web for even longer.</p>
+			<p class="text">I love startups and design, and I want them to be best friends forever. My name is Wells Riley, and I’m graduating with a BFA in Graphic Design from Northeastern this spring (2012). I’ve been working with startups for several years, and designing on the Web for even longer.</p>
 			<p class="text">Design and entrepreneurship are among the most important things in my life, and it’s so exciting to see design taking a stronger role in new companies. I hope this will be a valuable resource to help designers and entrepreneurs speak the same language.</p>
-			<p class="text">If you have any feedback, please feel free to tweet me <a href="http://twitter.com/wellsriley" target="_blank">@wellsriley</a>.</p>
+			<p class="text">If you have any feedback, please feel free to tweet me <a href="https://twitter.com/intent/tweet?in_reply_to=182334227239534592&related=wellsriley">@wellsriley</a>.</p>
 		</div>
 		
 		<div class="col1" style="text-align:center;width:285px;padding:0 0 0 20px;">
@@ -870,7 +870,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 					<a class="jumpBack" href="#ref-10">⇈ Jump back</a>
 				<li id="cite-11"><a href="http://www.airbnb.com/founding-team" target="_blank">Founding Team - Joe Gebbia : Airbnb</a></li>
 					<a class="jumpBack" href="#ref-11">⇈ Jump back</a>
-				<li id="cite-12"><a href="http://www.jessicahische.is/bloggable" target="_blank">Press Page : Jessica Hische</a></li>
+				<li id="cite-12"><a href="http://www.crunchbase.com/person/jack-dorsey" target="_blank">Jack Dorsey | CrunchBase</a></li>
 					<a class="jumpBack" href="#ref-12">⇈ Jump back</a>
 				<li id="cite-13"><a href="http://mikematas.com/#!about" target="_blank">About : Mike Matas</a></li>
 					<a class="jumpBack" href="#ref-13">⇈ Jump back</a>

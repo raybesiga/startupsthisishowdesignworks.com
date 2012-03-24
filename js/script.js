@@ -459,11 +459,10 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	    renderTo: 'row3_gdez',
 	    type: 'pie',
 	    backgroundColor: 'transparent',
-	    marginTop: 55
 	 },
 	 title: {
 	    text: "Is your product well designed?",
-	    margin: 0,
+	    margin: 50,
 	    style: {
 			color: '#ed1c24',
 			fontSize: '14px',
@@ -478,7 +477,15 @@ if((navigator.userAgent.match(/iPhone/i)) ||
              dataLabels: {
                  enabled: false
              },
-             showInLegend: true
+             showInLegend: false,
+             dataLabels: {
+				 enabled: true,
+				 color: '#000000',
+				 connectorColor: '#000000',
+				 formatter: function() {
+					return '<b>'+ this.point.name +'</b><br />'+ Math.round(this.percentage) +' %';
+				 }
+			 }
          }
      },
 	 credits: {
@@ -507,7 +514,7 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	 },
 	 title: {
 	    text: "Do designers belong on the founding team?",
-	    margin:35,
+	    margin:50,
 	    style: {
 			color: '#ed1c24',
 			fontSize: '14px',
@@ -522,12 +529,17 @@ if((navigator.userAgent.match(/iPhone/i)) ||
              dataLabels: {
                  enabled: false
              },
-             showInLegend: true
+             showInLegend: false,
+             dataLabels: {
+				 enabled: true,
+				 color: '#000000',
+				 connectorColor: '#000000',
+				 formatter: function() {
+					return '<b>'+ this.point.name +'</b><br />'+ Math.round(this.percentage) +' %';
+				 }
+			 }
          }
      },
-     legend: {
-	 	layout: 'vertical'
-	 },
 	 credits: {
         enabled: false
      },
@@ -536,7 +548,7 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	    name: 'Responses',
 	    
 	    data: [{
-	    	name: 'Yes (Biz / Marketing / Dev)',
+	    	name: 'Yes (Biz & Dev)',
 	    	y: 48,
 	    	color: '#083055'
 	    	},{
@@ -544,7 +556,7 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	    	y: 15,
 	    	color: '#024873'
 	    },{
-	    	name: 'No (Biz / Marketing / Dev)',
+	    	name: 'No (Biz & Dev)',
 	    	y: 13,
 	    	color: '#68A69B'
 	    	},{
@@ -552,7 +564,6 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	    	y: 2,
 	    	color: '#B8D9C4'
 	    }],
-	    innerSize: '25%',
 	   }]
 	});
 
@@ -645,7 +656,8 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 // Triforce thing
 	function init() {
 	  $('#triforceDrag').draggable({ 
-	    axis: "x"
+	    axis: "x",
+	    containment: 'window'
 	  });
 	  $('#triforceDrop').droppable( {
 	    drop: handleDropEvent
@@ -654,6 +666,7 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	  // Sword thing
 	  $('#linkSword').draggable({ 
 	   // axis: "x"
+	   revert: true
 	  });
 	  
 	}
@@ -663,7 +676,7 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	  $('#triforceDrag').css({
 	  		backgroundImage: 'url("./img/linkHappy@2x.gif")',
 	  		backgroundSize: '112px 208px'
-	  	});
+	  	}).draggable({ disabled: true });
 	  $('#dragText').css({
 	  		fontSize: '0px',
 	  		color: "#fff"
@@ -676,9 +689,6 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	  	marginRight: '420px',
 	  	fontSize: '24px'
 	  	},500);
-	  $('#killerCombo').delay(1200).animate({
-	  	fontSize: '40px'
-	  	});
 	  function animateTheShadow(){
 	  $('#triforceDropz').animate({
 	    'boxShadowBlur': '3000px'

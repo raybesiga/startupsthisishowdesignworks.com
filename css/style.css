@@ -110,7 +110,7 @@ td { vertical-align: top; }
 .right{float:right !important;}
 .noPadding{padding:0 !important;}
 
-em{font-weight:bold;}
+em{font-weight:bold;color:#414141;}
 b{color:#444;}
 
 sup a{color:#1f7291 !important;font-weight:bold;}
@@ -608,8 +608,8 @@ p.subText{
 	.df_JoeGebbia{	
 		background:url('../img/df_JoeGebbia.jpg') no-repeat;
 		}
-	.df_JessicaHische{	
-		background:url('../img/df_JessicaHische.jpg') no-repeat;
+	.df_JackDorsey{	
+		background:url('../img/df_JackDorsey.jpg') no-repeat;
 		}
 	.df_MikeMatas{	
 		background:url('../img/df_MikeMatas.jpg') no-repeat;
@@ -706,6 +706,8 @@ p.subText{
 	.airb{background:url('../img/rogieSocial/airbnb.png') no-repeat;}
 	.pushp{background:url('../img/rogieSocial/pushpop.png') no-repeat;}
 	.tkit{background:url('../img/rogieSocial/typekit.png') no-repeat;}
+	.crunch{background:url('../img/rogieSocial/crunchbase.png') no-repeat;}
+	.square{background:url('../img/rogieSocial/square.png') no-repeat;}
 
 	#navButtons{
 		position:relative;
@@ -796,11 +798,13 @@ p{
 	text-align:center;
 	height:82px;
 	margin:80px 0 40px;
+	padding-left:20px;
 	}
 	.goToDesigners a{
 		margin-bottom:1px;
 		text-indent:-9999px;
-		display:inline-block;
+		display:block;
+		float:left;
 		}
 		.goToDesigners a:hover{
 			margin:1px 0 0;
@@ -1245,7 +1249,7 @@ footer{
 
 	.df_DaveMorin{background:url('../img/df_DaveMorin@2x.jpg') no-repeat;background-size:200px;}
 	.df_JoeGebbia{background:url('../img/df_JoeGebbia@2x.jpg') no-repeat;background-size:200px;}
-	.df_JessicaHische{background:url('../img/df_JessicaHische@2x.jpg') no-repeat;background-size:200px;}
+	.df_JackDorsey{background:url('../img/df_JackDorsey@2x.jpg') no-repeat;background-size:200px;}
 	.df_MikeMatas{background:url('../img/df_MikeMatas@2x.jpg') no-repeat;background-size:200px;}
 	.df_JeffVeen{background:url('../img/df_JeffVeen@2x.jpg') no-repeat;background-size:200px;}
 
@@ -1257,6 +1261,8 @@ footer{
 	.airb{background:url('../img/rogieSocial/airbnb@2x.png') no-repeat;background-size:32px;}
 	.pushp{background:url('../img/rogieSocial/pushpop@2x.png') no-repeat;background-size:32px;}
 	.tkit{background:url('../img/rogieSocial/typekit@2x.png') no-repeat;background-size:32px;}
+	.crunch{background:url('../img/rogieSocial/crunchbase@2x.png') no-repeat;background-size:32px;}
+	.square{background:url('../img/rogieSocial/square@2x.png') no-repeat;background-size:32px;}
 	
 	#navButtons .prev{background:url('../img/prev@2x.png') no-repeat top;background-size:32px;background-position:left;}
 	#navButtons .next{background:url('../img/next@2x.png') no-repeat top;background-size:32px;background-position:right;}
