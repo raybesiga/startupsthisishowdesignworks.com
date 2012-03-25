@@ -597,7 +597,7 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 		events: {
 			render: function(event, api) {
 				// Grab the iframse window element on render…
-				var iframe = $(this).find('iframe');
+				var iframe = $(this).children('.ui-tooltip-content').children('iframe');
 				console.log(iframe);
 				if(iframe && iframe.contentWindow) {
 					api.player = iframe.contentWindow
