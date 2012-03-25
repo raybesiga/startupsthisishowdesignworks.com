@@ -597,7 +597,8 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 		events: {
 			render: function(event, api) {
 				// Grab the iframse window element on render…
-				var iframe = $(this).children('iframe');
+				var iframe = $(this).find('iframe');
+				console.log(iframe);
 				if(iframe && iframe.contentWindow) {
 					api.player = iframe.contentWindow
 				}
@@ -612,6 +613,7 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 			}
 		}
       })
+      .click(false)
    })
    
    // Make sure it doesn't follow the link when we click it
