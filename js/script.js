@@ -547,7 +547,7 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	   {
 	    name: 'Responses',
 	 data: [{
-	    	name: 'Yes)',
+	    	name: 'Yes',
 	    	y: 63,
 	    	color: '#083055'
 	    	},{

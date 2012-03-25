@@ -197,7 +197,7 @@ sup a{color:#1f7291 !important;font-weight:bold;}
 		overflow: hidden;
 		position:absolute;
 		top:0;
-		background:url('../img/tocbg.jpg') repeat-y left #000;
+		background:#000;
 		visibility: hidden;
 		padding:0 0 20px 40px;
 		width:280px;
