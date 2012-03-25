@@ -44,7 +44,8 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 <div class="globalWrapper">
 	<div id="tableOfContents">
 		<h2><a id="toc" href="#">Table of Contents</a></h2>
-		<dl class="sections closed">
+		<div class="sectionsWrapper closed">
+		<dl class="sections">
 			<dt><a class="subsection" href="#">1. Definitions</a></dt>
 				<div class="subsectionContent">
 					<dd><a href="#sec11" data-offset="70">1.1. What is design?</a></dd>
@@ -91,6 +92,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 					<dd><a href="#section7" data-offset="90">7.&nbsp;&nbsp;&nbsp;Acknowledgements</a></dd>
 				</div>
 		</dl><!-- / sections -->
+		</div><!-- / sectionsWrapper -->
 	</div><!-- / tableOfContents -->
 	
 	<ul class="socialShareSmall">

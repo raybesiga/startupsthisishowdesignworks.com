@@ -191,15 +191,22 @@ sup a{color:#1f7291 !important;font-weight:bold;}
 		#tableOfContents a:hover{
 			background:#333;
 			}
-					
+			
+	.sectionsWrapper{
+		padding-left:40px;
+		background:transparent;
+		position:absolute;
+		width:280px;
+		top:0;
+		visibility: hidden;
+
+		}		
 	#tableOfContents dl{
 		margin:0;
 		overflow: hidden;
-		position:absolute;
-		top:0;
-		background:transparent;
-		visibility: hidden;
-		padding:0 0 20px 40px;
+				background:#000;
+		
+		padding:0 0 20px 0;
 		width:280px;
 		z-index:9998;
 		}
@@ -208,18 +215,15 @@ sup a{color:#1f7291 !important;font-weight:bold;}
 	#tableOfContents dt{
 		padding:0;
 		font-weight:bold;
-		background:#000;
 		}
 	
 	.subsectionContent{
 		display: none;
-		background:#000;
 		}
 		
 	.subsectionContent dd a{
 		color:#ddd !important;
 		padding-left:25px !important;
-		background:#000;
 		}
 
 .socialSharing{ float:right;list-style-type: none;margin:10px 0 0;padding:0;}

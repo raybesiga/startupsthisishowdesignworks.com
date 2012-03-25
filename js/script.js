@@ -21,16 +21,16 @@ if((navigator.userAgent.match(/iPhone/i)) ||
    
 // Table of Contents
     var sectionsHeight = $('.sections').height();
-    $('.sections').css({ top: '-' + sectionsHeight + 'px', visibility: 'visible' });
+    $('.sectionsWrapper').css({ top: '-' + sectionsHeight + 'px', visibility: 'visible' });
     
     $('#toc').click(function(){
-    	if($('.sections').hasClass('closed')){
-    		$('.sections').removeClass('closed');
-    		$('.sections').stop().animate({ top: '34px' }, 200);
+    	if($('.sectionsWrapper').hasClass('closed')){
+    		$('.sectionsWrapper').removeClass('closed');
+    		$('.sectionsWrapper').stop().animate({ top: '34px' }, 200);
     	}else{
     		$('.subsectionContent').hide(100, function(){
-	    		$('.sections').addClass('closed');
-	    		$('.sections').stop().animate({ top: '-' + sectionsHeight + 'px' }, 200);
+	    		$('.sectionsWrapper').addClass('closed');
+	    		$('.sectionsWrapper').stop().animate({ top: '-' + sectionsHeight + 'px' }, 200);
 	    	});
     	}
     	return false;
@@ -45,8 +45,8 @@ if((navigator.userAgent.match(/iPhone/i)) ||
     
     $('#tableOfContents').mouseleave(function(){
     	$('.subsectionContent').hide(100, function(){
-    		$('.sections').addClass('closed');
-    		$('.sections').stop().animate({ top: '-' + sectionsHeight + 'px' }, 200);
+    		$('.sectionsWrapper').addClass('closed');
+    		$('.sectionsWrapper').stop().animate({ top: '-' + sectionsHeight + 'px' }, 200);
     	});
     });
     
