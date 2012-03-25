@@ -197,7 +197,7 @@ sup a{color:#1f7291 !important;font-weight:bold;}
 		overflow: hidden;
 		position:absolute;
 		top:0;
-		background:#000;
+		background:transparent;
 		visibility: hidden;
 		padding:0 0 20px 40px;
 		width:280px;
@@ -208,15 +208,18 @@ sup a{color:#1f7291 !important;font-weight:bold;}
 	#tableOfContents dt{
 		padding:0;
 		font-weight:bold;
+		background:#000;
 		}
 	
 	.subsectionContent{
 		display: none;
+		background:#000;
 		}
 		
 	.subsectionContent dd a{
 		color:#ddd !important;
 		padding-left:25px !important;
+		background:#000;
 		}
 
 .socialSharing{ float:right;list-style-type: none;margin:10px 0 0;padding:0;}
