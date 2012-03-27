@@ -1,14 +1,8 @@
-var chart1; // globally available
-
-
 function popitup(url) {
 	newwindow=window.open(url,'name','height=350,width=640');
 	if (window.focus) {newwindow.focus()}
 	return false;
 }
-
-// Link's Triforce Drag and Drop
-$( init );
 
 $(document).ready(function() {
  
@@ -52,15 +46,15 @@ if((navigator.userAgent.match(/iPhone/i)) ||
     
 // ScrollToStuff
     
-    jQuery('.subsectionContent a').click(function(){
-    	var offset = $(this).attr("data-offset") || 50;
-		var tid = jQuery(this).attr('href');
-		var target = jQuery(tid);
+    $('.subsectionContent a').click(function(){
+    	var offset = $(this).data("offset") || 50;
+		var tid = $(this).attr('href');
+		var target = $(tid);
 		var targetOffset = target.offset();
 		var targetTop = targetOffset.top
 		var targetTopOffset = targetTop - offset;
 		
-		jQuery('html, body').animate({scrollTop: targetTopOffset}, 500);
+		$('html, body').animate({scrollTop: targetTopOffset}, 500);
 		
 		$('.subsectionContent').hide(100);
 		$('.sections').addClass('closed');
@@ -165,7 +159,7 @@ if((navigator.userAgent.match(/iPhone/i)) ||
     }
     
     
-// Das Charts
+// Charts
     
     Highcharts.setOptions({
    		colors: ['#083055', '#024873', '#03738C', '#428994', '#68A69B', '#B8D9C4']
@@ -647,13 +641,16 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 
 
 // Triforce thing
+	$( init );
+
 	function init() {
 	  $('#triforceDrag').draggable({ 
 	    axis: "x",
 	    containment: 'document'
 	  });
 	  $('#triforceDrop').droppable( {
-	    drop: handleDropEvent
+	    drop: handleDropEvent,
+	    tolerance: 'touch'
 	  });
 	  
 	  // Sword thing
