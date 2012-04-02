@@ -1,6 +1,6 @@
 <?php
 // Global Variables
-$pageURL = "http://startupsthisishowdesignworks.com/foop";
+$pageURL = "http://startupsthisishowdesignworks.com/";
 $pageTitle = "Startups, This Is How Design Works";
 $pageDescription = "A guide to understanding digital %26 physical product design for startups";
 ?>
@@ -84,7 +84,8 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 				<div class="subsectionContent">
 					<dd><a href="#sec51" data-offset="250">5.1. Okay, I need a designer.</a></dd>
 					<dd><a href="#sec52" data-offset="250">5.2. Go Where the designers are</a></dd>
-					<dd><a href="#sec53" data-offset="220">5.3. Resources</a></dd>
+					<dd><a href="#sec53" data-offset="100">5.3. A note about Unicorns…</a></dd>
+					<dd><a href="#sec54" data-offset="220">5.4. Resources</a></dd>
 				</div>
 			<dt><a class="subsection" href="#">About me & Acknowledgements</a></dt>
 				<div class="subsectionContent">
@@ -644,7 +645,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 		<div id="sec48" class="col4 colR" style="margin-top:800px;">
 			<p class="text oversize" style="margin:30px 0 110px;">It’s getting harder and harder to differentiate based on tech talent alone. Designers like Jonathan Ive at Apple, Joe Gebbia at Airbnb, and Dave Morin at Path (to name a few) are changing the world today – not entirely because Apple, Airbnb, or Path have better tech, but because they make their products more usable, aesthetic, and <em>human</em>.</p>
 			
-			<h3 class="bigRed">Design is the link missing from your founding team. The perfect balance of business, tech, and design is an incredibly powerful tool… 
+			<h3 class="bigRed"><a href="http://www.fastcodesign.com/1665795/silicon-valleys-new-secret-weapon-designers-who-found-startups" target="_blank">Design is the link missing</a> from your founding team. The perfect balance of business, tech, and design is an incredibly powerful tool… 
 				<br /><br />and an even more powerful business model.</h3>
 		</div><!-- / \ 4 wrap-up -->
 		
@@ -727,11 +728,27 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 		</div>
 		
 		<br class="clear"/>
-				
-		<h2 style="margin:60px 0 30px;">Resources!</h2>
+		
+		<div class="col1 colL" style="margin-top:130px;">
+			<div class="section right" id="sec53">5.3</div>
+		</div>
+		<div class="col3 colR" style="margin-top:130px;">
+			<h3>A note about Unicorns by <a href="http://sachagreif.com/" target="_blank">Sacha Greif</a> <br /><span class="phonetic">Understand your expectations.</span></h3>
+			<p class="text">In a smart <a href="http://thenextweb.com/dd/2012/03/31/why-cant-startups-find-designers/" target="_blank">article about finding designers on TNW</a>, Sacha Greif tells a cautionary tale. "Instead of looking for a unicorn ["a magical designer that can solve all [of a company’s] problems," according to <a href="http://www.designstaff.org/articles/hiring-a-designer-2011-11-01.html" target="_blank">Braden Kowitz</a>], think about hiring a web designer who will focus on design, and a front-end engineer who will focus on code. Like WePay’s Aberman states, “When looking for a designer, you can’t have it all. You need to prioritize visual design, product design, front-end development, etc.”</p>
+
+			<p class="text">If your budget doesn’t let you hire both, another option is to hire a horse and let them grow a horn on the job: find a good visual designer who’s also willing to learn front-end coding, or a great front-end enginner who wants to get better at design." <sup><a id="ref-17" href="#cite-17">17</a></sup></p>
+		</div>
+		<div class="col2 colR">
+			<div id="unicorn"></div>
+			<p class="caption"style="margin-right:30px;padding-top:10px;">Canned Unicorn Meat <br />Courtesy of <a href="http://www.thinkgeek.com/caffeine/wacky-edibles/e5a7/" target="_blank">ThinkGeek</a></p>
+		</div>
+		
+		<br class="clear"/>
+		
+		<h2 style="margin:100px 0 30px;">Resources!</h2>
 		
 		<div class="col2 colL">
-			<div class="section right" style="margin-top:20px;" id="sec53">5.3</div>
+			<div class="section right" style="margin-top:20px;" id="sec54">5.4</div>
 		</div>
 		
 		<div class="col3">
@@ -851,6 +868,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 			<li><a href="http://rogieking.com" target="_blank">Rogie King</a> & <a href="http://finegoodsmarket.com" target="_blank">Fine Goods</a></li>
 			<li><a href="http://dribbble.com/shots/183766-Pattern-Kit-One-Ribbon-Dancer-" target="_blank">Seth Nickerson</a></li>
 			<li><a href="http://www.apple.com/stevejobs/" target="_blank"> Steve Jobs</a></li>
+			<li>&nbsp;<br />And everyone else who helped me<br />in some way. There's lots of you.</li>
 		</ul>
 		</div>
 		
@@ -889,6 +907,8 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 					<a class="jumpBack" href="#ref-15">⇈ Jump back</a>
 				<li id="cite-16"><a href="http://designerfund.com/infographic" target="_blank">Infographic : The Designer Fund</a></li>
 					<a class="jumpBack" href="#ref-16">⇈ Jump back</a>
+				<li id="cite-17"><a href="http://thenextweb.com/dd/2012/03/31/why-cant-startups-find-designers/" target="_blank">Why Can't Startups Find Designers? : TNW</a></li>
+					<a class="jumpBack" href="#ref-17">⇈ Jump back</a>
 			</ol>
 		</div>
 		<br class="clear" />

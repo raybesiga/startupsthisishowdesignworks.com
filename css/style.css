@@ -762,7 +762,13 @@ p.subText{
 .bigRed{
 	color:#ed1c24;
 	}
-
+	.bigRed a{
+		color:#ed1c24;
+		}
+	.bigRed a:hover{
+		color:#000;
+		}
+	
 /* -- Section 5 -- */
 #sec5top{
 	background:url('../img/sec5top.jpg') repeat-x;
@@ -779,7 +785,7 @@ p.subText{
 	background:url('../img/sec5bg.jpg') repeat;
 	margin:0;
 	padding:20px 0 0;
-	height:2386px;
+	height:2940px;
 	}
 
 p{
@@ -833,6 +839,13 @@ p{
 		height:64px;
 		background:url('../img/dribbble_logo.png') no-repeat;
 		}
+
+#unicorn{
+	margin-top:180px;
+	background:url('../img/unicorn.png') no-repeat top center;
+	width:330px;
+	height:290px;
+	}
 
 
 #resources{
@@ -924,7 +937,7 @@ p{
 #section6{
 	background:url('../img/sec6bg.png') repeat;
 	width:968px;
-	margin:-200px 0 120px -10px;
+	margin:-170px 0 120px -10px;
 	border:3px solid #fff;
 	border-radius:3px;
 	box-shadow:0 1px 2px #999;
