@@ -84,7 +84,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 				<div class="subsectionContent">
 					<dd><a href="#sec51" data-offset="250">5.1. Okay, I need a designer.</a></dd>
 					<dd><a href="#sec52" data-offset="250">5.2. Go Where the designers are</a></dd>
-					<dd><a href="#sec53" data-offset="100">5.3. A note about Unicorns…</a></dd>
+					<dd><a href="#sec53" data-offset="100">5.3. A note about Unicorns by Sacha Greif</a></dd>
 					<dd><a href="#sec54" data-offset="220">5.4. Resources</a></dd>
 				</div>
 			<dt><a class="subsection" href="#">About me & Acknowledgements</a></dt>
