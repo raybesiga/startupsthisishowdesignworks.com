@@ -80,8 +80,8 @@ if($q === "ui"){ ?>
 	<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/a6cNdhOKwi0?version=3&hl=en_US&rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/a6cNdhOKwi0?version=3&hl=en_US&rel=0" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 	Via <a target="_blank" href="http://www.microsoft.com/office/vision/">Microsoft Office</a>
 
-<?php }elseif($q === "skeuomorphicism"){ ?>
-<img src="./img/tool/skeuomorphicism.jpg" />
+<?php }elseif($q === "skeuomorphism"){ ?>
+<img src="./img/tool/skeuomorphism.jpg" />
 	<h6>Skeuomorphic UI</h6>
 	<blockquote>
 	<p>"It should probably be obvious that my own preference is for design without ornamentation, certainly without a hint of sentimentality, and that I detest these new apps. Why?</p>

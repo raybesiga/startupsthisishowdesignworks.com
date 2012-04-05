@@ -2,7 +2,8 @@
 // Global Variables
 $pageURL = "http://startupsthisishowdesignworks.com/";
 $pageTitle = "Startups, This Is How Design Works";
-$pageDescription = "A guide to understanding digital %26 physical product design for startups";
+$twPageDescription = "A guide to understanding digital %26 physical product design for startups";
+$pageDescription = "A guide to understanding digital & physical product design for startups";
 ?>
 
 <!doctype html>
@@ -97,30 +98,38 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 	</div><!-- / tableOfContents -->
 	
 	<ul class="socialShareSmall">
+			<li><div class="fb-like" data-href="http://startupsthisishowdesignworks.com" data-send="false" data-width="100" data-show-faces="false" data-action="recommend"></div></li>
 			<li>
 				<?php
 				function customFShare($url) {
 				    $like_results = file_get_contents('http://graph.facebook.com/'.$url);
 				    $like_array = json_decode($like_results, true);
-				    $like_count =  $like_array['shares'];
+				    /* $like_count =  $like_array['shares']; */
+				    $like_count = 9791;
 				    return ($like_count ) ? $like_count : "0";
 				}
 				function tweets($url){
-				  $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
+				  /*
+$content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 				  $x = new SimpleXmlElement($content);
-				  $tweets = $x->story->url_count;
+				  //$tweets = $x->story->url_count;
+*/
+				  $tweets = 7012;
 				  
 				  echo $tweets;
 				}
 				?>
-				<a href="http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>" target="_blank" class="shareFb" onclick="return popitup('http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>')">Share (f)</a>
+				<?php /*
+				<a href="http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>" target="_blank" class="shareFb" onclick="return popitup('http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>')">Share (f)</a> 
 			</li>
-			<li class="shareCount"><?php echo customFShare( $pageURL ); ?></li>
+			<li class="shareCount"><?php echo customFShare( $pageURL ); ?>*/ ?></li>
 
-			<li>
-				<a href="http://twitter.com/intent/tweet?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle.": ".$pageDescription; ?>%20@wellsriley&related=wellsriley" target="_blank" class="shareTw">Share (t)</a>
+			<li style="margin-left:30px;" >
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://startupsthisishowdesignworks.com/" data-via="wellsriley">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				<?php /*<a href="http://twitter.com/intent/tweet?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle.": ".$pageDescription; ?>%20@wellsriley&related=wellsriley" target="_blank" class="shareTw">Share (t)</a>
 			</li>
-			<li class="shareCount"><?php tweets( $pageURL ); ?></li>
+			<li class="shareCount"><?php tweets( $pageURL ); ?> */ ?></li>
 		</ul><!-- / socialShareSmall -->
 	
 	<br class="clear" />
@@ -142,7 +151,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 			<div class="section right" id="sec11">1.1</div>
 		</div>
 		<div class="col2 largeSpace">		
-			<h2>De•sign <span class="phonetic">[dih-zahyn]</span> is a <br />method of problem solving.</h2>
+			<h2>De•sign <span class="phonetic">[dəzajn]</span> is a <br />method of problem solving.</h2>
 			<p class="subText">The simplest definition. Design is so many things, executed in many different ways, but the function is always the same. Whether it’s blueprints, a clever UI, a brochure, or a chair – design can help solve a visual or physical problem. <sup><a id="ref-1" href="#cite-1">1</a></sup></p>
 		</div><!-- / What is Design? -->
 		
@@ -341,7 +350,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 		</div>
 		<div class="col2">
 			<h4>↳ User Interface Design</h4>
-			<p class="text">User Interface (UI) design is the design of software or websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible</em>. Good user interface design puts emphasis on goals and completing tasks, and good UI design  never <a href="./tooltips.php?q=skeuomorphicism" rel="./tooltips.php?q=skeuomorphicism" class="tip">draws more attention to itself</a> than enforcing user goals.</p>
+			<p class="text">User Interface (UI) design is the design of software or websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible</em>. Good user interface design puts emphasis on goals and completing tasks, and good UI design  never <a href="./tooltips.php?q=skeuomorphism" rel="./tooltips.php?q=skeuomorphism" class="tip">draws more attention to itself</a> than enforcing user goals.</p>
 			<p class="text">"The design process must balance technical functionality and visual elements to create a system that is not only operational but also <em>usable and <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">adaptable</a> to changing user needs</em>." <sup><a id="ref-7" href="#cite-7">7</a></sup></p>
 
 		</div><!-- / Interface Design -->
@@ -484,7 +493,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 			</div>
 			<div id="triforceDrop">
 				<div id="triforceDropz"></div>
-				<div style="float:left;margin:-185px 0 0 60px;">Entrepreneurs</div>
+				<div style="float:left;margin:-185px 0 0 60px;">Business Peeps</div>
 				<div style="float:left;margin:20px 0 0 0;">Designers</div>
 				<div style="float:right;margin:20px 0 0 65px;">Engineers</div>
 			</div>
@@ -736,7 +745,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 			<h3>A note about Unicorns by <a href="http://sachagreif.com/" target="_blank">Sacha Greif</a> <br /><span class="phonetic">Understand your expectations.</span></h3>
 			<p class="text">In a smart <a href="http://thenextweb.com/dd/2012/03/31/why-cant-startups-find-designers/" target="_blank">article about finding designers on TNW</a>, Sacha Greif tells a cautionary tale. "Instead of looking for a unicorn ["a magical designer that can solve all [of a company’s] problems," according to <a href="http://www.designstaff.org/articles/hiring-a-designer-2011-11-01.html" target="_blank">Braden Kowitz</a>], think about hiring a web designer who will focus on design, and a front-end engineer who will focus on code. Like WePay’s Aberman states, “When looking for a designer, you can’t have it all. You need to prioritize visual design, product design, front-end development, etc.”</p>
 
-			<p class="text">If your budget doesn’t let you hire both, another option is to hire a horse and let them grow a horn on the job: find a good visual designer who’s also willing to learn front-end coding, or a great front-end enginner who wants to get better at design." <sup><a id="ref-17" href="#cite-17">17</a></sup></p>
+			<p class="text">If your budget doesn’t let you hire both, another option is to hire a horse and let them grow a horn on the job: find a good visual designer who’s also willing to learn front-end coding, or a great front-end engineer who wants to get better at design." <sup><a id="ref-17" href="#cite-17">17</a></sup></p>
 		</div>
 		<div class="col2 colR">
 			<div id="unicorn"></div>
@@ -803,6 +812,9 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 			<li><a id="GOOD" href="http://good.is" target="_blank">
 				A collaboration of individuals, businesses, and nonprofits pushing the world forward. Since 2006 we've been making for people who give a damn.</a></li>
 			<li><a id="BH" href="http://behance.net" target="_blank">Behance empowers creative professionals and teams to make ideas happen.</a></li>
+			<li><a id="BBETA" href="http://brooklynbeta.org/t" target="_blank">Brooklyn Beta is a small, friendly web conference aimed at the “work hard and be nice to people” crowd.</a></li>
+			<li><a id="BBSC" href="http://brooklynbeta.org/summer-camp" target="_blank">Brooklyn Beta Summer Camp aims to help designer-developer teams build the next generation of web products.</a></li>
+			<li><a id="DTB" href="http://www.designthenewbusiness.com/" target="_blank">A documentary on how design is changing the way we see and do business.</a></li>
 		</ul>
 		
 		<br class="clear" />
@@ -824,7 +836,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 			<li class="shareCount"><?php echo customFShare( $pageURL ); ?></li>
 
 			<li>
-				<a href="http://twitter.com/intent/tweet?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle.": ".$pageDescription; ?>%20@wellsriley&related=wellsriley" target="_blank" class="shareTw">Share (t)</a>
+				<a href="http://twitter.com/intent/tweet?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle.": ".$twPageDescription; ?>%20@wellsriley&related=wellsriley" target="_blank" class="shareTw">Share (t)</a>
 			</li>
 			<li class="shareCount"><?php tweets( $pageURL ); ?></li>
 		</ul><!-- / socialShare -->
@@ -854,7 +866,7 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 		
 		<ul class="acknowledgements">
 			<li>Special thanks:</li>
-			<li><a href="http://fictivecameron.com" target="_blank">Cameron Cozcon</a></li>
+			<li><a href="http://fictivecameron.com" target="_blank">Cameron Coczon</a></li>
 			<li><a href="http://thedesignerfund.com" target="_blank">The Designer Fund</a></li>
 			<li><a href="http://www.vitsoe.com/en/us/about/dieterrams/who-is-dieter-rams" target="_blank">Dieter Rams</a></li>
 			<li><a href="http://twitter.com/enriqueallen" target="_blank">Enrique Allen</a></li>
@@ -940,6 +952,14 @@ $pageDescription = "A guide to understanding digital %26 physical product design
 <script src="./js/libs/jquery.ui.touch-punch.min.js"></script>
 <script src="./js/script.js"></script>
 <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=334362973268161";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <!-- Google Analytics -->
 <script>
 	var _gaq=[['_setAccount','UA-4881230-13'],['_trackPageview']];
