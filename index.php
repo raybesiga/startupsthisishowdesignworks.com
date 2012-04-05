@@ -739,6 +739,20 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 		
 		<br class="clear"/>
 		
+		<div class="col2 colL" style="margin-top:50px;">
+			<a id="behanceLogo" href="http://behance.net" target="_blank">Behance</a>
+		</div>
+		
+		<div class="col4 colR orangeLinks" style="margin-top:70px;">
+			<p style="font-weight:bold;color:#000;">Behance: The Platform to Showcase & Discover Creative Work</p>
+			<p class="text"><a href="http://behance.net" target="_blank">Behance</a> is a great place for anyone to browse top creative works attributed to the actual designers who created them, not agencies. It lets designers showcase work as their own and on sites like LinkedIn, Zerply, or their own personal websites – enticing some of the world's best talent to join the network.</p>
+			
+			<p class="text">The <a href="http://www.behance.net/joblist" target="_blank">JobList</a> makes it easy to reach over 1,000,000 skilled designers, culled by location, tools, or skill. Tons of startups are already using it to recruit great designers from anywhere.</p>
+			<!-- <p class="text">Full disclosure: I use Behance as the backbone of my <a href="http://wellsriley.com" target="_blank">portfolio</a>, and I love it for the massive exposure it gives me and the ease with which I can add new work to my website.</p> -->
+		</div>
+		
+		<br class="clear"/>
+		
 		<div class="col1 colL" style="margin-top:130px;">
 			<div class="section right" id="sec53">5.3</div>
 		</div>
