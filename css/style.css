@@ -773,7 +773,7 @@ p.subText{
 	background:url('../img/sec5bg.jpg') repeat;
 	margin:0;
 	padding:20px 0 0;
-	height:3112px;
+	height:3460px;
 	}
 
 p{
@@ -1370,9 +1370,9 @@ footer{
 		#BH:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_behance@2x.jpg') no-repeat;background-size:170px 170px;}
 	#BBETA{background:url('../img/rsrc_bbeta@2x.jpg') no-repeat;background-size:170px 170px;}
 		#BBETA:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_bbeta@2.jpg') no-repeat;background-size:170px 170px;}
-	#BBSC{background:url('../img/rsrc_bbsc@2.jpg') no-repeat;background-size:170px 170px;}
+	#BBSC{background:url('../img/rsrc_bbsc@2x.jpg') no-repeat;background-size:170px 170px;}
 		#BBSC:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_bbsc@2.jpg') no-repeat;background-size:170px 170px;}
-	#DTB{background:url('../img/rsrc_dtb@2.jpg') no-repeat;background-size:170px 170px;}
+	#DTB{background:url('../img/rsrc_dtb@2x.jpg') no-repeat;background-size:170px 170px;}
 		#DTB:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_dtb@2.jpg') no-repeat;background-size:170px 170px;}
 
 	.socialShare .shareFb{

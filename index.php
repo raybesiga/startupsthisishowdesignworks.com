@@ -29,7 +29,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./touch-icon-iphone4.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./touch-icon-ipad3.png" />
 	<link href="./favicon.ico" rel="shortcut icon">
-	<link href="http://fonts.googleapis.com/css?family=Raleway:100|Crimson+Text:400,400italic,600,600italic|Open+Sans+Condensed:700|Sail" target="_blank" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Raleway:100|Crimson+Text:400,400italic,600,600italic" target="_blank" rel="stylesheet" type="text/css">
 	<link href="./css/jquery.qtip.min.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="./css/style.css" media="screen" rel="stylesheet" type="text/css" />
 <!-- Notes -
@@ -105,7 +105,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 				    $like_results = file_get_contents('http://graph.facebook.com/'.$url);
 				    $like_array = json_decode($like_results, true);
 				    /* $like_count =  $like_array['shares']; */
-				    $like_count = 9791;
+				    $like_count = 10867;
 				    return ($like_count ) ? $like_count : "0";
 				}
 				function tweets($url){
@@ -114,7 +114,7 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 				  $x = new SimpleXmlElement($content);
 				  //$tweets = $x->story->url_count;
 */
-				  $tweets = 7012;
+				  $tweets = 7466;
 				  
 				  echo $tweets;
 				}
