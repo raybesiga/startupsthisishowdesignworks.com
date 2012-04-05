@@ -340,6 +340,7 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 		</div><!-- / Interaction Design -->
 		<div class="col2 colR">
 			<div id="ixdGraphic"></div>
+			<p class="caption"style="margin-bottom:80px;">Framework by Bill Verplank <br />&copy;2000 <a href="http://www.billverplank.com/IxDSketchBook.pdf" target="_blank">Bill Verplank</a></p>
 		</div>
 		
 		<br class="clear" />

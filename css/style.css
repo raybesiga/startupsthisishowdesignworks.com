@@ -437,10 +437,10 @@ p.subText{
 	height:487px;
 	}
 #ixdGraphic{
-	margin:65px 0 80px 14px;
+	margin:65px 0 0 14px;
 	background:url('../img/ux-verplank.jpg') no-repeat;
 	width:295px;
-	height:393px;
+	height:420px;
 	}
 #uxDesign{
 	margin-top:62px;
@@ -826,6 +826,13 @@ p{
 		width:253px;
 		height:64px;
 		background:url('../img/dribbble_logo.png') no-repeat;
+		}
+	#behanceLogo{
+		text-indent:-9999px;
+		display:block;
+		width:320px;
+		height:320px;
+		background:url('../img/behance_logo.png') no-repeat center center;
 		}
 
 #unicorn{
