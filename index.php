@@ -29,10 +29,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./touch-icon-iphone4.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./touch-icon-ipad3.png" />
 	<link href="./favicon.ico" rel="shortcut icon">
-<<<<<<< HEAD
-=======
 	<link href="http://fonts.googleapis.com/css?family=Raleway:100|Crimson+Text:400,400italic,600,600italic" target="_blank" rel="stylesheet" type="text/css">
->>>>>>> 44667908bffc2d6ac6c73c438f48cc031efe8cf1
 	<link href="./css/jquery.qtip.min.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="./css/style.css" media="screen" rel="stylesheet" type="text/css" />
 <!-- Notes -
@@ -110,11 +107,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 				    $like_results = file_get_contents('http://graph.facebook.com/'.$url);
 				    $like_array = json_decode($like_results, true);
 				    /* $like_count =  $like_array['shares']; */
-<<<<<<< HEAD
 				    $like_count = 24164;
-=======
-				    $like_count = 10867;
->>>>>>> 44667908bffc2d6ac6c73c438f48cc031efe8cf1
 				    return ($like_count ) ? $like_count : "0";
 				}
 				function tweets($url){
@@ -123,12 +116,8 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 				  $x = new SimpleXmlElement($content);
 				  //$tweets = $x->story->url_count;
 */
-<<<<<<< HEAD
 				  $tweets = 13347;
-=======
-				  $tweets = 7466;
->>>>>>> 44667908bffc2d6ac6c73c438f48cc031efe8cf1
-				  
+  
 				  echo $tweets;
 				}
 				?>
@@ -734,17 +723,12 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 		</div>
 		
 		<div class="col4 colR orangeLinks" style="margin-top:70px;">
-			<p style="font-weight:bold;color:#000;">Behance: The Platform to Showcase & Discover Creative Work</p>
-<<<<<<< HEAD
+			<p style="font-weight:bold;color:#000;">Behance: The Platform to Showcase &amp; Discover Creative Work</p>
+
 			<p class="text"><a href="http://behance.net" target="_blank">Behance</a> is a great place for anyone to browse top creative works attributed to the actual designers who created them, not agencies. It lets designers showcase work as their own and on sites like LinkedIn, RISD, Zerply, and AIGA, and their own personal websites – enticing some of the world's best talent to join the network.</p>
 			
 			<p class="text">The <a href="http://www.behance.net/joblist" target="_blank">JobList</a> makes it easy to reach over 1,000,000 skilled designers, sorted by field, location, or even specific tools and skills. Tons of startups and big companies (like Apple!) are already using Behance to recruit top designers around the world.</p>
-=======
-			<p class="text"><a href="http://behance.net" target="_blank">Behance</a> is a great place for anyone to browse top creative works attributed to the actual designers who created them, not agencies. It lets designers showcase work as their own and on sites like LinkedIn, Zerply, or their own personal websites – enticing some of the world's best talent to join the network.</p>
-			
-			<p class="text">The <a href="http://www.behance.net/joblist" target="_blank">JobList</a> makes it easy to reach over 1,000,000 skilled designers, culled by location, tools, or skill. Tons of startups are already using it to recruit great designers from anywhere.</p>
-			<!-- <p class="text">Full disclosure: I use Behance as the backbone of my <a href="http://wellsriley.com" target="_blank">portfolio</a>, and I love it for the massive exposure it gives me and the ease with which I can add new work to my website.</p> -->
->>>>>>> 44667908bffc2d6ac6c73c438f48cc031efe8cf1
+
 		</div>
 		
 		<br class="clear"/>
