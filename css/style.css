@@ -13,7 +13,56 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'Raleway';
+    src: url('raleway/raleway_thin-webfont.eot');
+    src: url('raleway/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway/raleway_thin-webfont.woff') format('woff'),
+         url('raleway/raleway_thin-webfont.ttf') format('truetype'),
+         url('raleway/raleway_thin-webfont.svg#RalewayThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Crimson Text';
+    src: url('crimson/Crimson-Roman-webfont.eot');
+    src: url('crimson/Crimson-Roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('crimson/Crimson-Roman-webfont.woff') format('woff'),
+         url('crimson/Crimson-Roman-webfont.ttf') format('truetype'),
+         url('crimson/Crimson-Roman-webfont.svg#CrimsonRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Crimson Text';
+    src: url('crimson/Crimson-BoldItalic-webfont.eot');
+    src: url('crimson/Crimson-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('crimson/Crimson-BoldItalic-webfont.woff') format('woff'),
+         url('crimson/Crimson-BoldItalic-webfont.ttf') format('truetype'),
+         url('crimson/Crimson-BoldItalic-webfont.svg#CrimsonBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Crimson Text';
+    src: url('crimson/Crimson-Italic-webfont.eot');
+    src: url('crimson/Crimson-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('crimson/Crimson-Italic-webfont.woff') format('woff'),
+         url('crimson/Crimson-Italic-webfont.ttf') format('truetype'),
+         url('crimson/Crimson-Italic-webfont.svg#CrimsonItalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Crimson Text';
+    src: url('crimson/Crimson-Bold-webfont.eot');
+    src: url('crimson/Crimson-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('crimson/Crimson-Bold-webfont.woff') format('woff'),
+         url('crimson/Crimson-Bold-webfont.ttf') format('truetype'),
+         url('crimson/Crimson-Bold-webfont.svg#CrimsonSemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
 /* -- */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
@@ -225,7 +274,7 @@ sup a{color:#1f7291 !important;font-weight:bold;}
 /* -- Header -- */
 
 h1{
-	font-family: 'Raleway', cursive;
+	font-family: 'Raleway', Helvetica, sans-serif;
 	font-size:110px;
 	color:#656565;
 	font-weight:100;
@@ -244,7 +293,7 @@ h1{
 /* -- Global Page Styles -- */
 
 h2{
-	font-family: 'Raleway', cursive;
+	font-family: 'Raleway', Helvetica, sans-serif;
 	font-weight:100;
 	color:#656565;
 	font-size:100px;
@@ -773,7 +822,7 @@ p.subText{
 	background:url('../img/sec5bg.jpg') repeat;
 	margin:0;
 	padding:20px 0 0;
-	height:3112px;
+	height:3460px;
 	}
 
 p{
@@ -922,6 +971,8 @@ p{
 		#BBSC:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_bbsc.jpg') no-repeat;background-size:170px 170px;}
 	#DTB{background:url('../img/rsrc_dtb.jpg') no-repeat;background-size:170px 170px;}
 		#DTB:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_dtb.jpg') no-repeat;background-size:170px 170px;}
+	#FOLYO{background:url('../img/rsrc_folyo.jpg') no-repeat;background-size:170px 170px;}
+		#FOLYO:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_folyo.jpg') no-repeat;background-size:170px 170px;}
 
 	#resources li a:hover{
 		-webkit-transition: -webkit-transform 0.2s ease,-webkit-box-shadow 0.2s ease;
@@ -947,7 +998,7 @@ p{
 	}
 
 #section6 h2{
-	font-family: 'Raleway', cursive;
+	font-family: 'Raleway', Helvetica, sans-serif;
 	font-size:54px;
 	float:left;
 	margin:0 0 20px 0;
@@ -998,13 +1049,13 @@ p{
 		}
 .socialShare .shareCount{
 	background:url('../img/shareBubble.png') no-repeat;
-	width:50px;
+	width:75px;
 	height:34px;
 	font-family:"Helvetica",Arial,sans-serif;
 	color:#5a5a5a;
 	font-weight:600;
 	text-align:center;
-	padding:12px 0 0 8px;
+	padding:12px 0 0 5px;
 	margin:0 34px 0 0 !important;
 	}
 	
@@ -1046,7 +1097,7 @@ p{
 		}
 .socialShareSmall .shareCount{
 	background:url('../img/shareBubble@0x.png') no-repeat;
-	width:29px;
+	width:50px;
 	height:23px;
 	font-family:"Helvetica",Arial,sans-serif;
 	color:#5a5a5a;
@@ -1178,7 +1229,7 @@ footer{
 	
 	
 	.ui-tooltip-wiki h6{
-		font-family: 'Raleway', cursive;
+		font-family: 'Raleway', Helvetica, sans-serif;
 		font-size:30px;
 		color:#333;
 		font-weight:100;
@@ -1314,6 +1365,10 @@ footer{
 		background:url('../img/dribbble_logo@2x.png') no-repeat;
 		background-size:253px 64px;
 		}
+	#behanceLogo{
+		background:url('../img/behance_logo@2x.png') no-repeat center center;
+		background-size:246px 142px;
+		}
 
 	#unicorn{background:url('../img/unicorn@2x.png') no-repeat top center;background-size:253px 257px;}
 
@@ -1370,10 +1425,12 @@ footer{
 		#BH:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_behance@2x.jpg') no-repeat;background-size:170px 170px;}
 	#BBETA{background:url('../img/rsrc_bbeta@2x.jpg') no-repeat;background-size:170px 170px;}
 		#BBETA:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_bbeta@2.jpg') no-repeat;background-size:170px 170px;}
-	#BBSC{background:url('../img/rsrc_bbsc@2.jpg') no-repeat;background-size:170px 170px;}
+	#BBSC{background:url('../img/rsrc_bbsc@2x.jpg') no-repeat;background-size:170px 170px;}
 		#BBSC:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_bbsc@2.jpg') no-repeat;background-size:170px 170px;}
-	#DTB{background:url('../img/rsrc_dtb@2.jpg') no-repeat;background-size:170px 170px;}
-		#DTB:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_dtb@2.jpg') no-repeat;background-size:170px 170px;}
+	#DTB{background:url('../img/rsrc_dtb@2x.jpg') no-repeat;background-size:170px 170px;}
+		#DTB:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_dtb@2x.jpg') no-repeat;background-size:170px 170px;}
+	#FOLYO{background:url('../img/rsrc_folyo@2x.jpg') no-repeat;background-size:170px 170px;}
+		#FOLYO:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_folyo@2x.jpg') no-repeat;background-size:170px 170px;}
 
 	.socialShare .shareFb{
 		background:url('../img/shareFb@2x.png') no-repeat;
@@ -1387,7 +1444,7 @@ footer{
 	}
 	.socialShare .shareCount{
 		background:url('../img/shareBubble@2x.png') no-repeat;
-		background-size:58px 46px;
+		background-size:75px 46px;
 	}
 	.socialShareSmall .shareFb{
 		background:url('../img/shareFb.png') no-repeat;
@@ -1401,6 +1458,6 @@ footer{
 	}
 	.socialShareSmall .shareCount{
 		background:url('../img/shareBubble.png') no-repeat;
-		background-size:29px 23px;
+		background-size:50px 23px;
 	}
 }

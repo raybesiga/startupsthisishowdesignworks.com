@@ -18,7 +18,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 	<meta property="og:description" name="description" content="<?php echo $pageDescription; ?>">
 	<meta name="author" content="Wells Riley">
 	<meta property="og:title" content="<?php echo $pageTitle; ?>" />
-	<meta property="og:url" content="<?php echo $pageURL ?>/" />
+	<meta property="og:url" content="<?php echo $pageURL ?>" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="<?php echo $pageURL ?>/fb-icon.png" />
 	<meta property="fb:admins" content="1082730090" />
@@ -29,7 +29,6 @@ $pageDescription = "A guide to understanding digital & physical product design f
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./touch-icon-iphone4.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./touch-icon-ipad3.png" />
 	<link href="./favicon.ico" rel="shortcut icon">
-	<link href="http://fonts.googleapis.com/css?family=Raleway:100|Crimson+Text:400,400italic,600,600italic|Open+Sans+Condensed:700|Sail" target="_blank" rel="stylesheet" type="text/css">
 	<link href="./css/jquery.qtip.min.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="./css/style.css" media="screen" rel="stylesheet" type="text/css" />
 <!-- Notes -
@@ -98,14 +97,16 @@ $pageDescription = "A guide to understanding digital & physical product design f
 	</div><!-- / tableOfContents -->
 	
 	<ul class="socialShareSmall">
-			<li><div class="fb-like" data-href="http://startupsthisishowdesignworks.com" data-send="false" data-width="100" data-show-faces="false" data-action="recommend"></div></li>
+		<!--
+	<li><div class="fb-like" data-href="http://startupsthisishowdesignworks.com//" data-send="false" data-width="100" data-show-faces="false" data-action="recommend"></div></li>
 			<li>
+-->
 				<?php
 				function customFShare($url) {
 				    $like_results = file_get_contents('http://graph.facebook.com/'.$url);
 				    $like_array = json_decode($like_results, true);
 				    /* $like_count =  $like_array['shares']; */
-				    $like_count = 9791;
+				    $like_count = 24164;
 				    return ($like_count ) ? $like_count : "0";
 				}
 				function tweets($url){
@@ -114,15 +115,15 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 				  $x = new SimpleXmlElement($content);
 				  //$tweets = $x->story->url_count;
 */
-				  $tweets = 7012;
+				  $tweets = 13347;
 				  
 				  echo $tweets;
 				}
 				?>
-				<?php /*
+			<li>
 				<a href="http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>" target="_blank" class="shareFb" onclick="return popitup('http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>')">Share (f)</a> 
 			</li>
-			<li class="shareCount"><?php echo customFShare( $pageURL ); ?>*/ ?></li>
+			<li class="shareCount"><?php echo customFShare( $pageURL ); ?></li>
 
 			<li style="margin-left:30px;" >
 				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://startupsthisishowdesignworks.com/" data-via="wellsriley">Tweet</a>
@@ -210,27 +211,13 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 			<div class="col2 colL">
 			<sub><a id="ref-4" style="color:#ddd;" href="#cite-4" style="color:#ddd;">4</a></sub>
 			<div class="slideshow">
-			<?php 
-			$isiPad3 = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'9B176');
-			$isiPhone4 = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'8A293');
-			$isiPhone4S = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'9B179');
-			if($isiPad3 === true || $isiPhone4 === true || $isiPhone4S === true){ ?>
-				<img src="./img/braunapple_1@2x.jpg" />
-				<img src="./img/braunapple_2@2x.jpg" />
-				<img src="./img/braunapple_3@2x.jpg" />
-				<img src="./img/braunapple_4@2x.jpg" />
-				<img src="./img/braunapple_5@2x.jpg" />
-				<img src="./img/braunapple_6@2x.jpg" />
-				<img src="./img/braunapple_7@2x.jpg" />
-			<?php }else{ ?>
-				<img src="./img/braunapple_1.jpg" />
-				<img src="./img/braunapple_2.jpg" />
-				<img src="./img/braunapple_3.jpg" />
-				<img src="./img/braunapple_4.jpg" />
-				<img src="./img/braunapple_5.jpg" />
-				<img src="./img/braunapple_6.jpg" />
-				<img src="./img/braunapple_7.jpg" />
-			<?php } ?>
+				<img src="./img/braunapple_1@2x.jpg" width="320px" height="225px" />
+				<img src="./img/braunapple_2@2x.jpg" width="320px" height="225px" />
+				<img src="./img/braunapple_3@2x.jpg" width="320px" height="225px" />
+				<img src="./img/braunapple_4@2x.jpg" width="320px" height="225px" />
+				<img src="./img/braunapple_5@2x.jpg" width="320px" height="225px" />
+				<img src="./img/braunapple_6@2x.jpg" width="320px" height="225px" />
+				<img src="./img/braunapple_7@2x.jpg" width="320px" height="225px" />
 			</div>
 			</div>
 			<div class="col1"></div>
@@ -275,23 +262,14 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 		<div class="col2 colL" style="margin-top:20px;">
 			<div class="section right" id="sec16">1.6</div>
 			<div id="ramsProducts" class="slideshow">
-			<?php if($isiPad3 === true || $isiPhone4 === true || $isiPhone4S === true){ ?>
-				<img src="./img/ramsSpeaker@2x.jpg" />
-				<img src="./img/ramsChair@2x.jpg" />
-				<img src="./img/ramsRadio@2x.jpg" />
-				<img src="./img/ramsClock@2x.jpg" />
-				<img src="./img/ramsRazor@2x.jpg" />
-				<img src="./img/ramsLighter@2x.jpg" />
-			<?php }else{ ?>
-				<img src="./img/ramsSpeaker.jpg" />
-				<img src="./img/ramsChair.jpg" />
-				<img src="./img/ramsRadio.jpg" />
-				<img src="./img/ramsClock.jpg" />
-				<img src="./img/ramsRazor.jpg" />
-				<img src="./img/ramsLighter.jpg" />
-			<?php } ?>
+				<img src="./img/ramsSpeaker@2x.jpg" width="280px" height="278px" />
+				<img src="./img/ramsChair@2x.jpg" width="280px" height="278px" />
+				<img src="./img/ramsRadio@2x.jpg" width="280px" height="278px" />
+				<img src="./img/ramsClock@2x.jpg" width="280px" height="278px" />
+				<img src="./img/ramsRazor@2x.jpg" width="280px" height="278px" />
+				<img src="./img/ramsLighter@2x.jpg" width="280px" height="278px" />
 			</div>
-			<p class="caption" style="padding:290px 60px 0 0">Various Braun and Vitsoe Products<br />&copy;1955-2012 <a href="http://www.braun-time.com/" target="_blank">Braun</a> & <a href="http://vitsoe.com" target="_blank">Vitsoe</a></p>
+			<p class="caption" style="padding:290px 60px 0 0">Various Braun and Vitsoe Products<br />&copy;1955-2012 <a href="http://www.braun-time.com/" target="_blank">Braun</a> &amp; <a href="http://vitsoe.com" target="_blank">Vitsoe</a></p>
 		</div>
 		<div class="col3">
 				<p class="text">Take a look at your current product – is design contributing in an innovative way? Does it make the product useful, understandable, and aesthetic? Is it long-lasting, or will it look outdated or break in a few years?</p>
@@ -739,6 +717,19 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 		
 		<br class="clear"/>
 		
+		<div class="col2 colL" style="margin-top:50px;">
+			<a id="behanceLogo" href="http://behance.net" target="_blank">Behance</a>
+		</div>
+		
+		<div class="col4 colR orangeLinks" style="margin-top:70px;">
+			<p style="font-weight:bold;color:#000;">Behance: The Platform to Showcase & Discover Creative Work</p>
+			<p class="text"><a href="http://behance.net" target="_blank">Behance</a> is a great place for anyone to browse top creative works attributed to the actual designers who created them, not agencies. It lets designers showcase work as their own and on sites like LinkedIn, RISD, Zerply, and AIGA, and their own personal websites – enticing some of the world's best talent to join the network.</p>
+			
+			<p class="text">The <a href="http://www.behance.net/joblist" target="_blank">JobList</a> makes it easy to reach over 1,000,000 skilled designers, sorted by field, location, or even specific tools and skills. Tons of startups and big companies (like Apple!) are already using Behance to recruit top designers around the world.</p>
+		</div>
+		
+		<br class="clear"/>
+		
 		<div class="col1 colL" style="margin-top:130px;">
 			<div class="section right" id="sec53">5.3</div>
 		</div>
@@ -810,12 +801,11 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 				The Lost Type Co-Op is a Pay-What-You-Want Type foundry, the first of its kind. Users can pay what they like, even $0.</a></li>
 			<li><a id="THR" href="http://37signals.com/svn" target="_blank">
 				Signal vs. Noise, a weblog by 37signals about design, business, experience, simplicity, the web, culture, and more.</a></li>
-			<li><a id="GOOD" href="http://good.is" target="_blank">
-				A collaboration of individuals, businesses, and nonprofits pushing the world forward. Since 2006 we've been making for people who give a damn.</a></li>
 			<li><a id="BH" href="http://behance.net" target="_blank">Behance empowers creative professionals and teams to make ideas happen.</a></li>
 			<li><a id="BBETA" href="http://brooklynbeta.org/t" target="_blank">Brooklyn Beta is a small, friendly web conference aimed at the “work hard and be nice to people” crowd.</a></li>
 			<li><a id="BBSC" href="http://brooklynbeta.org/summer-camp" target="_blank">Brooklyn Beta Summer Camp aims to help designer-developer teams build the next generation of web products.</a></li>
 			<li><a id="DTB" href="http://www.designthenewbusiness.com/" target="_blank">A documentary on how design is changing the way we see and do business.</a></li>
+			<li><a id="FOLYO" href="http://www.folyo.me/" target="_blank">Folyo is a private job board. Post your project, and they'll send it to a list of hand-picked freelance designers all over the world.</a></li>
 		</ul>
 		
 		<br class="clear" />
@@ -845,7 +835,7 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 		<br class="clear" />
 		
 		<div class="col4 colL colR">
-			<p class="text">I love startups and design, and I want them to be best friends forever. I'm Wells Riley, and I’m graduating with a BFA in Graphic Design from Northeastern this spring (2012). I’ve been working with startups for several years, and designing on the Web for even longer.</p>
+			<p class="text">I love startups and design, and I want them to be best friends forever. I'm Wells Riley, and I'm currently the Product Designer at <a href="http://kicksend.com">Kicksend</a>. I’ve been working with startups for several years, and designing on the Web for even longer.</p>
 			<p class="text">Design and entrepreneurship are among the most important things in my life, and it’s so exciting to see design taking a stronger role in new companies. I hope this will be a valuable resource to help designers and entrepreneurs speak the same language.</p>
 			<p class="text">If you have any feedback, please feel free to tweet me <a href="https://twitter.com/intent/tweet?in_reply_to=186892397454688256&related=wellsriley">@wellsriley</a>.</p>
 		</div>

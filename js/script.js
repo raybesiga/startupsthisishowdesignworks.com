@@ -187,6 +187,11 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 			fontWeight: 'Bold'
 		}
 	 },
+	 tooltip: {
+		formatter: function() {
+			return '<b>'+ this.point.name +'</b>: '+ Math.round(this.percentage) +' %';
+			}
+	 },
 	 plotOptions: {
         pie: {
              allowPointSelect: true,
@@ -203,12 +208,12 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	 series: [{
 	    name: 'Responses',
 	    data: [
-	    	['Good design makes a product useful', 46],
-	    	['Good design is aesthetic', 46],
-	    	['Good design is innovative', 42],
-	    	['Good design makes a product understandable', 44],
-	    	['Good design is timeless', 22],
-	    	['Good design is environmentally friendly', 12]
+	    	['Makes a product useful', 46],
+	    	['Is aesthetic', 46],
+	    	['Is innovative', 42],
+	    	['Makes a product understandable', 44],
+	    	['Is timeless', 22],
+	    	['Is environmentally friendly', 12]
 	    ]
 	   }]
 	});
@@ -238,6 +243,11 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	 },
 	 legend: {
 	 	layout: 'vertical'
+	 },
+	 tooltip: {
+		formatter: function() {
+			return '<b>'+ this.point.name +'</b>: '+ Math.round(this.percentage) +' %';
+			}
 	 },
 	 plotOptions: {
         pie: {
@@ -287,6 +297,11 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 			fontWeight: 'Bold'
 		}
 	 },
+	 tooltip: {
+		formatter: function() {
+			return '<b>'+ this.point.name +'</b>: '+ Math.round(this.percentage) +' %';
+			}
+	 },
 	 plotOptions: {
         pie: {
              allowPointSelect: true,
@@ -300,20 +315,15 @@ if((navigator.userAgent.match(/iPhone/i)) ||
 	 credits: {
         enabled: false
      },
-     tooltip: {
-		formatter: function() {
-			return this.point.name;
-		}
-	 },
 	 series: [{
 	    name: 'Responses',
 	    data: [
-	    	['Good design makes a product useful', 1],
-	    	['Good design is aesthetic', 1],
-	    	['Good design is innovative', 1],
-	    	['Good design makes a product understandable', 1],
-	    	['Good design is timeless', 1],
-	    	['Good design is environmentally friendly', 1]
+	    	['Makes a product useful', 1],
+	    	['Is aesthetic', 1],
+	    	['Is innovative', 1],
+	    	['Makes a product understandable', 1],
+	    	['Is timeless', 1],
+	    	['Is environmentally friendly', 1]
 	    ]
 	   }]
 	});
