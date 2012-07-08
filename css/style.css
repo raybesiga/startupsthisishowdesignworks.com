@@ -1428,9 +1428,13 @@ footer{
 	#BBSC{background:url('../img/rsrc_bbsc@2x.jpg') no-repeat;background-size:170px 170px;}
 		#BBSC:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_bbsc@2.jpg') no-repeat;background-size:170px 170px;}
 	#DTB{background:url('../img/rsrc_dtb@2x.jpg') no-repeat;background-size:170px 170px;}
+<<<<<<< HEAD
 		#DTB:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_dtb@2x.jpg') no-repeat;background-size:170px 170px;}
 	#FOLYO{background:url('../img/rsrc_folyo@2x.jpg') no-repeat;background-size:170px 170px;}
 		#FOLYO:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_folyo@2x.jpg') no-repeat;background-size:170px 170px;}
+=======
+		#DTB:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_dtb@2.jpg') no-repeat;background-size:170px 170px;}
+>>>>>>> 44667908bffc2d6ac6c73c438f48cc031efe8cf1
 
 	.socialShare .shareFb{
 		background:url('../img/shareFb@2x.png') no-repeat;
