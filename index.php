@@ -874,7 +874,7 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 			<li><a href="http://rogieking.com" target="_blank">Rogie King</a> & <a href="http://finegoodsmarket.com" target="_blank">Fine Goods</a></li>
 			<li><a href="http://dribbble.com/shots/183766-Pattern-Kit-One-Ribbon-Dancer-" target="_blank">Seth Nickerson</a></li>
 			<li><a href="http://www.apple.com/stevejobs/" target="_blank"> Steve Jobs</a></li>
-			<li>&nbsp;<br />And everyone else who helped me<br />in some way. There's lots of you.</li>
+			<li>&nbsp;<br />And everyone else who helped me<br />in some way. There are lots of you.</li>
 		</ul>
 		</div>
 		
