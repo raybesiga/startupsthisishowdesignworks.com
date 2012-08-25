@@ -860,7 +860,7 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 		
 		<ul class="acknowledgements">
 			<li>Special thanks:</li>
-			<li><a href="http://fictivecameron.com" target="_blank">Cameron Coczon</a></li>
+			<li><a href="http://fictivecameron.com" target="_blank">Cameron Koczon</a></li>
 			<li><a href="http://thedesignerfund.com" target="_blank">The Designer Fund</a></li>
 			<li><a href="http://www.vitsoe.com/en/us/about/dieterrams/who-is-dieter-rams" target="_blank">Dieter Rams</a></li>
 			<li><a href="http://twitter.com/enriqueallen" target="_blank">Enrique Allen</a></li>
