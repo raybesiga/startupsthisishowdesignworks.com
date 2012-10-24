@@ -830,7 +830,7 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 			<li class="shareCount"><?php echo customFShare( $pageURL ); ?></li>
 
 			<li>
-				<a href="http://twitter.com/intent/tweet?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle.": ".$twPageDescription; ?>%20@wr&related=wr" target="_blank" class="shareTw">Share (t)</a>
+				<a href="http://twitter.com/intent/tweet?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle.": ".$twPageDescription; ?>%20by%20@wr&related=wr" target="_blank" class="shareTw">Share (t)</a>
 			</li>
 			<li class="shareCount"><?php tweets( $pageURL ); ?></li>
 		</ul><!-- / socialShare -->
