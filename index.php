@@ -107,7 +107,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 				    $like_results = file_get_contents('http://graph.facebook.com/'.$url);
 				    $like_array = json_decode($like_results, true);
 				    /* $like_count =  $like_array['shares']; */
-				    $like_count = 25164;
+				    $like_count = 29164;
 				    return ($like_count ) ? $like_count : "0";
 				}
 				function tweets($url){
@@ -116,7 +116,7 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 				  $x = new SimpleXmlElement($content);
 				  //$tweets = $x->story->url_count;
 */
-				  $tweets = 13711;
+				  $tweets = 14941;
   
 				  echo $tweets;
 				}
@@ -127,9 +127,9 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 			<li class="shareCount"><?php echo customFShare( $pageURL ); ?></li>
 
 			<li style="margin-left:30px;" >
-				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://startupsthisishowdesignworks.com/" data-via="wellsriley">Tweet</a>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://startupsthisishowdesignworks.com/" data-via="wr">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				<?php /*<a href="http://twitter.com/intent/tweet?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle.": ".$pageDescription; ?>%20@wellsriley&related=wellsriley" target="_blank" class="shareTw">Share (t)</a>
+				<?php /*<a href="http://twitter.com/intent/tweet?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle.": ".$pageDescription; ?>%20@wr&related=wr" target="_blank" class="shareTw">Share (t)</a>
 			</li>
 			<li class="shareCount"><?php tweets( $pageURL ); ?> */ ?></li>
 		</ul><!-- / socialShareSmall -->
@@ -138,7 +138,7 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 	
 	<header>
 		<h1>Startups, this is how design works.</h1>
-		<div id="author">A guide for non-designers by <a href="http://wellsriley.com" target="_blank">Wells Riley</a>.
+		<div id="author">A guide for non-designers by <a href="http://wells.ee" target="_blank">Wells Riley</a>.
 			<br />Format inspired by <a href="http://jessicahische.is" target="_blank">Jessica Hische</a>.</div>
 		<br class="clear" />
 	</header>
@@ -830,7 +830,7 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 			<li class="shareCount"><?php echo customFShare( $pageURL ); ?></li>
 
 			<li>
-				<a href="http://twitter.com/intent/tweet?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle.": ".$twPageDescription; ?>%20@wellsriley&related=wellsriley" target="_blank" class="shareTw">Share (t)</a>
+				<a href="http://twitter.com/intent/tweet?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle.": ".$twPageDescription; ?>%20@wr&related=wr" target="_blank" class="shareTw">Share (t)</a>
 			</li>
 			<li class="shareCount"><?php tweets( $pageURL ); ?></li>
 		</ul><!-- / socialShare -->
@@ -840,7 +840,7 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 		<div class="col4 colL colR">
 			<p class="text">I love startups and design, and I want them to be best friends forever. I'm Wells Riley, and I'm currently the Product Designer at <a href="http://kicksend.com">Kicksend</a>. I’ve been working with startups for several years, and designing on the Web for even longer.</p>
 			<p class="text">Design and entrepreneurship are among the most important things in my life, and it’s so exciting to see design taking a stronger role in new companies. I hope this will be a valuable resource to help designers and entrepreneurs speak the same language.</p>
-			<p class="text">If you have any feedback, please feel free to tweet me <a href="https://twitter.com/intent/tweet?in_reply_to=186892397454688256&related=wellsriley">@wellsriley</a>.</p>
+			<p class="text">If you have any feedback, please feel free to tweet me <a href="https://twitter.com/intent/tweet?in_reply_to=186892397454688256&related=wr">@wr</a>.</p>
 		</div>
 		
 		<div class="col1" style="text-align:center;width:285px;padding:0 0 0 20px;">
@@ -922,7 +922,7 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 </div>
 	
 <footer>
-	&copy; <?php echo date('Y'); ?> <a href="http://wellsriley.com" target="_blank">Wells Riley</a>. All rights reserved.
+	&copy; <?php echo date('Y'); ?> <a href="http://wells.ee" target="_blank">Wells Riley</a>. All rights reserved.
 </footer>
 	
 </div>
