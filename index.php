@@ -117,7 +117,7 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 				  $x = new SimpleXmlElement($content);
 				  //$tweets = $x->story->url_count;
 */
-				  $tweets = 15925;
+				  $tweets = 17146;
   
 				  echo $tweets;
 				}
