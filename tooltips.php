@@ -98,7 +98,7 @@ if($q === "ui"){ ?>
 	Via <a target="_blank" href="http://ideo.com">IDEO</a>.
 
 <?php }elseif($q === "apple"){ ?>
-	<object width="560" height="390"><param name="movie" value="http://www.youtube.com/v/2sPThaog7go&start=0&end=200"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/2sPThaog7go&start=0&end=200" type="application/x-shockwave-flash" allowfullscreen="true" width="560" height="390"></embed></object>	
+	<object width="560" height="390"><param name="movie" value="http://www.youtube.com/v/76J3mHnHHOE"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/76J3mHnHHOE" type="application/x-shockwave-flash" allowfullscreen="true" width="560" height="390"></embed></object>	
 	Via <a target="_blank" href="http://www.imdb.com/title/tt0168122/">Pirates of Silicon Valley</a>. <p class="caption">Yeah, yeah, I know.</a>
 
 <?php }else{ ?>
