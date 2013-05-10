@@ -108,7 +108,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 				    $like_results = file_get_contents('http://graph.facebook.com/'.$url);
 				    $like_array = json_decode($like_results, true);
 				    /* $like_count =  $like_array['shares']; */
-				    $like_count = 31874;
+				    $like_count = 39183;
 				    return ($like_count ) ? $like_count : "0";
 				}
 				function tweets($url){
