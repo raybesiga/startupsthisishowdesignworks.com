@@ -190,7 +190,7 @@ sup a{color:#1f7291 !important;font-weight:bold;}
 	color:#fff;
 	float:left;
 	position: fixed;
-	z-index:9998;
+	z-index:9997;
 	font-size:13px;
 	font-weight:normal;
 	}
@@ -202,7 +202,7 @@ sup a{color:#1f7291 !important;font-weight:bold;}
 		font-weight:lighter;
 		margin:0 !important;
 		line-height:18px;
-		z-index:9999;
+		z-index:9998;
 		position: relative;
 		background:#ed1c24;
 		}

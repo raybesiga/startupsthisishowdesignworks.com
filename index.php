@@ -43,6 +43,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 <body>
 
 <div class="globalWrapper">
+
 	<div id="tableOfContents">
 		<h2><a id="toc" href="#">Table of Contents</a></h2>
 		<div class="sectionsWrapper closed">
@@ -107,7 +108,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 				    $like_results = file_get_contents('http://graph.facebook.com/'.$url);
 				    $like_array = json_decode($like_results, true);
 				    /* $like_count =  $like_array['shares']; */
-				    $like_count = 29164;
+				    $like_count = 31874;
 				    return ($like_count ) ? $like_count : "0";
 				}
 				function tweets($url){
@@ -116,7 +117,7 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 				  $x = new SimpleXmlElement($content);
 				  //$tweets = $x->story->url_count;
 */
-				  $tweets = 14941;
+				  $tweets = 15925;
   
 				  echo $tweets;
 				}
