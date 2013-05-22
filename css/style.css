@@ -913,7 +913,9 @@ p{
 		color:#fff;
 		text-decoration:none;
 		}
-	
+
+	#HD{background:url('../img/rsrc_hackDesign.jpg') no-repeat;background-size:170px 170px;}
+		#HD:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_hackDesign.jpg') no-repeat;background-size:170px 170px;}	
 	#TDF{background:url('../img/rsrc_designerFund.jpg') no-repeat;background-size:170px 170px;}
 		#TDF:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_designerFund.jpg') no-repeat;background-size:170px 170px;}
 	#CM{background:url('../img/rsrc_creativeMornings.jpg') no-repeat;background-size:170px 170px;}
@@ -1372,6 +1374,8 @@ footer{
 
 	#unicorn{background:url('../img/unicorn@2x.png') no-repeat top center;background-size:253px 257px;}
 
+	#HD{background:url('../img/rsrc_hackDesign@2x.jpg') no-repeat;background-size:170px 170px;}
+		#HD:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_hackDesign@2x.jpg') no-repeat;background-size:170px 170px;}
 	#TDF{background:url('../img/rsrc_designerFund@2x.jpg') no-repeat;background-size:170px 170px;}
 		#TDF:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_designerFund@2x.jpg') no-repeat;background-size:170px 170px;}
 	#CM{background:url('../img/rsrc_creativeMornings@2x.jpg') no-repeat;background-size:170px 170px;}

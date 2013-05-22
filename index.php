@@ -141,7 +141,7 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 	<header>
 		<h1>Startups, this is how design works.</h1>
 		<div id="author">A guide for non-designers by <a href="http://wells.ee" target="_blank">Wells Riley</a>.
-			<br />Format inspired by <a href="http://jessicahische.is" target="_blank">Jessica Hische</a>.</div>
+			<br /><span style="opacity:0.5;">Format inspired by <a href="http://jessicahische.is" target="_blank">Jessica Hische</a>.</span></div>
 		<br class="clear" />
 	</header>
 	
@@ -765,6 +765,8 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 		<br class="clear" />
 				
 		<ul id="resources">
+			<li><a id="HD" href="http://hackdesign.org?ref=stihdw" target="_blank">
+				An easy to follow design course for hackers who do amazing things.</a></li>
 			<li><a id="TDF" href="http://thedesignerfund.com" target="_blank">
 				We’re a community of designers who invest in designer founders through mentorship, funding, and access to our network.</a></li>
 			<li><a id="CM" href="http://creativemornings.com" target="_blank">
