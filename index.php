@@ -141,7 +141,7 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 	<header>
 		<h1>Startups, this is how design works.</h1>
 		<div id="author">A guide for non-designers by <a href="http://wells.ee" target="_blank">Wells Riley</a>.
-			<br /><span style="opacity:0.5;">Format inspired by <a href="http://jessicahische.is" target="_blank">Jessica Hische</a>.</span></div>
+			<br /><span style="opacity:0.25;line-height:20px;">Format inspired by <a href="http://jessicahische.is" target="_blank">Jessica Hische</a>.</span></div>
 		<br class="clear" />
 	</header>
 	
