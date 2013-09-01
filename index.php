@@ -25,21 +25,11 @@ $pageDescription = "A guide to understanding digital & physical product design f
 	<meta property="fb:admins" content="1082730090" />
 	<meta property="fb:app_id" content="334362973268161" />
 	<meta name="viewport" content="width=device-width">
-<!-- 	<link rel="apple-touch-icon-precomposed" href="./touch-icon-iphone.png" /> -->
-<!-- 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./touch-icon-ipad.png" /> -->
 	<link rel="apple-touch-icon-precomposed" href="./touch-icon-iphone4.png" />
-<!-- 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./touch-icon-ipad3.png" /> -->
 	<link href="./favicon.ico" rel="shortcut icon">
 	<link href="http://fonts.googleapis.com/css?family=Raleway:100|Crimson+Text:400,400italic,600,600italic" target="_blank" rel="stylesheet" type="text/css">
 	<link href="./css/jquery.qtip.min.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="./css/style.css" media="screen" rel="stylesheet" type="text/css" />
-<!-- Notes -
-"Yo dawg, why isn't your site responsive? Also, your code is crap."
-
-- I know. I'm a designer first and a coder second. Due to the nature of completing a large scale research project on my own, I had to prioritize. Unfortunately, perfect code doesn't rank as high as the message or layout in this particular instance.
-
-	That being said, shoot me an email (wells.riley - me.com) if you notice anything I can easily fix. I love you.
--->
 </head>
 <body>
 
@@ -74,13 +64,6 @@ $pageDescription = "A guide to understanding digital & physical product design f
 				<div class="subsectionContent">
 					<dd><a href="#sec41" data-offset="90">4.1. Startups + designers = ?</a></dd>
 					<dd><a href="#sec42" data-offset="90">4.2. Meet the Designer Founders</a></dd>
-					<!--
-<dd><a href="#sec43" data-offset="270">4.3. Joe Gebbia, Airbnb</a></dd>
-					<dd><a href="#sec44" data-offset="270">4.4. Dave Morin, Path</a></dd>
-					<dd><a href="#sec45" data-offset="270">4.5. Jack Dorsey, Twitter, Square</a></dd>
-					<dd><a href="#sec46" data-offset="270">4.6. Mike Matas, Push Pop Press</a></dd>
-					<dd><a href="#sec47" data-offset="270">4.7. Jeffrey Veen, Typekit</a></dd>
--->
 					<dd><a href="#sec48" data-offset="50">4.8. Changing the world</a></dd>
 				</div>
 			<dt><a class="subsection" href="#">5. Finding great talent</a></dt>
@@ -100,25 +83,16 @@ $pageDescription = "A guide to understanding digital & physical product design f
 	</div><!-- / tableOfContents -->
 	
 	<ul class="socialShareSmall">
-		<!--
-	<li><div class="fb-like" data-href="http://startupsthisishowdesignworks.com//" data-send="false" data-width="100" data-show-faces="false" data-action="recommend"></div></li>
-			<li>
--->
 				<?php
 				function customFShare($url) {
 				    $like_results = file_get_contents('http://graph.facebook.com/'.$url);
 				    $like_array = json_decode($like_results, true);
 				    /* $like_count =  $like_array['shares']; */
-				    $like_count = 39183;
+				    $like_count = 41183;
 				    return ($like_count ) ? $like_count : "0";
 				}
 				function tweets($url){
-				  /*
-$content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
-				  $x = new SimpleXmlElement($content);
-				  //$tweets = $x->story->url_count;
-*/
-				  $tweets = 17146;
+				  $tweets = 17860;
   
 				  echo $tweets;
 				}
@@ -964,22 +938,6 @@ $content = file_get_contents("http://api.tweetmeme.com/url_info?url=".$url);
 	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
 	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 	s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
-<script type="text/javascript">
-  var _sf_async_config = { uid: 44759, domain: 'startupsthisishowdesignworks.com', useCanonical: true };
-  (function() {
-    function loadChartbeat() {
-      window._sf_endpt = (new Date()).getTime();
-      var e = document.createElement('script');
-      e.setAttribute('language', 'javascript');
-      e.setAttribute('type', 'text/javascript');
-      e.setAttribute('src','//static.chartbeat.com/js/chartbeat.js');
-      document.body.appendChild(e);
-    };
-    var oldonload = window.onload;
-    window.onload = (typeof window.onload != 'function') ?
-      loadChartbeat : function() { oldonload(); loadChartbeat(); };
-  })();
 </script>
 </body>
 </html>
