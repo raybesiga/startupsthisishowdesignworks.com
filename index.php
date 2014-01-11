@@ -810,7 +810,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 		<br class="clear" />
 
 		<div class="col4 colL colR">
-			<p class="text">I love startups and design, and I want them to be best friends forever. I'm Wells Riley, and I'm currently the Product Designer at <a href="http://kicksend.com">Kicksend</a>. I’ve been working with startups for several years, and designing on the Web for even longer.</p>
+			<p class="text">I love startups and design, and I want them to be best friends forever. I'm Wells Riley, and I'm currently the Product Designer at <a href="http://kicksend.com" target="_blank">Kicksend</a> and the co-founder and content manager of <a href="http://hackdesign.org" target="_blank">Hack Design</a> – an easy to follow design course for people who do amazing things.</p>
 			<p class="text">Design and entrepreneurship are among the most important things in my life, and it’s so exciting to see design taking a stronger role in new companies. I hope this will be a valuable resource to help designers and entrepreneurs speak the same language.</p>
 			<p class="text">If you have any feedback, please feel free to tweet me <a href="https://twitter.com/intent/tweet?in_reply_to=186892397454688256&related=wr">@wr</a>.</p>
 		</div>
