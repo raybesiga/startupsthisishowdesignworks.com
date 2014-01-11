@@ -161,8 +161,8 @@ sup a{color:#1f7291 !important;font-weight:bold;}
 	padding:0 10px;
 	margin:0 auto;
 	}
-	
-	p,blockquote{	
+
+	p,blockquote{
 		font-family:'Crimson Text', serif;
 		font-weight:400;
 		font-size:18px;
@@ -185,7 +185,7 @@ sup a{color:#1f7291 !important;font-weight:bold;}
 		}
 
 /* -- Table of Contents -- */
-#tableOfContents{  
+#tableOfContents{
 	width:320px;
 	color:#fff;
 	float:left;
@@ -194,7 +194,7 @@ sup a{color:#1f7291 !important;font-weight:bold;}
 	font-size:13px;
 	font-weight:normal;
 	}
-	
+
 	#tableOfContents h2{
 		font-family:"Helvetica",Arial,sans-serif;
 		padding:0;
@@ -216,7 +216,7 @@ sup a{color:#1f7291 !important;font-weight:bold;}
 				background:url('../img/tocArrow.jpg') no-repeat top left #ca0c13;
 				background-position:0 -36px;
 				}
-	
+
 	#tableOfContents a{
 		color:#fff;
 		text-decoration:none;
@@ -228,7 +228,7 @@ sup a{color:#1f7291 !important;font-weight:bold;}
 		#tableOfContents a:hover{
 			background:#333;
 			}
-			
+
 	.sectionsWrapper{
 		padding-left:40px;
 		background:transparent;
@@ -237,27 +237,27 @@ sup a{color:#1f7291 !important;font-weight:bold;}
 		top:0;
 		visibility: hidden;
 
-		}		
+		}
 	#tableOfContents dl{
 		margin:0;
 		overflow: hidden;
 				background:#000;
-		
+
 		padding:0 0 20px 0;
 		width:280px;
 		z-index:9998;
 		}
 		#tableOfContents dl.closed{}
-		
+
 	#tableOfContents dt{
 		padding:0;
 		font-weight:bold;
 		}
-	
+
 	.subsectionContent{
 		display: none;
 		}
-		
+
 	.subsectionContent dd a{
 		color:#ddd !important;
 		padding-left:25px !important;
@@ -365,7 +365,7 @@ p.subText{
 	float:left;
 	background:url('../img/dieterRamsPhoto.jpg') no-repeat;
 	}
-	
+
 .principles{
 	list-style-type: none;
 	margin-bottom:80px;
@@ -398,7 +398,7 @@ p.subText{
 			color:#3f3f3f;
 			line-height:15px;
 			}
-			
+
 	.principles li a{
 		padding:78px 0 20px;
 		width:148px;
@@ -410,7 +410,7 @@ p.subText{
 		color:#454545;
 		}
 		.principles li a:hover{
-			
+
 			}
 	#dr1{background:url('../img/dr/innovative.png') no-repeat top center;}
 	#dr2{background:url('../img/dr/useful.png') no-repeat top center;}
@@ -422,7 +422,7 @@ p.subText{
 	#dr8{background:url('../img/dr/thorough.png') no-repeat top center;}
 	#dr9{background:url('../img/dr/environmental.png') no-repeat top center;}
 	#dr10{background:url('../img/dr/littledesign.png') no-repeat top center;}
-	
+
 #braunApple img{
 	width:320px;
 	height:225px;
@@ -468,7 +468,7 @@ p.subText{
 #objVideo{
 	margin:-45px 0 120px;
 	}
-	
+
 .slideshow{
 	margin:0 auto;
 	}
@@ -478,7 +478,7 @@ p.subText{
 #section2{
 	margin:200px 0 100px;
 	}
-	
+
 #designPoster{
 	margin-top:56px;
 	background:url('../img/dylan-glaser.jpg') no-repeat;
@@ -579,7 +579,7 @@ p.subText{
 		text-align:center;
 		}
 		#triforceDropz{
-			-webkit-box-shadow: #faaa3b 0 0 0,#faaa3b 0 0 0,#faaa3b 0 0 0; 
+			-webkit-box-shadow: #faaa3b 0 0 0,#faaa3b 0 0 0,#faaa3b 0 0 0;
    			width:80px;
     		height:80px;
     		border-radius:80px;
@@ -638,22 +638,22 @@ p.subText{
 		padding:0;
 		margin:10px;
 		}
-	.df_DaveMorin{	
-		background:url('../img/df_DaveMorin.jpg') no-repeat;
+	.df_AlexaAndrzejewski{
+		background:url('../img/df_AlexaAndrzejewski.jpg') no-repeat;
 		}
-	.df_JoeGebbia{	
+	.df_JoeGebbia{
 		background:url('../img/df_JoeGebbia.jpg') no-repeat;
 		}
-	.df_JackDorsey{	
-		background:url('../img/df_JackDorsey.jpg') no-repeat;
+	.df_JessicaHische{
+		background:url('../img/df_JessicaHische.jpg') no-repeat;
 		}
-	.df_MikeMatas{	
+	.df_MikeMatas{
 		background:url('../img/df_MikeMatas.jpg') no-repeat;
 		}
-	.df_JeffVeen{	
+	.df_JeffVeen{
 		background:url('../img/df_JeffVeen.jpg') no-repeat;
 		}
-		
+
 		#designerFounders a{
 			display:block;
 			width:200px;
@@ -674,14 +674,14 @@ p.subText{
 				border-bottom:7px solid #ed1c24;
 				cursor:pointer;
 				}
-			
+
 			#designerFounders a:hover{
 				text-decoration:none;
 				height:133px;
 				border-bottom:7px solid #ed1c24;
 				cursor:pointer;
 				}
-			
+
 				#designerFounders .active a:hover{
 					background:none !important;
 					text-indent:-9999px;
@@ -704,7 +704,7 @@ p.subText{
 		float:left;
 		width:350px;
 		margin:-33px 0 0 35px;
-		}	
+		}
 	.founderBio .section{
 		float:left;
 		margin-top:5px;
@@ -712,7 +712,7 @@ p.subText{
 	.founderBio iframe, .founderBio object, .founderBio embed{
 		margin-top:25px;
 		}
-			
+
 	/* -- Social Link Buttons -- */
 	/* Icons designed by Rogie King: http://www.finegoodsmarket.com/ -- */
 	.socialLinks{
@@ -805,7 +805,7 @@ p.subText{
 	.bigRed a:hover{
 		color:#000;
 		}
-	
+
 /* -- Section 5 -- */
 #sec5top{
 	background:url('../img/sec5top.jpg') repeat-x;
@@ -900,7 +900,7 @@ p{
 	#resources li{
 		float:left;
 		}
-	
+
 	#resources li a{
 		display:block;
 		width:150px;
@@ -915,7 +915,7 @@ p{
 		}
 
 	#HD{background:url('../img/rsrc_hackDesign.jpg') no-repeat;background-size:170px 170px;}
-		#HD:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_hackDesign.jpg') no-repeat;background-size:170px 170px;}	
+		#HD:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_hackDesign.jpg') no-repeat;background-size:170px 170px;}
 	#TDF{background:url('../img/rsrc_designerFund.jpg') no-repeat;background-size:170px 170px;}
 		#TDF:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_designerFund.jpg') no-repeat;background-size:170px 170px;}
 	#CM{background:url('../img/rsrc_creativeMornings.jpg') no-repeat;background-size:170px 170px;}
@@ -928,7 +928,7 @@ p{
 		#SM:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_swissMiss.jpg') no-repeat;background-size:170px 170px;}
 	#ILT{background:url('../img/rsrc_iLoveTypography.jpg') no-repeat;background-size:170px 170px;}
 		#ILT:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_iLoveTypography.jpg') no-repeat;background-size:170px 170px;}
-		
+
 	#TK{background:url('../img/rsrc_typeKit.jpg') no-repeat;background-size:170px 170px;}
 		#TK:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_typeKit.jpg') no-repeat;background-size:170px 170px;}
 	#GA{background:url('../img/rsrc_generalAssembly.jpg') no-repeat;background-size:170px 170px;}
@@ -941,7 +941,7 @@ p{
 		#DBBB:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_dribbble.jpg') no-repeat;background-size:170px 170px;}
 	#HEL{background:url('../img/rsrc_helvetica.jpg') no-repeat;background-size:170px 170px;}
 		#HEL:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_helvetica.jpg') no-repeat;background-size:170px 170px;}
-	
+
 	#SMAG{background:url('../img/rsrc_smashingMagazine.jpg') no-repeat;background-size:170px 170px;}
 		#SMAG:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_smashingMagazine.jpg') no-repeat;background-size:170px 170px;}
 	#OBJ{background:url('../img/rsrc_objectified.jpg') no-repeat;background-size:170px 170px;}
@@ -954,7 +954,7 @@ p{
 		#C77:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_core77.jpg') no-repeat;background-size:170px 170px;}
 	#FIVE{background:url('../img/rsrc_500.jpg') no-repeat;background-size:170px 170px;}
 		#FIVE:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_500.jpg') no-repeat;background-size:170px 170px;}
-	
+
 	#AIGA{background:url('../img/rsrc_aiga.jpg') no-repeat;background-size:170px 170px;}
 		#AIGA:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_aiga.jpg') no-repeat;background-size:170px 170px;}
 	#ATP{background:url('../img/rsrc_aTypePrimer.jpg') no-repeat;background-size:170px 170px;}
@@ -1060,7 +1060,7 @@ p{
 	padding:12px 0 0 5px;
 	margin:0 34px 0 0 !important;
 	}
-	
+
 .socialShareSmall{
 	padding:0;
 	margin:10px 0 0;
@@ -1108,7 +1108,7 @@ p{
 	padding:3px 0 0 3px;
 	margin:0 17px 0 2px !important;
 	font-size:12px;
-	}	
+	}
 
 
 
@@ -1224,12 +1224,12 @@ footer{
 		background-color:#f9f9f9 !important;
 		border:0;
 	}
-	
+
 	.ui-tooltip-wiki .tooltip-content{
 		float:left;
 		}
-	
-	
+
+
 	.ui-tooltip-wiki h6{
 		font-family: 'Raleway', Helvetica, sans-serif;
 		font-size:30px;
@@ -1237,7 +1237,7 @@ footer{
 		font-weight:100;
 		margin:10px 0 30px;
 	}
-	
+
 	.ui-tooltip-wiki p, .ui-tooltip-wiki li{
 		font-family:'Crimson Text', serif;
 		font-size:16px;
@@ -1249,11 +1249,11 @@ footer{
 		margin-left:0;
 		width:210px;
 			}
-	
+
 	.ui-tooltip-wiki ul{
 		margin:0 0 30px -20px;
 		}
-	
+
 	.ui-tooltip-wiki img{
 		float:left;
 		margin-top:50px;
@@ -1268,7 +1268,7 @@ footer{
 /* =============================================================================
    Print Styles
    ========================================================================== */
- 
+
 @media print {
   * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
   a, a:visited { text-decoration: underline; }
@@ -1288,11 +1288,11 @@ footer{
 /* High Resolution Screens (Retina iPad / iPhone) */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-	
+
 	#tableOfContents h2 a{background:url('../img/tocArrow@2x.jpg') no-repeat top left;background-size:40px 72px;}
 	#tableOfContents h2 a:hover{background:url('../img/tocArrow@2x.jpg') no-repeat top left #ca0c13;background-size:40px 72px;}
-	
-	
+
+
 	#tooltipNote{background:url('../img/tooltipNote@2x.jpg') no-repeat;background-size:218px 19px;}
 
 	#dieterRamsPhoto{background:url('../img/dieterRamsPhoto@2x.jpg') no-repeat;background-size:257px;}
@@ -1307,17 +1307,17 @@ footer{
 	#dr8{background:url('../img/dr/thorough@2x.png') no-repeat top center;background-size:64px;}
 	#dr9{background:url('../img/dr/environmental@2x.png') no-repeat top center;background-size:64px;}
 	#dr10{background:url('../img/dr/littledesign@2x.png') no-repeat top center;background-size:64px;}
-	
+
 	#paintCan{background:url('../img/paintCan@2x.jpg') no-repeat top center #fff;background-size:216px 222px;}
-	
+
 	#designPoster{background:url('../img/dylan-glaser@2x.jpg') no-repeat;background-size:320px 487px;}
 	#ixdGraphic{background:url('../img/ux-verplank@2x.jpg') no-repeat;background-size:295px 393px;}
 	#uxDesign{background:url('../img/tapbots@2x.jpg') no-repeat;background-size:294px 359px;}
 	#industrialDesign{background:url('../img/pantonChair@2x.jpg') no-repeat;background-size:253px 290px;}
 
-	.df_DaveMorin{background:url('../img/df_DaveMorin@2x.jpg') no-repeat;background-size:200px;}
+	.df_AlexaAndrzejewski{background:url('../img/df_AlexaAndrzejewski@2x.jpg') no-repeat;background-size:200px;}
 	.df_JoeGebbia{background:url('../img/df_JoeGebbia@2x.jpg') no-repeat;background-size:200px;}
-	.df_JackDorsey{background:url('../img/df_JackDorsey@2x.jpg') no-repeat;background-size:200px;}
+	.df_JessicaHische{background:url('../img/df_JessicaHische@2x.jpg') no-repeat;background-size:200px;}
 	.df_MikeMatas{background:url('../img/df_MikeMatas@2x.jpg') no-repeat;background-size:200px;}
 	.df_JeffVeen{background:url('../img/df_JeffVeen@2x.jpg') no-repeat;background-size:200px;}
 
@@ -1331,21 +1331,21 @@ footer{
 	.tkit{background:url('../img/rogieSocial/typekit@2x.png') no-repeat;background-size:32px;}
 	.crunch{background:url('../img/rogieSocial/crunchbase@2x.png') no-repeat;background-size:32px;}
 	.square{background:url('../img/rogieSocial/square@2x.png') no-repeat;background-size:32px;}
-	
+
 	#navButtons .prev{background:url('../img/prev@2x.png') no-repeat top;background-size:32px;background-position:left;}
 	#navButtons .next{background:url('../img/next@2x.png') no-repeat top;background-size:32px;background-position:right;}
 
-	
+
 	#triforceDrag{background:url('../img/link@2x.gif') no-repeat;background-size:112px 208px;}
 	#triforceDrop{background:url('../img/triforceIncomplete@2x.jpg') no-repeat;background-size:160px 160px !important;}
-	
+
 	#killerCombo{font-size:0;}
-	
+
 	#linkSword{background:url('../img/linkSword@2x.png') no-repeat;background-size:291px 108px;}
 	#triforceDropz{-webkit-box-shadow:none;}
 	#linkLike{background:url('../img/linkSwordBg@2x.png') no-repeat;background-size:291px 108px;}
 
-	
+
 
 	#plancastLogo{
 		background:url('../img/plancast_logo@2x.png') no-repeat;
@@ -1388,7 +1388,7 @@ footer{
 		#SM:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_swissMiss@2x.jpg') no-repeat;background-size:170px 170px;}
 	#ILT{background:url('../img/rsrc_iLoveTypography@2x.jpg') no-repeat;background-size:170px 170px;}
 		#ILT:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_iLoveTypography@2x.jpg') no-repeat;background-size:170px 170px;}
-		
+
 	#TK{background:url('../img/rsrc_typeKit@2x.jpg') no-repeat;background-size:170px 170px;}
 		#TK:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_typeKit@2x.jpg') no-repeat;background-size:170px 170px;}
 	#GA{background:url('../img/rsrc_generalAssembly@2x.jpg') no-repeat;background-size:170px 170px;}
@@ -1401,7 +1401,7 @@ footer{
 		#DBBB:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_dribbble@2x.jpg') no-repeat;background-size:170px 170px;}
 	#HEL{background:url('../img/rsrc_helvetica@2x.jpg') no-repeat;background-size:170px 170px;}
 		#HEL:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_helvetica@2x.jpg') no-repeat;background-size:170px 170px;}
-	
+
 	#SMAG{background:url('../img/rsrc_smashingMagazine@2x.jpg') no-repeat;background-size:170px 170px;}
 		#SMAG:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_smashingMagazine@2x.jpg') no-repeat;background-size:170px 170px;}
 	#OBJ{background:url('../img/rsrc_objectified@2x.jpg') no-repeat;background-size:170px 170px;}
@@ -1414,7 +1414,7 @@ footer{
 		#C77:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_core77@2x.jpg') no-repeat;background-size:170px 170px;}
 	#FIVE{background:url('../img/rsrc_500@2x.jpg') no-repeat;background-size:170px 170px;}
 		#FIVE:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_500@2x.jpg') no-repeat;background-size:170px 170px;}
-	
+
 	#AIGA{background:url('../img/rsrc_aiga@2x.jpg') no-repeat;background-size:170px 170px;}
 		#AIGA:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_aiga@2x.jpg') no-repeat;background-size:170px 170px;}
 	#ATP{background:url('../img/rsrc_aTypePrimer@2x.jpg') no-repeat;background-size:170px 170px;}
@@ -1435,7 +1435,7 @@ footer{
 		#DTB:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_dtb@2x.jpg') no-repeat;background-size:170px 170px;}
 	#FOLYO{background:url('../img/rsrc_folyo@2x.jpg') no-repeat;background-size:170px 170px;}
 		#FOLYO:hover{background:url('../img/hover_bg.png') repeat, url('../img/rsrc_folyo@2x.jpg') no-repeat;background-size:170px 170px;}
-		
+
 	.socialShare .shareFb{
 		background:url('../img/shareFb@2x.png') no-repeat;
 		background-size:121px 138px;

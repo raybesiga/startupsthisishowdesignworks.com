@@ -81,24 +81,24 @@ $pageDescription = "A guide to understanding digital & physical product design f
 		</dl><!-- / sections -->
 		</div><!-- / sectionsWrapper -->
 	</div><!-- / tableOfContents -->
-	
+
 	<ul class="socialShareSmall">
 				<?php
 				function customFShare($url) {
 				    $like_results = file_get_contents('http://graph.facebook.com/'.$url);
 				    $like_array = json_decode($like_results, true);
 				    /* $like_count =  $like_array['shares']; */
-				    $like_count = 41183;
+				    $like_count = 54329;
 				    return ($like_count ) ? $like_count : "0";
 				}
 				function tweets($url){
-				  $tweets = 17860;
-  
+				  $tweets = 18406;
+
 				  echo $tweets;
 				}
 				?>
 			<li>
-				<a href="http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>" target="_blank" class="shareFb" onclick="return popitup('http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>')">Share (f)</a> 
+				<a href="http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>" target="_blank" class="shareFb" onclick="return popitup('http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>')">Share (f)</a>
 			</li>
 			<li class="shareCount"><?php echo customFShare( $pageURL ); ?></li>
 
@@ -109,41 +109,41 @@ $pageDescription = "A guide to understanding digital & physical product design f
 			</li>
 			<li class="shareCount"><?php tweets( $pageURL ); ?> */ ?></li>
 		</ul><!-- / socialShareSmall -->
-	
+
 	<br class="clear" />
-	
+
 	<header>
 		<h1>Startups, this is how design works.</h1>
 		<div id="author">A guide for non-designers by <a href="http://wells.ee" target="_blank">Wells Riley</a>.
 			<br /><span style="opacity:0.25;line-height:20px;">Format inspired by <a href="http://jessicahische.is" target="_blank">Jessica Hische</a>.</span></div>
 		<br class="clear" />
 	</header>
-	
+
 	<div id="section1">
 		<p class="text col4">Companies like Apple are making design impossible for startups to ignore. Startups like <a href="http://path.com" target="blank">Path</a>, <a href="http://airbnb.com" target="_blank">Airbnb</a>, <a href="http://squareup.com" target="_blank">Square</a>, and <a href="http://massivehealth.com" target="_blank">Massive Health</a> have design at the core of their business, and they're doing phenomenal work. But what is ‘design’ actually? Is it a logo? A Wordpress theme? An innovative <a href="./tooltips.php?q=ui" rel="./tooltips.php?q=ui" class="tip">UI</a>? <span id="tooltipNote"></span></p>
 		<p class="text col4">It’s so much more than that. It’s a state of mind. It’s an approach to a problem. It’s how you’re going to kick your competitor’s ass. This handy guide will help you understand design and provide resources to help you find awesome design talent.</p>
-		
+
 		<br class="clear" />
-		
+
 		<div class="col1 colL largeSpace">
 			<div class="section right" id="sec11">1.1</div>
 		</div>
-		<div class="col2 largeSpace">		
+		<div class="col2 largeSpace">
 			<h2>De•sign <span class="phonetic">[dəzajn]</span> is a <br />method of problem solving.</h2>
 			<p class="subText">The simplest definition. Design is so many things, executed in many different ways, but the function is always the same. Whether it’s blueprints, a clever UI, a brochure, or a chair – design can help solve a visual or physical problem. <sup><a id="ref-1" href="#cite-1">1</a></sup></p>
 		</div><!-- / What is Design? -->
-		
+
 		<div class="col1 largeSpace">
 			<div class="section right" id="sec12">1.2</div>
 		</div>
-		<div class="col2 colR largeSpace">	
+		<div class="col2 colR largeSpace">
 			<h2>So what is <br /><span style="margin-left:-0.3em;">“good design”?</span></h2>
 			<p class="subText">This definition is not so simple. The best designs are notorious for seeming not designed at all – or <a href="./tooltips.php?q=undesigned" rel="./tooltips.php?q=undesigned" class="tip">‘undesigned’</a>.</p>
 			<p class="subText">It’s easier if we break things down a bit. If you know what to look for, it’s easier to identify good design when you see it; or perhaps <b>when you can’t see it at all.</b></p>
 		</div><!-- / What is Good Design? -->
-		
+
 		<br class="clear" />
-		
+
 		<div class="col2 colL">
 			<div id="dieterRamsPhoto"></div>
 			<div class="section right" id="sec13">1.3</div>
@@ -152,38 +152,38 @@ $pageDescription = "A guide to understanding digital & physical product design f
 			<h2>Dieter Rams’ Ten Principles of&nbsp;&nbsp;“Good Design”<br />
 				<span class="phonetic">(Wow, how convenient is that?)</span></h2>
 			<p class="subText col3 noPadding"><strong><em>Dieter Rams</em></strong> is a German <a href="./tooltips.php?q=industrialdesigner" rel="./tooltips.php?q=industrialdesigner" class="tip">industrial designer</a> closely associated with the consumer products company Braun and functionalist industrial design.</p>
-			<p class="subText col3 noPadding">According to <a href="http://www.vitsoe.com/en/gb/about/dieterrams/gooddesign" target="_blank">Vitsœ</a>: Back in the early 1980s, aware that his design was a significant contributor to the world, he asked himself an important question: 
+			<p class="subText col3 noPadding">According to <a href="http://www.vitsoe.com/en/gb/about/dieterrams/gooddesign" target="_blank">Vitsœ</a>: Back in the early 1980s, aware that his design was a significant contributor to the world, he asked himself an important question:
 				<br /><em>"Is my design good design?"</em>
 			<p class="subText col3 noPadding">Since good design can't be measured in a finite way, he set about expressing the ten most important principles for what he considered was good design. (Sometimes they are referred as the ‘Ten commandments’.) Here they are. <sup><a id="ref-3" href="#cite-3">3</a></sup></p>
 		</div><!-- / Dieter Rams' Principles -->
-		
+
 		<br class="clear" />
-		
+
 		<div class="colL col2"></div>
 		<div class="col2"><h3 style="margin-top:10px;margin-bottom:-10px;">Good design is…</h3></div>
-		
+
 		<br class="clear" />
- 		
+
 		<div class="col1 colL"></div>
-		
+
 			<ul class="principles col5 colR">
 				<li class="colL"><h3><a id="dr1" href="./dieterrams.php?q=innovative" rel="./dieterrams.php?q=innovative">innovative</a></h3></li>
 				<li><h3><a id="dr2" href="./dieterrams.php?q=useful" rel="./dieterrams.php?q=useful">makes a product useful</a></h3></li>
 				<li><h3><a id="dr3" href="./dieterrams.php?q=aesthetic" rel="./dieterrams.php?q=aesthetic">aesthetic</a></h3></li>
 				<li><h3><a id="dr4" href="./dieterrams.php?q=understandable" rel="./dieterrams.php?q=understandable">makes a product understandable</a></h3></li>
 				<li class="colR"><h3><a id="dr5" href="./dieterrams.php?q=unobtrusive" rel="./dieterrams.php?q=unobtrusive">unobtrusive</a></h3></li>
-				
+
 				<br class="clear" />
-				
+
 				<li class="colL"><h3><a id="dr6" href="./dieterrams.php?q=honest" rel="./dieterrams.php?q=honest">honest</a></h3></li>
 				<li><h3><a id="dr7" href="./dieterrams.php?q=longlasting" rel="./dieterrams.php?q=longlasting">long-lasting</a></h3></li>
 				<li><h3><a id="dr8" href="./dieterrams.php?q=thorough" rel="./dieterrams.php?q=thorough">thorough</a></h3></li>
 				<li><h3><a id="dr9" href="./dieterrams.php?q=environmental" rel="./dieterrams.php?q=environmental">environmentally friendly</a></h3></li>
 				<li class="colR"><h3><a id="dr10" href="./dieterrams.php?q=littledesign" rel="./dieterrams.php?q=littledesign">as little design<br />as possible</a></h3></li>
 			</ul><!-- / 10 Principles of Design -->
-		
+
 		<br class="clear" />
-		
+
 		<div id="braunApple">
 			<div class="col2 colL">
 			<sub><a id="ref-4" style="color:#ddd;" href="#cite-4" style="color:#ddd;">4</a></sub>
@@ -202,11 +202,11 @@ $pageDescription = "A guide to understanding digital & physical product design f
 				<blockquote class="oversize" style="margin-top:45px;">&ldquo;We designers, <a href="./tooltips.php?q=vacuum" rel="./tooltips.php?q=vacuum" class="tip">we don’t work in a vacuum</a>. We need business people.  We are not the fine artists we are often confused with. Today you find few companies that take design seriously, as I see it.&rdquo;</p>
 				<p class="text"><em>&#8212; Dieter Rams</em></blockquote>
 			</div>
-			
+
 			<br class="clear" />
-			
+
 		</div>
-		
+
 		<div id="sec1SummaryWrapper">
 			<div id="sec1Summary">
 			<div class="col1 colL">
@@ -221,21 +221,21 @@ $pageDescription = "A guide to understanding digital & physical product design f
 				</div>
 			</div>
 		</div><!-- / sec1SummaryWrapper -->
-		
+
 		<br class="clear" />
-		
+
 		<div class="section" id="sec15">1.5</div>
-		
+
 		<br class="clear" />
-		
+
 		<div class="col1 colL">
 			<h3>Objectified</h3>
 				<p class="subText">A documentary film that provides a look at the creativity behind everything from toothbrushes to <br />tech gadgets. <sup><a id="ref-15" href="#cite-15">15</a></sup></p>
 		</div>
 		<iframe id="objVideo" class="col5 colR" src="http://player.vimeo.com/video/12793996?portrait=0&title=0&byline=0&color=ffffff" width="830" height="467" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-		
+
 		<br class="clear" />
-					
+
 		<div class="col2 colL" style="margin-top:20px;">
 			<div class="section right" id="sec16">1.6</div>
 			<div id="ramsProducts" class="slideshow">
@@ -253,16 +253,16 @@ $pageDescription = "A guide to understanding digital & physical product design f
 				<p class="text">These are really hard questions to answer. Designers enable you to work within these constraints to create a product customers will fall in love with. <em>Love is a really strong emotion</em>.</p>
 				<p class="text">Dieter Rams and his <a href="./tooltips.php?q=contemporaries" rel="./tooltips.php?q=contemporaries" class="tip">contemporaries</a>  started a movement in 20<sup>th</sup> Century towards simple and beautiful products. Design was a strongly valued aspect of business, even 60 years ago. It totally has a place in business today – it’s a proven method.</p>
 		</div><!-- / Section 1 wrap-up -->
-		
-		<br class="clear" />	
-		
+
+		<br class="clear" />
+
 	</div><!-- / section1 -->
 </div><!-- / globalWrapper -->
-	
+
 <div id="section2">
-	<div class="globalWrapper">	
+	<div class="globalWrapper">
 		<h2>There are different kinds of design.</h2>
-		
+
 		<div class="col2 colL">
 			<div class="section right" id="sec21">2.1</div>
 			<div id="designPoster"></div>
@@ -272,21 +272,21 @@ $pageDescription = "A guide to understanding digital & physical product design f
 				<h3>Graphic Design</h3>
 				<p class="text">This is a term that describes an array of different kinds of designers. Think of it like the term “entrepreneur”. It describes a wide variety of businesspeople - from founders to VC's to <a href="./tooltips.php?q=ninjas" rel="./tooltips.php?q=ninjas" class="tip">“Chief Ninjas”</a> - but isn’t all-inclusive. Graphic designers work with graphical images, whether they be illustrations, <a href="./tooltips.php?q=typography" rel="./tooltips.php?q=typography" class="tip">typography</a>, or images, and on a variety of media including print and web. Graphic design is typically rendered in 2D – printed on a physical surface or displayed on a screen.</p>
 		</div><!-- / Graphic Design -->
-		
+
 		<br class="clear" />
-		
+
 		<div class="col3 colL"></div>
 		<div class="col2" style="margin:-300px 0 150px;">
 				<h4>↳ Print Design</h4>
 				<p class="text">A type of graphic designer that works exclusively with print media. Before the widespread adoption of computers, software, and the web, virtually all graphic designers worked on print media such as posters, magazines, billboards, and books. Print designers are typically masters of typography, illustration, and traditional printing processes like the <a href="./tooltips.php?q=linotype" rel="./tooltips.php?q=linotype" class="tip">Linotype machine</a> or the <a href="./tooltips.php?q=letterpress" rel="./tooltips.php?q=letterpress" class="tip">letterpress machine</a>, a 500-year-old printing method that has regained popularity in recent years for its handmade and traditional feel.</p>
 		</div><!-- / Print Design -->
-		
+
 		<br class="clear" />
-		
+
 		<div class="col1 colL">
 			<div class="section right" id="sec22">2.2</div>
 		</div>
-		
+
 		<div class="col3">
 				<h3>Interaction Design</h3>
 				<br class="clear" />
@@ -297,9 +297,9 @@ $pageDescription = "A guide to understanding digital & physical product design f
 			<div id="ixdGraphic"></div>
 			<p class="caption"style="margin-bottom:80px;">Framework by Bill Verplank <br />&copy;2000 <a href="http://www.billverplank.com/IxDSketchBook.pdf" target="_blank">Bill Verplank</a></p>
 		</div>
-		
+
 		<br class="clear" />
-		
+
 		<div class="col2 colL">
 			<div id="uxDesign"></div>
 			<p class="caption"style="margin-right:30px;padding-top:10px;">ConvertBot and Weightbot UI <br />&copy;2008-2012 <a href="http://tapbots.com" target="_blank">Tapbots, LLC</a></p>
@@ -310,85 +310,85 @@ $pageDescription = "A guide to understanding digital & physical product design f
 			<p class="text">"The design process must balance technical functionality and visual elements to create a system that is not only operational but also <em>usable and <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">adaptable</a> to changing user needs</em>." <sup><a id="ref-7" href="#cite-7">7</a></sup></p>
 
 		</div><!-- / Interface Design -->
-		
-		<div class="col2 colR">	
+
+		<div class="col2 colR">
 			<h4>↳ User Experience Design</h4>
 			<p class="text">User Experience (UX) design "incorporates aspects of <em>psychology, anthropology, sociology, computer science, graphic design, industrial design and cognitive science</em>. Depending on the purpose of the product, UX may also involve content design disciplines such as communication design, instructional design, or game design." <sup><a id="ref-8" href="#cite-8">8</a></sup></p>
 			<p class="text">The goal of UX design is to create a seamless, simple, and useful interaction between a user and a product, whether it be hardware or software. As with UI design, user experience design focuses on creating interactions <em>designed to meet or assist a user's goals and needs</em>.</p>
 		</div><!-- / User Experience Design -->
-			
+
 		<br class="clear" />
-		
+
 		<div class="col2" style="text-align:center;margin-top:140px;">
 			<div class="section right" id="sec23">2.3</div>
 			<div id="industrialDesign"></div>
 			<p class="caption"style="margin-right:50px;padding-top:10px;">Panton Stacking Chair <br />&copy;1967 <a href="http://www.vitra.com/en-us/home/products/panton-chair-classic/overview/" target="_blank">Verner Panton</a></p>
-			
+
 		</div>
 		<div class="col2" style="margin-top:140px;" >
 				<h3>Industrial Design</h3>
 				<br class="clear" />
 				<p class="text">Industrial designers create physical products designated for mass-consumption by <em>millions of people.</em> Motorcycles, iPods, toothbrushes, and nightstands are all designed by industrial designers. These people are masters of physical goods and innovation within the constraints of production lines and machines.</p>
 				<p class="text">"The objective is to study both function and form, and the connection between product, the user, and the environment." <sup><a id="ref-9" href="#cite-9">9</a></sup></p>
-		</div><!-- / Industrial Design -->	
-		
+		</div><!-- / Industrial Design -->
+
 		<br class="clear" />
-		
+
 	</div><!-- / globalWrapper -->
 </div><!-- / section2 -->
 
 <div id="sec3top"></div>
 <div id="section3">
 	<div class="globalWrapper">
-	
+
 		<div class="col6 colL colR">
 			<h2>Data: what does the industry think?</h2>
 		</div>
-	
+
 		<br class="clear" />
-		
+
 		<div class="col1 colL">
 			<div class="section right" id="sec31">3.1</div>
 		</div>
 		<div class="col5 colR">
 			<h3>What qualities of design do startups consider most important?</h3>
 		</div>
-		
+
 		<br class="clear" />
-		
+
 		<div class="col1 colL">&nbsp</div>
 		<div class="col4">
 			<p class="text">I asked 78 CEOs, marketers, engineers, and designers about their opinions and definitions of design. Before I could come up with anything for this project, I had to check my assumptions at the door and get some legit data. <em>It seems that entrepreneurs / engineers and designers are thinking about the same things.</em></p>
 		</div>
-		
+
 		<br class="clear" />
-		
+
 		<div id="row1_biz" class="col2 colL chart"></div>
 		<div id="row1_dez" class="col2 chart"></div>
 		<div id="row1_ramz" class="col2 colR chart"></div>
-	
+
 		<br class="clear" />
-		
+
 		<div class="col1 colL">
 			<div class="section right" id="sec32">3.2</div>
 		</div>
 		<div class="col5 colR">
 			<h3>How important is product design?</h3>
 		</div>
-		
+
 		<br class="clear" />
-		
+
 		<div class="col1 colL"></div>
 		<div class="col4">
 			<p class="text">Product design includes both digital and physical products. It represents not only the aesthetic qualities, but <em>what it does, how well a user thinks it's going to do it, and how easily & quickly they can complete a task.</em></p>
 			<p class="text">Think for a moment. How important is product design to <em>you?</em> How important do you think aesthetics and ease-of-use are to <em>your</em> customers?</p>
 		</div>
-		
+
 		<br class="clear" />
-		
+
 		<div id="row2_biz" class="col3 colL chart"></div>
 		<div id="row2_users" class="col3 colR chart"></div>
-		
+
 		<br class="clear" />
 
 		<div class="col1 colL">
@@ -399,49 +399,49 @@ $pageDescription = "A guide to understanding digital & physical product design f
 		</div>
 
 		<br class="clear" />
-		
+
 		<div class="col1 colL"></div>
 		<div class="col4">
 			<p class="text">Now we're getting somewhere. Great design is taking root in startup culture, and it seems like many people are open to change. Not only do many entrepreneurs, devs, and engineers see substantial room to improve their own products, <em>they overwhelmingly believe that designers belong on a founding team.</em></p>
 		</div>
-		
+
 		<br class="clear" />
 
-		
+
 		<div id="row3_gdez" class="col3 colL chart"></div>
 		<div id="row3_founders" class="col3 colR chart"></div>
-		
+
 		<br class="clear" />
-		
-		
+
+
 	</div><!-- / globalWrapper -->
 </div><!-- / section3 -->
 <div id="sec3bottom"></div>
-	
+
 <div id="section4">
 	<div class="globalWrapper">
-	
+
 		<div class="col6 colL colR">
 			<h2>Designer Founders: the missing link</h2>
 		</div>
-		
+
 		<br class="clear" />
-		
+
 		<div class="col1 colL">
 			<div class="section right" id="sec41">4.1</div>
 		</div>
-		
+
 		<div class="col4">
 			<h3>Startups + designers = ?</h3>
 			<p class="text">For a long time, a pair of co-founders consisted of an executive and an engineer. <b>It worked for Facebook, Microsoft, and <a href="./tooltips.php?q=apple" rel="./tooltips.php?q=apple" class="tip">Apple</a></b>, just to name a few. These companies have excellent designers today, <em>because it’s a necessity they can’t afford to ignore</em>. It seems like design is becoming more and more prevalent in new startups as well – <a href="http://squareup.com" target="_blank">Square</a>, <a href="http://path.com" target="_blank">Path</a>, <a href="http://airbnb.com" target="_blank">Airbnb</a>, and more are pushing the envelope.</p>
 			<p><em>Design is becoming a key differentiator</em> for companies to acquire funding, press coverage, <br />and loyal users.</p>
-		
+
 			<h3 style="margin-top:40px;color:#ed1c24;">I think it’s time to shake things up a bit.
 			<br />Let’s add designers into the mix.</h3>
 		</div><!-- / section 4 intro -->
-		
+
 		<br class="clear" />
-		
+
 		<!-- Link thing -->
 		<div id="triforce">
 			<div id="triforceDrag">
@@ -454,26 +454,26 @@ $pageDescription = "A guide to understanding digital & physical product design f
 				<div style="float:right;margin:20px 0 0 65px;">Engineers</div>
 			</div>
 		</div>
-		
+
 		<br class="clear" />
-		
+
 		<div class="col1 colL">
 			<div class="section right" id="sec42">4.2</div>
 		</div>
-		
+
 		<div class="col4">
 			<h3>Meet the Designer Founders</h3>
 			<p class="text">According to <a href="http://designerfund.com" target="_blank">The Designer Fund</a>, startups with designer founders are generating <em>billions of dollars in growth</em>. <sup><a id="ref-16" href="#cite-16">16</a></sup> Below are profiles on five of the most influential designer founders and their incredibly hot startups.</p>
 		</div>
-		
+
 		<br class="clear" />
-		
+
 	<div id="totalWrapper">
 		<div id="scroll">
 			<ul class="navi" id="designerFounders">
 				<li class="df_JoeGebbia active"><a href="javascript:void(0)" id="t1"><p>Joe Gebbia</p><p>Airbnb</p></a></li>
-				<li class="df_DaveMorin"><a href="javascript:void(0)" id="t2"><p>Dave Morin</p><p>Path</p></a></li>
-				<li class="df_JackDorsey"><a href="javascript:void(0)" id="t3"><p>Jack Dorsey</p><p>Twitter, Square</p></a></li>
+				<li class="df_AlexaAndrzejewski"><a href="javascript:void(0)" id="t2"><p>Alexa Andrzejewski</p><p>Foodspotting</p></a></li>
+				<li class="df_JessicaHische"><a href="javascript:void(0)" id="t3"><p>Jessica Hische</p><p>Freelance Illustrator</p></a></li>
 				<li class="df_MikeMatas"><a href="javascript:void(0)" id="t4"><p>Mike Matas</p><p>Push Pop Press</p></a></li>
 				<li class="df_JeffVeen"><a href="javascript:void(0)" id="t5"><p>Jeffrey Veen</p><p>TypeKit</p></a></li>
 			</ul><!-- navi -->
@@ -483,11 +483,11 @@ $pageDescription = "A guide to understanding digital & physical product design f
 					<div class="col2 colL">
 						<div class="section" id="sec43">4.3</div>
 						<h3>Joe Gebbia, Airbnb</h3>
-						
+
 						<br class="clear" />
-						
+
 						<p class="text">Joe defines the <a href="http://airbnb.com" target="_blank">Airbnb</a> experience. He is dedicated to creating an inspiring and effortless user experience through sharp, intuitive design, and crafts the product roadmap to make it so. Joe values products that simplify life and have a positive impact on the environment, and ensures that the company adheres to these tenets.</p>
-			
+
 						<p class="text">Prior to Airbnb, Joe was employed by Chronicle Books, co-founded a green design website, and developed several consumer products. An alumni of the <a href="http://risd.edu" target="_blank">Rhode Island School of Design</a>, Joe earned dual degrees in Graphic Design and Industrial Design. <sup><a id="ref-11" href="#cite-11">11</a></sup></p>
 					</div>
 					<div class="col3 colR right">
@@ -499,65 +499,59 @@ $pageDescription = "A guide to understanding digital & physical product design f
 						</ul>
 						<iframe src="http://player.vimeo.com/video/23275754?portrait=0&title=0&byline=0&color=ffffff" width="491" height="276" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 					</div>
-					
+
 					<br class="clear" />
-				
+
 				</div><!-- / founderBio -->
 			    <div class="founderBio">
 					<div class="col2 colL">
 						<div class="section" id="sec44">4.4</div>
-						<h3>Dave Morin, Path</h3>
-						
+						<h3>Alexa Andrzejewski, Foodspotting</h3>
+
 						<br class="clear" />
-						
-						<p class="text">Dave is the Co-Founder and CEO of <a href="http://path.com" target="_blank">Path</a>, the smart journal that helps you share life with the ones you love. Previously, as an original member of the <a href="http://www.facebook.com/" target="_blank">Facebook</a> team, Dave played a variety of product, marketing, strategy, and management roles in expanding the Facebook ecosystem to over 800 million people worldwide. Dave was a co-inventor of <a href="http://developers.facebook.com/connect.php" target="_blank">Facebook Connect</a> which was created to make the Internet more social, and is now used by over 7 million apps and websites.</p>
-			
-						<p class="text">In 2011, Dave was named a <a href="http://images.businessweek.com/slideshows/20110516/best-young-tech-entrepreneurs-2011/slides/18" target="_blank">30 under 30 Best Young Tech Entrepreneur</a> by Bloomberg Businessweek. He was also named <a href="http://www.businessinsider.com/the-silicon-valley-100-2012-1#12-dave-morin-89" target="_blank">#12 on the Silicon Valley 100</a> by Business Insider. <sup><a id="ref-10" href="#cite-10">10</a></sup></p>
+
+						<p class="text">Alexa Andrzejewski is the Founder and CEO of <a href="http://www.foodspotting.com" target="_blank">Foodspotting</a>, a website and mobile app for finding and recommending dishes, not just restaurants. As the UX designer behind Foodspotting, Alexa sees herself as the "chief storyteller," responsible for capturing the imagination of her team, partners and investors through metaphors, mantras, user stories, sketches and detailed designs. Foodspotting has received attention from <a href="http://video.today.msnbc.msn.com/today/47229496#47229496" target="_blank">The Today Show</a>, <a href="http://blog.cookingchanneltv.com/2011/03/17/one-mega-bite-food-gets-hi-tech/" target="_blank">The Cooking Channel</a>, <a href="http://www.travelandleisure.com/articles/best-travel-websites-and-apps/23" target="_blank">Travel + Leisure</a>, iTunes and Google Play (repeat "App of the Week"), as well as Mark Zuckerberg in his <a href="http://www.foodspotting.com/blog/posts/236" target="_blank">2011 f8 keynote</a>. Alexa has been profiled in <a href="http://www.ft.com/intl/cms/s/2/3566e886-e32a-11e0-bb55-00144feabdc0.html" target="_blank">Financial Times Magazine</a>, Inc Magazine’s <a href="http://www.inc.com/30under30/2011/profile-alexa-andrzejewski-soraya-darabi-ted-grubb%20founders-foodspotting.html" target="_blank">"30 Under 30"</a> and Gourmet Live's <a href="http://live.gourmet.com/2011/05/app-exclusive-50-women-game-changers/" target="_blank">"50 Women Game-Changers."</a> <sup><a id="ref-10" href="#cite-10">10</a></sup></p>
 					</div>
 					<div class="col3 colR right">
 						<ul class="socialLinks">
-							<li><a href="http://twitter.com/davemorin" target="_blank" class="tw">Twitter</a></li>
-							<li><a href="http://davemorin.com/" target="_blank" class="www">Website</a></li>
-							<li><a href="http://path.com/" target="_blank" class="path">Path</a></li>
+							<li><a href="http://twitter.com/ladylexy" target="_blank" class="tw">Twitter</a></li>
+							<li><a href="https://foodspotting.com" target="_blank" class="www">Foodspotting</a></li>
 							<br class="clear" />
 						</ul>
-						<object width="490" height="305"><param name="movie" value="http://www.youtube.com/v/2iDjrW8NqJI?version=3&amp;hl=en_US&amp;rel=0&start=14"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/2iDjrW8NqJI?version=3&amp;hl=en_US&amp;rel=0&start=14" type="application/x-shockwave-flash" width="490" height="305" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+						<iframe src="//player.vimeo.com/video/29961716?title=0&amp;byline=0&amp;portrait=0" width="490" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
-					
+
 					<br class="clear" />
-				
+
 				</div><!-- / founderBio -->
 				<div class="founderBio">
 					<div class="col2 colL">
 						<div class="section" id="sec45">4.5</div>
-						<h3>Jack Dorsey, Twitter, Square</h3>
-						
-						<br class="clear" />
-						
-						<p class="text">Software engineer Jack Dorsey is the Co-Founder of <a href="http://twitter.com" target="_blank">Twitter</a>, and was the CEO <a href="http://www.techcrunch.com/2008/10/16/ceo-change-at-twitter-ev-williams-back-at-the-helm/" target="_blank">until October 2008</a>. Dorsey had the original idea for Twitter while still at <a href="http://www.crunchbase.com/company/odeo" target="_blank">Odeo</a>, a podcasting startup which was a project of Obvious Corp. He is now the chairman of Twitter.
+						<h3>Jessica Hische, Freelance Illustrator</h3>
 
-						<p class="text">In <a href="http://www.techcrunch.com/2009/05/08/nuts-twitter-inventor-about-to-launch-his-next-project-code-named-squirrel/" target="_blank">May 2009</a>, Dorsey announced his latest startup, <a href="http://squareup.com" target="_blank">Square</a>. Square, originally code-named Squirrel, is a mobile payment startup with both an app and a piece of hardware that allows the iPhone and Android to accept credit card payments. <sup><a id="ref-12" href="#cite-12">12</a></sup></p>
+						<br class="clear" />
+
+						<p class="text">Jessica Hische is a letterer and illustrator best known for her personal projects <a href="http://www.dailydropcap.com/" target="_blank">Daily Drop Cap</a> and the <a href="http://shouldiworkforfree.com/" target="_blank">Should I Work for Free?</a> flowchart as well as her work for clients like Wes Anderson, Penguin Books, and Google. She’s been named one of Print Magazine’s New Visual Artists, an ADC Young Gun, and one of Forbes 30 under 30 in Art and Design two years in a row. She is currently serving on the Type Directors Club board of directors, has traveled the world speaking about lettering and illustration, and has probably consumed enough coffee to power a small nation. <sup><a id="ref-12" href="#cite-12">12</a></sup></p>
 					</div>
 					<div class="col3 colR right">
 						<ul class="socialLinks">
-							<li><a href="http://twitter.com/jack" target="_blank" class="tw">Twitter</a></li>
-							<li><a href="http://squareup.com" target="_blank" class="square">Square</a></li>
-							<li><a href="http://www.crunchbase.com/person/jack-dorsey" target="_blank" class="crunch">CrunchBase Profile</a></li>
+							<li><a href="http://twitter.com/jessicahische" target="_blank" class="tw">Twitter</a></li>
+							<li><a href="http://jessicahische.is/awesome" target="_blank" class="www">Website</a></li>
 							<br class="clear" />
 						</ul>
-						<object width="490" height="305"><param name="movie" value="http://www.youtube.com/v/iSDbOYNd_tY?version=3&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/iSDbOYNd_tY?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="490" height="305" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+						<iframe src="//player.vimeo.com/video/44045435" width="490" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					</div>
-					
+
 					<br class="clear" />
-				
+
 				</div><!-- / founderBio -->
 				<div class="founderBio">
 					<div class="col2 colL">
 						<div class="section" id="sec46">4.6</div>
 						<h3>Mike Matas, Push Pop Press</h3>
-						
+
 						<br class="clear" />
-						
+
 						<p class="text">Mike is a user interface designer and cofounder of <a href="http://www.pushpoppress.com" target="_blank">Push Pop Press</a>, a digital publishing company that worked with Al Gore to create the first full-length interactive book <a href="http://www.pushpoppress.com/ourchoice" target="_blank">Our Choice</a>. Recently Push Pop Press was <a href="http://pushpoppress.com/about/" target="_blank">acquired by Facebook</a> where he is now working, giving people better tools to explore and share ideas.</p>
 						<p class="text">Prior to starting Push Pop Press he worked at Apple where he designed user interfaces and artwork for the iPhone, the iPad, and Mac OS X. Before that he cofounded <a href="http://www.delicious-monster.com/" target="_blank">Delicious Monster</a>, a software company that created Delicious Library. <sup><a id="ref-13" href="#cite-13">13</a></sup></p>
 					</div>
@@ -575,11 +569,11 @@ $pageDescription = "A guide to understanding digital & physical product design f
 					<div class="col2 colL">
 						<div class="section" id="sec47">4.7</div>
 						<h3>Jeffrey Veen, Typekit</h3>
-						
+
 						<br class="clear" />
-						
+
 						<p class="text">Jeffrey Veen is a founder and the CEO of <a href="http://smallbatchinc.com" target="_blank">Small Batch, Inc.</a> where he’s leading a team of developers and creating user-centered web products. Their current effort is <a href="http://typekit.com" target="_blank">Typekit</a> — a widely praised subscription font service that is bringing real typography to the Web for the first time.</p>
-			
+
 						<p class="text">Jeffrey was also one of the founding partners of <a href="http://adaptivepath.com" target="_blank">Adaptive Path</a> and project lead for Measure Map, the well-received web analytics tool acquired by Google in 2006, where he managed the user experience group responsible for some of the largest web apps in the world. <sup><a id="ref-14" href="#cite-14">14</a></sup></p>
 					</div>
 					<div class="col3 colR right">
@@ -590,7 +584,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 							<br class="clear" />
 						</ul>
 						<object width="490" height="305"><param name="movie" value="http://www.youtube.com/v/8CtC_qbQ51U?version=3&amp;hl=en_US&amp;rel=0&start=45"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/8CtC_qbQ51U?version=3&amp;hl=en_US&amp;rel=0&start=45" type="application/x-shockwave-flash" width="490" height="305" allowscriptaccess="always" allowfullscreen="true"></embed></object>
-					</div>			
+					</div>
 				</div><!-- / founderBio -->
 			</div><!-- / founderBios -->
 			<div id="navButtons">
@@ -599,26 +593,26 @@ $pageDescription = "A guide to understanding digital & physical product design f
 			</div>
 		</div><!-- / scroll -->
 	</div><!-- totalWrapper-->
-		
+
 	<br class="clear" />
-		
+
 		<div class="col2 colL" style="text-align:center;margin-top:800px;">
 			<div id="linkSword"></div>
 			<div id="linkLike">eek!</div>
 		</div>
-		
+
 		<div id="sec48" class="col4 colR" style="margin-top:800px;">
-			<p class="text oversize" style="margin:30px 0 110px;">It’s getting harder and harder to differentiate based on tech talent alone. Designers like Jonathan Ive at Apple, Joe Gebbia at Airbnb, and Dave Morin at Path (to name a few) are changing the world today – not entirely because Apple, Airbnb, or Path have better tech, but because they make their products more usable, aesthetic, and <em>human</em>.</p>
-			
-			<h3 class="bigRed"><a href="http://www.fastcodesign.com/1665795/silicon-valleys-new-secret-weapon-designers-who-found-startups" target="_blank">Design is the link missing</a> from your founding team. The perfect balance of business, tech, and design is an incredibly powerful tool… 
+			<p class="text oversize" style="margin:30px 0 110px;">It’s getting harder and harder to differentiate based on tech talent alone. Designers like Jonathan Ive at Apple, Joe Gebbia at Airbnb, and the rockstar design team at Dropbox (just to name a few) are changing the world today – not entirely because Apple, Airbnb, or Dropbox have better tech, but because they make their products more usable, aesthetic, and <em>human</em>.</p>
+
+			<h3 class="bigRed"><a href="http://www.fastcodesign.com/1665795/silicon-valleys-new-secret-weapon-designers-who-found-startups" target="_blank">Design is the link missing</a> from your founding team. The perfect balance of business, tech, and design is an incredibly powerful tool…
 				<br /><br />and an even more powerful business model.</h3>
 		</div><!-- / \ 4 wrap-up -->
-		
+
 		<br class="clear" />
-		
+
 	</div><!-- / globalWrapper -->
 </div><!-- / section4 -->
-	
+
 <div id="sec5top"></div>
 <div id="section5">
 	<div class="globalWrapper">
@@ -637,8 +631,8 @@ $pageDescription = "A guide to understanding digital & physical product design f
 			<p class="text">Non-founding designers should share many of these qualities too. As with any employee in a startup, they need to believe in your product and be driven to make it great, not just good. Technical skills aside, learn their process. What kind of thinking goes into their work? How do they arrive at the final product? Good process lays the foundation for great design.</p>
 		</div>
 -->
-		
-		
+
+
 		<div class="col1 colL">
 			<div class="section right" id="sec52">5.2</div>
 		</div>
@@ -647,9 +641,9 @@ $pageDescription = "A guide to understanding digital & physical product design f
 			<p class="text">The design community is small and nuanced. Many designers aren’t aware of their increasing demand within startups, but that doesn't make them impossible to find.</p>
 			<p class="text"><em>Here are a few places where you can find excellent local designers right now.</em></p>
 		</div>
-		
+
 		<br class="clear" />
-		
+
 		<div class="col2 colL orangeLinks">
 
 			<div class="goToDesigners">
@@ -657,7 +651,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 				<a id="meetupLogo" href="http://meetup.com/find/?keywords=design" target="_blank" style="margin-left:33px;margin-right:33px;">Meetup.com</a>
 				<a id="eventbriteLogo" href="http://eventbrite.com/" target="_blank">Eventbrite</a>
 			</div>
-			
+
 			<p class="text">Meetups and events are a great way to break into the design culture and mingle with prospective talent face-to-face. I strongly recommend you attend at least one design meetup – it’s really important to have that perspective going into your designer search.</p>
 			<p>
 			<a href="http://creativemornings.com" target="_blank">Creative Mornings</a><br />
@@ -670,45 +664,45 @@ $pageDescription = "A guide to understanding digital & physical product design f
 
 		</div>
 		<div class="col2 orangeLinks">
-		
+
 			<div class="goToDesigners">
 				<a id="zerplyLogo" href="http://zerply.com" target="_blank">Zerply</a>
 			</div>
-			
+
 			<p class="text">Think of <a href="http://zerply.com" target="_blank">Zerply</a> as LinkedIn for designers, developers, and entrepreneurs. It’s an exquisitely designed platform that operates on a network connections and recommendations. Members can be “recommended” for excellence in a variety of disciplines and skills.</p>
 			<p class="text">Zerply allows you to search for designers by location, skills, and talents. The system is free to use.</p>
-			
+
 		</div>
-		
+
 		<div class="col2 colR orangeLinks">
 
 				<div class="goToDesigners">
 					<a id="dribbbleLogo" href="http://dribbble.com" target="_blank">Dribbble</a>
 				</div>
-				
+
 				<p class="text"><a href="http://dribbble.com" target="_blank">Dribbble</a> is an exclusive online community of designers from around the world. Signup is by (rare) invite only, which helps cultivate some of the best design talent in the world.</p>
 				<p class="text">Designers post works-in-progress (wip), completed projects, teasers, and fun work so designers and 'spectators' from anywhere can catch a glimpse of what they're working on.</p>
 				<p class="text">The site allows you to search for designers by skill, availability, and location. You can also advertise on the dribbble job board to allow some of the world’s best designers to come to you.</p>
 
 		</div>
-		
+
 		<br class="clear"/>
-		
+
 		<div class="col2 colL" style="margin-top:50px;">
 			<a id="behanceLogo" href="http://behance.net" target="_blank">Behance</a>
 		</div>
-		
+
 		<div class="col4 colR orangeLinks" style="margin-top:70px;">
 			<p style="font-weight:bold;color:#000;">Behance: The Platform to Showcase &amp; Discover Creative Work</p>
 
 			<p class="text"><a href="http://behance.net" target="_blank">Behance</a> is a great place for anyone to browse top creative works attributed to the actual designers who created them, not agencies. It lets designers showcase work as their own and on sites like LinkedIn, RISD, Zerply, and AIGA, and their own personal websites – enticing some of the world's best talent to join the network.</p>
-			
+
 			<p class="text">The <a href="http://www.behance.net/joblist" target="_blank">JobList</a> makes it easy to reach over 1,000,000 skilled designers, sorted by field, location, or even specific tools and skills. Tons of startups and big companies (like Apple!) are already using Behance to recruit top designers around the world.</p>
 
 		</div>
-		
+
 		<br class="clear"/>
-		
+
 		<div class="col1 colL" style="margin-top:130px;">
 			<div class="section right" id="sec53">5.3</div>
 		</div>
@@ -722,22 +716,22 @@ $pageDescription = "A guide to understanding digital & physical product design f
 			<div id="unicorn"></div>
 			<p class="caption"style="margin-right:30px;padding-top:10px;">Canned Unicorn Meat <br />Courtesy of <a href="http://www.thinkgeek.com/caffeine/wacky-edibles/e5a7/" target="_blank">ThinkGeek</a></p>
 		</div>
-		
+
 		<br class="clear"/>
-		
+
 		<h2 style="margin:100px 0 30px;">Resources!</h2>
-		
+
 		<div class="col2 colL">
 			<div class="section right" style="margin-top:20px;" id="sec54">5.4</div>
 		</div>
-		
+
 		<div class="col3">
 			<p class="text">This is just a primer on design for startups. There is so much information out there, and so many brilliant minds talking about great design.</p>
 			<p class="text">Here are a few resources I highly recommend: </p>
 		</div>
-		
+
 		<br class="clear" />
-				
+
 		<ul id="resources">
 			<li><a id="HD" href="http://hackdesign.org?ref=stihdw" target="_blank">
 				An easy to follow design course for hackers who do amazing things.</a></li>
@@ -788,19 +782,19 @@ $pageDescription = "A guide to understanding digital & physical product design f
 			<li><a id="DTB" href="http://www.designthenewbusiness.com/" target="_blank">A documentary on how design is changing the way we see and do business.</a></li>
 			<li><a id="FOLYO" href="http://www.folyo.me/" target="_blank">Folyo is a private job board. Post your project, and they'll send it to a list of hand-picked freelance designers all over the world.</a></li>
 		</ul>
-		
+
 		<br class="clear" />
-		
+
 	</div><!-- globalWrapper -->
 </div><!-- section5 -->
 
 <div id="sec5bottom"></div>
-	
+
 <div class="globalWrapper">
 	<div id="section6">
-		
+
 		<h2>Helpful? Share it!</h2>
-		
+
 		<ul class="socialShare">
 			<li>
 				<a href="http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>" target="_blank" class="shareFb" onclick="return popitup('http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>')">Share (f)</a>
@@ -812,30 +806,30 @@ $pageDescription = "A guide to understanding digital & physical product design f
 			</li>
 			<li class="shareCount"><?php tweets( $pageURL ); ?></li>
 		</ul><!-- / socialShare -->
-		
+
 		<br class="clear" />
-		
+
 		<div class="col4 colL colR">
 			<p class="text">I love startups and design, and I want them to be best friends forever. I'm Wells Riley, and I'm currently the Product Designer at <a href="http://kicksend.com">Kicksend</a>. I’ve been working with startups for several years, and designing on the Web for even longer.</p>
 			<p class="text">Design and entrepreneurship are among the most important things in my life, and it’s so exciting to see design taking a stronger role in new companies. I hope this will be a valuable resource to help designers and entrepreneurs speak the same language.</p>
 			<p class="text">If you have any feedback, please feel free to tweet me <a href="https://twitter.com/intent/tweet?in_reply_to=186892397454688256&related=wr">@wr</a>.</p>
 		</div>
-		
+
 		<div class="col1" style="text-align:center;width:285px;padding:0 0 0 20px;">
 			<img class="me" src="./img/wellsosaurus.jpg" />
 		</div>
-		
+
 		<br class="clear" />
-		
+
 	</div>
 </div>
 
 <div id="section7">
-	<div class="globalWrapper">		
-		
+	<div class="globalWrapper">
+
 		<div class="col3 colL">
 			<h2>Thank you so much</h2>
-		
+
 		<ul class="acknowledgements">
 			<li>Special thanks:</li>
 			<li><a href="http://fictivecameron.com" target="_blank">Cameron Koczon</a></li>
@@ -855,7 +849,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 			<li>&nbsp;<br />And everyone else who helped me<br />in some way. There are lots of you.</li>
 		</ul>
 		</div>
-		
+
 		<div class="sources col3 colR">
 			<p>Sources:</p>
 			<ol>
@@ -877,11 +871,11 @@ $pageDescription = "A guide to understanding digital & physical product design f
 					<a class="jumpBack" href="#ref-8">⇈ Jump back</a>
 				<li id="cite-9"><a href="http://en.wikipedia.org/wiki/Industrial_design" target="_blank">Industrial Design : Wikipedia</a></li>
 					<a class="jumpBack" href="#ref-9">⇈ Jump back</a>
-				<li id="cite-10"><a href="http://davemorin.tumblr.com/about" target="_blank">About Dave Morin : Dave Morin</a></li>
+				<li id="cite-10"><a href="https://flavors.me/ladylexy" target="_blank">Alexa Andrzejewski</a></li>
 					<a class="jumpBack" href="#ref-10">⇈ Jump back</a>
 				<li id="cite-11"><a href="http://www.airbnb.com/founding-team" target="_blank">Founding Team - Joe Gebbia : Airbnb</a></li>
 					<a class="jumpBack" href="#ref-11">⇈ Jump back</a>
-				<li id="cite-12"><a href="http://www.crunchbase.com/person/jack-dorsey" target="_blank">Jack Dorsey | CrunchBase</a></li>
+				<li id="cite-12"><a href="http://jessicahische.is/awesome" target="_blank">Jessica Hische - Awesome</a></li>
 					<a class="jumpBack" href="#ref-12">⇈ Jump back</a>
 				<li id="cite-13"><a href="http://mikematas.com/#!about" target="_blank">About : Mike Matas</a></li>
 					<a class="jumpBack" href="#ref-13">⇈ Jump back</a>
@@ -898,11 +892,11 @@ $pageDescription = "A guide to understanding digital & physical product design f
 		<br class="clear" />
 	</div>
 </div>
-	
+
 <footer>
 	&copy; <?php echo date('Y'); ?> <a href="http://wells.ee" target="_blank">Wells Riley</a>. All rights reserved.
 </footer>
-	
+
 </div>
 <!-- Preload some images FTW -->
 <div id="preload">
