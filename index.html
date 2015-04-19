@@ -1,33 +1,22 @@
-<?php
-// Global Variables
-$pageURL = "http://startupsthisishowdesignworks.com/";
-$pageTitle = "Startups, This Is How Design Works";
-$twPageDescription = "A guide to understanding digital %26 physical product design for startups";
-$pageDescription = "A guide to understanding digital & physical product design for startups";
-?>
-
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html>
 <head>
 	<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title><?php echo $pageTitle; ?> – by Wells Riley</title>
-	<meta property="og:description" name="description" content="<?php echo $pageDescription; ?>">
+	<title>Startups, This Is How Design Works – by Wells Riley</title>
+	<meta property="og:description" name="description" content="A guide to understanding digital & physical product design for startups">
 	<meta name="author" content="Wells Riley">
-	<meta property="og:title" content="<?php echo $pageTitle; ?>" />
-	<meta property="og:url" content="<?php echo $pageURL ?>" />
+	<meta property="og:title" content="Startups, This Is How Design Works" />
+	<meta property="og:url" content="https://startupsthisishowdesignworks.com/" />
 	<meta property="og:type" content="website" />
-	<meta property="og:image" content="<?php echo $pageURL ?>/fb-icon.png" />
+	<meta property="og:image" content="https://startupsthisishowdesignworks.com/fb-icon.png" />
 	<meta property="fb:admins" content="1082730090" />
 	<meta property="fb:app_id" content="334362973268161" />
 	<meta name="viewport" content="width=device-width">
-	<link rel="apple-touch-icon-precomposed" href="./touch-icon-iphone4.png" />
+	<link rel="apple-touch-icon-precomposed" href="https://startupsthisishowdesignworks.com/fb-icon.png" />
 	<link href="./favicon.ico" rel="shortcut icon">
-	<link href="http://fonts.googleapis.com/css?family=Raleway:100|Crimson+Text:400,400italic,600,600italic" target="_blank" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100|Crimson+Text:400,400italic,600,600italic" target="_blank" rel="stylesheet" type="text/css">
 	<link href="./css/jquery.qtip.min.css" media="screen" rel="stylesheet" type="text/css" />
 	<link href="./css/style.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
@@ -83,44 +72,29 @@ $pageDescription = "A guide to understanding digital & physical product design f
 	</div><!-- / tableOfContents -->
 
 	<ul class="socialShareSmall">
-				<?php
-				function customFShare($url) {
-				    $like_results = file_get_contents('http://graph.facebook.com/'.$url);
-				    $like_array = json_decode($like_results, true);
-				    /* $like_count =  $like_array['shares']; */
-				    $like_count = 54329;
-				    return ($like_count ) ? $like_count : "0";
-				}
-				function tweets($url){
-				  $tweets = 18406;
-
-				  echo $tweets;
-				}
-				?>
 			<li>
-				<a href="http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>" target="_blank" class="shareFb" onclick="return popitup('http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>')">Share (f)</a>
+				<div class="fb-like" data-href="https://startupsthisishowdesignworks.com/" data-width="40" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
 			</li>
-			<li class="shareCount"><?php echo customFShare( $pageURL ); ?></li>
 
 			<li style="margin-left:30px;" >
-				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://startupsthisishowdesignworks.com/" data-via="wr">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				<?php /*<a href="http://twitter.com/intent/tweet?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle.": ".$pageDescription; ?>%20@wr&related=wr" target="_blank" class="shareTw">Share (t)</a>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://startupsthisishowdesignworks.com/" data-via="wr">Tweet</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			</li>
-			<li class="shareCount"><?php tweets( $pageURL ); ?> */ ?></li>
 		</ul><!-- / socialShareSmall -->
 
 	<br class="clear" />
 
 	<header>
 		<h1>Startups, this is how design works.</h1>
-		<div id="author">A guide for non-designers by <a href="http://wells.ee" target="_blank">Wells Riley</a>.
+		<div id="author">A guide for non-designers by <a href="https://wells.ee" target="_blank">Wells Riley</a>.
 			<br /><span style="opacity:0.25;line-height:20px;">Format inspired by <a href="http://jessicahische.is" target="_blank">Jessica Hische</a>.</span></div>
 		<br class="clear" />
 	</header>
 
 	<div id="section1">
-		<p class="text col4">Companies like Apple are making design impossible for startups to ignore. Startups like <a href="http://github.com" target="blank">GitHub</a>, <a href="http://airbnb.com" target="_blank">Airbnb</a>, <a href="http://squareup.com" target="_blank">Square</a>, and <a href="http://fitbit.com" target="_blank">Fitbit</a> have design at the core of their business, and they're doing phenomenal work. But what is ‘design’ actually? Is it a logo? A Wordpress theme? An innovative <a href="./tooltips.php?q=ui" rel="./tooltips.php?q=ui" class="tip">UI</a>? <span id="tooltipNote"></span></p>
+		<p class="text col4">Companies like Apple are making design impossible for startups to ignore. Startups like <a href="https://github.com" target="blank">GitHub</a>, <a href="https://airbnb.com" target="_blank">Airbnb</a>, <a href="https://squareup.com" target="_blank">Square</a>, and <a href="https://fitbit.com" target="_blank">Fitbit</a> have design at the core of their business, and they're doing phenomenal work. But what is ‘design’ actually? Is it a logo? A Wordpress theme? An innovative <a href=".
+		/tooltips/ui.html" rel=".
+		/tooltips/ui.html" class="tip">UI</a>? <span id="tooltipNote"></span></p>
 		<p class="text col4">It’s so much more than that. It’s a state of mind. It’s an approach to a problem. It’s how you’re going to kick your competitor’s ass. This handy guide will help you understand design and provide resources to help you find awesome design talent.</p>
 
 		<br class="clear" />
@@ -138,7 +112,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 		</div>
 		<div class="col2 colR largeSpace">
 			<h2>So what is <br /><span style="margin-left:-0.3em;">“good design”?</span></h2>
-			<p class="subText">This definition is not so simple. The best designs are notorious for seeming not designed at all – or <a href="./tooltips.php?q=undesigned" rel="./tooltips.php?q=undesigned" class="tip">‘undesigned’</a>.</p>
+			<p class="subText">This definition is not so simple. The best designs are notorious for seeming not designed at all – or <a href="./tooltips/undesigned.html" rel="./tooltips/undesigned.html" class="tip">‘undesigned’</a>.</p>
 			<p class="subText">It’s easier if we break things down a bit. If you know what to look for, it’s easier to identify good design when you see it; or perhaps <b>when you can’t see it at all.</b></p>
 		</div><!-- / What is Good Design? -->
 
@@ -151,7 +125,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 		<div class="col4 colR">
 			<h2>Dieter Rams’ Ten Principles of&nbsp;&nbsp;“Good Design”<br />
 				<span class="phonetic">(Wow, how convenient is that?)</span></h2>
-			<p class="subText col3 noPadding"><strong><em>Dieter Rams</em></strong> is a German <a href="./tooltips.php?q=industrialdesigner" rel="./tooltips.php?q=industrialdesigner" class="tip">industrial designer</a> closely associated with the consumer products company Braun and functionalist industrial design.</p>
+			<p class="subText col3 noPadding"><strong><em>Dieter Rams</em></strong> is a German <a href="./tooltips/industrialdesigner.html" rel="./tooltips/industrialdesigner.html" class="tip">industrial designer</a> closely associated with the consumer products company Braun and functionalist industrial design.</p>
 			<p class="subText col3 noPadding">According to <a href="http://www.vitsoe.com/en/gb/about/dieterrams/gooddesign" target="_blank">Vitsœ</a>: Back in the early 1980s, aware that his design was a significant contributor to the world, he asked himself an important question:
 				<br /><em>"Is my design good design?"</em>
 			<p class="subText col3 noPadding">Since good design can't be measured in a finite way, he set about expressing the ten most important principles for what he considered was good design. (Sometimes they are referred as the ‘Ten commandments’.) Here they are. <sup><a id="ref-3" href="#cite-3">3</a></sup></p>
@@ -199,7 +173,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 			</div>
 			<div class="col1"></div>
 			<div class="col3 colR">
-				<blockquote class="oversize" style="margin-top:45px;">&ldquo;We designers, <a href="./tooltips.php?q=vacuum" rel="./tooltips.php?q=vacuum" class="tip">we don’t work in a vacuum</a>. We need business people.  We are not the fine artists we are often confused with. Today you find few companies that take design seriously, as I see it.&rdquo;</p>
+				<blockquote class="oversize" style="margin-top:45px;">&ldquo;We designers, <a href="./tooltips/vacuum.html" rel="./tooltips/vacuum.html" class="tip">we don’t work in a vacuum</a>. We need business people.  We are not the fine artists we are often confused with. Today you find few companies that take design seriously, as I see it.&rdquo;</p>
 				<p class="text"><em>&#8212; Dieter Rams</em></blockquote>
 			</div>
 
@@ -213,7 +187,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 				<div class="section right" id="sec14">1.4</div>
 			</div>
 			<div class="col3">
-				<p class="text">Good design can’t be achieved with glossy buttons or masterful <a href="./tooltips.php?q=wireframes" rel="./tooltips.php?q=wireframes" class="tip">wireframes</a> alone. It’s a merger of all  these principles into something that is meaningful and deliberate.</p>
+				<p class="text">Good design can’t be achieved with glossy buttons or masterful <a href="./tooltips/wireframes.html" rel="./tooltips/wireframes.html" class="tip">wireframes</a> alone. It’s a merger of all  these principles into something that is meaningful and deliberate.</p>
 				<p class="text">Just like a great business plan is nothing without expert execution, a great Photoshop mockup is nothing, for example, without careful consideration to UI or the user’s needs.</p>
 			</div>
 				<div class="col2 colR" id="paintCan">
@@ -232,7 +206,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 			<h3>Objectified</h3>
 				<p class="subText">A documentary film that provides a look at the creativity behind everything from toothbrushes to <br />tech gadgets. <sup><a id="ref-15" href="#cite-15">15</a></sup></p>
 		</div>
-		<iframe id="objVideo" class="col5 colR" src="http://player.vimeo.com/video/12793996?portrait=0&title=0&byline=0&color=ffffff" width="830" height="467" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		<iframe id="objVideo" class="col5 colR" src="https://player.vimeo.com/video/12793996?portrait=0&title=0&byline=0&color=ffffff" width="830" height="467" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 		<br class="clear" />
 
@@ -251,7 +225,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 		<div class="col3">
 				<p class="text">Take a look at your current product – is design contributing in an innovative way? Does it make the product useful, understandable, and aesthetic? Is it long-lasting, or will it look outdated or break in a few years?</p>
 				<p class="text">These are really hard questions to answer. Designers enable you to work within these constraints to create a product customers will fall in love with. <em>Love is a really strong emotion</em>.</p>
-				<p class="text">Dieter Rams and his <a href="./tooltips.php?q=contemporaries" rel="./tooltips.php?q=contemporaries" class="tip">contemporaries</a>  started a movement in 20<sup>th</sup> Century towards simple and beautiful products. Design was a strongly valued aspect of business, even 60 years ago. It totally has a place in business today – it’s a proven method.</p>
+				<p class="text">Dieter Rams and his <a href="./tooltips/contemporaries.html" rel="./tooltips/contemporaries.html" class="tip">contemporaries</a>  started a movement in 20<sup>th</sup> Century towards simple and beautiful products. Design was a strongly valued aspect of business, even 60 years ago. It totally has a place in business today – it’s a proven method.</p>
 		</div><!-- / Section 1 wrap-up -->
 
 		<br class="clear" />
@@ -270,7 +244,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 		</div>
 		<div class="col3">
 				<h3>Graphic Design</h3>
-				<p class="text">This is a term that describes an array of different kinds of designers. Think of it like the term “entrepreneur”. It describes a wide variety of businesspeople - from founders to VC's to <a href="./tooltips.php?q=ninjas" rel="./tooltips.php?q=ninjas" class="tip">“Chief Ninjas”</a> - but isn’t all-inclusive. Graphic designers work with graphical images, whether they be illustrations, <a href="./tooltips.php?q=typography" rel="./tooltips.php?q=typography" class="tip">typography</a>, or images, and on a variety of media including print and web. Graphic design is typically rendered in 2D – printed on a physical surface or displayed on a screen.</p>
+				<p class="text">This is a term that describes an array of different kinds of designers. Think of it like the term “entrepreneur”. It describes a wide variety of businesspeople - from founders to VC's to <a href="./tooltips/ninjas.html" rel="./tooltips/ninjas.html" class="tip">“Chief Ninjas”</a> - but isn’t all-inclusive. Graphic designers work with graphical images, whether they be illustrations, <a href="./tooltips/typography.html" rel="./tooltips/typography.html" class="tip">typography</a>, or images, and on a variety of media including print and web. Graphic design is typically rendered in 2D – printed on a physical surface or displayed on a screen.</p>
 		</div><!-- / Graphic Design -->
 
 		<br class="clear" />
@@ -278,7 +252,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 		<div class="col3 colL"></div>
 		<div class="col2" style="margin:-300px 0 150px;">
 				<h4>↳ Print Design</h4>
-				<p class="text">A type of graphic designer that works exclusively with print media. Before the widespread adoption of computers, software, and the web, virtually all graphic designers worked on print media such as posters, magazines, billboards, and books. Print designers are typically masters of typography, illustration, and traditional printing processes like the <a href="./tooltips.php?q=linotype" rel="./tooltips.php?q=linotype" class="tip">Linotype machine</a> or the <a href="./tooltips.php?q=letterpress" rel="./tooltips.php?q=letterpress" class="tip">letterpress machine</a>, a 500-year-old printing method that has regained popularity in recent years for its handmade and traditional feel.</p>
+				<p class="text">A type of graphic designer that works exclusively with print media. Before the widespread adoption of computers, software, and the web, virtually all graphic designers worked on print media such as posters, magazines, billboards, and books. Print designers are typically masters of typography, illustration, and traditional printing processes like the <a href="./tooltips/linotype.html" rel="./tooltips/linotype.html" class="tip">Linotype machine</a> or the <a href="./tooltips/letterpress.html" rel="./tooltips/letterpress.html" class="tip">letterpress machine</a>, a 500-year-old printing method that has regained popularity in recent years for its handmade and traditional feel.</p>
 		</div><!-- / Print Design -->
 
 		<br class="clear" />
@@ -290,7 +264,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 		<div class="col3">
 				<h3>Interaction Design</h3>
 				<br class="clear" />
-				<p class="text">Interaction designers, on the other hand, focus on digital products and interactive software design. Some examples include web apps like <a href="http://facebook.com" target="_blank">Facebook</a> and <a href="http://pinterest.com" target="_blank">Pinterest</a>, mobile apps like <a href="http://tapbots.com" target="_blank">Tweetbot</a>, and operating systems like OS X. While graphic design is meant to be observed, interaction design helps humans experience or manipulate software or interface with screen-based hardware in order to <em>achieve specific goals</em> – checking email, <a href="./tooltips.php?q=atm" rel="./tooltips.php?q=atm" class="tip">withdrawing money from an ATM</a>, or "Liking" a webpage (such as this one!)</p>
+				<p class="text">Interaction designers, on the other hand, focus on digital products and interactive software design. Some examples include web apps like <a href="http://facebook.com" target="_blank">Facebook</a> and <a href="http://pinterest.com" target="_blank">Pinterest</a>, mobile apps like <a href="http://tapbots.com" target="_blank">Tweetbot</a>, and operating systems like OS X. While graphic design is meant to be observed, interaction design helps humans experience or manipulate software or interface with screen-based hardware in order to <em>achieve specific goals</em> – checking email, <a href="./tooltips/atm.html" rel="./tooltips/atm.html" class="tip">withdrawing money from an ATM</a>, or "Liking" a webpage (such as this one!)</p>
 				<p class="text"><em>"Interaction design is heavily focused on satisfying the needs and desires <br />of the people who will use the product."</em> <sup><a id="ref-5" href="#cite-5">5</a></sup></p>
 		</div><!-- / Interaction Design -->
 		<div class="col2 colR">
@@ -306,8 +280,8 @@ $pageDescription = "A guide to understanding digital & physical product design f
 		</div>
 		<div class="col2">
 			<h4>↳ User Interface Design</h4>
-			<p class="text">User Interface (UI) design is the design of software or websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible</em>. Good user interface design puts emphasis on goals and completing tasks, and good UI design  never <a href="./tooltips.php?q=skeuomorphism" rel="./tooltips.php?q=skeuomorphism" class="tip">draws more attention to itself</a> than enforcing user goals.</p>
-			<p class="text">"The design process must balance technical functionality and visual elements to create a system that is not only operational but also <em>usable and <a href="./tooltips.php?q=interfaces" rel="./tooltips.php?q=interfaces" class="tip">adaptable</a> to changing user needs</em>." <sup><a id="ref-7" href="#cite-7">7</a></sup></p>
+			<p class="text">User Interface (UI) design is the design of software or websites with the focus on the user's experience and interaction. <em>The goal of user interface design is to make the user's interaction as simple and efficient as possible</em>. Good user interface design puts emphasis on goals and completing tasks, and good UI design  never <a href="./tooltips/skeuomorphism.html" rel="./tooltips/skeuomorphism.html" class="tip">draws more attention to itself</a> than enforcing user goals.</p>
+			<p class="text">"The design process must balance technical functionality and visual elements to create a system that is not only operational but also <em>usable and <a href="./tooltips/interfaces.html" rel="./tooltips/interfaces.html" class="tip">adaptable</a> to changing user needs</em>." <sup><a id="ref-7" href="#cite-7">7</a></sup></p>
 
 		</div><!-- / Interface Design -->
 
@@ -433,7 +407,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 
 		<div class="col4">
 			<h3>Startups + designers = ?</h3>
-			<p class="text">For a long time, a pair of co-founders consisted of an executive and an engineer. <b>It worked for Facebook, Microsoft, and <a href="./tooltips.php?q=apple" rel="./tooltips.php?q=apple" class="tip">Apple</a></b>, just to name a few. These companies have excellent designers today, <em>because it’s a necessity they can’t afford to ignore</em>. It seems like design is becoming more and more prevalent in new startups as well – <a href="http://squareup.com" target="_blank">Square</a>, <a href="http://fitbit.com" target="_blank">Fitbit</a>, <a href="http://tapbots.com" target="_blank">Tapbots</a>, and more are pushing the envelope.</p>
+			<p class="text">For a long time, a pair of co-founders consisted of an executive and an engineer. <b>It worked for Facebook, Microsoft, and <a href="./tooltips/apple.html" rel="./tooltips/apple.html" class="tip">Apple</a></b>, just to name a few. These companies have excellent designers today, <em>because it’s a necessity they can’t afford to ignore</em>. It seems like design is becoming more and more prevalent in new startups as well – <a href="http://squareup.com" target="_blank">Square</a>, <a href="http://fitbit.com" target="_blank">Fitbit</a>, <a href="http://tapbots.com" target="_blank">Tapbots</a>, and more are pushing the envelope.</p>
 			<p><em>Design is becoming a key differentiator</em> for companies to acquire funding, press coverage, <br />and loyal users.</p>
 
 			<h3 style="margin-top:40px;color:#ed1c24;">I think it’s time to shake things up a bit.
@@ -624,14 +598,8 @@ $pageDescription = "A guide to understanding digital & physical product design f
 		</div>
 		<div class="col2">
 			<h3>Okay, I need a designer. <br /><span class="phonetic">What do I look for?</span></h3>
-			<p class="text">Founders need to share passion, drive, and vision. Find someone who can solve problems and think critically about more than just designing a website. Someone who makes your founding team <a href="./tooltips.php?q=startupteam" rel="./tooltips.php?q=startupteam" class="tip">unstoppable</a>.</p>
+			<p class="text">Founders need to share passion, drive, and vision. Find someone who can solve problems and think critically about more than just designing a website. Someone who makes your founding team <a href="./tooltips/startupteam.html" rel="./tooltips/startupteam.html" class="tip">unstoppable</a>.</p>
 		</div>
-		<!--
-<div class="col2 colR">
-			<p class="text">Non-founding designers should share many of these qualities too. As with any employee in a startup, they need to believe in your product and be driven to make it great, not just good. Technical skills aside, learn their process. What kind of thinking goes into their work? How do they arrive at the final product? Good process lays the foundation for great design.</p>
-		</div>
--->
-
 
 		<div class="col1 colL">
 			<div class="section right" id="sec52">5.2</div>
@@ -797,22 +765,20 @@ $pageDescription = "A guide to understanding digital & physical product design f
 
 		<ul class="socialShare">
 			<li>
-				<a href="http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>" target="_blank" class="shareFb" onclick="return popitup('http://www.facebook.com/sharer/sharer.php?u=<?php echo "$pageURL"; ?>')">Share (f)</a>
+				<a href="https://www.facebook.com/sharer/sharer.php?u=https://startupsthisishowdesignworks.com/" target="_blank" class="shareFb" onclick="return popitup('https://www.facebook.com/sharer/sharer.php?u=https://startupsthisishowdesignworks.com/')">Share (f)</a>
 			</li>
-			<li class="shareCount"><?php echo customFShare( $pageURL ); ?></li>
 
 			<li>
-				<a href="http://twitter.com/intent/tweet?url=<?php echo $pageURL; ?>&text=<?php echo $pageTitle.": ".$twPageDescription; ?>%20by%20@wr&related=wr" target="_blank" class="shareTw">Share (t)</a>
+				<a href="https://twitter.com/intent/tweet?url=https://startupsthisishowdesignworks.com/&text=Startups, This Is How Design Works: A guide to understanding digital %26 physical product design for startups%20by%20@wr&amp;related=wr" target="_blank" class="shareTw">Share (t)</a>
 			</li>
-			<li class="shareCount"><?php tweets( $pageURL ); ?></li>
 		</ul><!-- / socialShare -->
 
 		<br class="clear" />
 
 		<div class="col4 colL colR">
-			<p class="text">I love startups and design, and I want them to be best friends forever. I'm Wells Riley, and I'm currently the Product Designer at <a href="http://kicksend.com" target="_blank">Kicksend</a> and the co-founder and content manager of <a href="http://hackdesign.org" target="_blank">Hack Design</a> – an easy to follow design course for people who do amazing things.</p>
-			<p class="text">Design and entrepreneurship are among the most important things in my life, and it’s so exciting to see design taking a stronger role in new companies. I hope this will be a valuable resource to help designers and entrepreneurs speak the same language.</p>
-			<p class="text">If you have any feedback, please feel free to tweet me <a href="https://twitter.com/intent/tweet?in_reply_to=186892397454688256&related=wr">@wr</a>.</p>
+			<p class="text">I love startups and design, and I want them to be best friends forever. I'm Wells Riley, and I'm currently the Product Designer at <a href="https://signwithenvoy.com" target="_blank">Envoy</a> and the co-founder of <a href="http://hackdesign.org" target="_blank">Hack Design</a> – an easy to follow design course for people who do amazing things.</p>
+			<p class="text">It’s so exciting to see design taking a stronger role in new companies. I hope this will be a valuable resource to help designers and entrepreneurs speak the same language.</p>
+			<p class="text">If you have any feedback, please feel free to tweet me <a href="https://twitter.com/wr">@wr</a>.</p>
 		</div>
 
 		<div class="col1" style="text-align:center;width:285px;padding:0 0 0 20px;">
@@ -894,7 +860,7 @@ $pageDescription = "A guide to understanding digital & physical product design f
 </div>
 
 <footer>
-	&copy; <?php echo date('Y'); ?> <a href="http://wells.ee" target="_blank">Wells Riley</a>. All rights reserved.
+	&copy; 2012 <a href="https://wells.ee" target="_blank">Wells Riley</a>. All rights reserved.
 </footer>
 
 </div>
@@ -919,11 +885,12 @@ $pageDescription = "A guide to understanding digital & physical product design f
 <script src="./js/script.js"></script>
 <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
 <div id="fb-root"></div>
+<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=334362973268161";
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <!-- Google Analytics -->
